@@ -32,7 +32,9 @@ Estas restricciones condicionan tanto el diseño de la solución como su estrate
 
 <br><br>
 
-#### 1.2.1. Lean UX Assumptions
+---
+
+#### 1.2.2. Lean UX Assumptions
 En la fase inicial de desarrollo de la plataforma Nexora, producto de la startup NextIoT, hemos identificado y estructurado una serie de supuestos fundamentales siguiendo los principios de la metodología Lean UX. Estos supuestos representan nuestras hipótesis iniciales sobre quiénes son nuestros usuarios (propietarios, administradores e inquilinos), qué necesidades buscan resolver, cómo interactuarán con la tecnología IoT, cómo operará el modelo de negocio y qué impacto esperamos generar tanto a nivel operativo como en la experiencia del usuario. Formalizar estas creencias nos permite enfocar el desarrollo del producto en la validación temprana, reducir la incertidumbre y tomar decisiones estratégicas basadas en evidencia.
 
 Los supuestos se han clasificado en cinco categorías principales para garantizar una estructuración clara y alineada con los objetivos del proyecto:
@@ -124,3 +126,91 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 - Creemos que la landing page permitirá captar leads calificados, logrando una tasa de conversión del 20 % de visitantes a usuarios registrados en etapas iniciales.
 
 - Creemos que los reportes analíticos permitirán a los arrendadores tomar decisiones estratégicas, mejorando la gestión de sus propiedades.
+
+<br><br>
+
+---
+
+#### 1.2.3. Lean UX Hypothesis Statements
+
+- **Creemos** que lograremos una tasa de adopción del 60% en arrendadores durante el primer año
+<br>**Si** arrendadores (administradores de propiedades)
+<br>**Obtienen** visibilidad en tiempo real del estado de sus inmuebles y una reducción del 40% en tiempos de respuesta ante incidencias
+<br>**Con** el dashboard web de monitoreo y gestión centralizada.
+
+<br>
+
+- **Creemos** que lograremos una retención de usuarios del 70% en el primer año
+<br>**Si** arrendatarios
+<br>**Obtienen** una reducción del 15% al 25% en sus gastos de servicios básicos
+<br>**Con** la aplicación móvil de monitoreo y control de consumo en tiempo real.
+
+<br>
+
+- **Creemos** que lograremos incrementar en un 30% el valor percibido de los inmuebles inteligentes
+<br>**Si** empresas inmobiliarias
+<br>**Obtienen** una diferenciación clara en su oferta mediante propiedades con monitoreo y automatización
+<br>**Con** la integración de dispositivos IoT gestionados desde Nexora.
+
+<br>
+
+- **Creemos** que lograremos reducir en un 25% los costos operativos de gestión inmobiliaria
+<br>**Si** arrendadores
+<br>**Obtienen** un sistema eficiente de gestión de incidencias y mantenimiento preventivo
+<br>**Con** la funcionalidad de registro, seguimiento y alertas en tiempo real.
+
+<br>
+
+- **Creemos** que lograremos una tasa de conversión del 20% de usuarios interesados a clientes activos
+<br>**Si** arrendadores y empresas inmobiliarias
+<br>**Obtienen** una comprensión clara del valor del producto y sus beneficios
+<br>**Con** una landing page optimizada y orientada a la propuesta de valor.
+
+<br>
+
+- **Creemos** que lograremos que el 75% de los arrendatarios utilicen la aplicación móvil diariamente
+<br>**Si** arrendatarios
+<br>**Obtienen** control sencillo e intuitivo de los dispositivos inteligentes de su vivienda
+<br>**Con** la interfaz móvil centrada en experiencia de usuario y automatización.
+
+<br>
+
+- **Creemos** que lograremos una reducción del 20% en incidentes críticos no detectados
+<br>**Si** arrendadores
+<br>**Obtienen** notificaciones inmediatas sobre anomalías en sus propiedades
+<br>**Con** el sistema de alertas inteligentes en tiempo real.
+
+<br>
+
+- **Creemos** que lograremos una integración inicial del 70% de dispositivos IoT en la primera semana de uso
+<br>**Si** arrendatarios y arrendadores
+<br>**Obtienen** un proceso simple y rápido de conexión de dispositivos
+<br>**Con** la compatibilidad con estándares IoT y configuración guiada.
+
+<br>
+
+- **Creemos** que lograremos una disminución del 25% en consultas de soporte técnico
+<br>**Si** arrendadores y arrendatarios
+<br>**Obtienen** una plataforma intuitiva y fácil de usar
+<br>**Con** una experiencia de usuario optimizada en la aplicación web y móvil.
+
+<br>
+
+- **Creemos** que lograremos un crecimiento del 40% en adquisición de clientes mediante alianzas estratégicas
+<br>**Si** empresas inmobiliarias
+<br>**Obtienen** beneficios claros en eficiencia operativa y valor comercial
+<br>**Con** la integración de Nexora como solución tecnológica en sus propiedades.
+
+<br>
+
+- **Creemos** que lograremos una mejora del 30% en la eficiencia en la gestión de múltiples inmuebles
+<br>**Si** arrendadores
+Obtienen una visión centralizada de todas sus propiedades
+<br>**Con** el dashboard web multi-propiedad.
+
+<br>
+
+- **Creemos** que lograremos una reducción del 20% en el consumo energético promedio de los inmuebles
+<br>**Si** arrendatarios
+Obtienen información clara y accionable sobre su consumo
+<br>**Con** reportes analíticos y recomendaciones dentro de la aplicación móvil.
