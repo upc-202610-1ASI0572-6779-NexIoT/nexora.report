@@ -214,3 +214,11 @@ Obtienen una visión centralizada de todas sus propiedades
 <br>**Si** arrendatarios
 Obtienen información clara y accionable sobre su consumo
 <br>**Con** reportes analíticos y recomendaciones dentro de la aplicación móvil.
+
+<br><br>
+
+---
+
+#### 1.2.4. Lean UX Canvas
+
+![Lean UX Canvas](../../assets/chapter-1/lean-ux-canvas/lean-ux-canvas-nexora.jpg)
