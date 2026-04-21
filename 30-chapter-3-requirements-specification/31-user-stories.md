@@ -1,3 +1,5 @@
+## 3.1. User Stories
+
 | EPIC / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (EPIC ID)|
 | :--- | :--- | :--- | :--- | :--- |
 | **EP01** | **Gestión de Monitoreo IoT** | Como inquilino, quiero visualizar en tiempo real el estado de los sensores de mi vivienda para garantizar un entorno seguro y saludable. | - | - |
