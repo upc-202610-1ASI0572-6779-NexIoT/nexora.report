@@ -33,6 +33,7 @@
 <div align="center">O'higgins Rosales, Andrea Namie (u20221b178);</div>
 <div align="center">Peña Riofrio, Maria Fernanda (u202113279);</div>
 <div align="center">Ramirez Tello, Sebastian (U202316122).</div>
+<div align="center">Linares Arroyo, Jorge Alexandro (U202318624).</div>
 
 <br>
 
