@@ -1,40 +1,40 @@
 ## 3.3. Product Backlog
 
 
-| User Story ID | Título | Descripción | Story Points |
-| :--- | :--- | :--- | :---: |
-| **US01** | Visualización de niveles de gas | Como inquilino, quiero ver el nivel actual de gas en mi cocina desde mi aplicación móvil para asegurar que mi hogar está libre de fugas. | 5 |
-| **US02** | Monitoreo de calidad de aire | Como inquilino, quiero conocer el estado general del aire en mi vivienda para ventilar los ambientes cuando sea necesario. | 3 |
-| **US03** | Historial de incidentes | Como inquilino, quiero un registro de todas las alertas pasadas para reportarlas al dueño si son frecuentes. | 2 |
-| **US04** | Alerta crítica por fuga | Como inquilino, quiero recibir una notificación push inmediata ante una fuga para evacuar a tiempo. | 5 |
-| **US05** | Olvido de cocina encendida | Como inquilino, quiero que la app me avise si hay calor constante sin presencia de personas para evitar incendios. | 5 |
-| **US06** | Contactos de emergencia | Como inquilino, quiero que el sistema avise a un familiar si yo no respondo a una alerta crítica. | 3 |
-| **US07** | Umbrales de alerta | Como inquilino, quiero ajustar qué tan sensible es el sensor para evitar alertas falsas por el uso de aerosoles. | 2 |
-| **US08** | Control remoto de válvula | Como inquilino, quiero cerrar la válvula desde mi trabajo si sospecho de un descuido para mitigar riesgos. | 5 |
-| **US09** | Extractor automático | Como inquilino, quiero que el extractor se encienda solo cuando los niveles de gas suban levemente. | 3 |
-| **US10** | Modo "Fuera de Casa" | Como inquilino, quiero un modo que desactive suministros y maximice la sensibilidad de los sensores cuando viajo. | 3 |
-| **US11** | Botón de pánico | Como inquilino, quiero un botón para activar la alarma física manualmente si veo algo sospechoso. | 2 |
-| **US12** | Gráfico de consumo semanal | Como inquilino, quiero ver un gráfico de mi consumo histórico para entender mis gastos. | 3 |
-| **US13** | Comparativa de eficiencia | Como inquilino, quiero saber si consumo más o menos que el promedio para ser más sostenible. | 3 |
-| **US14** | Estimación de costo mensual | Como inquilino, quiero ver cuánto dinero gastaré a fin de mes basado en mi consumo actual. | 5 |
-| **US15** | Exportación de reporte | Como inquilino, quiero descargar un PDF con mi resumen de ahorros para obtener beneficios con mi inmobiliaria. | 2 |
-| **US16** | Panel centralizado | Como arrendador, quiero ver un panel centralizado con el estado de todas mis propiedades para gestionarlas eficientemente. | 5 |
-| **US17** | Filtrar por estado | Como arrendador, quiero filtrar mis propiedades según su estado de alerta para identificar rápidamente cuáles requieren atención. | 2 |
-| **US18** | Alerta de consumo excesivo | Como arrendador, quiero recibir una notificación cuando el consumo de recursos supere el límite configurado. | 3 |
-| **US19** | Configurar umbrales | Como arrendador, quiero configurar límites de consumo específicos para cada propiedad. | 2 |
-| **US20** | Detección automática | Como arrendador, quiero recibir una notificación cuando el sistema detecte automáticamente una incidencia en mis inmuebles. | 3 |
-| **US21** | Historial de incidencias | Como arrendador, quiero consultar el historial de incidencias detectadas automáticamente en mis propiedades. | 2 |
-| **US22** | Historial de alertas | Como arrendador, quiero consultar el historial de alertas generadas para cada propiedad para analizar patrones de riesgo. | 2 |
-| **US23** | Programar mantenimiento | Como arrendador, quiero programar tareas de mantenimiento preventivo para reducir costos de reparaciones correctivas. | 3 |
-| **US24** | Reporte mensual | Como arrendador, quiero ver un reporte mensual de consumo de agua y electricidad por propiedad. | 3 |
-| **US25** | Exportar consumo | Como arrendador, quiero exportar los reportes de consumo de mis propiedades en formato PDF. | 2 |
-| **US26** | Estado de sensores | Como arrendador, quiero ver el estado de conectividad en tiempo real de los sensores para detectar equipos fuera de línea. | 3 |
-| **US27** | Alerta sensor desconectado | Como arrendador, quiero recibir una notificación cuando un sensor de alguna propiedad pase a estado offline. | 3 |
-| **US28** | Vincular inquilino | Como arrendador, quiero registrar a un nuevo inquilino y vincularlo a una de mis propiedades de forma organizada. | 3 |
-| **US29** | Características Nexora | Como visitante, quiero ver las características principales que ofrece Nexora en la landing page para evaluar la solución. | 1 |
-| **US30** | Funcionamiento Inquilino | Como visitante, quiero ver cómo funciona el monitoreo de consumo para entender los beneficios que obtendría como ocupante. | 1 |
-| **US31** | Formulario de contacto | Como visitante, quiero acceder a un formulario de contacto para solicitar una demostración o información adicional. | 1 |
-| **TS-001** | Procesamiento de alertas | Como developer, quiero que el sistema procese y envíe las alertas generadas por sensores dentro de los tiempos establecidos. | 5 |
-| **TS-002** | Autenticación y Autorización | Como developer, quiero que el sistema aplique mecanismos de seguridad (Auth) para garantizar acceso solo a usuarios válidos. | 5 |
-| **TS-003** | Continuidad de monitoreo | Como developer, quiero que el sistema mantenga su operatividad ante desconexiones parciales de sensores. | 5 |
-| **TS-004** | Compatibilidad multidispositivo | Como developer, quiero que la plataforma web funcione correctamente en distintos navegadores y dispositivos móviles. | 3 |
+| # Orden | User Story Id | Título | Descripción | Story Points |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | US29 | Información para arrendadores | Como visitante, quiero conocer características desde la landing page para evaluar su utilidad. | 3 |
+| 2 | US30 | Información para inquilinos | Como visitante, quiero comprender el funcionamiento desde la landing page para conocer sus beneficios. | 3 |
+| 3 | US31 | Envío de formulario de contacto | Como visitante, quiero enviar consultas desde la landing page para obtener más información del servicio. | 2 |
+| 4 | US01 | Visualización de nivel de gas | Como inquilino, quiero visualizar el nivel de gas desde la aplicación móvil para detectar posibles fugas. | 5 |
+| 5 | US04 | Alerta por fuga de gas | Como inquilino, quiero recibir una notificación desde la aplicación móvil cuando se detecta una fuga para actuar de manera inmediata. | 5 |
+| 6 | US08 | Control de válvula de gas | Como inquilino, quiero controlar la válvula de gas desde la aplicación móvil para prevenir fugas. | 5 |
+| 7 | US02 | Visualización de calidad de aire | Como inquilino, quiero visualizar la calidad del aire desde la aplicación móvil para tomar decisiones preventivas. | 3 |
+| 8 | US09 | Automatización de ventilación | Como inquilino, quiero automatizar la ventilación desde la aplicación móvil para mantener condiciones seguras. | 5 |
+| 9 | US10 | Modo ausencia | Como inquilino, quiero activar un modo de seguridad desde la aplicación móvil cuando no me encuentro en la vivienda. | 3 |
+| 10 | US05 | Alerta preventiva por uso prolongado | Como inquilino, quiero recibir alertas desde la aplicación móvil cuando se detecta uso prolongado de gas para evitar riesgos. | 3 |
+| 11 | US06 | Registro de contactos de emergencia | Como inquilino, quiero registrar contactos desde la aplicación móvil para notificación en eventos críticos. | 2 |
+| 12 | US11 | Activación manual de alarma | Como inquilino, quiero activar una alarma manualmente desde la aplicación móvil ante una emergencia. | 2 |
+| 13 | US03 | Consulta de historial de eventos | Como inquilino, quiero consultar el historial de eventos desde la aplicación móvil para analizar incidentes pasados. | 3 |
+| 14 | US12 | Visualización de consumo de gas | Como inquilino, quiero visualizar mi consumo de gas desde la aplicación móvil para entender mis patrones de uso. | 3 |
+| 15 | US13 | Comparación de consumo | Como inquilino, quiero comparar mi consumo desde la aplicación móvil para evaluar mi eficiencia energética. | 5 |
+| 16 | US14 | Estimación de costo de consumo | Como inquilino, quiero visualizar una estimación de costo desde la aplicación móvil para anticipar mis gastos. | 5 |
+| 17 | US15 | Exportación de reporte de consumo | Como inquilino, quiero exportar un reporte desde la aplicación móvil para compartir mi información de consumo. | 3 |
+| 18 | US16 | Visualización de panel de propiedades | Como arrendador, quiero visualizar el estado de mis propiedades desde la aplicación web para supervisarlas. | 5 |
+| 19 | US17 | Filtrado de propiedades | Como arrendador, quiero filtrar propiedades desde la aplicación web para identificar aquellas con incidencias. | 3 |
+| 20 | US18 | Recepción de alertas de consumo anómalo | Como arrendador, quiero recibir alertas desde la aplicación web cuando se detecten consumos anómalos para tomar acciones preventivas. | 5 |
+| 21 | US21 | Consulta de historial de incidencias | Como arrendador, quiero consultar el historial de incidencias desde la aplicación web para analizar eventos pasados. | 3 |
+| 22 | US22 | Consulta de historial de alertas | Como arrendador, quiero consultar el historial de alertas desde la aplicación web para identificar patrones de riesgo. | 3 |
+| 23 | US26 | Estado de sensores en tiempo real | Como arrendador, quiero visualizar el estado de sensores desde la aplicación web para detectar fallas. | 5 |
+| 24 | US27 | Notificación de sensor desconectado | Como arrendador, quiero recibir alertas desde la aplicación web cuando un sensor se desconecta para tomar acción. | 3 |
+| 25 | US19 | Configuración de umbrales por propiedad | Como arrendador, quiero configurar umbrales desde la aplicación web para personalizar la detección de alertas por propiedad. | 3 |
+| 26 | US20 | Registro de incidencias críticas | Como arrendador, quiero que se registren incidencias desde la aplicación web para llevar control de eventos relevantes. | 3 |
+| 27 | US23 | Programación de mantenimiento | Como arrendador, quiero registrar tareas de mantenimiento desde la aplicación web para prevenir fallas. | 5 |
+| 28 | US24 | Visualización de consumo por propiedad | Como arrendador, quiero visualizar el consumo desde la aplicación web para analizar tendencias por propiedad. | 5 |
+| 29 | US25 | Exportación de reportes | Como arrendador, quiero exportar reportes desde la aplicación web para compartir información. | 3 |
+| 30 | US28 | Registro de inquilino | Como arrendador, quiero registrar inquilinos desde la aplicación web para asociarlos a propiedades. | 3 |
+| 31 | US34 | Transferencia de acceso | Como arrendador, quiero transferir el acceso desde la aplicación web para que el inquilino gestione su vivienda. | 5 |
+| 32 | US32 | Calibración remota de sensores | Como arrendador, quiero ajustar parámetros desde la aplicación web para mantener precisión en las mediciones. | 5 |
+| 33 | TS01 | API de recepción de datos de sensores | Como developer, quiero implementar un endpoint para recibir datos de sensores IoT para almacenarlos correctamente. | 5 |
+| 34 | TS02 | Servicio de generación de alertas | Como developer, quiero implementar un servicio que procese datos para generar alertas automáticamente. | 5 |
+| 35 | TS03 | Servicio de autenticación | Como developer, quiero implementar autenticación para proteger el acceso al sistema. | 5 |
