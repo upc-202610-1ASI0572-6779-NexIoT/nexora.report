@@ -9,8 +9,7 @@ A continuación, se presentan los lienzos detallados para cada uno de los contex
 #### Bounded Context Canvas: Service Monitoring & Intelligence
 Contexto encargado de transformar la telemetría bruta de los sensores en analítica accionable y detección proactiva de fallas.
 
-![Canvas Service Monitoring](../../assets/chapter-4/strategic-ddd/design-level-eventstorming/service-intelligence-canvas.jpg)
-*Nota. Bounded Context Canvas: Service Monitoring & Intelligence.*
+![Canvas Service Monitoring](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/service-intelligence-canvas.jpg)
 
 - **Strategic Classification:** Core Domain | Business Model: Cost Reduction | Evolution: Product.
 - **Context Overview:** Motor de análisis en tiempo real enfocado en la eficiencia energética y seguridad hídrica.
@@ -29,8 +28,7 @@ Contexto encargado de transformar la telemetría bruta de los sensores en analí
 #### Bounded Context Canvas: Service Execution & Maintenance
 Responsable de la operatividad física y la respuesta inmediata a incidentes técnicos.
 
-![Canvas Service Execution](../../assets/chapter-4/strategic-ddd/design-level-eventstorming/service-maintenance-canvas.jpg)
-*Nota. Bounded Context Canvas: Service Execution & Maintenance.*
+![Canvas Service Execution](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/service-maintenance-canvas.jpg)
 
 - **Strategic Classification:** Core Domain | Business Model: Operations Efficiency | Evolution: Custom Built.
 - **Context Overview:** Orquestación integral del ciclo de vida de incidencias y despacho técnico en campo.
@@ -49,8 +47,7 @@ Responsable de la operatividad física y la respuesta inmediata a incidentes té
 #### Bounded Context Canvas: Resource & Asset Management
 Este contexto define la estructura física y técnica que sostiene la jerarquía de la plataforma.
 
-![Canvas Resource Management](../../assets/chapter-4/strategic-ddd/design-level-eventstorming/resource-asset-canvas.jpg)
-*Nota. Bounded Context Canvas: Resource & Asset Management.*
+![Canvas Resource Management](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/resource-asset-canvas.jpg)
 
 - **Strategic Classification:** Supporting Domain | Business Model: Inventory Control | Evolution: Product.
 - **Context Overview:** Gestión de la jerarquía de activos (Propiedades, Unidades) e inventario de hardware IoT vinculado.
@@ -68,8 +65,7 @@ Este contexto define la estructura física y técnica que sostiene la jerarquía
 #### Bounded Context Canvas: Identity & Access Management
 Garantiza la seguridad y la correcta segregación de datos en el entorno multi-tenant.
 
-![Canvas Identity Management](../../assets/chapter-4/strategic-ddd/design-level-eventstorming/iam-canvas.jpg)
-*Nota. Bounded Context Canvas: Identity & Access Management.*
+![Canvas Identity Management](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/iam-canvas.jpg)
 
 - **Strategic Classification:** Generic Domain | Business Model: Compliance & Security | Evolution: Commodity.
 - **Context Overview:** Administración centralizada de identidades, perfiles y políticas de acceso granular.
@@ -87,8 +83,7 @@ Garantiza la seguridad y la correcta segregación de datos en el entorno multi-t
 #### Bounded Context Canvas: Subscriptions & Payment Management
 Maneja la monetización SaaS y el ciclo de facturación de la plataforma Nexora.
 
-![Canvas Subscriptions Payment](../../assets/chapter-4/strategic-ddd/design-level-eventstorming/billing-canvas.jpg)
-*Nota. Bounded Context Canvas: Subscriptions & Payment Management.*
+![Canvas Subscriptions Payment](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/billing-canvas.jpg)
 
 - **Strategic Classification:** Generic Domain | Business Model: Revenue Generation | Evolution: Commodity.
 - **Context Overview:** Gestión del ciclo de vida de suscripciones corporativas y motor de facturación por uso (metered billing).

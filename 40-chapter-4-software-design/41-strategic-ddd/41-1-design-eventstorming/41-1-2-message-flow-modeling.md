@@ -13,7 +13,7 @@ Este flujo representa el valor principal de Nexora: la capacidad de actuar sin i
 6.  **Técnico** reporta la **Reparación Finalizada** al sistema.
 7.  **Service Execution Context** actualiza el **Estado de la Unidad** en el contexto de **Resource Management**.
 
-![Storytelling Fuga de Agua](../../assets/chapter-4/strategic-ddd/design-level-eventstorming/respuesta_emergencias.jpg)
+![Storytelling Fuga de Agua](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/respuesta_emergencias.jpg)
 *Nota. Diagrama de Domain Storytelling: Flujo de respuesta ante fugas.*
 
 #### Escenario 2: Gestión de Controles y Optimización del Arrendador
@@ -27,5 +27,5 @@ Este flujo demuestra cómo el sistema empodera al administrador para tomar decis
 6.  **Service Execution Context** procesa la solicitud y asigna una **Tarea de Inspección** al **Técnico**.
 7.  El **Arrendador** recibe la confirmación de la **Visita Programada**.
 
-![Storytelling Gestión Arrendador](../../assets/chapter-4/strategic-ddd/design-level-eventstorming/controles_optimizacion_arrendador.jpg)
+![Storytelling Gestión Arrendador](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/controles_optimizacion_arrendador.jpg)
 *Nota. Diagrama de Domain Storytelling: Flujo de gestión y optimización de activos.*
