@@ -13,7 +13,7 @@ Asimismo, la adopción de tecnologías IoT en el sector inmobiliario, especialme
 
 Existe una oportunidad clara para desarrollar una plataforma tecnológica que integre dispositivos IoT con un sistema centralizado de gestión, específicamente diseñada para propiedades en alquiler. Al ofrecer monitoreo en tiempo real, automatización y análisis de datos, se puede transformar la forma en que se administran los inmuebles, permitiendo una gestión más eficiente, preventiva y basada en información.
 
-Además, al adoptar un modelo híbrido (hardware + software bajo suscripción), se facilita la accesibilidad y escalabilidad de la solución, permitiendo que propietarios, administradores e inmobiliarias incorporen tecnología inteligente sin enfrentar barreras significativas de adopción.
+Además, al adoptar un modelo híbrido (hardware + software bajo suscripción), se facilita la accesibilidad y escalabilidad de la solución, permitiendo que arrendadores e inquilinos incorporen tecnología inteligente sin enfrentar barreras significativas de adopción.
 
 **RESTRICCIONES** <br>
 
@@ -28,7 +28,7 @@ El desarrollo e implementación de NextIoT debe considerar diversas limitaciones
 Estas restricciones condicionan tanto el diseño de la solución como su estrategia de implementación en el mercado.
 
 **PREGUNTA** <br>
-**¿Cómo puede NextIoT ofrecer una plataforma inteligente, accesible y escalable que permita a propietarios y administradores gestionar eficientemente propiedades en alquiler mediante monitoreo en tiempo real, automatización y análisis de datos, mejorando al mismo tiempo la experiencia del inquilino?**
+**¿Cómo puede NextIoT ofrecer una plataforma inteligente, accesible y escalable que permita a arrendedores gestionar eficientemente propiedades en alquiler mediante monitoreo en tiempo real, automatización y análisis de datos, mejorando al mismo tiempo la experiencia del inquilino?**
 
 <br><br>
 
