@@ -18,6 +18,8 @@
 | **Resumen**           |La entrevista presenta a Luis como un usuario organizado que trabaja en el área de sistemas bajo modalidad híbrida y vive en una vivienda alquilada desde hace tres años. Actualmente gestiona sus gastos mediante Excel, lo que le permite mantener control, aunque reconoce limitaciones por el ingreso manual de datos, ya que puede generar errores e imprecisiones.
 |            | Además, muestra interés en recibir notificaciones sobre consumos excesivos de luz y agua para tomar decisiones oportunas. Valora la comodidad en una aplicación, especialmente funciones como el control de energía o iluminación mediante interruptores, priorizando soluciones que faciliten el ahorro y la gestión eficiente del consumo. |
 
+---
+
 #### Entrevista 2 
 | **Campo** | **Detalle** |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,7 +32,10 @@
 | **Entrevistador**     | O'Higgins Rosales, Andrea  |
 | **Instante inicio**   | 00:00:00   |
 | **Duración**          | 5 min 33 seg |
-| **Resumen**           |  |
+| **Resumen**           | Diego Castro es un joven de 25 años que reside solo en el distrito de Jesús María, Lima, y se desempeña como practicante con ingresos limitados, lo que lo hace especialmente sensible al control de sus gastos en servicios básicos. Reconoce no llevar una gestión adecuada de sus consumos de agua y luz, recurriendo únicamente a estimaciones mentales y revisando su factura mensual que recibe por correo electrónico, sin realizar ningún análisis adicional más allá del monto total.  <br> Diego relató un incidente con una filtración en una tubería que pasó desapercibida hasta generar un impacto notable en su factura, evidenciando la falta de herramientas de detección temprana en su hogar. Situaciones como olvidar dispositivos encendidos, dejar el grifo abierto o el uso intensivo del aire acondicionado en verano son fuentes recurrentes de consumo excesivo que él mismo identifica como hábitos difíciles de controlar sin apoyo tecnológico.  
+|            | En cuanto a tecnología, Diego cuenta con experiencia previa en aplicaciones de automatización del hogar, habiendo utilizado una app para controlar luces inteligentes conectadas por Wi-Fi, lo que lo posiciona como un usuario con baja curva de aprendizaje frente a soluciones IoT. Mostró una disposición muy positiva hacia el uso de una aplicación móvil para gestionar el consumo de agua y electricidad desde su celular, indicando que la usaría varias veces por semana, motivado principalmente por el ahorro económico. Destacó además el valor de recibir alertas en tiempo real ante consumos irregulares o problemas en su vivienda, identificando las notificaciones push al smartphone como la funcionalidad de mayor utilidad para su caso. |
+
+---
 
 ### Segmento 2: Administradores de Propiedades (Arrendadores)
 
