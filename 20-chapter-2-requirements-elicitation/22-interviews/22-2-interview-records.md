@@ -54,3 +54,18 @@
 | **Duración**          | 9 min 40 seg |
 | **Resumen**           | La señora Erika nos cuenta que su trabajo principal es ser dueña de una bodega, pero gracias a esos ingresos, tiene 2 propiedades a su nombre. Erika nos comenta que trabaja de manera independiente y que actualmente su rol es administrar los pagos con sus inquilinos mes a mes y dar un chequeo cada 3 meses. Nos comenta que si hay algún incidente su medio de comunicación principal con los residentes es vía WhatsApp, al menos que sea una urgencia y se comuniquen por teléfono. Dice que le gustaría ir de forma recurrente a ver el estado de las viviendas pero es difícil por el manejo de tiempo entre ella y los inquilinos, La señora Erika nos comenta, que le parece muy útil recibir alertas automáticas, así ya es más fácil comunicarse con algún persona externa para la reparación de lo afectado. Esto le ayudaría a saber también en cómo está el estado de los departamentos, y le ayuda a optimizar mejor su tiempo para dedicarle más tiempo a otras actividades. |
 
+### Entrevista 2 
+
+| **Campo** | **Detalle** |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| | Enlace: [https://youtu.be/IdO_NRiBm5U]()  |
+| **Entrevistado(a)**      | Canahuiri Frisancho, Yoselin Mijayra |
+| **Edad**              | 25 años  |
+| **Rubro**             | Arrendadora, Dueña de 4 propiedades |
+| **Ubicación**         | Surco, Lima |
+| **Medio**             | Virtual  |
+| **Entrevistador**     | Castañeda Llanos, Kevin Alexander  |
+| **Instante inicio**   | 00:00:00   |
+| **Duración**          | 6 min 20 seg |
+| **Resumen**           | Yoselin Canahuiri es una arrendadora independiente de 25 años que gestiona cuatro propiedades. Para mantener la comunicación con sus inquilinos, utiliza mayormente WhatsApp, reservando las llamadas para situaciones urgentes. Aunque suele visitar sus inmuebles una vez al mes, reconoce que le gustaría tener una mayor frecuencia para supervisar su estado, pero su agenda actual se lo impide. Valora positivamente el uso de alertas automáticas, ya que le facilitarían una respuesta más rápida ante posibles incidentes. Además, considera que recibir notificaciones sobre el estado de sus propiedades le permitiría gestionar mejor su tiempo y optimizar sus visitas. 
+| 
