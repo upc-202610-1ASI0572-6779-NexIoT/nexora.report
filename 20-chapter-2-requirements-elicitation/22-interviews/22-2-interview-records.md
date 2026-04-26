@@ -18,6 +18,20 @@
 | **Resumen**           |La entrevista presenta a Luis como un usuario organizado que trabaja en el área de sistemas bajo modalidad híbrida y vive en una vivienda alquilada desde hace tres años. Actualmente gestiona sus gastos mediante Excel, lo que le permite mantener control, aunque reconoce limitaciones por el ingreso manual de datos, ya que puede generar errores e imprecisiones.
 |            | Además, muestra interés en recibir notificaciones sobre consumos excesivos de luz y agua para tomar decisiones oportunas. Valora la comodidad en una aplicación, especialmente funciones como el control de energía o iluminación mediante interruptores, priorizando soluciones que faciliten el ahorro y la gestión eficiente del consumo. |
 
+#### Entrevista 2 
+| **Campo** | **Detalle** |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../../assets\chapter-2\interviews\Diego Castro.png" width="200"> | Enlace: []()  |
+| **Entrevistado(a)**      | Castro Soto, Diego |
+| **Edad**              | 25 años  |
+| **Rubro**             | Ing. Software |
+| **Ubicación**         | Jesus María, Lima |
+| **Medio**             |  Zoom |
+| **Entrevistador**     | O'Higgins Rosales, Andrea  |
+| **Instante inicio**   | 00:00:00   |
+| **Duración**          | 5 min 33 seg |
+| **Resumen**           |  |
+
 ### Segmento 2: Administradores de Propiedades (Arrendadores)
 
 #### Entrevista 1
