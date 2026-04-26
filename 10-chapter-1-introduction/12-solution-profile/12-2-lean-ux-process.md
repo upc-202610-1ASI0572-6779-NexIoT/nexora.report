@@ -35,11 +35,11 @@ Estas restricciones condicionan tanto el diseño de la solución como su estrate
 ---
 
 #### 1.2.2. Lean UX Assumptions
-En la fase inicial de desarrollo de la plataforma Nexora, producto de la startup NextIoT, hemos identificado y estructurado una serie de supuestos fundamentales siguiendo los principios de la metodología Lean UX. Estos supuestos representan nuestras hipótesis iniciales sobre quiénes son nuestros usuarios (propietarios, administradores e inquilinos), qué necesidades buscan resolver, cómo interactuarán con la tecnología IoT, cómo operará el modelo de negocio y qué impacto esperamos generar tanto a nivel operativo como en la experiencia del usuario. Formalizar estas creencias nos permite enfocar el desarrollo del producto en la validación temprana, reducir la incertidumbre y tomar decisiones estratégicas basadas en evidencia.
+En la fase inicial de desarrollo de la plataforma Nexora, producto de la startup NextIoT, hemos identificado y estructurado una serie de supuestos fundamentales siguiendo los principios de la metodología Lean UX. Estos supuestos representan nuestras hipótesis iniciales sobre quiénes son nuestros usuarios (arrendadores y arrendatarios), qué necesidades buscan resolver, cómo interactuarán con la tecnología IoT, cómo operará el modelo de negocio y qué impacto esperamos generar tanto a nivel operativo como en la experiencia del usuario. Formalizar estas creencias nos permite enfocar el desarrollo del producto en la validación temprana, reducir la incertidumbre y tomar decisiones estratégicas basadas en evidencia.
 
 Los supuestos se han clasificado en cinco categorías principales para garantizar una estructuración clara y alineada con los objetivos del proyecto:
 
-- **User Assumptions:** Nuestras creencias sobre las necesidades, comportamientos y motivaciones de propietarios, administradores de inmuebles e inquilinos en el contexto de viviendas inteligentes en alquiler.
+- **User Assumptions:** Nuestras creencias sobre las necesidades, comportamientos y motivaciones de propietarios de inmuebles e inquilinos en el contexto de viviendas inteligentes en alquiler.
 - **User Outcome Assumptions:** Los beneficios y mejoras que esperamos que los usuarios obtengan al utilizar Nexora, como mayor control, eficiencia en el consumo y mejor experiencia de uso.
 - **Business Assumptions:** Hipótesis sobre la viabilidad del modelo de negocio basado en la integración de hardware IoT y software bajo suscripción, así como su adopción en el mercado inmobiliario.
 - **Business Outcome Assumptions:** Los resultados medibles que esperamos alcanzar como organización, tales como crecimiento sostenido, retención de clientes y optimización de costos operativos.
@@ -51,11 +51,9 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 
 **USER ASSUMPTIONS**
 
-- Creemos que el 70 % de los arrendadores (administradores de propiedades) necesitan herramientas que les permitan monitorear sus inmuebles en tiempo real, ya que actualmente dependen de revisiones manuales o reportes tardíos.
+- Creemos que el 70 % de los arrendadores necesitan herramientas que les permitan monitorear sus inmuebles en tiempo real, ya que actualmente dependen de revisiones manuales o reportes tardíos.
 
 - Creemos que el 85 % de los arrendatarios valoran tener control directo sobre dispositivos inteligentes (iluminación, consumo, seguridad), porque buscan comodidad, ahorro y autonomía en su vivienda.
-
-- Creemos que el 65 % de las empresas inmobiliarias están interesadas en incorporar soluciones IoT en sus propiedades para diferenciar su oferta, debido a la creciente demanda de viviendas inteligentes.
 
 - Creemos que el 75 % de los arrendadores consideran que la gestión de incidencias (fallas, mantenimiento) es ineficiente, ya que no cuentan con sistemas centralizados de seguimiento.
 
@@ -68,8 +66,6 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 - Creemos que si los arrendadores utilizan Nexora, entonces podrán reducir el tiempo de respuesta ante incidencias en al menos un 40 %, mejorando la eficiencia operativa.
 
 - Creemos que si los arrendatarios tienen acceso a monitoreo de consumo en tiempo real, entonces lograrán reducir sus gastos en servicios básicos en un 15 % a 25 %.
-
-- Creemos que si las empresas inmobiliarias integran soluciones inteligentes, entonces aumentarán el valor percibido de sus propiedades, incrementando su competitividad en el mercado.
 
 - Creemos que si los usuarios cuentan con una plataforma centralizada, entonces el 70 % de ellos reportará una mejora en la experiencia de uso, al evitar la fragmentación de herramientas.
 
