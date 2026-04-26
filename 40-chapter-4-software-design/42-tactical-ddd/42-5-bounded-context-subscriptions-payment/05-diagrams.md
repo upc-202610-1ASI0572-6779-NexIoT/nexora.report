@@ -1,4 +1,4 @@
-### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 - **API Gateway:** Punto de entrada de todas las solicitudes HTTP entrantes. Autentica y enruta las peticiones hacia el Subscriptions & Payment Service.
 - **Subscription Controller:** Gestiona las operaciones del ciclo de vida de suscripciones: creación, cambio de plan, cancelación y consulta de estado.
@@ -33,9 +33,9 @@ El diagrama de clases refleja las dos raíces de agregado del bounded context. `
 
 ![Subscriptions & Payment Management - Class Diagram](/assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/class-diagram.png)
 
-#### 4.2.X.6.2. Bounded Context Database Design Diagram
+#### 4.2.5.6.2. Bounded Context Database Design Diagram
 
-El modelo relacional está compuesto por seis tablas. `billing_account` actúa como raíz del modelo financiero y se relaciona con `subscription` en una relación de uno a muchos. Cada `subscription` genera uno o más registros en `billing_cycle` por cada período de facturación, y uno o más registros en `invoice` a lo largo de su vida. Cada `billing_cycle` produce exactamente una `invoice` en una relación de uno a uno. Las `invoice` pueden tener uno o más registros en `payment_attempt`, que registran cada intento de cobro realizado a través de Culqi. Finalmente, `domain_event_outbox` almacena los eventos de dominio emitidos por los agregados de suscripción para su publicación asincrónica al Event Bus mediante el patrón Transactional Outbox.
+El modelo relacional está compuesto por seis tablas. `billing_account` actúa como raíz del modelo financiero y se relaciona con `subscription` en una relación de uno a muchos. Cada `subscription` genera uno o más registros en `billing_cycle` por cada período de facturación, y uno o más registros en `invoice` a lo largo de su vida. Cada `billing_cycle` produce exactamente una `invoice` en una relación de uno a uno. Las `invoice` pueden tener uno o más registros en `payment_attempt`, que registran cada intento de cobro realizado a través de Culqi.
 
 Las relaciones entre tablas son las siguientes:
 
@@ -44,6 +44,6 @@ Las relaciones entre tablas son las siguientes:
 - `subscription` `1` ────► `N` `invoice`: Una subscription acumula una o más invoices.
 - `billing_cycle` `1` ────► `1` `invoice`: Cada billing cycle produce exactamente una invoice.
 - `invoice` `1` ────► `N` `payment_attempt`: Una invoice puede tener uno o más payment attempts.
-- `subscription` `1` ────► `N` `domain_event_outbox` *(relación lógica, sin FK)*: Una subscription emite múltiples eventos al outbox a lo largo de su ciclo de vida.
+
 
 ![Subscriptions & Payment Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/database-diagram.png)

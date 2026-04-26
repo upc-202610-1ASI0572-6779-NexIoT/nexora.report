@@ -1,4 +1,3 @@
-Markdown
 ## 4.2.5. Bounded Context: Subscriptions & Payment Management
 
 En este bounded context se gestiona la monetización SaaS de la plataforma Nexora, incluyendo el ciclo de vida de suscripciones corporativas, la facturación recurrente por uso y la integración con la pasarela de pagos externa Culqi.
