@@ -1,5 +1,7 @@
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
+-⁠  ⁠**Nexora Mobile App:** Aplicación móvil Flutter utilizada por Property Managers para gestionar suscripciones y consultar el historial de facturación.
+-⁠  ⁠**Nexora Web App:** Aplicación web utilizada por Property Managers para gestionar suscripciones y consultar el historial de facturación desde un navegador.
 - **Subscription Controller:** Gestiona las operaciones del ciclo de vida de suscripciones: creación, cambio de plan, cancelación y consulta de estado.
 - **Billing Controller:** Gestiona la consulta de facturas y el disparo manual del ciclo de facturación para administradores.
 - **Webhook Controller:** Recibe y valida los callbacks asincrónicos de Culqi, delegando el resultado al Payment Result Event Handler.
