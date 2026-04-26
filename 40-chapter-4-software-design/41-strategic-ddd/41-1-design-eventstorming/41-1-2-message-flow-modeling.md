@@ -1,8 +1,8 @@
-### 4.1.1.2 Domain Message Flows Modeling
+#### 4.1.1.2 Domain Message Flows Modeling
 
 En esta sección se visualiza la colaboración entre los contextos definidos a través de historias que resuelven problemas reales del negocio. Se han elaborado dos diagramas principales utilizando la técnica de **Domain Storytelling**:
 
-#### Escenario 1: Respuesta ante Emergencias (Fuga de Agua)
+### Escenario 1: Respuesta ante Emergencias (Fuga de Agua)
 Este flujo representa el valor principal de Nexora: la capacidad de actuar sin intervención humana inicial para mitigar daños.
 
 1.  **Sensor IoT** transmite lecturas de agua en tiempo real al **Monitoring Context**.
@@ -13,10 +13,12 @@ Este flujo representa el valor principal de Nexora: la capacidad de actuar sin i
 6.  **Técnico** reporta la **Reparación Finalizada** al sistema.
 7.  **Service Execution Context** actualiza el **Estado de la Unidad** en el contexto de **Resource Management**.
 
+<br>
+
 ![Storytelling Fuga de Agua](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/respuesta_emergencias.jpg)
 *Nota. Diagrama de Domain Storytelling: Flujo de respuesta ante fugas.*
 
-#### Escenario 2: Gestión de Controles y Optimización del Arrendador
+### Escenario 2: Gestión de Controles y Optimización del Arrendador
 Este flujo demuestra cómo el sistema empodera al administrador para tomar decisiones basadas en datos y optimizar el portafolio.
 
 1.  El **Arrendador** solicita un **Reporte de Consumo Global** al **Monitoring Context**.
@@ -26,6 +28,8 @@ Este flujo demuestra cómo el sistema empodera al administrador para tomar decis
 5.  El **Arrendador** solicita un **Mantenimiento Preventivo** a través del sistema.
 6.  **Service Execution Context** procesa la solicitud y asigna una **Tarea de Inspección** al **Técnico**.
 7.  El **Arrendador** recibe la confirmación de la **Visita Programada**.
+
+<br>
 
 ![Storytelling Gestión Arrendador](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/controles_optimizacion_arrendador.jpg)
 *Nota. Diagrama de Domain Storytelling: Flujo de gestión y optimización de activos.*
