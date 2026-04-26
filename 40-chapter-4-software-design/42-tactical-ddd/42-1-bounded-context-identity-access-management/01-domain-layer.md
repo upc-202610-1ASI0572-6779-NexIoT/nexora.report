@@ -1,4 +1,4 @@
-##### 4.2.4.1. Domain Layer
+##### 4.2.1.1. Domain Layer
 
 La Domain Layer contiene los conceptos centrales del negocio dentro del bounded context de Identity & Access Management. En esta capa se definen las entidades y relaciones necesarias para representar identidades digitales y control de acceso basado en roles, manteniendo independencia respecto a frameworks o detalles técnicos.
 
