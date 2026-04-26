@@ -43,31 +43,14 @@
 
 | **Campo** | **Detalle** |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Entrevista 1](https://tse3.mm.bing.net/th/id/OIP.y2qOotbpapuebLRNUhfOdQHaHa?w=1920&h=1920&rs=1&pid=ImgDetMain&o=7&rm=3) | Enlace: []()  |
-| **Entrevistado(a)**      | Apellidos, Nombres |
-| **Edad**              | 00 años  |
-| **Rubro**             |  |
-| **Ubicación**         | Distrito, Departamento |
-| **Medio**             |   |
-| **Entrevistador**     | Apellidos, Nombres  |
+|<img src="../../assets\chapter-2\interviews\Erica Salvatierra.png" width="200"> | Enlace: []()  |
+| **Entrevistado(a)**      | Salvatierra Arbierto, Erica |
+| **Edad**              | 47 años  |
+| **Rubro**             | Arrendadora, Dueña de Bodega |
+| **Ubicación**         | Breña, Lima |
+| **Medio**             | Presencial  |
+| **Entrevistador**     | Peña Riofrio, Maria Fernanda  |
 | **Instante inicio**   | 00:00:00   |
-| **Duración**          | 000 min 00 seg |
-| **Resumen**           | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum venenatis est non odio cursus congue. Curabitur vehicula blandit nisl vitae aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nisi magna, efficitur quis volutpat ut, rutrum sed purus. Praesent quis velit commodo, faucibus diam eu, mollis diam. Ut ut magna a purus sodales rutrum. Nunc id dolor molestie, sodales quam eget, vulputate nisi. Nulla eu lectus finibus, venenatis turpis faucibus, efficitur ante. Phasellus suscipit euismod elit, in malesuada orci sollicitudin quis. Donec facilisis, mauris ac fermentum viverra, dui tellus hendrerit risus, finibus placerat augue erat ut enim. In id risus aliquet, laoreet nisi vel, volutpat metus. |
+| **Duración**          | 9 min 40 seg |
+| **Resumen**           | La señora Erika nos cuenta que su trabajo principal es ser dueña de una bodega, pero gracias a esos ingresos, tiene 2 propiedades a su nombre. Erika nos comenta que trabaja de manera independiente y que actualmente su rol es administrar los pagos con sus inquilinos mes a mes y dar un chequeo cada 3 meses. Nos comenta que si hay algún incidente su medio de comunicación principal con los residentes es vía WhatsApp, al menos que sea una urgencia y se comuniquen por teléfono. Dice que le gustaría ir de forma recurrente a ver el estado de las viviendas pero es difícil por el manejo de tiempo entre ella y los inquilinos, La señora Erika nos comenta, que le parece muy útil recibir alertas automáticas, así ya es más fácil comunicarse con algún persona externa para la reparación de lo afectado. Esto le ayudaría a saber también en cómo está el estado de los departamentos, y le ayuda a optimizar mejor su tiempo para dedicarle más tiempo a otras actividades. |
 
-
-### Segmento 3: Empresas Inmobiliarias (Proveedores de soluciones IoT)
-
-#### Entrevista 1
-
-| **Campo** | **Detalle** |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Entrevista 1](https://tse3.mm.bing.net/th/id/OIP.y2qOotbpapuebLRNUhfOdQHaHa?w=1920&h=1920&rs=1&pid=ImgDetMain&o=7&rm=3) | Enlace: []()  |
-| **Entrevistado(a)**      | Apellidos, Nombres |
-| **Edad**              | 00 años  |
-| **Rubro**             |  |
-| **Ubicación**         | Distrito, Departamento |
-| **Medio**             |   |
-| **Entrevistador**     | Apellidos, Nombres  |
-| **Instante inicio**   | 00:00:00   |
-| **Duración**          | 000 min 00 seg |
-| **Resumen**           | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum venenatis est non odio cursus congue. Curabitur vehicula blandit nisl vitae aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nisi magna, efficitur quis volutpat ut, rutrum sed purus. Praesent quis velit commodo, faucibus diam eu, mollis diam. Ut ut magna a purus sodales rutrum. Nunc id dolor molestie, sodales quam eget, vulputate nisi. Nulla eu lectus finibus, venenatis turpis faucibus, efficitur ante. Phasellus suscipit euismod elit, in malesuada orci sollicitudin quis. Donec facilisis, mauris ac fermentum viverra, dui tellus hendrerit risus, finibus placerat augue erat ut enim. In id risus aliquet, laoreet nisi vel, volutpat metus. |
