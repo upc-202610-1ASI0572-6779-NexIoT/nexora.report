@@ -25,18 +25,3 @@ Este segmento está conformado por propietarios o administradores responsables d
 | **Geografía**     | Zonas urbanas de Perú y principales ciudades de Latinoamérica |
 | **Estadísticas**  | - El 30% de las viviendas en América Latina se encuentran en régimen de alquiler (BID, 2021). <br> - Los costos de mantenimiento reactivo pueden ser entre 10% y 40% más altos que el mantenimiento preventivo (PwC, 2019). <br> - El 75% de las empresas inmobiliarias considera la digitalización clave para mejorar la eficiencia operativa (Deloitte, 2021). |
 | **Problema**      | Falta de herramientas para monitorear inmuebles en tiempo real, gestión ineficiente de incidencias y mantenimiento, y escasa información para la toma de decisiones basada en datos.  |
-
----
-
-<br>
-
-### **Segmento 3: Empresas Inmobiliarias (Proveedores de soluciones IoT)**
-
-Este segmento incluye empresas inmobiliarias que buscan innovar en su oferta mediante la incorporación de tecnologías inteligentes, así como aquellas que brindan servicios de instalación o integración de dispositivos IoT en propiedades.
-
-| **Aspecto**                   | **Detalle** |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Rango de edad (decisores)** | 30 – 60 años |
-| **Geografía**                 | Mercados inmobiliarios urbanos en crecimiento en Latinoamérica |
-| **Estadísticas**              | - El mercado de smart homes superó los USD 120 mil millones en 2023 y continúa en crecimiento (Statista, 2023). <br> - El 50% de las empresas inmobiliarias planea invertir en digitalización y tecnología en los próximos años (PwC, 2020). <br> - La adopción de IoT en edificios puede reducir el consumo energético entre 10% y 25% (McKinsey Global Institute, 2021). |
-| **Problema**                  | Necesidad de diferenciar su oferta en un mercado competitivo, limitada integración de tecnologías inteligentes en propiedades en alquiler y falta de plataformas centralizadas que complementen la implementación de IoT.  |
