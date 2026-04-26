@@ -4,7 +4,7 @@ Este diagrama de nivel 3 describe la arquitectura interna del Bounded Context en
 
 La lógica de negocio reside en el Maintenance Aggregate y en servicios de dominio como MaintenanceAssignmentService, que permiten gestionar la asignación automática de técnicos según disponibilidad y prioridad. Este diseño sigue un enfoque desacoplado y orientado a eventos, donde se separan las operaciones de escritura (gestión de órdenes) de las consultas (estado de mantenimiento), permitiendo además la integración con aplicaciones móviles para notificación y actualización en tiempo real.
 
-<img src="../../../assets/chapter-4/tactical-ddD/bounded-context-execution-maintenance/component-diagram.png" alt="Service Execution & Maintenance  - Component Diagram" width="450"/>
+<img src="../../../assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/component-diagram.png" alt="Service Execution & Maintenance  - Component Diagram" width="450"/>
 
 ---
 
