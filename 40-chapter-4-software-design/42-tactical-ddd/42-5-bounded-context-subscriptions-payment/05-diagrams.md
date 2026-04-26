@@ -1,6 +1,5 @@
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-- **API Gateway:** Punto de entrada de todas las solicitudes HTTP entrantes. Autentica y enruta las peticiones hacia el Subscriptions & Payment Service.
 - **Subscription Controller:** Gestiona las operaciones del ciclo de vida de suscripciones: creación, cambio de plan, cancelación y consulta de estado.
 - **Billing Controller:** Gestiona la consulta de facturas y el disparo manual del ciclo de facturación para administradores.
 - **Webhook Controller:** Recibe y valida los callbacks asincrónicos de Culqi, delegando el resultado al Payment Result Event Handler.
@@ -11,9 +10,6 @@
 - **Payment Result Event Handler:** Procesa el resultado del webhook de Culqi y actualiza el estado de Invoice y Subscription.
 - **Culqi Payment Adapter:** Anti-Corruption Layer que abstrae la comunicación con la API REST de Culqi.
 - **Subscription Repository:** Gestiona la persistencia de los agregados de suscripción, factura y billing account sobre PostgreSQL.
-- **Domain Event Publisher:** Publica domain events al Event Bus mediante el patrón Transactional Outbox.
-- **Subscription DB:** Base de datos PostgreSQL que almacena los datos de suscripciones, billing accounts, invoices y eventos del outbox.
-- **Event Bus:** Bus de mensajería interno (RabbitMQ/MassTransit) para la comunicación asincrónica entre bounded contexts.
 
 ![Subscriptions & Payment Management - Component Diagram](/assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/component-diagram.png)
 
@@ -23,7 +19,7 @@
 
 #### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases refleja las dos raíces de agregado del bounded context. `SubscriptionAggregate` es la raíz principal y encapsula la entidad `Subscription` junto con los value objects `SaaSPlan`, `BillingCycle`, `UsageQuota` y `SubscriptionStatus`, además de la lista de entidades `Invoice` mediante una relación de composición. `BillingAccountAggregate` encapsula la cuenta de facturación y su token de pago en Culqi. Ambos agregados publican domain events a través del `EventPublisher` y delegan la persistencia a sus respectivas interfaces de repositorio.
+El diagrama de clases refleja las dos raíces de agregado del bounded context. `SubscriptionAggregate` es la raíz principal y encapsula la entidad `Subscription` junto con los value objects `SaaSPlan`, `BillingCycle`, `UsageQuota` y `SubscriptionStatus`, además de la lista de entidades `Invoice` mediante una relación de composición. `BillingAccountAggregate` encapsula la cuenta de facturación y su token de pago en Culqi.
 
 - **SubscriptionAggregate:** Raíz de agregado principal. Controla el ciclo de vida completo de la suscripción y aplica todas las invariantes del dominio.
 - **BillingAccountAggregate:** Gestiona la identidad financiera del cliente y su vinculación con Culqi.
