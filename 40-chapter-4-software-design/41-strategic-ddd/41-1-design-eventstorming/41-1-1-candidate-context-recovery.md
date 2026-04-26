@@ -36,11 +36,3 @@ Como resultado, se definieron 5 Bounded Contexts candidatos alineados con la nat
 **Subscriptions & Payment Management (Generic):** Gestión de planes comerciales de la plataforma.
 
 ![Payment Candidate Context](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/payments-candidate.jpg)
-
-
-
-
-
-
-
-
