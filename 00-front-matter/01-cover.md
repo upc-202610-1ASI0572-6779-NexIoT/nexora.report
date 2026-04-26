@@ -29,11 +29,11 @@
 
 <div align="center">Argomedo Camacho, Jhosep Jamil (U20231D978);</div>
 <div align="center">Castañeda Llanos, Kevin Alexander (u202318814);</div>
+<div align="center">Linares Arroyo, Jorge Alexandro (U202318624);</div>
 <div align="center">Muñoz Vilcapoma, Mauricio Rigoberto (u202217212);</div>
 <div align="center">O'higgins Rosales, Andrea Namie (u20221b178);</div>
 <div align="center">Peña Riofrio, Maria Fernanda (u202113279);</div>
 <div align="center">Ramirez Tello, Sebastian (U202316122).</div>
-<div align="center">Linares Arroyo, Jorge Alexandro (U202318624).</div>
 
 <br>
 
