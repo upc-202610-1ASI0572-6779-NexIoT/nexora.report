@@ -1,12 +1,8 @@
-
-
-
-
-### 4.1.1.3 Bounded Context Canvases
+#### 4.1.1.3 Bounded Context Canvases
 
 A continuación, se presentan los lienzos detallados para cada uno de los contextos identificados. Estos lienzos sirven como la "ficha técnica" que define los límites, responsabilidades y proyecciones de cada subsistema dentro de Nexora.
 
-#### Bounded Context Canvas: Service Monitoring & Intelligence
+### Bounded Context Canvas: Service Monitoring & Intelligence
 Contexto encargado de transformar la telemetría bruta de los sensores en analítica accionable y detección proactiva de fallas.
 
 ![Canvas Service Monitoring](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/service-intelligence-canvas.jpg)
@@ -25,7 +21,11 @@ Contexto encargado de transformar la telemetría bruta de los sensores en analí
     *   **Assumptions:** Conectividad constante de sensores; los algoritmos de filtrado pueden ignorar ruidos menores (ej. humificadores).
     *   **Open Questions:** ¿Cómo manejar la detección offline prolongada? ¿Existen límites legales en el volumen de datos históricos por inquilino?
 
-#### Bounded Context Canvas: Service Execution & Maintenance
+---
+
+<br>
+
+### Bounded Context Canvas: Service Execution & Maintenance
 Responsable de la operatividad física y la respuesta inmediata a incidentes técnicos.
 
 ![Canvas Service Execution](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/service-maintenance-canvas.jpg)
@@ -44,7 +44,11 @@ Responsable de la operatividad física y la respuesta inmediata a incidentes té
     *   **Assumptions:** Técnicos cuentan con dispositivos móviles y GPS; existencia de convenios previos de servicio técnico.
     *   **Open Questions:** ¿Cuál es la responsabilidad legal ante fallas críticas de asignación? ¿El historial de reparaciones será público para futuros compradores?
 
-#### Bounded Context Canvas: Resource & Asset Management
+---
+
+<br>
+
+### Bounded Context Canvas: Resource & Asset Management
 Este contexto define la estructura física y técnica que sostiene la jerarquía de la plataforma.
 
 ![Canvas Resource Management](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/resource-asset-canvas.jpg)
@@ -62,7 +66,11 @@ Este contexto define la estructura física y técnica que sostiene la jerarquía
     *   **Assumptions:** Estructura jerárquica clara (Edificio > Piso > Unidad); Gateways instalados por personal certificado.
     *   **Open Questions:** ¿Debe el inquilino poder registrar dispositivos propios? ¿Cómo se maneja el traspaso de activos entre inmobiliarias?
 
-#### Bounded Context Canvas: Identity & Access Management
+---
+
+<br>
+
+### Bounded Context Canvas: Identity & Access Management
 Garantiza la seguridad y la correcta segregación de datos en el entorno multi-tenant.
 
 ![Canvas Identity Management](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/iam-canvas.jpg)
@@ -80,7 +88,11 @@ Garantiza la seguridad y la correcta segregación de datos en el entorno multi-t
     *   **Assumptions:** Uso de estándares industriales (OAuth2/OIDC); identidades únicas por individuo.
     *   **Open Questions:** ¿Cómo impacta la ley de protección de datos (GDPR) en la visualización de consumos privados?
 
-#### Bounded Context Canvas: Subscriptions & Payment Management
+---
+
+<br>
+
+### Bounded Context Canvas: Subscriptions & Payment Management
 Maneja la monetización SaaS y el ciclo de facturación de la plataforma Nexora.
 
 ![Canvas Subscriptions Payment](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/billing-canvas.jpg)
