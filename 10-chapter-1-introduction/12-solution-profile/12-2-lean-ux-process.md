@@ -143,11 +143,6 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 
 <br>
 
-- **Creemos** que lograremos incrementar en un 30% el valor percibido de los inmuebles inteligentes
-<br>**Si** empresas inmobiliarias
-<br>**Obtienen** una diferenciación clara en su oferta mediante propiedades con monitoreo y automatización
-<br>**Con** la integración de dispositivos IoT gestionados desde Nexora.
-
 <br>
 
 - **Creemos** que lograremos reducir en un 25% los costos operativos de gestión inmobiliaria
@@ -158,7 +153,7 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 <br>
 
 - **Creemos** que lograremos una tasa de conversión del 20% de usuarios interesados a clientes activos
-<br>**Si** arrendadores y empresas inmobiliarias
+<br>**Si** arrendadores
 <br>**Obtienen** una comprensión clara del valor del producto y sus beneficios
 <br>**Con** una landing page optimizada y orientada a la propuesta de valor.
 
@@ -191,11 +186,6 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 <br>**Con** una experiencia de usuario optimizada en la aplicación web y móvil.
 
 <br>
-
-- **Creemos** que lograremos un crecimiento del 40% en adquisición de clientes mediante alianzas estratégicas
-<br>**Si** empresas inmobiliarias
-<br>**Obtienen** beneficios claros en eficiencia operativa y valor comercial
-<br>**Con** la integración de Nexora como solución tecnológica en sus propiedades.
 
 <br>
 
