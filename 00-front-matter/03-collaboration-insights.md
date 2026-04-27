@@ -17,6 +17,4 @@ A continuación, se muestran evidencias gráficas que ilustran la participación
 
 ### Captura de Commits:
 
-[
-    Se incluirá aquí la evidencia
-]
+[![Evidencia de Colaboración](../assets/common/insights/commits-insights.jpg)]
