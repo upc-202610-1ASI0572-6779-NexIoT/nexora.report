@@ -1,233 +1,39 @@
-##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-El Bounded Context Software Architecture Component Level Diagram representa la estructura interna del contenedor principal del bounded context Identity & Access Management, mostrando los componentes que lo conforman y las relaciones existentes entre ellos.
+Este diagrama de nivel de componentes describe la arquitectura interna del bounded context **Identity & Access Management**. En esta vista se observa cómo la **Mobile App** consume los endpoints expuestos por el **AuthController**, el cual centraliza las operaciones de autenticación y registro de usuarios.
 
-Para este entregable, el diagrama fue desarrollado siguiendo el enfoque **C4 Model**, permitiendo visualizar de forma clara cómo se organiza el servicio IAM dentro de la arquitectura general de NexIoT.
+La seguridad del contexto se apoya en **SecurityConfig**, encargado de definir las reglas de acceso y registrar el filtro de autenticación, y en **JwtAuthFilter**, responsable de validar los tokens enviados en las solicitudes. Asimismo, **JwtService** permite generar y validar tokens JWT, mientras que **CustomUserDetailsService** carga las credenciales y roles del usuario desde persistencia.
 
-El objetivo principal de esta vista es evidenciar cómo los módulos de autenticación, seguridad, persistencia e inicialización colaboran entre sí para ofrecer un servicio de acceso seguro y mantenible.
+Los componentes **UserRepository** y **RoleRepository** permiten acceder a la información almacenada en la base de datos IAM. Finalmente, **DataInitializer** prepara datos iniciales como roles y usuarios base para el funcionamiento del sistema.
 
-### Componentes Representados
-
-#### Cliente Externo
-
-- Mobile User  
-- Mobile App  
-
-#### Contenedor Principal
-
-- IAM API  
-
-#### Componentes Internos
-
-- AuthController  
-- JwtAuthFilter  
-- SecurityConfig  
-- CustomUserDetailsService  
-- JwtService  
-- UserRepository  
-- RoleRepository  
-- DataInitializer  
-- IAM Database  
-
-### Relaciones Arquitectónicas Relevantes
-
-- La Mobile App consume los endpoints expuestos por AuthController.  
-- SecurityConfig registra y configura JwtAuthFilter.  
-- JwtAuthFilter valida tokens mediante JwtService.  
-- JwtAuthFilter consulta usuarios autenticados mediante CustomUserDetailsService.  
-- AuthController utiliza JwtService para emitir tokens JWT.  
-- AuthController utiliza los repositorios para operaciones de registro y consulta.  
-- DataInitializer inicializa datos base del sistema.  
-- Los repositorios persisten información en IAM Database.  
-
-### Valor Arquitectónico
-
-Este diseño permite:
-
-- Separación clara de responsabilidades.  
-- Reutilización de componentes de seguridad.  
-- Escalabilidad del módulo IAM.  
-- Mantenimiento simplificado.  
-- Integración limpia con clientes móviles.  
-
-### Diagram
-
-![IAM Component Level Diagram](./images/PLACEHOLDER_COMPONENT_DIAGRAM.png)
+![Identity & Access Management - Component Diagram](../../../assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/component-diagram.png)
 
 ---
 
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
-El Code Level Diagram representa la traducción de la arquitectura de componentes hacia clases, interfaces, enumeraciones y dependencias técnicas del proyecto implementado.
-
-Esta vista permite comprender cómo los componentes definidos a nivel arquitectónico se materializan en estructuras concretas dentro del código fuente desarrollado en Spring Boot.
-
-El diagrama se organiza por capas lógicas para facilitar la comprensión del diseño interno del bounded context.
-
-### Capas Representadas
-
-#### Interfaces Layer
-
-Contiene los puntos de entrada del sistema.
-
-- AuthController  
-
-#### Security Layer
-
-Agrupa los componentes responsables del proceso de autenticación y validación de seguridad.
-
-- SecurityConfig  
-- JwtAuthFilter  
-- JwtService  
-- CustomUserDetailsService  
-
-#### Domain Layer
-
-Modela las entidades centrales del bounded context.
-
-- User  
-- Role  
-- RoleName  
-
-#### Infrastructure Layer
-
-Contiene acceso a datos e inicialización técnica.
-
-- UserRepository  
-- RoleRepository  
-- DataInitializer  
-- IAM Database  
-
-### Relaciones Técnicas Principales
-
-- AuthController invoca JwtService y repositorios.  
-- JwtAuthFilter depende de JwtService y CustomUserDetailsService.  
-- CustomUserDetailsService consulta UserRepository.  
-- SecurityConfig registra filtros de seguridad.  
-- User mantiene relación muchos-a-muchos con Role.  
-- Repositorios interactúan con la base de datos.  
-
-### Valor Técnico
-
-Este diseño favorece:
-
-- Alta cohesión por capas.  
-- Bajo acoplamiento entre módulos.  
-- Claridad estructural del código.  
-- Facilidad de mantenimiento.  
-- Escalabilidad futura del sistema.  
-
-### Diagram
-
-![IAM Code Level Diagram](/assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/component-diagram.png)
+En esta sección se presentan los diagramas de nivel de código correspondientes al bounded context **Identity & Access Management**. Estos diagramas permiten visualizar la estructura interna del modelo de dominio y el diseño de persistencia utilizado para soportar las funcionalidades de autenticación y autorización.
 
 ---
 
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-El Domain Layer Class Diagram detalla específicamente las entidades y relaciones del núcleo del negocio dentro del bounded context IAM.
+El diagrama de clases del dominio para el contexto de **Identity & Access Management** representa las principales clases, interfaces y relaciones que soportan el control de acceso de la plataforma. Se identifican como elementos centrales a **User**, **Role** y **RoleName**, los cuales permiten modelar identidades digitales y perfiles de autorización.
 
-Su propósito es mostrar cómo se estructura el modelo conceptual de usuarios y roles utilizado para el control de acceso.
+La clase **User** representa a los usuarios registrados en NexIoT y mantiene una relación muchos-a-muchos con **Role**, permitiendo que una misma cuenta pueda tener uno o más perfiles de acceso. La enumeración **RoleName** define los roles válidos para el sistema, adaptados al contexto del proyecto: **ADMIN**, **LANDLORD** y **TENANT**.
 
-### Elementos Principales del Dominio
+Además, el diagrama incluye componentes de seguridad como **JwtService**, **JwtAuthFilter**, **SecurityConfig** y **CustomUserDetailsService**, así como los repositorios **UserRepository** y **RoleRepository**, mostrando la trazabilidad entre las capas de interfaz, seguridad, dominio e infraestructura.
 
-#### User
-
-Entidad principal que representa una identidad digital dentro del sistema.
-
-**Atributos principales:**
-
-- id  
-- firstName  
-- lastName  
-- email  
-- password  
-- roles  
-
-#### Role
-
-Entidad que representa perfiles de acceso.
-
-**Atributos principales:**
-
-- id  
-- name  
-
-#### RoleName
-
-Enumeración que restringe valores permitidos:
-
-- ADMIN  
-- LANDLORD  
-- TENANT  
-
-### Relación del Dominio
-
-- Un User puede tener múltiples Role.  
-- Un Role puede pertenecer a múltiples User.  
-
-Esta estructura permite flexibilidad en la asignación de privilegios.
-
-### Diagram
-
-![IAM Domain Class Diagram](/assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/class-diagram.png)
+<img src="../../../assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/class-diagram.png" alt="Identity & Access Management - Class Diagram" width="750"/>
 
 ---
 
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-El Database Design Diagram representa el modelo de persistencia utilizado por el bounded context Identity & Access Management.
+El diseño de base de datos del bounded context **Identity & Access Management** está orientado a soportar el registro de usuarios, la gestión de roles y la relación entre ambos. El modelo utiliza un enfoque relacional simple y coherente con la implementación en Spring Boot y JPA.
 
-El diseño sigue un enfoque relacional normalizado y permite soportar autenticación, gestión de usuarios y autorización basada en roles.
+La tabla **users** almacena la información principal de cada usuario, incluyendo nombres, correo electrónico, contraseña cifrada y campos de auditoría. El campo **email** se define como único para evitar cuentas duplicadas. La tabla **roles** almacena los perfiles de acceso disponibles y define el campo **name** como único para asegurar consistencia en la asignación de roles.
 
-### Tablas Principales
+Finalmente, la tabla **users_roles** resuelve la relación muchos-a-muchos entre usuarios y roles mediante las claves foráneas **user_id** y **role_id**, permitiendo un modelo flexible de autorización dentro de la plataforma.
 
-#### users
-
-Almacena información principal de los usuarios registrados.
-
-**Campos relevantes:**
-
-- id  
-- first_name  
-- last_name  
-- email  
-- password  
-- created_at  
-- updated_at  
-
-#### roles
-
-Almacena los roles disponibles del sistema.
-
-**Campos relevantes:**
-
-- id  
-- name  
-
-#### users_roles
-
-Tabla intermedia para resolver la relación muchos-a-muchos entre usuarios y roles.
-
-**Campos relevantes:**
-
-- user_id  
-- role_id  
-
-### Restricciones Relevantes
-
-- `users.email` es único.  
-- `roles.name` es único.  
-- Integridad referencial mediante claves foráneas.  
-
-### Beneficios del Diseño
-
-- Modelo normalizado.  
-- Asignación flexible de roles.  
-- Escalabilidad futura.  
-- Consistencia de datos.  
-- Compatibilidad con JPA y Spring Boot.  
-
-### Diagram
-
-![IAM Database Design Diagram](/assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/database-diagram.png)
+<img src="../../../assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/database-diagram.png" alt="Identity & Access Management - Database Diagram" height="750"/>
