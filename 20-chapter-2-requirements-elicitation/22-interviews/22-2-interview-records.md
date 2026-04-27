@@ -30,12 +30,26 @@
 | **Ubicación**         | Jesus María, Lima |
 | **Medio**             |  Zoom |
 | **Entrevistador**     | O'Higgins Rosales, Andrea  |
-| **Instante inicio**   | 00:00:00   |
+| **Instante inicio**   | 1:00:00   |
 | **Duración**          | 5 min 33 seg |
 | **Resumen**           | Diego Castro es un joven de 25 años que reside solo en el distrito de Jesús María, Lima, y se desempeña como practicante con ingresos limitados, lo que lo hace especialmente sensible al control de sus gastos en servicios básicos. Reconoce no llevar una gestión adecuada de sus consumos de agua y luz, recurriendo únicamente a estimaciones mentales y revisando su factura mensual que recibe por correo electrónico, sin realizar ningún análisis adicional más allá del monto total.  <br> Diego relató un incidente con una filtración en una tubería que pasó desapercibida hasta generar un impacto notable en su factura, evidenciando la falta de herramientas de detección temprana en su hogar. Situaciones como olvidar dispositivos encendidos, dejar el grifo abierto o el uso intensivo del aire acondicionado en verano son fuentes recurrentes de consumo excesivo que él mismo identifica como hábitos difíciles de controlar sin apoyo tecnológico.  
 |            | En cuanto a tecnología, Diego cuenta con experiencia previa en aplicaciones de automatización del hogar, habiendo utilizado una app para controlar luces inteligentes conectadas por Wi-Fi, lo que lo posiciona como un usuario con baja curva de aprendizaje frente a soluciones IoT. Mostró una disposición muy positiva hacia el uso de una aplicación móvil para gestionar el consumo de agua y electricidad desde su celular, indicando que la usaría varias veces por semana, motivado principalmente por el ahorro económico. Destacó además el valor de recibir alertas en tiempo real ante consumos irregulares o problemas en su vivienda, identificando las notificaciones push al smartphone como la funcionalidad de mayor utilidad para su caso. |
 
 ---
+#### Entrevista 3
+
+| **Campo** | **Detalle** |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../../assets/chapter-2/interviews/Joaquin Pedraza.png" width="200"> | Enlace: [Entrevista Joaquín](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217212_upc_edu_pe/IQDVmudapHuPTJIBK2ILqX53ATDEXS4FSEG9xmd7kdRduVw?e=f6brhl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Entrevistado(a)** | Joaquín |
+| **Edad** | 25 años |
+| **Rubro** | Desarrollador Web |
+| **Ubicación** | San Miguel, Lima |
+| **Medio** | Virtual |
+| **Entrevistador** | Muñoz Vilcapoma, Mauricio |
+| **Instante inicio** | 00:00:00 |
+| **Duración** | 10 min 57 seg |
+| **Resumen** | Joaquín es un joven de 25 años que reside en San Miguel junto con su madre en un departamento alquilado desde hace aproximadamente 3 a 4 meses. Ambos comparten la gestión económica del hogar, especialmente el control de pagos y servicios. Actualmente trabaja como desarrollador web en modalidad híbrida, por lo que valora herramientas digitales que le permitan ahorrar tiempo y organizar mejor sus responsabilidades domésticas. Para administrar sus gastos utilizan principalmente Excel, complementándolo con recordatorios en notas y coordinación vía WhatsApp. Aunque este método les permite cierto orden, reconoce que depende demasiado del registro manual y de recordatorios entre familiares. Entre sus principales problemas menciona olvidos en pagos, como el internet durante el primer mes de mudanza, cobros elevados en el recibo de luz que no siempre coinciden con su consumo real, y fallas recurrentes en servicios como agua e internet. También expresa interés por una solución móvil que centralice pagos pendientes, pagos realizados y alertas automáticas. Valora especialmente funciones como apagar luces o televisor desde el celular, recibir notificaciones ante consumos inusuales y reducir el gasto eléctrico. Aunque muestra entusiasmo por la automatización del hogar, también manifiesta cierta preocupación por depender de dispositivos conectados o posibles fallas técnicas. |
 
 ### Segmento 2: Administradores de Propiedades (Arrendadores)
 
