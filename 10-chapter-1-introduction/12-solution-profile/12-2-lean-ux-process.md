@@ -13,7 +13,7 @@ Asimismo, la adopción de tecnologías IoT en el sector inmobiliario, especialme
 
 Existe una oportunidad clara para desarrollar una plataforma tecnológica que integre dispositivos IoT con un sistema centralizado de gestión, específicamente diseñada para propiedades en alquiler. Al ofrecer monitoreo en tiempo real, automatización y análisis de datos, se puede transformar la forma en que se administran los inmuebles, permitiendo una gestión más eficiente, preventiva y basada en información.
 
-Además, al adoptar un modelo híbrido (hardware + software bajo suscripción), se facilita la accesibilidad y escalabilidad de la solución, permitiendo que propietarios, administradores e inmobiliarias incorporen tecnología inteligente sin enfrentar barreras significativas de adopción.
+Además, al adoptar un modelo híbrido (hardware + software bajo suscripción), se facilita la accesibilidad y escalabilidad de la solución, permitiendo que arrendadores e inquilinos incorporen tecnología inteligente sin enfrentar barreras significativas de adopción.
 
 **RESTRICCIONES** <br>
 
@@ -28,18 +28,18 @@ El desarrollo e implementación de NextIoT debe considerar diversas limitaciones
 Estas restricciones condicionan tanto el diseño de la solución como su estrategia de implementación en el mercado.
 
 **PREGUNTA** <br>
-**¿Cómo puede NextIoT ofrecer una plataforma inteligente, accesible y escalable que permita a propietarios y administradores gestionar eficientemente propiedades en alquiler mediante monitoreo en tiempo real, automatización y análisis de datos, mejorando al mismo tiempo la experiencia del inquilino?**
+**¿Cómo puede NextIoT ofrecer una plataforma inteligente, accesible y escalable que permita a arrendedores gestionar eficientemente propiedades en alquiler mediante monitoreo en tiempo real, automatización y análisis de datos, mejorando al mismo tiempo la experiencia del inquilino?**
 
 <br><br>
 
 ---
 
 #### 1.2.2. Lean UX Assumptions
-En la fase inicial de desarrollo de la plataforma Nexora, producto de la startup NextIoT, hemos identificado y estructurado una serie de supuestos fundamentales siguiendo los principios de la metodología Lean UX. Estos supuestos representan nuestras hipótesis iniciales sobre quiénes son nuestros usuarios (propietarios, administradores e inquilinos), qué necesidades buscan resolver, cómo interactuarán con la tecnología IoT, cómo operará el modelo de negocio y qué impacto esperamos generar tanto a nivel operativo como en la experiencia del usuario. Formalizar estas creencias nos permite enfocar el desarrollo del producto en la validación temprana, reducir la incertidumbre y tomar decisiones estratégicas basadas en evidencia.
+En la fase inicial de desarrollo de la plataforma Nexora, producto de la startup NextIoT, hemos identificado y estructurado una serie de supuestos fundamentales siguiendo los principios de la metodología Lean UX. Estos supuestos representan nuestras hipótesis iniciales sobre quiénes son nuestros usuarios (arrendadores y arrendatarios), qué necesidades buscan resolver, cómo interactuarán con la tecnología IoT, cómo operará el modelo de negocio y qué impacto esperamos generar tanto a nivel operativo como en la experiencia del usuario. Formalizar estas creencias nos permite enfocar el desarrollo del producto en la validación temprana, reducir la incertidumbre y tomar decisiones estratégicas basadas en evidencia.
 
 Los supuestos se han clasificado en cinco categorías principales para garantizar una estructuración clara y alineada con los objetivos del proyecto:
 
-- **User Assumptions:** Nuestras creencias sobre las necesidades, comportamientos y motivaciones de propietarios, administradores de inmuebles e inquilinos en el contexto de viviendas inteligentes en alquiler.
+- **User Assumptions:** Nuestras creencias sobre las necesidades, comportamientos y motivaciones de propietarios de inmuebles e inquilinos en el contexto de viviendas inteligentes en alquiler.
 - **User Outcome Assumptions:** Los beneficios y mejoras que esperamos que los usuarios obtengan al utilizar Nexora, como mayor control, eficiencia en el consumo y mejor experiencia de uso.
 - **Business Assumptions:** Hipótesis sobre la viabilidad del modelo de negocio basado en la integración de hardware IoT y software bajo suscripción, así como su adopción en el mercado inmobiliario.
 - **Business Outcome Assumptions:** Los resultados medibles que esperamos alcanzar como organización, tales como crecimiento sostenido, retención de clientes y optimización de costos operativos.
@@ -51,11 +51,9 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 
 **USER ASSUMPTIONS**
 
-- Creemos que el 70 % de los arrendadores (administradores de propiedades) necesitan herramientas que les permitan monitorear sus inmuebles en tiempo real, ya que actualmente dependen de revisiones manuales o reportes tardíos.
+- Creemos que el 70 % de los arrendadores necesitan herramientas que les permitan monitorear sus inmuebles en tiempo real, ya que actualmente dependen de revisiones manuales o reportes tardíos.
 
 - Creemos que el 85 % de los arrendatarios valoran tener control directo sobre dispositivos inteligentes (iluminación, consumo, seguridad), porque buscan comodidad, ahorro y autonomía en su vivienda.
-
-- Creemos que el 65 % de las empresas inmobiliarias están interesadas en incorporar soluciones IoT en sus propiedades para diferenciar su oferta, debido a la creciente demanda de viviendas inteligentes.
 
 - Creemos que el 75 % de los arrendadores consideran que la gestión de incidencias (fallas, mantenimiento) es ineficiente, ya que no cuentan con sistemas centralizados de seguimiento.
 
@@ -68,8 +66,6 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 - Creemos que si los arrendadores utilizan Nexora, entonces podrán reducir el tiempo de respuesta ante incidencias en al menos un 40 %, mejorando la eficiencia operativa.
 
 - Creemos que si los arrendatarios tienen acceso a monitoreo de consumo en tiempo real, entonces lograrán reducir sus gastos en servicios básicos en un 15 % a 25 %.
-
-- Creemos que si las empresas inmobiliarias integran soluciones inteligentes, entonces aumentarán el valor percibido de sus propiedades, incrementando su competitividad en el mercado.
 
 - Creemos que si los usuarios cuentan con una plataforma centralizada, entonces el 70 % de ellos reportará una mejora en la experiencia de uso, al evitar la fragmentación de herramientas.
 
@@ -147,11 +143,6 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 
 <br>
 
-- **Creemos** que lograremos incrementar en un 30% el valor percibido de los inmuebles inteligentes
-<br>**Si** empresas inmobiliarias
-<br>**Obtienen** una diferenciación clara en su oferta mediante propiedades con monitoreo y automatización
-<br>**Con** la integración de dispositivos IoT gestionados desde Nexora.
-
 <br>
 
 - **Creemos** que lograremos reducir en un 25% los costos operativos de gestión inmobiliaria
@@ -162,7 +153,7 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 <br>
 
 - **Creemos** que lograremos una tasa de conversión del 20% de usuarios interesados a clientes activos
-<br>**Si** arrendadores y empresas inmobiliarias
+<br>**Si** arrendadores
 <br>**Obtienen** una comprensión clara del valor del producto y sus beneficios
 <br>**Con** una landing page optimizada y orientada a la propuesta de valor.
 
@@ -195,11 +186,6 @@ Estos supuestos constituyen la base estratégica del diseño y desarrollo de Nex
 <br>**Con** una experiencia de usuario optimizada en la aplicación web y móvil.
 
 <br>
-
-- **Creemos** que lograremos un crecimiento del 40% en adquisición de clientes mediante alianzas estratégicas
-<br>**Si** empresas inmobiliarias
-<br>**Obtienen** beneficios claros en eficiencia operativa y valor comercial
-<br>**Con** la integración de Nexora como solución tecnológica en sus propiedades.
 
 <br>
 
