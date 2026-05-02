@@ -63,6 +63,8 @@ Para estructurar el desarrollo y permitir trabajo paralelo sin afectar estabilid
 
 ---
 
+<br>
+
 ### 3. Convenciones de nombres de ramas
 
 Para mantener consistencia y trazabilidad, se definen convenciones estrictas:
@@ -89,7 +91,16 @@ Para mantener consistencia y trazabilidad, se definen convenciones estrictas:
 | ---------------------- | ----------------------------------------------- |
 | `hotfix/<descripcion>` | `hotfix/login-error`, `hotfix/token-expiration` |
 
+#### Ejemplo a seguir
+
+Se adjunta algunas ramas definidas por el equipo de Nexora para un desarrollo correcto. <br>
+_(Nota: Las convenciones se han establecido en Jira)_
+
+![Convención de ramas](../../assets/chapter-6/source-code-management/branch_convention.png)
+
 ---
+
+<br>
 
 ### 4. Versionado Semántico (Semantic Versioning 2.0.0)
 
@@ -116,6 +127,8 @@ MAJOR.MINOR.PATCH
 * `v1.1.1` → Corrección de errores menores
 
 ---
+
+<br>
 
 ### 5. Convenciones de Commits (Conventional Commits)
 
