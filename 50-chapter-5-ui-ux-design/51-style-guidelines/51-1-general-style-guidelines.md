@@ -34,7 +34,7 @@ Se construye sobre cuatro pilares fundamentales:
 
 #### **Logo**
 
-![Logo-Nexora](../../assets/chapter-5/style-guidelines/logo-nexora.png)
+![Logo-Nexora](../../assets/chapter-5/style-guidelines/general-style-guidelines//logo-nexora.png)
 
 <br>
 
@@ -80,7 +80,7 @@ Se adopta una combinación de dos tipografías: **Exo 2** para títulos e **Inte
 
 **Exo 2 — Títulos y encabezados**
 
-![Exo 2 - Tipografía](../../assets/chapter-5/style-guidelines/exo_2-tipography.png)
+![Exo 2 - Tipografía](../../assets/chapter-5/style-guidelines/general-style-guidelines/exo_2-tipography.png)
 
 Se emplea en títulos y encabezados debido a su carácter geométrico y contemporáneo, que refuerza la percepción de innovación, precisión y modernidad.
 
@@ -92,7 +92,7 @@ Se emplea en títulos y encabezados debido a su carácter geométrico y contempo
 
 **Inter — Texto y componentes UI**
 
-![Inter - Tipografía](../../assets/chapter-5/style-guidelines/inter-tipography.png)
+![Inter - Tipografía](../../assets/chapter-5/style-guidelines/general-style-guidelines/inter-tipography.png)
 
 Se utiliza como tipografía base para textos, labels y elementos funcionales de la interfaz, priorizando claridad y eficiencia en la lectura.
 
@@ -119,7 +119,7 @@ La combinación de ambas tipografías permite:
 
 #### **Colores**
 
-![Paleta_Colores-Nexora](../../assets/chapter-5/style-guidelines/color_palette.png)
+![Paleta_Colores-Nexora](../../assets/chapter-5/style-guidelines/general-style-guidelines/color_palette.png)
 
 La paleta de Nexora está diseñada para equilibrar **tecnología, confianza y dinamismo**, combinando tonos neutros con un color acento fuerte.
 
