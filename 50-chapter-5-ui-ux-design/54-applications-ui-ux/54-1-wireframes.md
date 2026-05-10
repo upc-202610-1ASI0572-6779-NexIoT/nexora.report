@@ -44,3 +44,10 @@ La pantalla de Devices organiza los sensores por categoría (Gas Sensor, Air Qua
 La pantalla de perfil de suscripción muestra el plan activo (PRO PLAN) con el número de smart units activas y los datos de facturación: fecha de próximo cargo y monto en PEN. La sección Future Invoice presenta el estado de la factura próxima con botones Pay Now y See Details. La lista de Active Smart Units detalla el costo mensual por unidad. La sección Payment Method muestra el método registrado con opción de cambiarlo.
 
 <img src="../../assets/chapter-5/wireframes/wireframe-subscription-payments.png" alt="Wireframe — Subscription and Payments screen" width="300">
+
+
+**Devices — Automatizaciones**
+
+La sección de automatizaciones dentro de Devices presenta las reglas agrupadas en Active y Paused. Cada automatización muestra su nombre, las condiciones IF y THEN en chips compactos, y un toggle para activarla o pausarla sin entrar al detalle. El botón + New automation al final de la lista inicia el flujo de creación.
+
+![Wireframe — Devices automations screen](../../assets/chapter-5/wireframes/wireframe-automations.png)
