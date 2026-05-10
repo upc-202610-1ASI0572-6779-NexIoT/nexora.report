@@ -23,3 +23,10 @@ La pantalla principal muestra en la parte superior el saludo personalizado con e
 La pantalla de consumo permite alternar entre agua y electricidad mediante tabs superiores, y seleccionar la granularidad temporal con pills (Day, Week, Month, Year). El KPI principal muestra el valor del período seleccionado en tipografía grande junto a la unidad y la variación respecto al período anterior. Un gráfico de línea ocupa el área central. La sección Detail by Area desglosa el consumo por habitación con barras horizontales comparativas.
 
 <img src="../../assets/chapter-5/wireframes/wireframe-reports.png" alt="Wireframe — Consumption detail screen" width="300">
+
+
+**Incidents Center (Alerts)**
+
+El centro de incidentes presenta tres contadores de resumen (Critical, Warning, Dismissed) en la parte superior, seguidos de tabs de filtrado (All, Active, Dismissed) con el total de registros. Cada card de alerta muestra el nivel de severidad (CRIT/WARN/INFO) mediante una etiqueta coloreada, el timestamp, una descripción breve y el estado actual (Active/Pend.). Las alertas críticas aparecen con un borde diferenciador.
+
+<img src="../../assets/chapter-5/wireframes/wireframe-alerts.png" alt="Wireframe — Incidents Center screen" width="300">
