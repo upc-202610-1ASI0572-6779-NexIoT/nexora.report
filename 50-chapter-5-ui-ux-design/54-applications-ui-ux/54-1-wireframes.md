@@ -17,3 +17,9 @@ La pantalla principal muestra en la parte superior el saludo personalizado con e
 
 <img src="../../assets/chapter-5/wireframes/wireframe-home.png" alt="Wireframe — Dashboard Home screen" width="300">
 
+
+**Detalle de consumo**
+
+La pantalla de consumo permite alternar entre agua y electricidad mediante tabs superiores, y seleccionar la granularidad temporal con pills (Day, Week, Month, Year). El KPI principal muestra el valor del período seleccionado en tipografía grande junto a la unidad y la variación respecto al período anterior. Un gráfico de línea ocupa el área central. La sección Detail by Area desglosa el consumo por habitación con barras horizontales comparativas.
+
+<img src="../../assets/chapter-5/wireframes/wireframe-reports.png" alt="Wireframe — Consumption detail screen" width="300">
