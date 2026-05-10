@@ -30,3 +30,16 @@ La pantalla de consumo permite alternar entre agua y electricidad mediante tabs 
 El centro de incidentes presenta tres contadores de resumen (Critical, Warning, Dismissed) en la parte superior, seguidos de tabs de filtrado (All, Active, Dismissed) con el total de registros. Cada card de alerta muestra el nivel de severidad (CRIT/WARN/INFO) mediante una etiqueta coloreada, el timestamp, una descripción breve y el estado actual (Active/Pend.). Las alertas críticas aparecen con un borde diferenciador.
 
 <img src="../../assets/chapter-5/wireframes/wireframe-alerts.png" alt="Wireframe — Incidents Center screen" width="300">
+
+
+**Devices — Sensores**
+
+La pantalla de Devices organiza los sensores por categoría (Gas Sensor, Air Quality, Humidity) con sus items listados por ubicación. Cada ítem muestra el icono del sensor, el nombre, la ubicación y el valor o estado actual. Los sensores con anomalías como Leak detected se destacan visualmente para captar atención inmediata. Los tabs superiores permiten filtrar por habitación.
+
+<img src="../../assets/chapter-5/wireframes/wireframe-devices.png" alt="Wireframe — Devices sensors screen" width="300">
+
+**Subscription and Payments**
+
+La pantalla de perfil de suscripción muestra el plan activo (PRO PLAN) con el número de smart units activas y los datos de facturación: fecha de próximo cargo y monto en PEN. La sección Future Invoice presenta el estado de la factura próxima con botones Pay Now y See Details. La lista de Active Smart Units detalla el costo mensual por unidad. La sección Payment Method muestra el método registrado con opción de cambiarlo.
+
+<img src="../../assets/chapter-5/wireframes/wireframe-subscription-payments.png" alt="Wireframe — Subscription and Payments screen" width="300">
