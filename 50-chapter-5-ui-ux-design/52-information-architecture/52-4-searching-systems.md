@@ -14,6 +14,8 @@ En la sección **Reports**, la localización de datos históricos se realiza med
 
 En la sección **Home (Dashboard)**, el unit selector en la parte superior de la pantalla funciona como un mecanismo de búsqueda de contexto para property managers que gestionan múltiples unidades. Al seleccionar una unidad diferente, toda la información del dashboard se actualiza para reflejar los datos de consumo, alertas y dispositivos de esa unidad específica. Para cuentas con muchas unidades, este selector implementa un campo de búsqueda por nombre o dirección dentro del propio dropdown.
 
+---
+
 ##### Aplicación Web
 
 La aplicación web de Nexora, orientada principalmente a property managers que gestionan portfolios de múltiples propiedades, requiere sistemas de búsqueda más robustos dado el mayor volumen de datos que estos usuarios manejan desde una pantalla de mayor tamaño.
