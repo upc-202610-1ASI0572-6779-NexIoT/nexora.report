@@ -38,6 +38,7 @@ La pantalla de Devices organiza los sensores por categoría (Gas Sensor, Air Qua
 
 <img src="../../assets/chapter-5/wireframes/wireframe-devices.png" alt="Wireframe — Devices sensors screen" width="300">
 
+
 **Subscription and Payments**
 
 La pantalla de perfil de suscripción muestra el plan activo (PRO PLAN) con el número de smart units activas y los datos de facturación: fecha de próximo cargo y monto en PEN. La sección Future Invoice presenta el estado de la factura próxima con botones Pay Now y See Details. La lista de Active Smart Units detalla el costo mensual por unidad. La sección Payment Method muestra el método registrado con opción de cambiarlo.
