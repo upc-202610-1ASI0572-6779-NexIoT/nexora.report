@@ -1,22 +1,22 @@
 ## Source Code Style Guide & Coding Conventions
 
 
-En este proyecto, se adoptan estándares y convenciones claras para la nomenclatura y la estructura del código, asegurando consistencia y mantenibilidad en todas las capas de la solución. El idioma oficial para nombrar clases, métodos, variables, archivos y directorios es el inglés, al igual que los comentarios en el código. Nos guiamos por convenciones de la industria, como la “Google Java Style Guide”, “Vue Style Guide”, “Dart Style Guide” y los principios del Diseño Orientado al Dominio (DDD) para estructurar nuestros componentes.
+En este proyecto, se adoptan estándares y convenciones claras para la nomenclatura y la estructura del código, asegurando consistencia y mantenibilidad en todas las capas de la solución. El idioma oficial para nombrar clases, métodos, variables, archivos y directorios es el inglés, al igual que los comentarios en el código. Nos guiamos por convenciones de la industria, como las “.NET C# Coding Conventions”, “Vue Style Guide”, “Dart Style Guide” y los principios del Diseño Orientado al Dominio (DDD) para estructurar nuestros componentes.
 
 ### Stack Tecnológico
 
 | Área | Tecnologías | Propósito |
 | :--- | :--- | :--- |
-| **Backend / API RESTful** | Java, Spring Boot | Servicios principales de la plataforma, orientados a dominio y escalabilidad. |
+| **Backend / API RESTful** | C#, ASP.NET Core, Entity Framework | Servicios principales de la plataforma, orientados a dominio y escalabilidad. |
 | **Edge Service** | Python, Flask | Procesamiento perimetral, conexión con dispositivos IoT o tareas ligeras. |
 | **Base de Datos** | PostgreSQL | Almacenamiento persistente y relacional. |
 | **Aplicación Web (Frontend)** | Vue.js, CSS, JavaScript | Portal principal e interfaces de gestión, usando división vertical (Vertical Slicing) por *features*. |
 | **Aplicación Móvil** | Flutter, Dart | Aplicación multiplataforma para interacción de los usuarios finales. |
 | **Landing Page** | HTML5, CSS3, JavaScript | Página estática de presentación para marketing y captación, optimizada para SEO. |
 
-### Arquitectura Backend Orientada a DDD (Spring Boot)
+### Arquitectura Backend Orientada a DDD (ASP.NET Core)
 
-El backend, así como las aplicaciones móviles y web, adopta los principios de Diseño Orientado a Dominio (DDD). A continuación se muestra la estructura base en Spring Boot:
+El backend, así como las aplicaciones móviles y web, adopta los principios de Diseño Orientado a Dominio (DDD). A continuación se muestra la estructura base en ASP.NET Core:
 
 | Capa / Paquete | Propósito |
 | :--- | :--- |
@@ -25,84 +25,87 @@ El backend, así como las aplicaciones móviles y web, adopta los principios de 
 | `infrastructure` | Implementaciones concretas (acceso a base de datos PostgreSQL, clientes externos, configuración, seguridad). |
 | `presentation` (o `interface`) | Controladores REST, endpoints, DTOs y manejo de excepciones web. |
 
-### Convenciones de Nomenclatura (Java Spring Boot)
+### Convenciones de Nomenclatura (C# ASP.NET Core)
 
 | Tipo | Convención | Ejemplo |
 | :--- | :--- | :--- |
 | **Controladores** | PascalCase con sufijo `Controller` | `DeviceController` |
 | **Servicios / Casos de Uso**| PascalCase con sufijo `Service` o `UseCase` | `RegisterDeviceUseCase` |
 | **Entidades de Dominio** | PascalCase | `Device`, `Sensor`, `User` |
-| **Repositorios (Interfaces)**| PascalCase con sufijo `Repository` | `SensorRepository` |
+| **Interfaces (Repositorios, etc)**| PascalCase con prefijo `I` | `ISensorRepository` |
 | **DTOs** | PascalCase con sufijo `Request` / `Response` o `Dto` | `CreateDeviceRequest` |
-| **Métodos** | camelCase descriptivo | `findDeviceById()` |
+| **Métodos y Propiedades** | PascalCase descriptivo | `FindDeviceById()`, `IsActive` |
 
 ### Ejemplos de Código
 
 A continuación se muestra un ejemplo de cómo se estructura un caso de uso y una entidad en el dominio, aplicable a nuestro proyecto:
 
-```java
+```csharp
 // Capa: Domain (Entidad)
-package com.nexora.iot.domain.model;
+namespace Nexora.Iot.Domain.Model
+{
+    public class Sensor
+    {
+        public string SensorId { get; private set; }
+        public bool IsActive { get; private set; }
 
-public class Sensor {
-    private String sensorId;
-    private boolean isActive;
+        public Sensor(string sensorId, bool isActive)
+        {
+            SensorId = sensorId;
+            IsActive = isActive;
+        }
 
-    public Sensor(String sensorId, boolean isActive) {
-        this.sensorId = sensorId;
-        this.isActive = isActive;
-    }
-
-    // Lógica de negocio intrínseca a la entidad
-    public void activate() {
-        this.isActive = true;
-    }
-
-    public boolean isActive() {
-        return this.isActive;
+        // Lógica de negocio intrínseca a la entidad
+        public void Activate()
+        {
+            IsActive = true;
+        }
     }
 }
 ```
 
-```java
+```csharp
 // Capa: Application (Caso de Uso)
-package com.nexora.iot.application.service;
+using System;
+using Nexora.Iot.Domain.Model;
+using Nexora.Iot.Domain.Repository;
 
-import com.nexora.iot.domain.model.Sensor;
-import com.nexora.iot.domain.repository.SensorRepository;
-import org.springframework.stereotype.Service;
+namespace Nexora.Iot.Application.Service
+{
+    public class ActivateSensorUseCase
+    {
+        private readonly ISensorRepository _sensorRepository;
 
-@Service
-public class ActivateSensorUseCase {
-    private final SensorRepository sensorRepository;
+        // Inyección de dependencias mediante constructor
+        public ActivateSensorUseCase(ISensorRepository sensorRepository)
+        {
+            _sensorRepository = sensorRepository;
+        }
 
-    // Inyección de dependencias mediante constructor
-    public ActivateSensorUseCase(SensorRepository sensorRepository) {
-        this.sensorRepository = sensorRepository;
-    }
-
-    public void execute(String sensorId) {
-        Sensor sensor = sensorRepository.findById(sensorId)
-            .orElseThrow(() -> new RuntimeException("Sensor not found"));
-        
-        sensor.activate();
-        sensorRepository.save(sensor);
+        public void Execute(string sensorId)
+        {
+            Sensor sensor = _sensorRepository.FindById(sensorId) 
+                ?? throw new Exception("Sensor not found");
+            
+            sensor.Activate();
+            _sensorRepository.Save(sensor);
+        }
     }
 }
 ```
 
-### Anotaciones Spring Boot y Convenciones Java
+### Atributos ASP.NET Core y Convenciones C#
 
-| Anotación / Aspecto | Propósito / Convención |
+| Atributo / Aspecto | Propósito / Convención |
 | :--- | :--- |
-| `@RestController` | Define los controladores que exponen endpoints en la capa de `presentation`. |
-| `@Service` | Identifica componentes de la capa de `application` y orquestación. |
-| `@Repository` | Para beans de persistencia en la capa `infrastructure`. |
-| `@Entity` / `@Table` | Define las entidades JPA específicas para la base de datos (infrastructure). |
-| `@Transactional` | Gestión de transacciones en la ejecución de casos de uso (capa de `application`). |
-| **Inyección de Dependencias** | Uso obligatorio de *Constructor injection* (se desaconseja `@Autowired` en atributos). |
-| **Manejo de Excepciones** | Centralizar usando `@ControllerAdvice` o `@RestControllerAdvice` globalmente. |
-| **Logging** | Utilizar SLF4J (ej. `log.info()`) para registrar trazas en diferentes niveles. |
+| `[ApiController]` | Define los controladores que exponen endpoints REST en la capa de `presentation`. |
+| `builder.Services...` | Registro de componentes de `application` y repositorios en el contenedor IoC. |
+| `DbContext` | Clase base de Entity Framework Core para la persistencia en la capa `infrastructure`. |
+| `[Table]` / Fluent API | Define las configuraciones de tablas específicas para la base de datos (infrastructure). |
+| `SaveChanges()` | Se utiliza para confirmar transacciones (Unit of Work) al finalizar el caso de uso. |
+| **Inyección de Dependencias** | Uso obligatorio de inyección por constructor. Nombres de variables privadas con prefijo `_` (ej. `_repository`). |
+| **Manejo de Excepciones** | Centralizar usando Middleware global de manejo de excepciones. |
+| **Logging** | Utilizar `ILogger<T>` integrado en ASP.NET Core. |
 
 ### Estructura de Proyecto Móvil (Flutter / Dart)
 
@@ -215,6 +218,95 @@ class SensorListScreen extends StatelessWidget {
 }
 ```
 
+### Estructura de Proyecto Web (Vue.js)
+
+Para el desarrollo del frontend de la aplicación web con Vue.js, utilizaremos el patrón de **Vertical Slicing** (división por *features*). Esto mantiene unidos los componentes, vistas y lógicas (estado, servicios) relacionadas a una misma funcionalidad, facilitando su escalabilidad y reduciendo el acoplamiento global.
+
+| Capa / Carpeta | Propósito |
+| :--- | :--- |
+| `src/features/` | Contiene los distintos módulos del negocio (ej. `devices/`, `users/`). Cada *feature* agrupa sus propios `components`, `views`, `api` (servicios) y `store` (estado). |
+| `src/core/` o `src/shared/` | Componentes genéricos (botones, modales), utilidades globales, configuración de clientes HTTP y directivas o *composables* reutilizables. |
+| `src/layouts/` | Estructuras base de la interfaz (menú de navegación lateral/superior, contenedor principal). |
+| `src/router/` | Configuración central del enrutador de Vue, importando las rutas expuestas por cada *feature*. |
+
+#### Convenciones de Nomenclatura (Vue.js)
+
+| Tipo | Convención | Ejemplo |
+| :--- | :--- | :--- |
+| **Componentes (.vue)** | PascalCase (obligatorio múltiples palabras) | `DeviceList.vue`, `SensorCard.vue` |
+| **Vistas (.vue)** | PascalCase con sufijo `View` | `DeviceDashboardView.vue` |
+| **Archivos JS/CSS** | camelCase / kebab-case | `sensorService.js`, `main-styles.css` |
+| **Clases CSS** | Metodología BEM | `.sensor-card__title--active` |
+| **Variables/Métodos** | camelCase | `fetchDevices()`, `isLoading` |
+
+#### Ejemplo de Código (Aplicación Web - Vue)
+
+A continuación, un ejemplo de un componente de Vue (usando Composition API y `<script setup>`) ubicado dentro de un feature específico (`src/features/sensors/`):
+
+```vue
+<!-- Archivo: src/features/sensors/components/SensorStatus.vue -->
+<template>
+  <div class="sensor-status">
+    <h3 class="sensor-status__title">Sensor: {{ sensorId }}</h3>
+    <p 
+      class="sensor-status__state" 
+      :class="{ 'sensor-status__state--active': isActive }"
+    >
+      Estado: {{ isActive ? 'Activo' : 'Inactivo' }}
+    </p>
+    <button @click="toggleStatus" class="sensor-status__btn">
+      Alternar Estado
+    </button>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+// Definición de Props
+const props = defineProps({
+  sensorId: {
+    type: String,
+    required: true
+  },
+  initialStatus: {
+    type: Boolean,
+    default: false
+  }
+});
+
+// Estado reactivo local
+const isActive = ref(props.initialStatus);
+
+// Método (camelCase)
+const toggleStatus = () => {
+  isActive.value = !isActive.value;
+  // TODO: Orquestar llamada al 'sensorService' o emitir evento
+};
+</script>
+
+<style scoped>
+/* Uso de BEM para estilos locales */
+.sensor-status {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+}
+.sensor-status__title {
+  margin: 0 0 8px;
+}
+.sensor-status__state--active {
+  color: green;
+  font-weight: bold;
+}
+.sensor-status__btn {
+  margin-top: 10px;
+  cursor: pointer;
+}
+</style>
+```
+
+
 ### Convenciones para Landing Page
 
 La Landing Page se enfoca en captación, presentación y posicionamiento, utilizando tecnologías web estándar sin frameworks pesados, asegurando velocidad y accesibilidad.
@@ -253,7 +345,7 @@ Para asegurar que todo el equipo mantenga la misma consistencia visual y estruct
 
 | Lenguaje | Sangría | Límite Línea | Comillas | Puntos y Coma |
 | :--- | :--- | :--- | :--- | :--- |
-| **Java** | 4 espacios | 120 caracteres | Doble (`" "`) | Obligatorio |
+| **C#** | 4 espacios | 120 caracteres | Doble (`" "`) | Obligatorio |
 | **Python** | 4 espacios | 80/100 caracteres| Simple o Doble | No usar |
 | **Dart/Flutter**| 2 espacios | 80 caracteres | Simple (`' '`) | Obligatorio |
 | **HTML/CSS/JS** | 2 espacios | 80 caracteres | HTML: Doble, JS: Simple | JS: Obligatorio |
@@ -268,7 +360,7 @@ A nivel de repositorio y arquitectura de carpetas global, la separación es clar
 
 | Directorio | Contenido |
 | :--- | :--- |
-| `backend/` | API Spring Boot (Java) |
+| `backend/` | API ASP.NET Core (C#) |
 | `edge-service/` | API Flask (Python) |
 | `mobile-flutter/` | Aplicación multiplataforma (Flutter) |
 | `landing-page/` | Landing page estática (HTML/CSS/JS) |
@@ -278,7 +370,7 @@ A nivel de repositorio y arquitectura de carpetas global, la separación es clar
 
 | Tecnología | Convención | Ejemplo |
 | :--- | :--- | :--- |
-| **Java** | PascalCase | `DeviceController.java` |
+| **C#** | PascalCase | `DeviceController.cs` |
 | **Python** | snake_case | `sensor_processing.py` |
 | **Dart/Flutter**| snake_case | `device_screen.dart` |
 | **HTML/CSS/JS** | kebab-case | `main-styles.css`, `navigation.js` |
