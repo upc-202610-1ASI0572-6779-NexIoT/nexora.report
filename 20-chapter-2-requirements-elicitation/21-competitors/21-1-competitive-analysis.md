@@ -21,6 +21,7 @@
         <div style="text-align: center; margin-top: 10px;">
                 <img src="../../assets/chapter-2/competitors/Logo_NexIoT.jpeg" alt="Logo NexIoT" style="width: 65px;"/>
         </div>
+    </td>
     <td colspan="1" valign="top" style="font-weight: bold;">
     SmartRent
     <div style="text-align: center; margin-top: 10px;">
@@ -31,6 +32,7 @@
       ButterflyMX
       <div style="text-align: center; margin-top: 10px;">
                 <img src="../../assets/chapter-2/competitors/Logo_ButterflyMX.png" alt="Logo ButterlyMX" style="width: 65px;"/>
+      </div>
       </td>
     <td colspan="1" valign="top" style="font-weight: bold;" >
       Savant
