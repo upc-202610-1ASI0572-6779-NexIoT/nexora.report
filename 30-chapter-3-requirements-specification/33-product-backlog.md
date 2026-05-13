@@ -38,3 +38,7 @@
 | 33 | US31 | Envío de formulario de contacto | Como visitante, quiero enviar consultas desde la landing page para obtener más información del servicio. | 2 |
 | 34 | US06 | Registro de contactos de emergencia | Como inquilino, quiero registrar contactos desde la aplicación móvil para notificación en eventos críticos. | 2 |
 | 35 | US11 | Activación manual de alarma | Como inquilino, quiero activar una alarma manualmente desde la aplicación móvil ante una emergencia. | 2 |
+
+Evidencia de Organizacion del Product Backlog en Jira:
+
+![Product Backlog](/assets/chapter-3/product-backlog/backlog.png)
