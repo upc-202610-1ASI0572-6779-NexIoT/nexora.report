@@ -1,34 +1,37 @@
 # 2.4. Big Picture EventStorming
 
-En esta sección, el equipo presenta el modelado de nivel general para **Nexora**, con el fin de plantear una aproximación revisada al modelado de nivel general para el dominio del problema. Se busca identificar el mayor nivel de detalle posible en la interacción entre los actores, la plataforma y los dispositivos IoT.
+En esta sección, el equipo presenta el modelado de **Big Picture EventStorming** enfocado en la fase de **Needfinding**. A diferencia de un modelado de solución, este proceso se centra en el "Problem Space", mapeando la situación actual de los arrendadores e inquilinos sin la intervención de la plataforma Nexora. El objetivo es identificar los cuellos de botella, ineficiencias y puntos de dolor que justifican el desarrollo de nuestra solución IoT.
 
 ### Descripción de la sesión
-La sesión de **Big Picture EventStorming** se organizó con una duración de 1.5 horas, concentrando esfuerzos en mapear el flujo de valor completo. Se utilizó la herramienta **Miro** para el trabajo colaborativo, permitiendo que el equipo identifique de forma visual los eventos clave, las políticas de automatización y los posibles puntos de conflicto o incertidumbre técnica (*Hotspots*).
+La sesión se realizó de forma colaborativa utilizando **Miro**, con una duración de 2 horas. El equipo se dividió en roles de expertos de dominio y stakeholders para simular el flujo actual de gestión de inmuebles. Se priorizó la identificación de **Hotspots** (post-its rojos) para resaltar dónde el modelo tradicional falla en la detección de fugas o en la transparencia del consumo energético.
 
 ### Objetivos de la Actividad
-* **Descubrimiento del Dominio:** Mapear el ciclo de vida de un inmueble inteligente, desde su registro hasta la gestión de alertas críticas.
-* **Alineación Estratégica:** Validar que los eventos de dominio soporten la reducción del 15% al 25% en el consumo energético y la mejora del 40% en tiempos de respuesta ante incidencias.
-* **Identificación de Contextos:** Separar las responsabilidades entre la gestión administrativa de la inmobiliaria y el control operativo del inquilino.
+*   **Comprensión del Problema:** Visualizar el ciclo de vida actual de un alquiler y cómo se gestionan los incidentes críticos de forma reactiva.
+*   **Identificación de Puntos de Dolor:** Exponer los "Hotspots" donde la falta de datos en tiempo real genera pérdidas económicas y conflictos entre las partes.
+*   **Descubrimiento de Oportunidades:** Validar que la automatización y el monitoreo IoT resolverían los cuellos de botella detectados en la comunicación y el mantenimiento.
 
 ### Modelado por Carriles (Swimlanes)
 
-#### Carril 1: Gestión de Inmuebles y Administración
-Este carril detalla el flujo administrativo realizado por el arrendario. Incluye el registro de propiedades, la vinculación de hardware IoT y la gestión de técnicos para el mantenimiento, asegurando que la infraestructura esté lista para el inquilino.
+#### Carril 1: Gestión de Inmuebles y Administración (Arrendador e Inmobiliaria)
+Este carril detalla el flujo administrativo tradicional. Se observa una fuerte dependencia de procesos manuales, como la toma de fotos a medidores físicos y el registro en hojas de cálculo, lo que genera una alta probabilidad de error humano y falta de datos históricos confiables.
 
-<img src="../../assets/chapter-2/big-picture-eventstorming/EventStorming_Arrendadores.jpg">
+![Big Picture - Inmuebles y Administración](../../assets/chapter-2/big-picture-eventstorming/inmuebles-admin-big-picture.jpg)
 
-#### Nota. Flujo para el carril de gestión de inmuebles y administración (Arrendadores)  
+**Nota.** Mapeo de la gestión administrativa actual y procesos de mantenimiento correctivo.
 
-#### Carril 2: Monitoreo IoT y Respuesta a Incidencias
-Es el núcleo reactivo del sistema. Muestra cómo las lecturas enviadas por los sensores de agua y energía son procesadas por un motor de reglas para detectar anomalías. Ante una detección (como una fuga), el sistema dispara automáticamente una política de notificación y creación de incidencias.
+#### Carril 2: El Ciclo de las Averías y el Gasto (Incidentes y Consumo)
+Muestra la "ceguera" operativa del modelo actual. Los eventos reflejan cómo una fuga de agua o un consumo excesivo de energía pasan desapercibidos durante semanas, convirtiéndose en incidentes solo cuando el daño físico es evidente o el recibo llega con montos impagables.
 
-<img src="../../assets/chapter-2/big-picture-eventstorming/EventStorming_IOT.jpg">
+![Big Picture - Incidentes y Consumo](../../assets/chapter-2/big-picture-eventstorming/incidentes-consumo-big-picture.jpg)
 
-#### Nota. Flujo para el carril de monitorio (IOT)  
+**Nota.** Flujo de detección reactiva de problemas y el impacto económico de las fugas no detectadas.
 
-#### Carril 3: Carril del Inquilino
-Este carril detalla el flujo realizado por el inquilino. Incluye datos como el historial de consumo, alertas de consumo y estados de dispositivos.
+#### Carril 3: Experiencia del Inquilino (Arrendatario)
+Se enfoca en la frustración del usuario final. Los eventos muestran la incertidumbre ante cobros elevados y la dificultad para comunicarse con la inmobiliaria. La falta de control sobre sus propios gastos de servicios es el principal punto de fricción identificado en este carril.
 
-<img src="../../assets/chapter-2/big-picture-eventstorming/EventStorming_Inquilinos.jpg">
+![Big Picture - Experiencia del Inquilino](../../assets/chapter-2/big-picture-eventstorming/experiencia-inquilino-big-picture.jpg)
 
-#### Nota. Flujo para el carril del inquilino  
+**Nota.** Percepción del inquilino ante la falta de transparencia en los consumos y la lentitud en el soporte.
+
+### Conclusiones del EventStorming
+El taller permitió concluir que el modelo actual es **excesivamente reactivo**. Los principales Hotspots identificados se centran en la demora de detección de anomalías y en la desconfianza mutua entre arrendador e inquilino por la falta de evidencia basada en datos. Nexora atacará estos puntos transformando el mantenimiento correctivo en preventivo y otorgando transparencia total a través del monitoreo IoT en tiempo real.
