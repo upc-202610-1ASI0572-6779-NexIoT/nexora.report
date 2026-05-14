@@ -4,9 +4,8 @@ En esta sección se presentan los User Journey Maps elaborados para cada User Pe
 
 Se desarrolló un journey map por cada segmento objetivo:
 
-1. **Valeria Torres** – Inquilina  
-2. **Carlos Mendoza** – Administrador / Propietario  
-3. **Andrea Salazar** – Empresa Inmobiliaria / Decisora B2B  
+1. **Valeria Torres** – Inquilina
+2. **Carlos Mendoza** – Administrador / Propietario
 
 #### User Journey Map – Valeria Torres
 
@@ -15,7 +14,3 @@ Se desarrolló un journey map por cada segmento objetivo:
 #### User Journey Map – Carlos Mendoza
 
 ![User Journey Map - Carlos Mendoza](/assets/chapter-2/needfinding/user-journey-map-carlos-mendoza.png)
-
-#### User Journey Map – Andrea Salazar
-
-![User Journey Map - Andrea Salazar](/assets/chapter-2/needfinding/user-journey-map-andrea-salazar.png)
