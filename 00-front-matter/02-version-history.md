@@ -1,11 +1,13 @@
 # Registro de versiones del Informe
 
-| **Versión** | **Fecha**   | **Autor**  | **Descripción de modificación** |
-|-------------|-------------|------------------------------------|--------------------------------------------------------------------------------------------------|
-| AV1         | 20/04/2026  | Kevin Alexander Castañeda Llanos   | Estructuración inicial del informe técnico, incluyendo la introducción del proyecto, análisis de requerimientos (Elicitación y Especificación) y el diseño de arquitectura de software base. |
-| TB1         | 29/04/2026  | Kevin Alexander Castañeda Llanos   | Establecimiento de las guías de estilo visual, convenciones de código y configuración inicial del sistema de gestión de versiones (SCM) para garantizar consistencia en el desarrollo. |
-| TB1         | 06/05/2026  | Kevin Alexander Castañeda Llanos   | Diseño de la arquitectura de información detallada y definición de los sistemas de organización para la estructura del proyecto y navegación del usuario. |
-| TB1         | 11/05/2026  | Kevin Alexander Castañeda Llanos   | Desarrollo del diseño técnico del dispositivo IoT para monitoreo y **lanzamiento de la fase de desarrollo de la Landing Page** institucional del proyecto. |
-| TB1         | 12/05/2026  | Kevin Alexander Castañeda Llanos   | Configuración avanzada del entorno de implementación, validación de estándares SCM e **inicio oficial de la etapa de desarrollo de la aplicación web principal (F)**. |
-| TB1         | 13/05/2026  | Kevin Alexander Castañeda Llanos   | Culminación de los Mockups de alta fidelidad para la Landing Page y aplicaciones web/móvil, junto con la documentación final de las secciones de Front-Matter del informe. |
-
+| **Versión** | **Fecha**  | **Autor** | **Descripción de modificación**  |
+| ----------- | ---------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AV1 | 20/04/2026 | Kevin Alexander Castañeda Llanos | Elaboración inicial del informe técnico incluyendo Introducción, Requirements Elicitation & Analysis, Requirements Specification y Solution Software Design.|
+| TB1.1       | 29/04/2026 | Kevin Alexander Castañeda Llanos | Incorporación del Capítulo V: Solution UI/UX Design y definición de lineamientos visuales y arquitectura de información.    |
+| TB1.2       | 06/05/2026 | Kevin Alexander Castañeda Llanos | Incorporación del Capítulo VI: Product Implementation, Validation & Deployment y configuración inicial de SCM. |
+| TB1.3       | 11/05/2026 | Kevin Alexander Castañeda Llanos | Actualización de la sección Landing Page, Services & Applications Implementation con el avance del Sprint 1 y despliegue inicial de la Landing Page institucional.  |
+| TB1.4       | 12/05/2026 | Kevin Alexander Castañeda Llanos | Actualización del informe con el despliegue inicial de la Frontend Web Application y configuración avanzada del entorno de implementación.  |
+| TB1.5       | 13/05/2026 | Kevin Alexander Castañeda Llanos | Corrección y mejora de mockups de alta fidelidad, actualización de Front-Matter y refinamiento de artefactos previamente presentados.       |
+| TB1.6       | 14/05/2026 | Jhosep Jamil Argomedo Camacho    | Reemplazamiento de la descripción de la startup, eliminando el tercer segmento inexistente y detallando correctamente los dos segmentos definidos.  |
+| TB1.7       | 14/05/2026 | Jhosep Jamil Argomedo Camacho    | Corrección de la sección de antecedentes y problema, ajustando las técnicas utilizadas, estandarizando segmentos y eliminando referencias a empresas inmobiliarias. |
+| TB1.8       | 14/05/2026 | Jhosep Jamil Argomedo Camacho    | Reestructuración y corrección de la sección Lean UX (Problem Statements, Assumptions, Hypothesis y Lean UX Canvas) conforme a la tercera edición del libro Lean UX. |
