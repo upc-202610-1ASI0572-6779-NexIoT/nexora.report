@@ -1,5 +1,5 @@
 ### 1.2.2. Lean UX Process
-#### 1.2.1. Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements
 
 El estado actual del mercado de gestión de propiedades en alquiler en América Latina se ha enfocado principalmente en arrendadores y administradores que dependen de métodos manuales, herramientas no integradas (hojas de cálculo, llamadas telefónicas, visitas físicas) y plataformas genéricas no diseñadas para el contexto de alquiler, lo que genera ineficiencias operativas, tiempos de respuesta tardíos ante incidencias y una experiencia deficiente para los inquilinos.
 
@@ -17,7 +17,7 @@ Sabremos que hemos tenido éxito cuando observemos las siguientes conductas medi
 
 ---
 
-### 1.2.2. Lean UX Assumptions
+### 1.2.2.2. Lean UX Assumptions
 
 En la fase inicial de desarrollo de la plataforma Nexora, producto de la startup NextIoT, hemos identificado y estructurado una serie de supuestos fundamentales siguiendo los principios de la metodología Lean UX (3rd Edition). Estos supuestos representan nuestras hipótesis iniciales sobre quiénes son nuestros usuarios, qué necesidades buscan resolver, cómo interactuarán con la tecnología IoT, cómo operará el modelo de negocio y qué impacto esperamos generar. Formalizar estas creencias nos permite enfocar el desarrollo del producto en la validación temprana, reducir la incertidumbre y tomar decisiones estratégicas basadas en evidencia.
 
@@ -107,6 +107,95 @@ Los supuestos se clasifican en cinco categorías:
 
 ---
 
-### 1.2.4. Lean UX Canvas
+### 1.2.2.3. Lean UX Hypothesis Statements
+
+> *We believe we will achieve [this business outcome]*
+> *If [these personas]*
+> *Attain [this benefit/user outcome]*
+> *With [this feature or solution]*
+
+<br>
+
+**Hipótesis 1** <br>
+Creemos que lograremos **una tasa de adopción del 60% entre arrendadores durante el primer año y una reducción del 40% en el tiempo promedio de respuesta ante incidencias**
+si los **arrendadores (propietarios y administradores de propiedades en alquiler)**
+logran **visibilidad centralizada en tiempo real del estado operativo de todas sus propiedades y reciben notificaciones automáticas ante cualquier anomalía detectada**
+con el **dashboard web de monitoreo multi-propiedad y el sistema de alertas inteligentes en tiempo real**.
+
+<br>
+
+**Hipótesis 2** <br>
+Creemos que lograremos **una retención del 70% de arrendatarios activos al término del primer año**
+si los **arrendatarios (inquilinos de propiedades equipadas con Nexora)**
+logran **reducir entre un 15% y un 25% su gasto mensual en servicios básicos gracias a decisiones informadas sobre su consumo**
+con la **aplicación móvil de monitoreo de consumo en tiempo real con historial y comparativas**.
+
+<br>
+
+**Hipótesis 3** <br>
+Creemos que lograremos **una reducción del 25% en los costos operativos de gestión inmobiliaria para arrendadores**
+si los **arrendadores**
+logran **gestionar incidencias y solicitudes de mantenimiento de forma centralizada, estructurada y con trazabilidad completa desde el reporte hasta el cierre**
+con el **módulo de gestión de incidencias integrado en la plataforma web**.
+
+<br>
+
+**Hipótesis 4** <br>
+Creemos que lograremos **una tasa de conversión del 20% de visitantes interesados a usuarios registrados activos**
+si los **arrendadores en etapa de evaluación de la plataforma**
+logran **comprender de forma clara e inmediata el valor diferencial de Nexora frente a sus métodos actuales y visualizar el impacto concreto en su operación diaria**
+con una **landing page optimizada con propuesta de valor segmentada, casos de uso reales y llamados a la acción orientados al registro**.
+
+<br>
+
+**Hipótesis 5** <br>
+Creemos que lograremos **que el 75% de los arrendatarios utilice la aplicación móvil diariamente durante el primer mes de uso**
+si los **arrendatarios**
+logran **controlar de forma sencilla e intuitiva los dispositivos inteligentes de su vivienda desde un único punto de acceso, sin requerir conocimientos técnicos**
+con la **interfaz móvil centrada en experiencia de usuario, con automatizaciones programables y control de dispositivos en un toque**.
+
+<br>
+
+**Hipótesis 6** <br>
+Creemos que lograremos **una reducción del 20% en incidentes críticos no detectados oportunamente en propiedades gestionadas con Nexora**
+si los **arrendadores**
+logran **recibir notificaciones inmediatas y contextualizadas ante anomalías detectadas por los sensores IoT instalados en sus propiedades**
+con el **sistema de alertas inteligentes configurables por propiedad, tipo de sensor y umbral de activación**.
+
+<br>
+
+**Hipótesis 7** <br>
+Creemos que lograremos **que el 70% de los nuevos usuarios conecte al menos un dispositivo IoT durante la primera semana de uso**
+si **arrendadores y arrendatarios**
+logran **completar el proceso de instalación y configuración de dispositivos sin asistencia técnica presencial y en menos de 10 minutos**
+con la **compatibilidad con estándares IoT abiertos (Wi-Fi, Zigbee, MQTT) y el flujo de onboarding guiado paso a paso integrado en la plataforma**.
+
+<br>
+
+**Hipótesis 8** <br>
+Creemos que lograremos **una disminución del 25% en consultas al soporte técnico durante los primeros seis meses de operación**
+si **arrendadores y arrendatarios**
+logran **resolver dudas de uso de forma autónoma desde la primera sesión, sin necesidad de contactar al equipo de soporte**
+con una **interfaz optimizada bajo principios de UX, con tooltips contextuales, tutoriales integrados y documentación accesible desde la propia plataforma**.
+
+<br>
+
+**Hipótesis 9** <br>
+Creemos que lograremos **una mejora del 30% en la eficiencia de gestión de arrendadores que administran tres o más propiedades simultáneamente**
+si los **arrendadores con cartera de múltiples inmuebles**
+logran **tener una vista unificada que consolida en tiempo real el estado operativo, las alertas activas y el consumo de todos sus inmuebles desde un único panel**
+con el **dashboard web multi-propiedad con filtros comparativos entre unidades y resumen ejecutivo exportable**.
+
+<br>
+
+**Hipótesis 10** <br>
+Creemos que lograremos **una reducción del 20% en el consumo energético promedio de las propiedades gestionadas con Nexora**
+si los **arrendatarios**
+logran **identificar patrones de consumo ineficiente y actuar sobre ellos gracias a información histórica, comparativas y recomendaciones personalizadas de ahorro**
+con los **reportes analíticos periódicos y el módulo de recomendaciones de eficiencia energética dentro de la aplicación móvil**.
+
+---
+
+### 1.2.2.4. Lean UX Canvas
 
 ![Lean UX Canvas](../../assets/chapter-1/lean-ux-canvas/lean-ux-canvas-nexora.jpg)
