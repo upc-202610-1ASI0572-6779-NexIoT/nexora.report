@@ -11,3 +11,5 @@
 | TB1.6       | 14/05/2026 | Jhosep Jamil Argomedo Camacho    | Reemplazamiento de la descripción de la startup, eliminando el tercer segmento inexistente y detallando correctamente los dos segmentos definidos.  |
 | TB1.7       | 14/05/2026 | Jhosep Jamil Argomedo Camacho    | Corrección de la sección de antecedentes y problema, ajustando las técnicas utilizadas, estandarizando segmentos y eliminando referencias a empresas inmobiliarias. |
 | TB1.8       | 14/05/2026 | Jhosep Jamil Argomedo Camacho    | Reestructuración y corrección de la sección Lean UX (Problem Statements, Assumptions, Hypothesis y Lean UX Canvas) conforme a la tercera edición del libro Lean UX. |
+| TB1.9       | 14/05/2026 | Sebastian Ramirez Tello | Modificación de las US relacionadas a la Landing Page |
+| TB1.10      | 14/05/2026 | Jhosep Jamil Argomedo Camacho    | Modificación de las US relacionadas a la Aplicación Web, y creación de las Technical Stories relacionadas al Backend de la Aplicación Web |
