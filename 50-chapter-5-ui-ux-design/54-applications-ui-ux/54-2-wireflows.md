@@ -22,3 +22,14 @@
 
 **Subscription**
 ![Subscription Web App](../../assets/chapter-5/wireflows/web/subscription-wireflow.png)
+
+**Wireflows Mobile App**
+
+**Reduce expenses**
+![Subscription Web App](../../assets/chapter-5/wireflows/mobile/reduce-expenses-wireflow.png)
+
+**Security monitoring**
+![Subscription Web App](../../assets/chapter-5/wireflows/mobile/security-monitoring-wireflow.png)
+
+**Automation**
+![Subscription Web App](../../assets/chapter-5/wireflows/mobile/automation-wireflow.png)
