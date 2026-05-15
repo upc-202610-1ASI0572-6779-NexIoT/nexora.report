@@ -1,80 +1,64 @@
-## 5.2.2. Labeling Systems
+## 5.2.2 Labeling Systems
 
-El sistema de etiquetado de Nexora define la manera en que se nombran y presentan los elementos visibles dentro de la Landing Page, la aplicación web y la aplicación móvil. Su objetivo es facilitar la comprensión de la información, mantener consistencia semántica entre plataformas y permitir que los usuarios identifiquen rápidamente estados, acciones y módulos relacionados con monitoreo IoT y gestión operativa.
+En esta sección se especifica el sistema de etiquetado de Nexora, diseñado bajo principios de simplicidad y eficiencia cognitiva. El equipo ha seleccionado etiquetas con el **mínimo número de palabras** para evitar la confusión y permitir una reacción inmediata ante datos críticos provenientes de sensores IoT.
 
-Las etiquetas utilizadas en la interfaz priorizan términos breves, claros y orientados a tareas específicas. Asimismo, los nombres visibles mantienen consistencia entre dashboards, paneles de monitoreo y vistas administrativas para reducir la curva de aprendizaje y conservar familiaridad durante la navegación. Aunque la distribución visual cambia según el dispositivo y el perfil de usuario, los conceptos principales mantienen la misma denominación en toda la plataforma.
+### **Representación de Datos y Simplicidad**
 
-Debido a que Nexora trabaja con monitoreo IoT en tiempo real, las etiquetas deben representar información técnica de forma comprensible y visualmente identificable. Por ello, la interfaz utiliza nombres directos para sensores, alertas, estados de conexión, reportes y configuraciones críticas del sistema.
+Para garantizar que los usuarios (arrendadores e inquilinos) procesen la información sin ambigüedades, se utilizan etiquetas que actúan como "anclas mentales". Cada etiqueta representa un conjunto de información o una funcionalidad específica sin necesidad de sobrecargar la interfaz con descripciones extensas.
 
-#### Criterios de etiquetado
+---
 
-Las etiquetas de Nexora siguen los siguientes criterios:
+### **Etiquetas de Navegación y Sistemas**
 
-* Claridad: las etiquetas deben comunicar acciones, estados o categorías fácilmente reconocibles.
-* Brevedad: se priorizan nombres cortos para facilitar lectura rápida en dashboards y paneles de monitoreo.
-* Consistencia: un mismo concepto mantiene la misma denominación en toda la plataforma.
-* Familiaridad: se utilizan términos comunes dentro de sistemas de monitoreo y gestión IoT.
-* Orientación a tareas: las etiquetas responden a acciones frecuentes realizadas por los usuarios.
+Estas etiquetas permiten al usuario asociar secciones completas de la aplicación con un solo concepto.
 
-Estos criterios permiten mantener coherencia entre la arquitectura de información, la navegación y los prototipos desarrollados en Figma.
+| Etiqueta | Conjunto de Información Asociado |
+| :--- | :--- |
+| **Inicio** | Estado general de la vivienda o cartera de propiedades. |
+| **Gas** | Niveles actuales, estado de la válvula y alertas de fuga. |
+| **Aire** | Calidad ambiental, niveles de CO2 y humedad. |
+| **Alertas** | Registro de eventos críticos, preventivos y fallas de conexión. |
+| **Propiedades** | Ubicación, detalles del inmueble e información del contrato. |
+| **Pagos** | Historial de facturación, estado de suscripción y métodos de pago. |
+| **Ajustes** | Configuración de perfil, umbrales de sensores y seguridad. |
 
-#### Etiquetas principales del sistema
+---
 
-| Etiqueta                | Función                                            | Contexto de uso                |
-| :---------------------- | :------------------------------------------------- | :----------------------------- |
-| Home                    | Mostrar el resumen general del sistema             | Navegación principal           |
-| Properties              | Administrar propiedades registradas                | Gestión de inmuebles           |
-| Devices                 | Gestionar dispositivos IoT vinculados              | Monitoreo y administración     |
-| Alerts                  | Visualizar incidencias y alertas activas           | Centro de alertas              |
-| Reports                 | Consultar métricas y reportes históricos           | Visualización de datos         |
-| Settings                | Configurar parámetros y preferencias               | Configuración general          |
-| Subscription            | Administrar planes y suscripciones                 | Gestión comercial              |
-| Device Fleet Overview   | Mostrar estado general de dispositivos registrados | Dashboard principal            |
-| Emergency Alerts Center | Centralizar alertas críticas y preventivas         | Gestión de incidencias         |
-| Threshold Configuration | Configurar límites operativos y umbrales           | Configuración IoT              |
-| Firmware Update         | Gestionar actualización de firmware                | Administración de dispositivos |
-| View Logs               | Consultar registros y eventos históricos           | Seguimiento operativo          |
-| Deploy Changes          | Aplicar configuraciones o cambios al sistema       | Gestión técnica                |
+### **Etiquetas de Acción y Control**
 
-#### Etiquetas de acciones principales
+Verbos directos que disparan asociaciones funcionales inmediatas.
 
-Las acciones visibles utilizan verbos descriptivos y directos para facilitar la comprensión inmediata de cada interacción dentro de la plataforma.
+| Etiqueta | Asociación de Funcionalidad |
+| :--- | :--- |
+| **Cerrar** | Interrupción inmediata del flujo (Válvula/Gas). |
+| **Abrir** | Restablecimiento del flujo o acceso. |
+| **Ventilar** | Activación de sistemas de extracción de aire. |
+| **Exportar** | Generación y descarga de documentos (PDF/CSV). |
+| **Vincular** | Proceso de emparejamiento de hardware IoT. |
+| **Soporte** | Acceso a canales de ayuda, FAQ y contacto técnico. |
 
-| Acción           | Contexto de uso                                           |
-| :--------------- | :-------------------------------------------------------- |
-| Add Device       | Registrar un nuevo dispositivo IoT                        |
-| View Details     | Consultar información detallada de dispositivos o alertas |
-| Generate Report  | Crear reportes de monitoreo y actividad                   |
-| Update Settings  | Modificar configuraciones del sistema                     |
-| Deploy Changes   | Aplicar cambios de configuración                          |
-| Calibrate Sensor | Ajustar parámetros operativos del sensor                  |
-| View Logs        | Revisar registros históricos                              |
-| Update Firmware  | Actualizar firmware de dispositivos IoT                   |
+---
 
-#### Etiquetas de estados y monitoreo IoT
+### **Etiquetas de Estado (Feedback Visual)**
 
-Debido a que Nexora incorpora monitoreo IoT en tiempo real, los estados visibles deben comunicar condiciones operativas y niveles de riesgo de manera inmediata y comprensible.
+Palabras únicas que sintetizan condiciones complejas de los sensores.
 
-| Estado           | Significado                                   | Contexto de uso           |
-| :--------------- | :-------------------------------------------- | :------------------------ |
-| Online           | Dispositivo conectado y operativo             | Estado de dispositivos    |
-| Offline          | Dispositivo sin conexión                      | Monitoreo de conectividad |
-| Critical         | Situación crítica detectada por el sistema    | Alertas prioritarias      |
-| Warning          | Condición preventiva que requiere atención    | Monitoreo operativo       |
-| Active Alerts    | Alertas activas registradas                   | Dashboard y monitoreo     |
-| Pending Warnings | Advertencias pendientes de revisión           | Gestión de incidencias    |
-| Signal           | Estado de intensidad de señal del dispositivo | Conectividad IoT          |
-| Health           | Estado operativo general del dispositivo      | Monitoreo técnico         |
-| Last Reading     | Última lectura registrada por el sensor       | Telemetría en tiempo real |
+| Etiqueta | Condición del Sistema |
+| :--- | :--- |
+| **Normal** | Funcionamiento óptimo y valores bajo umbral. |
+| **Falla** | Problema técnico o pérdida de señal. |
+| **Fuga** | Detección de gas por encima del límite de seguridad. |
+| **Crítico** | Situación de peligro que requiere acción inmediata. |
+| **Offline** | Dispositivo desconectado de la red. |
 
-#### Relación con la navegación
+---
 
-El sistema de etiquetado mantiene consistencia entre la aplicación web y móvil para reducir el tiempo de aprendizaje y facilitar la navegación entre plataformas. Etiquetas como Home, Devices, Alerts y Reports conservan la misma denominación dentro de toda la solución, permitiendo que los usuarios identifiquen rápidamente funcionalidades equivalentes independientemente del dispositivo utilizado.
+### **Asociaciones Mentales y Reducción de Confusión**
 
-Asimismo, los dashboards priorizan etiquetas orientadas al monitoreo y gestión operativa, permitiendo identificar rápidamente el estado de dispositivos, alertas activas y configuraciones críticas del sistema.
+Siguiendo el principio de asociación4, el sistema evita aglomerar datos. Por ejemplo:
 
-#### Reducción de carga cognitiva
+*   **La etiqueta ‘Propiedad’**: No muestra todos los datos técnicos del sensor en la lista; al verla, el arrendador asocia que ahí encontrará la ubicación, quién es el inquilino y si hay alguna incidencia pendiente, manteniendo la interfaz limpia.
+*   **La etiqueta ‘Gas’**: En lugar de usar "Nivel de saturación de Gas LP", se utiliza solo "Gas". El usuario asocia mentalmente que esta sección contiene tanto la medición actual como los controles de seguridad relacionados.
+*   **La etiqueta ‘Soporte’**: Al igual que el ejemplo de 'Contacto', esta etiqueta asocia en la mente del usuario que encontrará asistencia técnica, números de emergencia y guías de uso sin que estos elementos ocupen espacio innecesario en el menú principal.
 
-Las etiquetas de Nexora utilizan términos familiares dentro del contexto de monitoreo IoT y gestión operativa, evitando nombres excesivamente técnicos o ambiguos. Además, la consistencia entre menús, dashboards, tarjetas y paneles permite que los usuarios relacionen rápidamente cada etiqueta con una acción o funcionalidad específica.
-
-Esta decisión mejora la experiencia de usuario y facilita la interacción con funcionalidades de monitoreo, configuración y administración de dispositivos IoT dentro de la plataforma.
+Esta arquitectura de etiquetas asegura que Nexora sea intuitivo para visitantes nuevos y eficiente para usuarios recurrentes que gestionan múltiples dispositivos en tiempo real.
