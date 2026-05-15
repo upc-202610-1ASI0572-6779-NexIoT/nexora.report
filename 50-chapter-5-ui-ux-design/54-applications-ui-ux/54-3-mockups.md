@@ -1,5 +1,7 @@
 ### 5.4.3. Application Mock-ups
 
+
+#### Aplicación Web
 Esta sección presenta y explica los Mock-ups de la aplicación web de Nexora. En la propuesta y la explicación se evidencia la aplicación de los principios de diseño, elementos visuales, diseño inclusivo y arquitectura de información definidos en el Design System del proyecto.
 
 Los mock-ups han sido diseñados siguiendo un enfoque de minimalismo funcional y jerarquía visual, utilizando la paleta de colores corporativa (Naranja #ff7300 y Azul Profundo #173183) para guiar la atención del usuario hacia las acciones críticas y el estado del sistema.
@@ -81,3 +83,68 @@ Permite personalizar la experiencia del usuario y ajustar los parámetros del si
 ![Configuración 2](../../assets/chapter-5/mockups/web/settings2-webapp-mockup.png)
 
 ![Configuración 3](../../assets/chapter-5/mockups/web/settings3-webapp-mockup.png)
+
+#### Aplicación Móvil
+Esta sección presenta y explica los Mock-ups de la aplicación móvil de Nexora. En la propuesta y la explicación se evidencia la aplicación de los principios de diseño, elementos visuales, diseño inclusivo y arquitectura de información definidos en el Design System del proyecto.
+
+Los mock-ups han sido diseñados siguiendo un enfoque de minimalismo funcional y jerarquía visual, utilizando la paleta de colores corporativa (Naranja #ff7300 y Azul Profundo #173183) para guiar la atención del usuario hacia las acciones críticas y el estado del sistema.
+
+#### **1. Autenticación y Acceso**
+
+La pantalla de autenticación fue diseñada para ofrecer un acceso rápido, seguro y sencillo a la aplicación. Se emplea una interfaz minimalista con un formulario centralizado que reduce distracciones y facilita el ingreso del usuario. Además, se utiliza una jerarquía visual clara mediante colores contrastantes y botones destacados para mejorar la identificación de acciones principales.
+
+![Login Mobile App](../../assets/chapter-5/mockups/mobile/login-mobileapp-mockup.png)
+
+<br>
+
+#### **2. Dashboard Principall**
+
+La pantalla principal centraliza la información más relevante del hogar inteligente, permitiendo al usuario visualizar rápidamente métricas de consumo, estado de dispositivos y accesos directos a funcionalidades clave. El diseño prioriza la rapidez de lectura mediante tarjetas organizadas y gráficos simplificados.
+
+![Dahboard Mobile App](../../assets/chapter-5/mockups/mobile/dahsboard-mobileapp-mockup.png)
+
+<br>
+
+#### **3. Gestión de Dispositivos**
+
+La pantalla de dispositivos permite al usuario controlar y monitorear los dispositivos inteligentes conectados al departamento. La interfaz prioriza la identificación rápida del estado de cada dispositivo mediante íconos, etiquetas y porcentajes de uso energético.
+
+![Device Mobile App](../../assets/chapter-5/mockups/mobile/device-mobileapp-mockup.png)
+
+<br>
+
+#### **4. Automatización Inteligente**
+
+El flujo de automatización fue diseñado para simplificar la creación de tareas automáticas dentro del hogar inteligente. El proceso guía al usuario paso a paso mediante una estructura secuencial que reduce la complejidad de configuración.
+
+![Automation Mobile App](../../assets/chapter-5/mockups/mobile/automation-mobileapp-mockup.png)
+
+<br>
+
+#### **5. Centro de Incidentes**
+
+La pantalla de incidentes permite visualizar alertas y eventos detectados dentro del hogar inteligente. Se prioriza la rápida identificación de incidentes críticos mediante etiquetas de color, categorías y niveles de prioridad.
+
+![Alerts Mobile App](../../assets/chapter-5/mockups/mobile/alerts-mobileapp-mockup.png)
+
+<br>
+
+#### **6. Monitoreo de Consumo**
+
+Las pantallas de consumo permiten al usuario visualizar estadísticas energéticas y patrones de uso dentro del hogar. El diseño busca facilitar la comprensión de datos mediante gráficos simplificados y métricas destacadas.
+
+![Reports Mobile App](../../assets/chapter-5/mockups/mobile/reports-mobileapp-mockup.png)
+
+<br>
+
+#### **7. Perfil y Configuración de Cuenta**
+
+La sección de perfil centraliza las configuraciones personales y preferencias del usuario dentro de la aplicación, permitiéndole administrar su información, seguridad, notificaciones, idioma, suscripciones y soporte desde un único punto de acceso. El diseño busca ofrecer una experiencia organizada y fácil de navegar, agrupando las opciones según su funcionalidad para reducir la complejidad y mejorar la accesibilidad.
+
+Además, esta sección brinda al usuario un mayor control sobre la personalización y seguridad de su experiencia dentro del ecosistema IoT, facilitando la gestión de configuraciones importantes de manera rápida e intuitiva.
+
+![Perfil Mobile App 1](../../assets/chapter-5/mockups/mobile/profile1-mobileapp-mockup.png)
+
+![Perfil Mobile App 2](../../assets/chapter-5/mockups/mobile/profile2-mobileapp-mockup.png)
+
+<br>
