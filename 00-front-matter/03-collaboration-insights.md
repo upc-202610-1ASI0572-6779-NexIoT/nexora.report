@@ -15,6 +15,9 @@ El informe del proyecto se ha desarrollado de manera colaborativa en el reposito
 
 A continuación, se muestran evidencias gráficas que ilustran la participación activa y equitativa de todos los miembros del equipo:
 
+- Link de la organización: https://github.com/upc-202610-1ASI0572-6779-NexIot
+- Link del reporte: https://github.com/upc-202610-1ASI0572-6779-NexIot/nexora.report
+
 ### Captura de Commits:
 
 [![Evidencia de Colaboración](../assets/common/insights/commits-insights.jpg)]
