@@ -1,18 +1,15 @@
 ### 5.2.5. Navigation Systems
 
-El **Navigation System** es el eje fundamental para orientar a los usuarios a través del ecosistema de Nexora, integrando la Landing Page, la aplicación web para administradores y la aplicación móvil para inquilinos. Su diseño está estrictamente alineado con los principios de **visibilidad del estado del sistema** y **minimalismo funcional**, permitiendo que cada perfil de usuario acceda a la información crítica de seguridad y gestión de activos sin fricciones. Este sistema garantiza un flujo intuitivo hacia las secciones clave, facilitando que los usuarios alcancen sus objetivos, tales como el monitoreo de niveles de gas, la recepción de alertas de emergencia y el control remoto de dispositivos IoT. Con un diseño basado en jerarquías visuales claras y tiempos de respuesta mínimos, Nexora asegura una navegación sin esfuerzo que potencia la confianza y satisfacción del usuario.
+El **Navigation System** define las acciones y técnicas que guiarán a los usuarios a través del ecosistema de Nexora (Landing Page y aplicaciones web/móvil), permitiéndoles cumplir sus metas e interactuar de forma satisfactoria con el producto. A continuación, se detalla de qué maneras los usuarios irán recorriendo el contenido en cada plataforma:
 
-#### **Landing Page:**
-*   **Propósito Principal:** Comunicar la propuesta de valor de Nexora enfocada en la eficiencia operativa, seguridad inmobiliaria y conectividad inteligente mediante tecnología IoT.
-*   **Contenido Clave:** Presenta la misión de la startup, destacando la prevención de riesgos y el ahorro energético, utilizando botones de acción (CTAs) en color naranja para facilitar el registro.
-*   **Navegación:** Emplea una experiencia de scroll vertical continuo con un **Sticky Header** que proporciona acceso directo a secciones como Características, Planes, Acerca de Nosotros y Contacto.
+#### **Landing Page (Usuarios Potenciales):**
+*   **Acciones y Técnicas:** Navegación por scroll vertical continuo y escaneo visual rápido. El usuario es guiado a través de un **Sticky Header** superior con enlaces de ancla que permiten saltar directamente a secciones de interés como Características, Planes o Acerca de Nosotros.
+*   **Recorrido del Contenido:** Los visitantes navegan de manera exploratoria y lineal (de arriba hacia abajo) para entender la propuesta de valor. El recorrido culmina mediante la interacción con botones de acción (CTAs) estratégicamente ubicados que los redirigen hacia el registro o el contacto.
 
-#### **Aplicación Web (Manager Dashboard):**
-*   **Propósito Principal:** Administrar múltiples unidades inmobiliarias de manera centralizada, supervisando métricas de consumo y el estado técnico de los activos.
-*   **Contenido Clave:** Incluye dashboards con alta densidad de información, tablas inteligentes para la gestión de propiedades y gráficos que comparan el consumo energético y niveles de telemetría entre unidades.
-*   **Navegación:** Se basa en un **Sidebar Lateral** jerárquico para transitar entre el Inventario de Propiedades, Gestión de Dispositivos e Historial de Alertas, complementado con **Breadcrumbs** para mantener la orientación.
+#### **Aplicación Web - Manager Dashboard (Administradores):**
+*   **Acciones y Técnicas:** Navegación jerárquica y multifacética orientada a la gestión de datos densos. Se emplea un **Sidebar Lateral** permanente como menú principal para la transición fluida entre grandes módulos (Inventario, Dispositivos, Alertas).
+*   **Recorrido del Contenido:** Los administradores exploran la información de lo general a lo específico (Drill-down). Utilizan **Breadcrumbs** (migas de pan) para orientarse y mantener el contexto dentro de la jerarquía de las páginas, y emplean elementos de paginación o pestañas (Tabs) para alternar entre diferentes conjuntos o vistas de datos, facilitando el control y análisis detallado de los sistemas IoT.
 
-#### **Aplicación Móvil (Tenant App):**
-*   **Propósito Principal:** Ofrecer un control inmediato y en tiempo real del hogar inteligente, priorizando la seguridad ante fugas de gas y la automatización de la vivienda.
-*   **Contenido Clave:** Presenta una interfaz optimizada para pantallas táctiles con cards interactivas, sliders para control de parámetros y notificaciones push críticas ante la detección de anomalías.
-*   **Navegación:** Implementa un patrón de **Bottom Navigation** para un acceso rápido con el pulgar a las secciones de Inicio, Dispositivos, Automatizaciones y Notificaciones, utilizando gestos táctiles como Tap y Long Press.
+#### **Aplicación Móvil - Tenant App (Inquilinos/Usuarios Finales):**
+*   **Acciones y Técnicas:** Navegación orientada a la inmediatez y la accesibilidad con una sola mano. Se guía al usuario mediante un patrón de **Bottom Navigation Bar** que mantiene siempre accesibles las funciones críticas (Inicio, Dispositivos, Notificaciones).
+*   **Recorrido del Contenido:** El usuario interactúa mediante gestos táctiles directos (Swipes, Taps, Long-press) para controlar dispositivos y reaccionar a alertas. El recorrido fluye desde un dashboard principal resumido hacia pantallas de interacción específicas (modelo Hub-and-Spoke), donde las notificaciones push actúan como atajos inmediatos a la resolución de incidentes, asegurando una interacción rápida y altamente satisfactoria.

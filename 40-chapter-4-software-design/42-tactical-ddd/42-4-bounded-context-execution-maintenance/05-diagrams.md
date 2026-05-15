@@ -17,6 +17,7 @@ El diagrama de clases del dominio para el contexto de Service Execution & Mainte
 El modelo utiliza un Domain Service (MaintenanceAssignmentService) para desacoplar la lógica de asignación de técnicos de las entidades, permitiendo una mayor flexibilidad en la gestión de disponibilidad y prioridad. Asimismo, el uso de value objects como PriorityLevel y MaintenanceStatus asegura la consistencia del lenguaje ubicuo dentro del dominio.
 
 <img src="../../../assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/class-diagram.png" alt="Service Execution & Maintenance - Class Diagram" width="450"/>
+
 ---
 
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
@@ -25,4 +26,4 @@ El diseño del esquema de base de datos para el contexto de Service Execution & 
 
 El esquema establece una relación directa entre los incidentes detectados y las órdenes generadas, permitiendo identificar qué evento originó cada acción de mantenimiento. Asimismo, la tabla technicians permite gestionar la asignación de recursos humanos, asegurando la disponibilidad y especialización adecuada para cada tarea. Este diseño facilita el seguimiento, auditoría y control de las operaciones en campo.
 
-<img src="../../../assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/database-diagram.png" alt="Service Execution & Maintenance - Database Diagram" width="450"/>
+<img src="../../../assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/database-diagram.jpeg" alt="Service Execution & Maintenance - Database Diagram" width="450"/>
