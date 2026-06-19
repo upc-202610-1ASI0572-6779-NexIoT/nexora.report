@@ -14,8 +14,8 @@ El Sprint Planning 2 ...
 | Date | 2026-05-14 |
 | Time |  |
 | Location | Reunión virtual desarrollada mediante Google Meet y coordinación colaborativa mediante Discord y GitHub Projects. |
-| Prepared By | Jhosep Alarcón |
-| Attendees (to planning meeting) | Jhosep Alarcón / Equipo Frontend / Equipo UX/UI / Equipo Backend / Product Owner |
+| Prepared By | Jhosep Argomedo |
+| Attendees (to planning meeting) | Jhosep Argomedo / Equipo Frontend / Equipo UX/UI / Equipo Backend / Product Owner |
 | Sprint 1 Review Summary | |
 | Sprint 1 Retrospective Summary |  |
 
