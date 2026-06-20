@@ -1,8 +1,8 @@
 #### 6.2.2.3. Sprint Backlog 2
 
-El Sprint Backlog 2 reúne el conjunto de User Stories y tareas técnicas definidas para la implementación de la segunda versión del Landing Page ...
+El Sprint Backlog 2 reúne el conjunto de User Stories y tareas técnicas definidas para la implementación de la versión final de la Landing Page comercial y la consolidación de la segunda versión de la Web Application basada en datos dinámicos y persistentes. Asimismo, durante este ciclo se integró la primera versión funcional de la Mobile Application operando bajo una arquitectura de datos simulados (FakeAPI), en paralelo con el despliegue del Backend corporativo, el desarrollo de la primera versión del EdgeService para telemetría de gases y la programación inicial de la Embedded Application para la simulación de consumo de agua, energía y lecturas de voltaje en tiempo real.
 
-Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equipo mediante la descomposición de cada User Story en tareas específicas, facilitando el seguimiento del avance, la asignación de responsabilidades y el control del estado de desarrollo dentro del Sprint Board.
+Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equipo mediante la descomposición de cada User Story en tareas específicas, facilitando el seguimiento del avance, la asignación de responsabilidades y el control del estado de desarrollo dentro del Sprint Board, sirviendo además como el núcleo de software evaluado durante las primeras entrevistas de validación con usuarios del segmento objetivo.
 
 **Sprint Board URL:**
 `https://trello.com/invite/b/6a18757b6ac2253d93654cef/ATTIff24fd95adda159783fb84dcded55b368BE28E3C/sprint-2-nexiot`
@@ -10,9 +10,7 @@ Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equi
 **Sprint 2 Backlog:**
 ![Sprint 2 Backlog](../../../assets/chapter-6/implementation/sprint-2/sprint-2.jpg)
 
-## Sprint
-
-**Sprint 2**
+## Sprint 2
 
 | User Story |                                | Work-Item / Task |                                             |                                                                |                        |                   |            |
 | ---------- | ------------------------------ | ---------------- | ------------------------------------------- | -------------------------------------------------------------- | ---------------------- | ----------------- | ---------- |

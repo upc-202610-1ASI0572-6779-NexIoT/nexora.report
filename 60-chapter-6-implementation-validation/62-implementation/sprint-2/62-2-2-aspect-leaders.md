@@ -8,8 +8,8 @@ El propósito de esta sección es establecer la Matriz de Liderazgo y Colaboraci
 
 | Team Member (Last Name, First Name) | GitHub Username | Edge Service | Landing Page | Mobile App | Embedded Apps | Web Service | Web Application |
 |---|---|---|---|---|---|---|---|
-| Argomedo Camacho, Jhosep Jamil | [@JhosepAC](https://github.com/JhosepAC) | C | C | C | C | C | L |
-| Ramirez Tello, Sebastian | [@SRT0808](https://github.com/SRT0808) | C | C | C | C | L | C |
+| Argomedo Camacho, Jhosep Jamil | [@JhosepAC](https://github.com/JhosepAC) | C | C | C | C | L | L |
+| Ramirez Tello, Sebastian | [@SRT0808](https://github.com/SRT0808) | C | C | C | C | L | L |
 | Linares Arroyo, Jorge Alexandro | [@jlinares30](https://github.com/jlinares30) | L | C | C | L | C | C |
 | O'Higgins Rosales, Andrea Namie | [@AndreaOhiggins](https://github.com/AndreaOhiggins) | C | C | L | C | C | C |
 | Peña Riofrio, Maria Fernanda | [@mariafep](https://github.com/mariafep) | C | L | C | C | C | C |
