@@ -20,23 +20,23 @@ Antes de dar inicio a la sesión de interacción, es obligatorio registrar la si
 
 La sesión de validación con el usuario debe seguir rigurosamente los siguientes tres pasos:
 
-#### **Paso 1: Presentación (Duración estimada: 2-3 minutos)**
+#### **Paso 1: Presentación (Duración estimada: 1-2 minutos)**
 * **Objetivo:** Establecer confianza con el entrevistado, explicar la dinámica y solicitar el consentimiento para grabar la sesión con fines de análisis de usabilidad.
 * **Guion de guía:**
   > *"Hola, mi nombre es [Nombre del Entrevistador] y formo parte del equipo de desarrollo de Nexora. Te agradecemos mucho por tu tiempo hoy. El propósito de esta sesión es presentarte una solución tecnológica que hemos desarrollado y observar cómo interactúas con ella para identificar mejoras de diseño, usabilidad y valor. No evaluamos tus habilidades, sino el diseño de nuestra aplicación. ¿Nos das tu consentimiento para grabar la pantalla y tu voz únicamente con propósitos académicos y de optimización de la experiencia?"*
 
-#### **Paso 2: Información de la Startup (Duración estimada: 3-5 minutos)**
+#### **Paso 2: Información de la Startup (Duración estimada: 2-3 minutos)**
 * **Objetivo:** Introducir la propuesta de valor y el concepto detrás de la startup Nexora para alinear la expectativa del usuario.
 * **Guion de guía:**
   > *"Nexora es una startup enfocada en brindar tranquilidad y automatización en la gestión de propiedades en alquiler mediante tecnología IoT. Ayudamos a los arrendadores a monitorear consumos críticos en tiempo real (agua, gas y electricidad), detectar riesgos de seguridad (como intrusiones o fugas de gas) y gestionar de manera ágil el estado de sus propiedades y la comunicación con sus inquilinos. A través de sensores de hardware y una plataforma digital, centralizamos la información para evitar pérdidas económicas y accidentes domésticos."*
 
-#### **Paso 3: Presentación de los Productos (Duración de interacción: 15-20 minutos)**
+#### **Paso 3: Presentación de los Productos (Duración de interacción: 5-7 minutos)**
 El entrevistador guiará al usuario para que interactúe con los dos productos principales de la solución:
 
 1. **Landing Page (`nexora.website`):**
    * El usuario revisará la página web de cara al público, evaluando si el mensaje, el equipo, los planes de precios y los testimonios son claros y persuasivos.
-2. **Aplicación Seleccionada (Web Application):**
-   * El usuario interactuará con la plataforma de administración en la nube. A través de flujos de uso reales, se evaluará la facilidad para gestionar sus propiedades, añadir inquilinos, monitorear alertas críticas en tiempo real (como fluctuaciones de voltaje o presencia no autorizada) y descargar reportes dinámicos de consumo.
+2. **Aplicación Seleccionada**
+   * El usuario interactuará con la plataforma correspondiente (WebApp o MobileApp). A través de flujos de uso reales, se evaluará la facilidad para gestionar sus propiedades, añadir inquilinos, monitorear alertas críticas en tiempo real (como fluctuaciones de voltaje o presencia no autorizada) y descargar reportes dinámicos de consumo.
 
 ---
 
@@ -52,7 +52,7 @@ Es el segmento principal de administración y monitoreo. Se valida la interacci�
 #### **Segmento B: Arrendatarios (Tenants - Inquilinos de Inmuebles)**
 Es el segmento de consumo. Se valida:
 * **Landing Page:** Comprensión de cómo el ecosistema de sensores Nexora los protege contra accidentes (fugas de gas o cortocircuitos) y asegura la transparencia en la facturación de consumos.
-* **Web Application:** Acceso simplificado para visualizar consumos históricos asignados a su propiedad.
+* **Mobile Application:** Acceso simplificado para visualizar consumos históricos asignados a su propiedad.
 
 ---
 
