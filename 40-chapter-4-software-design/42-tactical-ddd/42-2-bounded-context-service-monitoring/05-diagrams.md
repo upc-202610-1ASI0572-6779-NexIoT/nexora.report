@@ -1,29 +1,61 @@
 ### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-Este diagrama de nivel 3 describe la arquitectura interna del Bounded Context encargado de la "inteligencia" del sistema. Se observa un flujo basado en eventos donde el MQTT Inbound Adapter recibe la telemetría y la traslada a los servicios de aplicación (Telemetry Command Service).
+El diagrama de nivel de componentes describe la arquitectura interna del bounded context **Service Monitoring & Intelligence**, el cual forma parte del backend monolítico modular de Nexora. Esta vista permite observar cómo se distribuyen las responsabilidades entre los componentes encargados de recibir telemetría, procesar lecturas, evaluar riesgos, consultar información histórica y registrar anomalías.
 
-La lógica de negocio reside en el Risk Evaluator, un servicio de dominio que analiza las lecturas en partes por millón (PPM) para identificar anomalías. Este diseño bajo el patrón CQRS permite separar eficientemente la ingesta masiva de datos (escritura) de la consulta de estados y alertas (lectura), permitiendo que la Mobile App obtenga respuestas rápidas sobre la seguridad de la vivienda.
+El flujo principal inicia cuando **MqttInboundAdapter** recibe lecturas provenientes del hardware IoT mediante MQTT y las transforma en información procesable por la Application Layer. Luego, **TelemetryCommandService** coordina la ingesta de datos, registra la lectura mediante **ITelemetryRepository** y solicita a **RiskEvaluator** la evaluación del riesgo según los umbrales configurados.
 
-![Service Monitoring & Intelligence - Component Diagram](/assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/component-diagram.png)
+La lógica principal del dominio se concentra en **RiskEvaluator**, un Domain Service encargado de determinar si una lectura se encuentra en estado seguro, riesgoso o crítico. Cuando se detecta una condición anómala, **AnomalyCommandService** registra la anomalía correspondiente mediante **IAnomalyRepository**.
+
+Por otro lado, **MonitoringController** expone endpoints REST para que las aplicaciones cliente consulten el estado actual, el historial de telemetría y las anomalías detectadas. Estas consultas son coordinadas por **MonitoringQueryService**, permitiendo separar las operaciones de escritura y procesamiento de las operaciones de lectura, siguiendo un enfoque CQRS.
+
+La persistencia se realiza en la base de datos central de Nexora, específicamente en las tablas relacionadas con este bounded context, como `telemetry_records`, `anomalies` y `device_thresholds`.
+
+
+![Service Monitoring & Intelligence - Component Diagram](/assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/component-diagram-v2.png)
 
 ---
 
 ### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
+En esta sección se presentan los diagramas de nivel de código correspondientes al bounded context **Service Monitoring & Intelligence**. Estos diagramas permiten visualizar la estructura del modelo de dominio y el diseño de persistencia utilizado para soportar el monitoreo IoT, la evaluación de riesgos y la gestión de anomalías dentro de Nexora.
+
+
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del dominio para el contexto de Monitoring & Intelligence define las reglas tácticas y las abstracciones del sistema. Se identifican como entidades clave a TelemetryRecord, que captura la medición sensorial, y Anomaly, que representa un incidente de seguridad.
+El diagrama de clases del dominio representa los principales elementos tácticos del bounded context **Service Monitoring & Intelligence**. El modelo se centra en la clase **TelemetryRecord**, la cual actúa como Aggregate Root al representar una lectura completa capturada por el sistema IoT en un momento específico.
 
-El modelo utiliza un Domain Service (RiskEvaluator) para desacoplar la lógica de cálculo de riesgos de las entidades, permitiendo que el sistema sea flexible ante cambios en los umbrales de seguridad (Thresholds). El uso de enumeraciones para los estados de bienestar (WellnessState) asegura un lenguaje ubicuo consistente entre el desarrollo y el negocio.
+La entidad **Anomaly** modela una condición fuera de los parámetros normales y se relaciona con la lectura que la originó. Asimismo, **MonitoringDevice** se representa como una referencia al dispositivo IoT desde la perspectiva del monitoreo, debido a que el ciclo de vida completo de los dispositivos pertenece al bounded context **Resource & Asset Management**.
 
-<img src="../../../assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/class-diagram.png" alt="Service Monitoring & Intelligence - Class Diagram" width="450"/>
+El modelo también incluye el Value Object **Thresholds**, utilizado para definir los niveles de advertencia y criticidad, y la enumeración **WellnessState**, que establece los posibles estados de bienestar de la vivienda: **SAFE**, **RISKY** y **DANGER**. Finalmente, **RiskEvaluator** se define como un Domain Service encargado de evaluar las lecturas contra los umbrales configurados, mientras que **ITelemetryRepository** e **IAnomalyRepository** representan las interfaces de persistencia requeridas por el dominio.
+
+
+<img src="../../../assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/class-diagram-v2.png" alt="Service Monitoring & Intelligence - Class Diagram" width="450"/>
 
 ---
 #### 4.2.2.6.2. Bounded Context Database Design Diagram
 
-El diseño del esquema de base de datos para este contexto está optimizado para el almacenamiento de registros históricos y la gestión de eventos críticos. La tabla telemetry_logs utiliza tipos de datos de alta capacidad (BigInt) para soportar el flujo constante de lecturas de los sensores MQ-2 y MQ-135.
+El diseño de base de datos del bounded context **Service Monitoring & Intelligence** representa las tablas necesarias para persistir la información de monitoreo dentro de la base de datos central de Nexora. Aunque el sistema utiliza una sola base de datos física por su enfoque de monolito modular, este diagrama muestra únicamente las tablas asociadas a este bounded context.
 
-El esquema establece una relación de trazabilidad entre cada registro de telemetría y las posibles anomalies generadas, permitiendo una auditoría completa de qué lectura exacta disparó una alerta. Por otro lado, la tabla device_thresholds permite la personalización de los niveles de alerta por cada inmueble, brindando flexibilidad a la configuración del sistema de seguridad.
+La tabla `monitoring_devices` almacena la referencia mínima de los dispositivos monitoreados desde la perspectiva de este contexto. La tabla `device_thresholds` registra los niveles de advertencia y criticidad configurados para evaluar las lecturas recibidas. Por su parte, `telemetry_records` almacena el histórico de lecturas provenientes de sensores IoT, incluyendo gas, calidad de aire, temperatura y fecha de captura.
 
-<img src="../../../assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/database-diagram.png" alt="Service Monitoring & Intelligence - Database Diagram"  height="750"/>
+Finalmente, la tabla `anomalies` permite registrar las condiciones críticas detectadas por el sistema y mantener trazabilidad con la lectura de telemetría que originó la anomalía. Esta relación permite auditar qué lectura específica disparó una alerta y consultar posteriormente el historial de eventos críticos.
 
+### Constraints Principales
+
+**monitoring_devices**
+- PK: id
+- UK: device_code
+
+**device_thresholds**
+- PK: id
+- FK: device_id → monitoring_devices.id
+
+**telemetry_records**
+- PK: id
+- FK: device_id → monitoring_devices.id
+
+**anomalies**
+- PK: id
+- FK: telemetry_record_id → telemetry_records.id
+
+<img src="../../../assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/database-diagram-v2.png" alt="Service Monitoring & Intelligence - Database Diagram"  height="750"/>

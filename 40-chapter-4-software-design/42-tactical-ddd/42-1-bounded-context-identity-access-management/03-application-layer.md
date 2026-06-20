@@ -1,58 +1,89 @@
 ##### 4.2.1.3. Application Layer
 
-La Application Layer coordina los casos de uso del sistema y controla el flujo de ejecución entre la Interface Layer, los componentes de seguridad, las entidades del dominio y los servicios de infraestructura.
+La Application Layer coordina los casos de uso del bounded context **Identity & Access Management** y controla el flujo de ejecución entre la Interface Layer, el modelo de dominio, los componentes de seguridad y la Infrastructure Layer.
 
-Su propósito no es almacenar datos ni modelar entidades, sino orquestar el comportamiento requerido por cada operación.
+Su propósito no es almacenar datos ni representar entidades del dominio, sino orquestar las operaciones necesarias para autenticar usuarios, registrar nuevas identidades digitales, validar credenciales y generar tokens de acceso para las aplicaciones cliente de Nexora.
 
-### Componentes Principales
+### Application Services
 
 #### JwtService
 
-Responsable de generar y validar tokens JWT luego de una autenticación exitosa.
+El servicio **JwtService** es responsable de generar, validar e interpretar tokens JWT utilizados durante el proceso de autenticación.
+
+Este componente permite que la plataforma mantenga un esquema de autenticación stateless, donde las aplicaciones cliente pueden enviar el token en sus solicitudes posteriores para acceder a recursos protegidos.
 
 **Responsabilidades principales:**
 
-- Generar tokens para usuarios autenticados.  
-- Extraer usernames desde tokens.  
-- Parsear y validar la estructura del token.  
+- Generar tokens JWT para usuarios autenticados.
+- Extraer el username o email desde un token.
+- Validar la estructura y vigencia del token.
+- Asociar el token generado con la identidad autenticada.
+- Soportar el flujo de autorización en endpoints protegidos.
 
 #### CustomUserDetailsService
 
-Responsable de cargar credenciales y roles desde persistencia durante el proceso de autenticación.
+El servicio **CustomUserDetailsService** es responsable de cargar la información de autenticación del usuario desde la persistencia y adaptarla al mecanismo de seguridad utilizado por Spring Security.
+
+Este componente permite conectar el modelo de usuarios y roles del bounded context con el proceso de autenticación de la plataforma.
 
 **Responsabilidades principales:**
 
-- Buscar usuarios por email.  
-- Proveer credenciales a Spring Security.  
-- Retornar authorities autorizadas.  
+- Buscar usuarios registrados mediante su correo electrónico.
+- Cargar credenciales cifradas del usuario.
+- Recuperar los roles asociados al usuario.
+- Transformar los roles del dominio en authorities utilizadas por Spring Security.
+- Proveer información de autenticación al flujo de seguridad.
 
-### Casos de Uso Principales
+### Use Cases
 
 #### User Login
 
-1. AuthController recibe las credenciales.  
-2. Spring Security valida las credenciales.  
-3. CustomUserDetailsService carga al usuario.  
-4. JwtService genera el token.  
-5. Se retorna AuthResponse.  
+El caso de uso **User Login** permite autenticar a un usuario registrado y generar un token JWT válido para acceder a recursos protegidos de Nexora.
+
+**Flujo principal:**
+
+1. **AuthController** recibe las credenciales del usuario.
+2. La Application Layer coordina la validación de las credenciales.
+3. **CustomUserDetailsService** carga la información del usuario desde persistencia.
+4. Spring Security valida la contraseña y los roles asociados.
+5. **JwtService** genera un token JWT para el usuario autenticado.
+6. El sistema retorna un **AuthResponse** con el token y la información básica del usuario.
 
 #### User Registration
 
-1. AuthController recibe los datos de registro.  
-2. El sistema valida que el email no exista previamente.  
-3. La contraseña es cifrada.  
-4. Se asignan roles.  
-5. El usuario es persistido.  
-6. Se retorna UserResource.  
+El caso de uso **User Registration** permite registrar una nueva identidad digital dentro de Nexora.
+
+**Flujo principal:**
+
+1. **AuthController** recibe los datos de registro.
+2. La Application Layer valida que el correo electrónico no exista previamente.
+3. El sistema cifra la contraseña del nuevo usuario.
+4. Se asignan los roles correspondientes según el tipo de usuario registrado.
+5. El usuario es persistido mediante el repositorio correspondiente.
+6. El sistema retorna un **UserResource** con la información del usuario creado.
+
+### Command Handlers y Event Handlers
+
+Para el alcance actual de este bounded context, los casos de uso de autenticación y registro se gestionan mediante servicios de aplicación y componentes de seguridad. No se han definido Command Handlers o Event Handlers explícitos como clases separadas, ya que la implementación actual mantiene una estructura simple y coherente con el tamaño del proyecto.
+
+Sin embargo, conceptualmente, los flujos principales pueden asociarse a los siguientes comandos:
+
+- **LoginUserCommand:** representa la solicitud de autenticación de un usuario.
+- **RegisterUserCommand:** representa la solicitud de registro de una nueva identidad digital.
+
+En futuras iteraciones, estos comandos podrían implementarse como clases separadas junto con sus respectivos handlers para aumentar la trazabilidad y escalabilidad del diseño táctico.
+
 
 ### Beneficios de la Application Layer
 
-- Coordinación centralizada de casos de uso.  
-- Separación entre API y persistencia.  
-- Mayor mantenibilidad.  
-- Mejor testabilidad de flujos.  
+- Centraliza la coordinación de los casos de uso del bounded context.
+- Separa la lógica de presentación de la lógica de aplicación.
+- Evita que los controladores accedan directamente a la persistencia.
+- Facilita la integración con componentes de seguridad.
+- Mejora la mantenibilidad y testabilidad de los flujos.
+- Permite evolucionar hacia una estructura basada en Command Handlers y Event Handlers si el proyecto lo requiere.
 
-Este comportamiento orquestador se refleja en los diagramas de componentes y code level.
+Este comportamiento orquestador se refleja en los diagramas de componentes y code level, donde la Application Layer conecta las solicitudes recibidas por la Interface Layer con los servicios de seguridad, repositorios y entidades del dominio.
 
 ---
 
