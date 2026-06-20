@@ -67,22 +67,20 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 ### **2. Segmento Objetivo: Arrendatarios / Inquilinos (Tenants)**
 
 #### **Entrevista 4**
-* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
-* **Edad:** `[Edad]` años
-* **Distrito de Residencia:** `[Distrito / Ciudad]`
-* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](URL_DEL_VIDEO)
-* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
+* **Nombres y Apellidos:** Diego Castro
+* **Edad:** 25 años
+* **Distrito de Residencia:** Jesus María, Lima
+* **Fecha de la Entrevista:** 20/06/2026
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCStSYLNTFtSZd3auMZ1mptAbZkhIJviHHIye58zZJ1ScE?e=PaG2aW)
+* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 5 Mins 00 segs
 
 **Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 4](../../../assets/chapter-6/validation/interview-tenant-1.jpg)
-*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
+![Captura de Pantalla - Entrevista 4](../../assets/chapter-6/validation-interviews/validation-interview-4.png)
 
 **Resumen de la Entrevista (Principales Apreciaciones):**
-* **Landing Page:** 
-* **Web Application:** 
-* **Mobile App:** 
-* **Conclusiones y Recomendaciones del Usuario:** 
+* **Landing Page:** El entrevistado considera que el diseño visual es moderno y explica adecuadamente cómo los sensores previenen accidentes (como fugas de gas) y aseguran la transparencia en la facturación, lo cual le genera tranquilidad como inquilino.
+* **Mobile App:** Considera de gran utilidad la visualización de consumos históricos y en tiempo real de agua y energía eléctrica. Sin embargo, observó que las alertas ante anomalías de consumo deberían ser más prominentes en la pantalla de inicio, y sugirió la implementación de notificaciones push de alta prioridad.
+* **Conclusiones y Recomendaciones del Usuario:** Le parece excelente contar con un control móvil para la monitorización de su departamento. Recomienda destacar visualmente las alertas críticas en la interfaz y proveer plantillas de automatización rápidas para reducir consumos comunes.
 
 ---
 

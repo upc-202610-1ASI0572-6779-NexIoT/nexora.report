@@ -50,6 +50,38 @@ A continuación, se presentan las evidencias gráficas para el segundo entregabl
 #### 4. Network Graph
 ![Network Graph](../assets/common/insights/insights4-tb1.jpg)
 
+### Insights de Github (AV2)
+
+A continuación, se presentan los analíticos de colaboración recopilados de los repositorios de GitHub, que evidencian la actividad y contribución de cada miembro del equipo durante los Sprints 1 y 2:
+
+#### Sprint 1
+
+##### 1. Actividad de Contribuciones (Contributors)
+![GitHub Contributors](../assets/chapter-6/implementation/sprint-1/insights-sprint1.jpg)
+
+##### 2. Frecuencia de Commits y Trabajo Diario
+![GitHub Commits Activity](../assets/chapter-6/implementation/sprint-1/insights2-sprint1.jpg)
+
+##### 3. Flujo de Red y Ramas (Network Graph)
+![GitHub Network Graph](../assets/chapter-6/implementation/sprint-1/insights3-sprint1.jpg)
+
+#### Sprint 2
+
+##### 1. Landing Page (nexora.website)
+![GitHub Pulse - Landing Page](../assets/chapter-6/implementation/sprint-2/insights-landingpage.jpg)
+
+##### 2. Mobile App (nexora.mobileapp)
+![GitHub Pulse - Mobile App](../assets/chapter-6/implementation/sprint-2/insights-mobile.jpg)
+
+##### 3. Web Application (nexora.webapp)
+![GitHub Pulse - Web Application](../assets/chapter-6/implementation/sprint-2/insights-appweb.jpg)
+
+##### 4. Edge Service (nexora.edgeservice)
+![GitHub Pulse - Edge Service](../assets/chapter-6/implementation/sprint-2/insights-edge.jpg)
+
+##### 5. Embedded Apps (nexora.embeddedapp)
+![GitHub Pulse - Embedded Apps](../assets/chapter-6/implementation/sprint-2/insights-embedded.jpg)
+
 
 ## Interpretación de los Analíticos
 

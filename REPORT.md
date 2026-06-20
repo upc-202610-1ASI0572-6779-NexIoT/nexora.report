@@ -60,7 +60,13 @@
 | TB1.6 | 11/05/2026 | Kevin Alexander Castañeda Llanos, Mauricio Vilcapoma | Actualización de mockups y wireframes de Landing Page, incorporación de vistas Home, FAQ, Tenant y Property Manager, así como documentación relacionada con IoT Design. |
 | TB1.7 | 12/05/2026 | Kevin Alexander Castañeda Llanos, Sebastian Ramirez | Incorporación de convenciones de desarrollo para Backend y Frontend, lineamientos SCM, mejoras de SEO y documentación de Labeling Systems para la arquitectura de información. |
 | TB1.8 | 13/05/2026 | Jhosep Argomedo Camacho, Jorge Linares, Kevin Alexander Castañeda Llanos, Sebastian Ramirez | Reestructuración del informe para Sprint 1, actualización de Lean UX según la tercera edición del libro Lean UX, incorporación de capítulos V y VI, refinamiento de User Stories, Product Backlog, Wireflows y documentación de UI/UX y Product Implementation. |
-| TB1.9 | 14/05/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Consolidación final del TB1 mediante actualización de Sprint Planning, Sprint Backlog, evidencias de despliegue y desarrollo, Tactical DDD, corrección de User Personas y User Task Matrix, actualización de entrevistas, bounded contexts y documentación arquitectónica del sistema. |
+| AV2.1 | 4/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Avance de primera versión del Web Service orientado a la aplicación web.|
+| AV2.2 | 04/06/2026 - 16/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Creación del prototipo físico |
+| AV2.3 | 08/06/2026 - 18/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Edge Service para embedded appications. |
+| AV2.4 | 04/06/2026 - 18/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Frontend para la aplicación móvil. |
+| AV2.5 | 11/06/2026 - 18/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Embedded apps para prototype y las dos simulaciones en Wokwi. |
+| AV2.6 | 17/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Mejora y correción de errores en la Landing Page. |
+
 
 ## Collaboration Insights
 
@@ -114,13 +120,45 @@ A continuación, se presentan las evidencias gráficas para el segundo entregabl
 #### 4. Network Graph
 ![Network Graph](assets/common/insights/insights4-tb1.jpg)
 
+### Insights de Github (AV2)
+
+A continuación, se presentan los analíticos de colaboración recopilados de los repositorios de GitHub, que evidencian la actividad y contribución de cada miembro del equipo durante los Sprints 1 y 2:
+
+#### Sprint 1
+
+##### 1. Actividad de Contribuciones (Contributors)
+![GitHub Contributors](assets/chapter-6/implementation/sprint-1/insights-sprint1.jpg)
+
+##### 2. Frecuencia de Commits y Trabajo Diario
+![GitHub Commits Activity](assets/chapter-6/implementation/sprint-1/insights2-sprint1.jpg)
+
+##### 3. Flujo de Red y Ramas (Network Graph)
+![GitHub Network Graph](assets/chapter-6/implementation/sprint-1/insights3-sprint1.jpg)
+
+#### Sprint 2
+
+##### 1. Landing Page (nexora.website)
+![GitHub Pulse - Landing Page](assets/chapter-6/implementation/sprint-2/insights-landingpage.jpg)
+
+##### 2. Mobile App (nexora.mobileapp)
+![GitHub Pulse - Mobile App](assets/chapter-6/implementation/sprint-2/insights-mobile.jpg)
+
+##### 3. Web Application (nexora.webapp)
+![GitHub Pulse - Web Application](assets/chapter-6/implementation/sprint-2/insights-appweb.jpg)
+
+##### 4. Edge Service (nexora.edgeservice)
+![GitHub Pulse - Edge Service](assets/chapter-6/implementation/sprint-2/insights-edge.jpg)
+
+##### 5. Embedded Apps (nexora.embeddedapp)
+![GitHub Pulse - Embedded Apps](assets/chapter-6/implementation/sprint-2/insights-embedded.jpg)
+
 
 ## Interpretación de los Analíticos
 
 A partir de las evidencias mostradas, el equipo concluye lo siguiente:
 
 1.  **Participación Equitativa:** El gráfico de contribuyentes demuestra que todos los miembros del equipo han realizado aportes significativos al repositorio del informe, cumpliendo con el requisito de participación conjunta en todas las etapas.
-2.  **Coherencia con el Registro de Versiones:** La actividad registrada en GitHub (fechas y autores) guarda total coherencia con el [Registro de Versiones del Informe](./02-version-history.md), validando la veracidad de los cambios documentados.
+2.  **Coherencia con el Registro de Versiones:** La actividad registrada en GitHub (fechas y autores) guarda total coherencia con el [Registro de Versiones del Informe](00-front-matter/02-version-history.md), validando la veracidad de los cambios documentados.
 3.  **Flujo de Trabajo Iterativo:** La frecuencia de commits muestra un proceso de elaboración progresivo y no acumulativo al final de los plazos, lo que facilitó la revisión y mejora continua de la calidad del documento final.
 
 
@@ -266,6 +304,16 @@ A partir de las evidencias mostradas, el equipo concluye lo siguiente:
     - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
     - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
     - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+  - [6.2.2. Sprint 2](#622-sprint-1)
+    - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-1)
+    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+    - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-1)
+    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
 
     
 ### [Conclusiones](#conclusiones)
@@ -1249,7 +1297,7 @@ Comprender el nivel de digitalización, interés en IoT, necesidades de diferenc
 
 | **Campo** | **Detalle** |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="assets\chapter-2\interviews\Luis Diaz.png" width="200"> |  Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQDwQoPzna4aR7DQdkB41uIpAeV-AgTOQzLZBYqrvZQAdvw?e=F6ha5q]()  |
+| <img src="assets/chapter-2/interviews/Luis Diaz.png" width="200"> |  Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQDwQoPzna4aR7DQdkB41uIpAeV-AgTOQzLZBYqrvZQAdvw?e=F6ha5q]()  |
 | **Entrevistado(a)**      | Diaz Fiestas, Jorge Luis |
 | **Edad**              | 26 años  |
 | **Rubro**             | Ing. Sistemas |
@@ -1266,7 +1314,7 @@ Comprender el nivel de digitalización, interés en IoT, necesidades de diferenc
 #### Entrevista 2 
 | **Campo** | **Detalle** |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="assets\chapter-2\interviews\Diego Castro.png" width="200"> | Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQDwQoPzna4aR7DQdkB41uIpAeV-AgTOQzLZBYqrvZQAdvw?e=F6ha5q]()  |
+| <img src="assets/chapter-2/interviews/Diego Castro.png" width="200"> | Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQDwQoPzna4aR7DQdkB41uIpAeV-AgTOQzLZBYqrvZQAdvw?e=F6ha5q]()  |
 | **Entrevistado(a)**      | Castro Soto, Diego |
 | **Edad**              | 25 años  |
 | **Rubro**             | Ing. Software |
@@ -1300,7 +1348,7 @@ Comprender el nivel de digitalización, interés en IoT, necesidades de diferenc
 
 | **Campo** | **Detalle** |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|<img src="assets\chapter-2\interviews\Erica Salvatierra.png" width="200"> | Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQDwQoPzna4aR7DQdkB41uIpAeV-AgTOQzLZBYqrvZQAdvw?e=F6ha5q]()  |
+|<img src="assets/chapter-2/interviews/Erica Salvatierra.png" width="200"> | Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQDwQoPzna4aR7DQdkB41uIpAeV-AgTOQzLZBYqrvZQAdvw?e=F6ha5q]()  |
 | **Entrevistado(a)**      | Salvatierra Arbierto, Erica |
 | **Edad**              | 47 años  |
 | **Rubro**             | Arrendadora, Dueña de Bodega |
@@ -1775,57 +1823,70 @@ Evidencia de Organizacion del Product Backlog en Jira:
 
 ## 4.1. Strategic-Level Domain-Driven Design
 
-En esta sección, el equipo de **Nexora** introduce y explica el proceso realizado para las decisiones de nivel estratégico aplicando **Domain-Driven Design (DDD)**. El enfoque estratégico nos permite descomponer el sistema complejo de gestión de inmuebles inteligentes en partes más manejables y alineadas con los objetivos de negocio, como la eficiencia energética y la respuesta rápida ante incidencias.
+En esta sección, el equipo de **Nexora** introduce y explica el proceso realizado para las decisiones de nivel estratégico aplicando **Domain-Driven Design (DDD)**. El enfoque estratégico nos permite descomponer el sistema de gestión de inmuebles inteligentes en partes más manejables y alineadas con los objetivos de negocio, como el monitoreo IoT, la eficiencia energética y la respuesta rápida ante incidencias.
+
+Para el diseño de Nexora, esta descomposición organziar el dominio en módulos con responsabilidades bien definidas y alineadas con los procesos del negocio. Por el contrario, los límites identificados mediante DDD serán implementados dentro de una arquitectura **monolítica modular**, donde cada bounded context funciona como un módulo interno del backend principal. De esta manera, se mantiene una separación clara de responsabilidades sin introducir la complejidad operativa de una arquitectura distribuida.
 
 ### 4.1.1. Design-Level EventStorming
 
-El proceso de Design-Level EventStorming se enfocó en refinar los eventos descubiertos en la fase de Big Picture, identificando las reglas de negocio (políticas) y los comandos que disparan los cambios de estado en el sistema.
+El proceso de Design-Level EventStorming se enfocó en refinar los eventos descubiertos en la fase de Big Picture, identificando los comandos,  las reglas de negocio y eventos de dominio que explican los principales  cambios de estado del sistema.
 
 #### 4.1.1.1 Candidate Context Discovery
 
-A partir del dominio modelado en el EventStorming inicial, el equipo realizó la sesión de **Candidate Context Discovery**. Para este proceso, aplicamos la técnica de **look-for-pivotal-events** para identificar los puntos de transición donde el flujo de negocio cambia de responsabilidad.
+A partir del dominio modelado en el EventStorming inicial, el equipo realizó la sesión de **Candidate Context Discovery**. Para este proceso, aplicamos la técnica de **look-for-pivotal-events** , ya que permite identificat eventos clave del negocio que representan cambios importantes de estado y posibles transiciones de responsabilidad dentro del flujo de Nexora.
+
+La sesión se desarrolló de forma iterativa y con una duración estimada menor a dos horas. Primero, se revisó el flujo general del EventStorming; luego, se agruparon los eventos relacionados por intención de negocio; finalmente, se identificaron los eventos pivote que ayudaron a delimitar los candidate bounded contexts.
 
 Se identificaron los siguientes hitos o eventos clave (Pivotal Events):
-- `Smart Device Registered`: Marca el inicio del ciclo de vida técnico del activo.
-- `Anomaly Detected`: Evento crítico que dispara la lógica de reacción del sistema.
+- `Smart Device Registered`: Marca el inicio del ciclo de vida técnico del activo IoT dentro de una propiedad o unidad habitacional.
+- `Telemetry Received`: Representa la recepción de datos enviados por los sensores IoT hacia el sistema.
+- `Anomaly Detected`: Evento crítico que indica un comportamiento inusual, como una posible fuga de agua o consumo anómalo.
+- `Critical Alert Generated`: Representa la generación de una alerta que requiere atención del arrendador o del equipo técnico.
+- `Maintenance Task Assigned`: Marca el inicio de una acción operativa para atender una incidencia o mantenimiento.
 - `Incident Resolved`: Evento que cierra el ciclo de mantenimiento operativo.
+- `Subscription Plan Activated`: Representa la activación de un plan comercial para acceder a las funcionalidades SaaS de Nexora.
 
-Como resultado, se definieron 5 Bounded Contexts candidatos alineados con la naturaleza SaaS del negocio:
+Como resultado, se definieron 5 Bounded Contexts candidatos alineados con la naturaleza SaaS del negocio y adaptados a una arquitectura monolítica modular:
 
-**Resource & Asset Management (Supporting):** Gestión de la jerarquía de inmuebles y dispositivos.
+**Resource & Asset Management (Supporting):** Gestión de la jerarquía de inmuebles, unidades habitacionales, sensores IoT y gateways. Este contexto proporciona la base estructural sobre la cual operan los demás módulos del sistema.
 
 ![Resource Asset Candidate Context](assets/chapter-4/strategic-ddd/design-level-eventstorming/resource-asset-candidate.jpg)
 
-**Service Monitoring & Intelligence (Core):** Procesamiento de telemetría y detección de anomalías.
+**Service Monitoring & Intelligence (Core):** Procesamiento de telemetría, detección de anomalías y generación de alertas inteligentes. Este contexto representa uno de los principales valores de Nexora, ya que convierte los datos de sensores en información accionable.
 
 ![Service Intelligence Candidate Context](assets/chapter-4/strategic-ddd/design-level-eventstorming/service-intelligence-candidate.jpg)
 
-**Service Execution & Maintenance (Core):** Gestión de incidencias y trabajos técnicos en campo.
+**Service Execution & Maintenance (Core):** Gestión de incidencias, tickets de atención, asignación de tareas técnicas y seguimiento del mantenimiento. Este contexto conecta la detección de problemas con una respuesta operativa concreta.
 
 ![Service Maintenance Candidate Context](assets/chapter-4/strategic-ddd/design-level-eventstorming/service-maintenance-candidate.jpg)
 
-**Identity & Access Management (Generic):** Seguridad, roles de usuario y aislamiento multi-tenant.
+**Identity & Access Management (Generic):** Gestión de autenticación, autorización, roles de usuario y permisos de acceso. Este contexto permite controlar las acciones disponibles para arrendadores, técnicos y administradores dentro de la plataforma.
 
 ![IAM Candidate Context](assets/chapter-4/strategic-ddd/design-level-eventstorming/iam-candidate.jpg)
 
-**Subscriptions & Payment Management (Generic):** Gestión de planes comerciales de la plataforma.
+**Subscriptions & Payment Management (Generic):** Gestión de planes comerciales, suscripciones y pagos de la plataforma SaaS. Este contexto administra el ciclo comercial de Nexora y las restricciones de acceso asociadas al plan contratado.
 
 ![Payment Candidate Context](assets/chapter-4/strategic-ddd/design-level-eventstorming/payments-candidate.jpg)
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
-En esta sección se visualiza la colaboración entre los contextos definidos a través de historias que resuelven problemas reales del negocio. Se han elaborado dos diagramas principales utilizando la técnica de **Domain Storytelling**:
+En esta sección se visualiza cómo colaboran los bounded contexts identificados para resolver situaciones reales del negocio dentro de Nexora. Para ello, el equipo aplicó la técnica de **Domain Storytelling**, la cual permitió representar de manera secuencial las interacciones entre actores del dominio y módulos del sistema, facilitando la comprensión de cómo fluye la información y cómo se coordinan las responsabilidades del negocio.
+
+Es importante mencionar que, en Nexora estos flujos muestran cómo colaboran los distintos módulos del sistema para resolver situaciones del negocio. Aunque cada bounded context tiene responsabilidades definidas, todos forman parte de una misma aplicación y tabajan de manera coordinada.
+
+Se elaboraron dos diagramas principaes de Domain Storytellin para representar escenarios relevantes del dominio:
 
 ### Escenario 1: Respuesta ante Emergencias (Fuga de Agua)
-Este flujo representa el valor principal de Nexora: la capacidad de actuar sin intervención humana inicial para mitigar daños.
+Este flujo representa uno de los casos más importantes de Nexora: la capacidad de detectar una situación crítica a partir de la telemetría recibida y activar una respuesta operativa oportuna para mitigar daños en el inmueble
 
-1.  **Sensor IoT** transmite lecturas de agua en tiempo real al **Monitoring Context**.
-2.  **Monitoring Context** detecta un patrón de fuga analizando los datos (Auto-colaboración).
-3.  **Monitoring Context** emite una **Alerta Crítica** hacia el **Service Execution Context**.
-4.  **Service Execution Context** envía una **Notificación de Emergencia** al **Arrendador**.
-5.  **Service Execution Context** asigna automáticamente una **Orden de Mantenimiento** al **Técnico**.
-6.  **Técnico** reporta la **Reparación Finalizada** al sistema.
-7.  **Service Execution Context** actualiza el **Estado de la Unidad** en el contexto de **Resource Management**.
+1. El **Sensor IoT** transmite lecturas de agua en tiempo real al sistema.
+2. El módulo **Service Monitoring & Intelligence** recibe y analiza las lecturas de telemetría.
+3. El módulo **Service Monitoring & Intelligence** detecta un patrón de fuga y genera una **Alerta Crítica** como parte del proceso interno del sistema.
+4. El módulo **Service Execution & Maintenance** toma la alerta generada y crea la atención operativa correspondiente.
+5. El sistema envía una **Notificación de Emergencia** al **Arrendador**.
+6. El módulo **Service Execution & Maintenance** asigna automáticamente una **Orden de Mantenimiento** al **Técnico**.
+7. El **Técnico** reporta la **Reparación Finalizada** al sistema.
+8. El módulo **Service Execution & Maintenance** actualiza el estado de la incidencia y registra el nuevo **Estado de la Unidad** con apoyo del módulo **Resource & Asset Management.**
 
 <br>
 
@@ -1833,15 +1894,15 @@ Este flujo representa el valor principal de Nexora: la capacidad de actuar sin i
 *Nota. Diagrama de Domain Storytelling: Flujo de respuesta ante fugas.*
 
 ### Escenario 2: Gestión de Controles y Optimización del Arrendador
-Este flujo demuestra cómo el sistema empodera al administrador para tomar decisiones basadas en datos y optimizar el portafolio.
+Este flujo representa un escenario orientado a la supervisión y toma de decisiones del arrendador, mostrando cómo Nexora facilita el análisis del consumo y la programación de acciones preventivas.
 
-1.  El **Arrendador** solicita un **Reporte de Consumo Global** al **Monitoring Context**.
-2.  **Monitoring Context** procesa los datos y genera una **Analítica de Desempeño Energético**.
-3.  El **Arrendador** recibe y analiza los resultados.
-4.  El **Arrendador** identifica una unidad ineficiente y determina que requiere acción inmediata.
-5.  El **Arrendador** solicita un **Mantenimiento Preventivo** a través del sistema.
-6.  **Service Execution Context** procesa la solicitud y asigna una **Tarea de Inspección** al **Técnico**.
-7.  El **Arrendador** recibe la confirmación de la **Visita Programada**.
+1. El **Arrendador** solicita un **Reporte de Consumo Global** al sistema.
+2. El módulo **Service Monitoring & Intelligence** procesa la información histórica y genera una A**nalítica de Desempeño Energético**.
+3. El **Arrendador** recibe y revisa los resultados obtenidos.
+4. A partir del análisis, el **Arrendador** identifica una unidad con consumo ineficiente.
+5. El **Arrendador** solicita un **Mantenimiento Preventivo** a través de la plataforma.
+6. El módulo **Service Execution & Maintenance** procesa la solicitud y genera una **Tarea de Inspección** para el **Técnico**.
+7. El sistema confirma al **Arrendador** la **Visita Programada**.
 
 <br>
 
@@ -1850,215 +1911,311 @@ Este flujo demuestra cómo el sistema empodera al administrador para tomar decis
 
 #### 4.1.1.3 Bounded Context Canvases
 
-A continuación, se presentan los lienzos detallados para cada uno de los contextos identificados. Estos lienzos sirven como la "ficha técnica" que define los límites, responsabilidades y proyecciones de cada subsistema dentro de Nexora.
+En esta sección se presentan los **Bounded Context Canvases** elaborados para los candidate bounded contexts identificados en la sesión de Candidate Context Discovery. El objetivo de estos canvases es detallar los criterios de diseño de cada contexto, considerando su propósito, reglas de negocio, lenguaje ubicuo, capacidades, dependencias y principales decisiones de diseño.
+
+Para Nexora, los bounded contexts se organizan como módulos internos de una **arquitectura monolítica modular**. Por ello, cada canvas no representa un microservicio independiente, sino un límite funcional y conceptual dentro del backend principal. Esta organización permite separar responsabilidades de dominio, mantener claridad en el modelo y facilitar la evolución del sistema sin asumir una arquitectura distribuida.
 
 ### Bounded Context Canvas: Service Monitoring & Intelligence
-Contexto encargado de transformar la telemetría bruta de los sensores en analítica accionable y detección proactiva de fallas.
+Contexto encargado de transformar la telemetría enviada por los sensores IoT en información útil para el monitoreo, la detección de anomalías y la generación de alertas dentro de Nexora.
 
-![Canvas Service Monitoring](assets/chapter-4/strategic-ddd/design-level-eventstorming/service-intelligence-canvas.jpg)
+![Canvas Service Monitoring](assets/chapter-4/strategic-ddd/design-level-eventstorming/service-intelligence-canvas_2.jpg)
 
 - **Strategic Classification:** Core Domain | Business Model: Cost Reduction | Evolution: Product.
-- **Context Overview:** Motor de análisis en tiempo real enfocado en la eficiencia energética y seguridad hídrica.
-- **Capabilities:** Telemetry Ingestion, Pattern Recognition, Consumption Analytics, Real-time Dashboarding.
+- **Context Overview:** Módulo central del backend monolítico encargado de recibir, procesar y analizar datos de sensores IoT para identificar patrones de consumo, condiciones anómalas y eventos críticos.
+- **Capabilities:** Telemetry Ingestion, Sensot data validation, Anomaly detection, Consumption Analytics, Alert genertaion, Dashboard data preparation.
 - **Business Rules:**
-    *   Una lectura de agua constante por más de 30 min sin picos se clasifica automáticamente como fuga probable.
-    *   Los reportes de ahorro energético se consolidan cada 24 horas para su visualización.
-- **Ubiquitous Language:** Telemetry Stream, Consumption Threshold, Anomaly Pattern, Intelligence Report.
+    *   Una lectura de agua constante por más de 30 min sin picos esperadas, se clasifica como posible fuga.
+    *   Una anomalía detectada debe generar una alerta interna para su evaluación o atención.
+    *   Los reportes de consumo se consolidan periódicamente para su visualización en el dashboard.
+    *   La telemetría debe estar asociada a un dispositivo previamente registrado en el sistema.
+- **Ubiquitous Language:** Telemetry, Sensor Reading, Consumption Threshold, Anomaly Pattern, Critical Alert, Intelligence Report.
 - **Dependencies:** 
-    *   *Inbound:* Metadatos de dispositivos desde Resource BC.
-    *   *Outbound:* Alertas críticas a Service Execution BC.
+    *   Requiere información de dispositivos, propiedades y unidades desde **Resource & Asset Management**.
+    *   Genera alertas que serán atendidas por **Service Execution & Maintenance**.
+    *   Respeta las políticas de acceso definidas por **Identity & Access Management** para la visualización de datos.
+- **Design Critique:**
+    *   Este contexto concentra una parte importante del valor diferencial de Nexora, porque convierte datos IoT en información accionable.
+    *   Debe mantenerse separado conceptualmente de la gestión de incidencias para evitar mezclar análisis de datos con operación técnica.
+    *   Al estar dentro de un monolito modular, la comunicación con otros contextos puede manejarse mediante casos de uso internos o eventos de dominio internos, evitando dependencias directas a entidades internas de otros módulos.
 - **Assumptions & Open Questions:**
-    *   **Assumptions:** Conectividad constante de sensores; los algoritmos de filtrado pueden ignorar ruidos menores (ej. humificadores).
-    *   **Open Questions:** ¿Cómo manejar la detección offline prolongada? ¿Existen límites legales en el volumen de datos históricos por inquilino?
+    *   **Assumptions:** Los sensores envían datos de forma periódica; los dispositivos se encuentran previamente registrados y vinculados a una unidad.
+    *   **Open Questions:** ¿Cómo debe actuar el sistema si un sensor deja de enviar datos por un periodo prolongado? ¿Cuánto tiempo se conservará el historial de telemetría?
 
 ---
 
 <br>
 
 ### Bounded Context Canvas: Service Execution & Maintenance
-Responsable de la operatividad física y la respuesta inmediata a incidentes técnicos.
+Contexto responsable de gestionar la atención operativa de las incidencias detectadas por Nexora, así como las tareas de mantenimiento correctivo y preventivo.
 
-![Canvas Service Execution](assets/chapter-4/strategic-ddd/design-level-eventstorming/service-maintenance-canvas.jpg)
+![Canvas Service Execution](assets/chapter-4/strategic-ddd/design-level-eventstorming/service-maintenance-canvas_2.jpg)
 
 - **Strategic Classification:** Core Domain | Business Model: Operations Efficiency | Evolution: Custom Built.
-- **Context Overview:** Orquestación integral del ciclo de vida de incidencias y despacho técnico en campo.
-- **Capabilities:** Ticket Lifecycle Management, Technical Dispatching, SLA Tracking, Maintenance Scheduling.
+- **Context Overview:** Módulo del backend monolítico encargado de administrar el ciclo de vida de incidencias, tickets, órdenes de mantenimiento, asignación de técnicos y seguimiento de la resolución..
+- **Capabilities:** Incident ticket creation,Maintenance task assignment, Technical Dispatching, Inicident status Tracking, Preventive maintenance Scheduling, Resolution registration.
 - **Business Rules:**
-    *   Toda Alerta Crítica recibida debe generar una incidencia en el sistema en menos de 5 segundos.
-    *   Las tareas de mantenimiento preventivo tienen prioridad alta según el tiempo de vida reportado del sensor.
-- **Ubiquitous Language:** Critical Alert, Incident Ticket, Technician, Resolution SLA, Dispatch Order.
+    *   Toda alerta crítica debe generar una incidencia para su seguimiento operativo.
+    *   Una incidencia debe contar con estado, prioridad y responsable asignado.
+    *   Una tarea de mantenimiento solo puede cerrarse cuando el técnico registra la atención realizada.
+    *   Las incidencias críticas deben ser notificadas al arrendador o responsable de la propiedad.
+- **Ubiquitous Language:** Incident Ticket, Critical Alert, Maintenance Task Technician, Dispatch Order, Resolution Status, Preventive Maintenance.
 - **Dependencies:** 
-    *   *Inbound:* Alertas desde Monitoring BC.
-    *   *Outbound:* Actualización del estado de operatividad de la unidad a Resource BC.
+    *   Recibe alertas generadas por S**ervice Monitoring & Intelligence**.
+    * Consulta datos de propiedades, unidades y dispositivos desde **Resource & Asset Management**.
+    * Usa información de usuarios y roles desde **Identity & Access Management** para validar acciones.
+- **Design Critique:**
+    * Este contexto debe mantenerse como core domain porque materializa la respuesta operativa frente a los problemas detectados.
+    * Se recomienda evitar que este módulo procese directamente reglas complejas de telemetría, ya que esa responsabilidad pertenece a **Service Monitoring & Intelligence**.
+    * Dentro del monolito modular, este contexto debe exponer casos de uso claros para crear, asignar y cerrar incidencias sin compartir directamente su modelo interno con otros módulos.
 - **Assumptions & Open Questions:**
-    *   **Assumptions:** Técnicos cuentan con dispositivos móviles y GPS; existencia de convenios previos de servicio técnico.
-    *   **Open Questions:** ¿Cuál es la responsabilidad legal ante fallas críticas de asignación? ¿El historial de reparaciones será público para futuros compradores?
+    *   **Assumptions:** Los técnicos cuentan con acceso a la plataforma para registrar avances y cierres de atención.
+    *   **Open Questions:** ¿Se manejarán niveles de prioridad según tipo de incidencia? ¿El sistema permitirá reasignar técnicos en caso de indisponibilidad?
 
 ---
 
 <br>
 
 ### Bounded Context Canvas: Resource & Asset Management
-Este contexto define la estructura física y técnica que sostiene la jerarquía de la plataforma.
+Contexto encargado de gestionar la estructura física y técnica de Nexora, incluyendo propiedades, unidades habitacionales, sensores IoT y gateways.
 
-![Canvas Resource Management](assets/chapter-4/strategic-ddd/design-level-eventstorming/resource-asset-canvas.jpg)
+![Canvas Resource Management](assets/chapter-4/strategic-ddd/design-level-eventstorming/resource-asset-canvas_2.jpg)
 
 - **Strategic Classification:** Supporting Domain | Business Model: Inventory Control | Evolution: Product.
-- **Context Overview:** Gestión de la jerarquía de activos (Propiedades, Unidades) e inventario de hardware IoT vinculado.
-- **Capabilities:** Assets Inventory Management, Device Commissioning, Physical Mapping, Status Tracking.
+- **Context Overview:** Módulo del backend monolítico que administra el inventario de activos físicos y tecnológicos, permitiendo vincular sensores IoT con propiedades, unidades y gateways.
+- **Capabilities:** Property registration, Housing unit management, Smart device registration, Device pairing, Gateway association, Asset status tracking.
 - **Business Rules:**
-    *   Un sensor inteligente no puede estar vinculado a más de una Unidad Habitacional simultáneamente.
-    *   El alta de un nuevo sensor requiere validación de compatibilidad con el Gateway local de la propiedad.
-- **Ubiquitous Language:** Smart Housing Unit, Property Portfolio, Device Pairing, Metadata, Gateway.
+    *   Un sensor IoT no puede estar vinculado a más de una unidad habitacional al mismo tiempo.
+    * Todo dispositivo debe estar registrado antes de enviar telemetría válida al sistema.
+    * Una unidad habitacional debe pertenecer a una propiedad registrada.
+    * El estado operativo de un dispositivo puede actualizarse según su registro, actividad o incidencia asociada.
+- **Ubiquitous Language:** Property, Housing Unit, Smart Device, Sensor, Gateway, Device Pairing, Asset Status.
 - **Dependencies:** 
-    *   *Outbound:* Provee el contexto físico y metadatos de sensores a Monitoring BC.
+    *   Proporciona información estructural a **Service Monitoring & Intelligence** para interpretar la telemetría.
+    * Proporciona datos de ubicación y activos a **Service Execution & Maintenance** para atender incidencias.
+    * Puede ser consultado por **Subscriptions & Payment Management** para validar la cantidad de unidades o dispositivos activos.
+- **Design Critique:**
+    *   Este contexto es supporting domain porque habilita el funcionamiento del monitoreo y la atención de incidencias, pero no concentra por sí solo el valor diferencial del negocio.
+    *   Debe mantener un modelo claro de propiedades, unidades y dispositivos para evitar inconsistencias en otros módulos.
+    *   En el monolito modular, se debe evitar que otros módulos modifiquen directamente sus entidades internas; los cambios deben realizarse mediante casos de uso definidos.
 - **Assumptions & Open Questions:**
-    *   **Assumptions:** Estructura jerárquica clara (Edificio > Piso > Unidad); Gateways instalados por personal certificado.
-    *   **Open Questions:** ¿Debe el inquilino poder registrar dispositivos propios? ¿Cómo se maneja el traspaso de activos entre inmobiliarias?
+    *   **Assumptions:** La estructura base del inmueble puede representarse como propiedad, unidad y dispositivo.
+    *   **Open Questions:** ¿El sistema permitirá que un arrendador gestione múltiples propiedades? ¿Se podrán transferir dispositivos entre unidades?
 
 ---
 
 <br>
 
 ### Bounded Context Canvas: Identity & Access Management
-Garantiza la seguridad y la correcta segregación de datos en el entorno multi-tenant.
+Contexto encargado de gestionar la identidad de los usuarios, sus roles y los permisos necesarios para acceder a las funcionalidades de Nexora.
 
-![Canvas Identity Management](assets/chapter-4/strategic-ddd/design-level-eventstorming/iam-canvas.jpg)
+![Canvas Identity Management](assets/chapter-4/strategic-ddd/design-level-eventstorming/iam-canvas_2.jpg)
 
 - **Strategic Classification:** Generic Domain | Business Model: Compliance & Security | Evolution: Commodity.
-- **Context Overview:** Administración centralizada de identidades, perfiles y políticas de acceso granular.
-- **Capabilities:** SSO Integration, Role-Based Access Control (RBAC), User Lifecycle Management, Multi-tenant Isolation.
+- **Context Overview:** Módulo transversal del backend monolítico que administra autenticación, autorización, roles y control de acceso para los distintos usuarios de la plataforma.
+- **Capabilities:**User registration, Authentication, Role-based access control, Permission validation, User profile management, Session management.
 - **Business Rules:**
-    *   Los datos de consumos deben estar aislados lógicamente entre diferentes empresas inmobiliarias clientes.
-    *   El acceso a comandos críticos (ej: cierre de válvulas) requiere un rol de nivel "Manager" o superior.
-- **Ubiquitous Language:** Tenant Profile, Manager Role, Authentication Policy, Data Isolation, Identity Provider.
+    *   Cada usuario debe autenticarse antes de acceder a las funcionalidades principales.
+    *   Las acciones críticas solo pueden ser ejecutadas por usuarios con roles autorizados.
+    *   Un técnico solo debe visualizar las tareas asignadas o permitidas según su rol.
+    *   Un arrendador solo debe acceder a la información relacionada con sus propiedades.
+- **Ubiquitous Language:** User, Role, Permission, Authentication, Authorization, Manager, Landlord, Technician.
 - **Dependencies:** 
-    *   *Inbound:* Recibe solicitudes de autorización de todos los demás contextos (Cross-cutting).
+    *   Es consultado por los demás módulos para validar permisos y acceso.
+    *   Puede restringir funcionalidades comerciales según información de **Subscriptions & Payment Management.**
+- **Design Critique:**
+    *   Este contexto es generic domain porque responde a necesidades comunes de seguridad y acceso presentes en muchas plataformas SaaS.
+    *   Debe mantenerse desacoplado de las reglas específicas de monitoreo, mantenimiento o gestión de activos.
+    *   En el monolito modular, puede funcionar como un módulo transversal, pero sin mezclarse directamente con la lógica de negocio de los contextos core.
 - **Assumptions & Open Questions:**
-    *   **Assumptions:** Uso de estándares industriales (OAuth2/OIDC); identidades únicas por individuo.
-    *   **Open Questions:** ¿Cómo impacta la ley de protección de datos (GDPR) en la visualización de consumos privados?
+    *   **Assumptions:** La plataforma contará con perfiles diferenciados como arrendador, técnico y administrador.
+    *   **Open Questions:** ¿Se implementará autenticación externa o solo autenticación propia? ¿Se manejarán permisos personalizados por organización?
 
 ---
 
 <br>
 
 ### Bounded Context Canvas: Subscriptions & Payment Management
-Maneja la monetización SaaS y el ciclo de facturación de la plataforma Nexora.
+Contexto responsable de gestionar los planes comerciales, suscripciones y pagos asociados al uso de Nexora como plataforma SaaS.
 
-![Canvas Subscriptions Payment](assets/chapter-4/strategic-ddd/design-level-eventstorming/billing-canvas.jpg)
+![Canvas Subscriptions Payment](assets/chapter-4/strategic-ddd/design-level-eventstorming/billing-canvas_2.jpg)
 
 - **Strategic Classification:** Generic Domain | Business Model: Revenue Generation | Evolution: Commodity.
-- **Context Overview:** Gestión del ciclo de vida de suscripciones corporativas y motor de facturación por uso (metered billing).
-- **Capabilities:** Recurring Billing Management, Plan Provisioning, Payment Gateway Integration, Usage Metering.
+- **Context Overview:** Módulo del backend monolítico encargado de administrar el ciclo comercial de Nexora, incluyendo planes, suscripciones, pagos y restricciones de acceso según el plan contratado.
+- **Capabilities:** Plan management, Subscription activation, Payment registration, Billing cycle tracking, Usage limit validation, Access restriction by plan.
 - **Business Rules:**
-    *   La facturación se realiza mensualmente basándose en la cantidad de Unidades Inteligentes activas en la cuenta.
-    *   La falta de pago restringe el acceso al Dashboard analítico, pero mantiene activo el sistema de alertas críticas de seguridad.
-- **Ubiquitous Language:** SaaS Plan, Billing Cycle, Usage Quota, Invoice, Subscription Tier.
+    *   Una organización o arrendador debe contar con una suscripción activa para acceder a las funcionalidades principales.
+    *   La facturación puede basarse en la cantidad de unidades, dispositivos o plan contratado.
+    *   La falta de pago puede restringir funcionalidades no críticas, como reportes avanzados o analítica histórica.
+    *   Las alertas críticas de seguridad deben mantenerse disponibles incluso si existen restricciones comerciales.
+- **Ubiquitous Language:** SaaS Plan, Subscription, Billing Cycle, Payment, Invoice, Usage Limit, Plan Restriction.
 - **Dependencies:** 
-    *   *Inbound:* Consume métricas de uso y cantidad de activos desde Resource BC.
+    *   Consulta información de activos desde **Resource & Asset Management** para validar unidades o dispositivos activos.
+    *   Puede integrarse con un proveedor externo de pagos.
+    *   Puede informar restricciones de acceso a **Identity & Access Management.**
+- **Design Critique:**
+    *   Este contexto es generic domain porque la gestión de planes y pagos puede apoyarse en soluciones comunes de plataformas SaaS.
+    *   No debe contener lógica de monitoreo IoT ni gestión de incidencias, ya que su responsabilidad se limita al ciclo comercial.
+    *   En el monolito modular, debe mantener límites claros para que las reglas comerciales no contaminen los módulos core del negocio.
 - **Assumptions & Open Questions:**
-    *   **Assumptions:** Integración con un proveedor externo (Stripe/PayPal); facturación en formato digital estándar.
-    *   **Open Questions:** ¿Existirán periodos de gracia por impago? ¿Habrá descuentos dinámicos basados en ahorros detectados?
+    *   **Assumptions:** Nexora funcionará bajo un modelo SaaS con planes comerciales diferenciados.
+    *   **Open Questions:** ¿Se manejarán periodos de prueba? ¿Habrá planes personalizados para empresas inmobiliarias grandes?
 
 
 ## 4.1.2. Context Mapping
 
-En esta sección, el equipo de Nexora detalla las relaciones estructurales y los niveles de acoplamiento entre los Bounded Contexts identificados. El Context Mapping nos permite definir cómo fluye la información y qué grado de dependencia existe entre los equipos y subsistemas.
+En esta sección, el equipo de **Nexora** explica el proceso realizado para elaborar los **Context Maps**, los cuales permiten visualizar las relaciones estructurales entre los bounded contexts identificados durante el diseño estratégico. El objetivo principal de esta actividad fue analizar cómo colaboran los contextos, qué dependencias existen entre ellos y qué patrones de relación de Domain-Driven Design resultan más adecuados para proteger los modelos core del negocio.
+
+Para el caso de Nexora, el Context Mapping se utiliza para definir los límites entre bounded contexts, identificar dependencias y establecer cómo colaboran entre sí dentro de la solución. Esto permite mantener responsabilidades claras y proteger los modelos de negocio más importantes del sistema.
 
 ### Estrategias de Relación entre Contextos
 
-Para llegar al diseño final, el equipo evaluó la naturaleza de cada interacción basándose en la soberanía de los datos y la necesidad de proteger los modelos core:
+Para llegar al diseño final, el equipo evaluó la naturaleza de cada interacción basándose en la soberanía de los datos, la ubicación de las capacidades principales y la necesidad de proteger los modelos core:
 
-*   **Identity & Access Management (Open Host Service - OHS):** Se definió como un servicio abierto ya que todos los demás contextos dependen de él para la autenticación. Implementar una interfaz estandarizada evita que cada contexto tenga que negociar una integración particular.
-*   **Service Monitoring a Service Execution (Event-Driven):** La relación es de bajo acoplamiento. El contexto de monitoreo "publica" alertas sin conocer quién las consume, permitiendo que el sistema de mantenimiento sea reactivo.
-*   **Service Execution a Resource Management (Anti-Corruption Layer - ACL):** Se decidió implementar una capa anticorrupción para evitar que la lógica operativa de las reparaciones (técnicos, estados de inmuebles, etc) contamine el modelo limpio de los activos físicos e inmuebles.
-*   **Resource Management a Subscriptions (Customer/Supplier):** Existe una relación de cliente/proveedor ya que el sistema de pagos necesita métricas de uso precisas del inventario para generar la facturación mensual.
+*   **Identity & Access Management (Open Host Service - OHS):** Se definió como un módulo transversal, ya que todos los demás contextos dependen de él para validar autenticación, autorización, roles y permisos. Implementar una interfaz interna estandarizada evita que cada contexto tenga que duplicar reglas de seguridad o negociar una integración particular.
+*   **Service Monitoring a Service Execution (Event-Driven):** La relación permite que el contexto de monitoreo provea alertas críticas y anomalías detectadas al contexto de ejecución. Service Execution consume esta información para generar incidencias y tareas de mantenimiento, pero mantiene su propio modelo de tickets, prioridades y resolución.
+*   **Service Execution a Resource Management (Anti-Corruption Layer - ACL):** Se decidió aplicar una capa anticorrupción lógica para evitar que la lógica operativa de las reparaciones, técnicos e incidencias contamine el modelo de activos físicos, propiedades y unidades. En el monolito modular, esta capa puede representarse mediante casos de uso internos, DTOs o adaptadores entre módulos.
+*   **Resource Management a Subscriptions (Customer/Supplier):** Existe una relación de cliente/proveedor, ya que el módulo de suscripciones y pagos necesita información precisa del inventario, como cantidad de unidades o dispositivos activos, para aplicar reglas de facturación, límites de uso o restricciones comerciales
 
 ### Análisis de Alternativas y Decisiones de Diseño
 
 Siguiendo el proceso de diseño estratégico, el equipo se planteó las siguientes interrogantes para validar la arquitectura:
 
 *   **¿Qué pasaría si movemos la gestión de dispositivos al contexto de Monitoreo?**
-    *   *Decisión:* Se descartó. Aunque el monitoreo usa los dispositivos, el ciclo de vida del activo (compra, registro, baja) es una capacidad administrativa que pertenece a Resource & Asset Management. Mezclarlos sobrecargaría el contexto de Monitoreo.
+    *   *Decisión:* SSe descartó. Aunque el monitoreo usa los dispositivos para interpretar lecturas de telemetría, el ciclo de vida del activo, su registro, vinculación y baja pertenecen a Resource & Asset Management. Mezclarlos sobrecargaría el contexto de Monitoreo con responsabilidades administrativas que no forman parte de su propósito principal.
 *   **¿Qué pasaría si el contexto de Ejecución (Mantenimiento) se vuelve un "Conformista" del modelo de Monitoreo?**
-    *   *Decisión:* Se descartó. Ser conformista obligaría a que el modelo de gestión de inmuebles dependa directamente de los cambios en el modelo de datos de telemetría. Al usar una comunicación por eventos, permitimos que el sistema de mantenimiento evolucione sus propios conceptos (como prioridades de reparación) de forma independiente a la complejidad técnica de los sensores.
+    *   *Decisión:* Se descartó. Ser conformista obligaría a que el modelo de mantenimiento dependa directamente de los cambios en el modelo de telemetría. En su lugar, Service Execution debe recibir una alerta ya interpretada y transformarla en conceptos propios de su dominio, como incidencia, prioridad, tarea de mantenimiento o resolución.
 *   **¿Qué pasaría si integramos la facturación dentro de Identity & Access Management?**
-    *   *Decisión:* Se descartó. Aunque ambos son contextos genéricos, Identity se encarga de seguridad y autenticación, mientras que Subscriptions maneja la monetización y el modelo SaaS. Mezclarlos violaría el principio de responsabilidad única y complicaría la escalabilidad del modelo de negocio.
+    *   *Decisión:* Se descartó. Aunque ambos son contextos genéricos, Identity se encarga de usuarios, autenticación y permisos, mientras que Subscriptions maneja planes, pagos y monetización SaaS. Mezclarlos violaría el principio de responsabilidad única y haría más difícil mantener reglas de seguridad y reglas comerciales por separado.
 *   **¿Qué pasaría si aislamos la analítica en un contexto aparte?**
-    *   *Decisión:* Se decidió mantenerla dentro de **Service Monitoring & Intelligence** ya que la detección de patrones de anomalía es la inteligencia intrínseca de la telemetría. Separarlos crearía una latencia innecesaria.
+    *   *Decisión:* Se decidió mantenerla dentro de **Service Monitoring & Intelligence**, ya que la detección de patrones, análisis de consumo y generación de alertas forman parte del valor principal de Nexora. Separarlos en este punto agregaría complejidad innecesaria para el alcance actual del proyecto.
+*   **¿Qué pasaría si creamos un Shared Kernel entre todos los contextos?**
+    *   *Decisión:* Se descartó un Shared Kernel amplio, porque podría aumentar el acoplamiento entre módulos. En su lugar, solo se recomienda compartir elementos mínimos y estables, como identificadores comunes o contratos internos simples, manteniendo las reglas de negocio dentro de cada bounded context.
 
 ### Diagrama de Context Map
 
-El siguiente diagrama sintetiza las relaciones finales y los patrones de integración adoptados:
+El siguiente diagrama sintetiza las relaciones finales y los patrones de integración adoptados. Estas relaciones deben entenderse como colaboraciones internas entre módulos del backend monolítico, no como comunicación entre microservicios independientes:
 
-![Context Map Nexora](assets/chapter-4/strategic-ddd/context-mapping/context-map.jpg)
+![Context Map Nexora](assets/chapter-4/strategic-ddd/context-mapping/context-map_v2.jpg)
 
 
 
-## 4.1.3.1. Software Architecture System Landscape Diagram
+### 4.1.3. Software Architecture
 
-Esta vista muestra los **sistemas** alrededor de Nexora, identificando actores externos, sistemas principales dentro del alcance de la startup y sistemas externos con los que se integra.
+En esta sección se presenta la arquitectura de software de Nexora utilizando el modelo C4. El objetivo es representar la solución desde diferentes niveles de abstracción para comprender la estructura general del sistema, los actores que interactúan con él, los sistemas externos involucrados y la distribución de responsabilidades dentro de la plataforma.
+
+Las vistas presentadas permiten analizar la solución desde una perspectiva estratégica y técnica, mostrando cómo los diferentes componentes colaboran para soportar la gestión de inmuebles inteligentes, el monitoreo IoT, la gestión de incidencias, la analítica de consumo y la administración de suscripciones dentro de una arquitectura monolítica modular.
+
+### 4.1.3.1. Software Architecture System Landscape Diagram
+
+La vista System Landscape representa el ecosistema general en el que opera Nexora. Su propósito es identificar los principales actores del negocio, los sistemas que forman parte de la solución y los sistemas externos con los que interactúa la plataforma.
+
+Esta vista permite comprender el alcance de Nexora dentro del contexto de negocio, mostrando cómo los usuarios, la plataforma SaaS, la infraestructura IoT y los servicios externos colaboran para proporcionar capacidades de monitoreo inteligente, mantenimiento preventivo y gestión de propiedades.
 
 <!-- imagen en markdown -->
-![Diagrama de Landscape](assets/chapter-4/strategic-ddd/software-architecture/system-landscape.jpeg)
+![Diagrama de Landscape](assets/chapter-4/strategic-ddd/software-architecture/system-landscape_v2.png)
 
-## 4.1.3.2. Context Level (C4)
+El diagrama muestra a los principales actores del negocio, incluyendo visitantes, administradores de propiedades, empresas inmobiliarias, inquilinos y administradores del sistema. Asimismo, se identifican los sistemas que conforman el ecosistema de Nexora, tales como la plataforma principal, la infraestructura IoT desplegada en los inmuebles y el sistema externo de pagos Culqi.
 
-Esta vista describe el **diagrama de contexto** centrado en el sistema principal **Nexora Platform**. Su propósito es clarificar quién usa el sistema, qué responsabilidades tiene y con qué sistemas externos se integra.
+Las relaciones representadas permiten visualizar cómo los usuarios interactúan con la plataforma, cómo los dispositivos IoT suministran información operativa y cómo la solución se integra con servicios externos para soportar funcionalidades de negocio como la facturación de suscripciones SaaS.
 
-![Diagrama de Contexto](assets/chapter-4/strategic-ddd/software-architecture/system-context.jpeg) 
+## 4.1.3.2. Software Architecture Context Level Diagrams
 
-## 4.1.3.3. Software Architecture Container Level Diagrams
+La vista Context Level se centra en el sistema principal Nexora Platform y muestra las interacciones que mantiene con los actores del negocio y sistemas externos. Su propósito es delimitar claramente las responsabilidades de la plataforma dentro del ecosistema general.
 
-Esta vista describe el **diagrama de Contenedores** centrado en el sistema principal **Nexora Platform**.
+Esta representación permite identificar quiénes utilizan la solución, qué necesidades atiende la plataforma y cuáles son las integraciones externas necesarias para soportar las funcionalidades del negocio.
 
-![Diagrama de Contenedores](assets/chapter-4/strategic-ddd/software-architecture/system-container.png)
+![Diagrama de Contexto](assets/chapter-4/strategic-ddd/software-architecture/system-context_v2.png) 
 
-## 4.1.3.4. Software Architecture Deployment Diagrams
+El diagrama muestra a Nexora Platform como el núcleo de la solución. Los administradores de propiedades y empresas inmobiliarias utilizan la plataforma para gestionar inmuebles, dispositivos y reportes de consumo. Los inquilinos acceden a información de monitoreo y alertas mediante aplicaciones digitales, mientras que los administradores del sistema realizan tareas de configuración, soporte y gestión de usuarios.
 
-Esta vista describe el **diagrama de Deployment** centrado en el sistema principal **Nexora Platform**.
+Adicionalmente, la plataforma interactúa con Nexora Hardware para recibir telemetría y ejecutar acciones de control sobre dispositivos IoT, así como con Culqi para procesar pagos asociados a las suscripciones SaaS ofrecidas por la solución.
 
-![Diagrama de Deployment](assets/chapter-4/strategic-ddd/software-architecture/deployment-diagram.png) 
+#### 4.1.3.3. Software Architecture Container Level Diagram
+
+La vista Container Level describe los principales elementos de software que conforman Nexora Platform y la forma en que colaboran para implementar las capacidades del negocio.
+
+Esta vista permite comprender la distribución de responsabilidades entre los distintos contenedores de la solución, las tecnologías utilizadas y los mecanismos de comunicación empleados para soportar la gestión de propiedades inteligentes y el procesamiento de información IoT.
+
+![Diagrama de Contenedores](assets/chapter-4/strategic-ddd/software-architecture/system-container_v2.png)
+
+El diagrama muestra los principales contenedores que conforman la solución. La Website funciona como punto de entrada para visitantes y potenciales clientes. La Web App permite a administradores y empresas inmobiliarias gestionar propiedades, incidencias y reportes, mientras que la Mobile App proporciona a los inquilinos acceso a información de monitoreo y control.
+
+El backend se implementa mediante un REST API desarrollado bajo una arquitectura monolítica modular, donde residen las capacidades de negocio relacionadas con gestión de activos, monitoreo, mantenimiento, analítica y suscripciones. La información es almacenada en una base de datos centralizada.
+
+Por otro lado, la capa IoT está compuesta por componentes Edge, Embedded y Fog, responsables de procesar telemetría, coordinar la comunicación con sensores y transmitir información relevante hacia la plataforma central.
+
+#### 4.1.3.4. Software Architecture Deployment Diagram
+
+La vista Deployment representa la distribución física de los componentes de software sobre la infraestructura tecnológica utilizada por Nexora.
+
+El propósito de esta vista es mostrar dónde se ejecutan los diferentes contenedores de la solución y cómo se comunican entre sí para soportar los procesos de monitoreo, control y gestión de propiedades inteligentes.
+
+![Diagrama de Deployment](assets/chapter-4/strategic-ddd/software-architecture/deployment-diagram_v2.png) 
+
+El diagrama muestra la distribución de los componentes en diferentes nodos de despliegue. Los usuarios acceden a la solución desde dispositivos cliente mediante navegadores web y aplicaciones móviles. La infraestructura cloud aloja el backend principal, compuesto por el REST API, los componentes de procesamiento y la base de datos central.
+
+En los inmuebles inteligentes se despliega la infraestructura IoT, compuesta por dispositivos ESP32, firmware embebido, aplicaciones Edge y almacenamiento local. Esta capa permite recopilar información de sensores, ejecutar acciones de control sobre actuadores y mantener la operación incluso ante interrupciones temporales de conectividad.
+
+La comunicación entre los diferentes nodos permite integrar el mundo físico de los dispositivos IoT con la plataforma SaaS centralizada, garantizando la disponibilidad de información para la toma de decisiones y la atención de incidencias.
 
 ##### 4.2.1.1. Domain Layer
 
-La Domain Layer contiene los conceptos centrales del negocio dentro del bounded context de Identity & Access Management. En esta capa se definen las entidades y relaciones necesarias para representar identidades digitales y control de acceso basado en roles, manteniendo independencia respecto a frameworks o detalles técnicos.
+La Domain Layer contiene los conceptos centrales del negocio dentro del bounded context **Identity & Access Management**. Esta capa es responsable de modelar las reglas de negocio relacionadas con la gestión de identidades digitales, autenticación y autorización de usuarios dentro de la plataforma Nexora.
 
-Para el alcance actual de NexIoT, esta capa fue diseñada de forma simple, coherente con la implementación desarrollada y enfocada en los requerimientos reales del proyecto.
+Siguiendo los principios de Domain-Driven Design (DDD), esta capa mantiene independencia respecto a frameworks, tecnologías de persistencia o mecanismos de comunicación externos, concentrándose únicamente en las reglas y conceptos propios del dominio.
 
-### Entidades Principales del Dominio
+Para el alcance actual del producto Nexora, desarrollado por la startup NexIoT, este bounded context fue diseñado para gestionar usuarios, roles y permisos de acceso a los distintos módulos de la plataforma.
+
+### Aggregate Root
 
 #### User
 
-Representa una identidad digital registrada dentro de la plataforma. Un usuario puede autenticarse, acceder a recursos protegidos e interactuar con el sistema según los roles asignados.
+La entidad **User** actúa como Aggregate Root del bounded context, ya que representa la identidad principal administrada por el sistema y controla la consistencia de los datos relacionados con los perfiles de acceso.
+
+Un usuario puede autenticarse, acceder a recursos protegidos e interactuar con el sistema de acuerdo con los roles asignados.
+
 
 **Atributos:**
 
-- id  
-- firstName  
-- lastName  
-- email  
-- password  
-- roles  
+- id  : Long
+- firstName  : String
+- lastName  : String
+- email  : String
+- password  : String
+- roles  : Set<Role>
 
 El atributo `roles` permite asociar uno o varios perfiles de autorización a cada usuario.
 
+**Responsabilidades principales:**
+
+- Mantener la información básica del usuario.
+- Gestionar la asociación de roles.
+- Garantizar la unicidad lógica de la identidad digital.
+- Representar al usuario autenticado dentro del dominio.
+
+### Entities
+
 #### Role
 
-Representa un perfil de acceso asignable a los usuarios.
+La entidad **Role** representa un perfil de autorización asignable a los usuarios del sistema.
+
+Los roles determinan qué funcionalidades y recursos pueden ser utilizados por cada usuario dentro de Nexora.
 
 **Atributos:**
 
-- id  
-- name  
+- id : Long
+- name : RoleName
 
-Los roles determinan qué tipo de acciones puede realizar un usuario dentro de la plataforma.
+**Responsabilidades principales:**
 
-### Enumeración
+- Definir perfiles de acceso.
+- Agrupar permisos según responsabilidades de negocio.
+- Facilitar la autorización basada en roles.
+### Value Objects
 
 #### RoleName
 
-Permite definir valores controlados mediante una enumeración.
+RoleName es un Value Object implementado mediante una enumeración que define los valores válidos para los perfiles de acceso dentro del sistema.
 
 **Valores definidos:**
 
@@ -2066,24 +2223,52 @@ Permite definir valores controlados mediante una enumeración.
 - LANDLORD  
 - TENANT  
 
-Estos valores reflejan el contexto actual de NexIoT y sus segmentos objetivo validados: arrendadores y arrendatarios.
+Estos valores representan los principales perfiles identificados para la operación actual de Nexora.
 
-### Relaciones del Dominio
+### Repository Interfaces
 
-- Un usuario puede tener múltiples roles.  
-- Un rol puede ser asignado a múltiples usuarios.  
+#### UserRepository
 
-Esta relación muchos-a-muchos permite escalar el modelo de autorización conforme crezca la plataforma.
+Abstracción utilizada por el dominio para acceder a la persistencia de usuarios.
 
-### Reglas de Negocio
+**Operaciones principales:**
 
-1. Todo usuario debe tener al menos un rol asignado.  
-2. El correo electrónico debe ser único.  
-3. Un usuario debe autenticarse antes de acceder a recursos protegidos.  
-4. Los permisos dependen de los roles asignados.  
-5. Las contraseñas deben almacenarse de forma segura y cifrada.  
+- findByEmail(email)
+- existsByEmail(email)
+- save(user)
 
-La Domain Layer constituye la base conceptual del bounded context y se refleja directamente en los diagramas de clases y base de datos.
+#### RoleRepository
+
+Abstracción utilizada para recuperar y persistir información relacionada con roles.
+
+**Operaciones principales:**
+
+- findByName(name)
+- save(role)
+
+### Domain Relationships
+
+- Un **User** puede poseer múltiples **Role**.
+- Un **Role** puede ser asignado a múltiples **User**.
+- Cada **Role** está identificado por un único valor de **RoleName**.
+
+Esta relación muchos-a-muchos proporciona flexibilidad para la administración de permisos y facilita la evolución futura del modelo de autorización.
+
+### Domain Rules
+
+1. Todo usuario debe tener al menos un rol asignado.
+2. El correo electrónico debe ser único dentro de la plataforma.
+3. Un usuario debe autenticarse antes de acceder a recursos protegidos.
+4. Los permisos efectivos dependen de los roles asignados al usuario.
+5. Las contraseñas deben almacenarse de forma segura utilizando mecanismos de cifrado.
+6. No pueden existir dos usuarios registrados con el mismo correo electrónico.
+7. Todo rol asignado a un usuario debe pertenecer al conjunto de roles válidos definidos por RoleName.
+
+### Domain Services
+
+Actualmente el bounded context no requiere Domain Services especializados, ya que las reglas de negocio se encuentran encapsuladas dentro del Aggregate Root User y las entidades relacionadas. Las operaciones de autenticación y generación de tokens son coordinadas posteriormente por la Application Layer.
+
+La Domain Layer constituye la base conceptual del bounded context y sirve como fundamento para los diagramas de componentes, diagramas de clases y diseño de base de datos presentados en las siguientes secciones.
 
 ---
 
@@ -2091,11 +2276,14 @@ La Domain Layer constituye la base conceptual del bounded context y se refleja d
 
 ##### 4.2.1.2. Interface Layer
 
-La Interface Layer es responsable de exponer las capacidades del bounded context IAM hacia consumidores externos mediante APIs RESTful.
+La Interface Layer es responsable de exponer las capacidades del bounded context **Identity & Access Management** hacia consumidores externos mediante APIs RESTful.
 
-En la arquitectura actual, el principal consumidor externo es la aplicación móvil de NexIoT.
+Esta capa actúa como punto de interacción entre las aplicaciones cliente de Nexora y las funcionalidades internas del bounded context, permitiendo gestionar procesos de autenticación y registro de usuarios sin exponer directamente la lógica de negocio.
 
-### Componente Principal
+Siguiendo los principios de separación de responsabilidades, la Interface Layer se encarga únicamente de recibir solicitudes, validar información básica de entrada, transformar datos y delegar el procesamiento a la Application Layer.
+
+
+### Controller Principal
 
 #### AuthController
 
@@ -2106,15 +2294,15 @@ Recibe solicitudes HTTP, valida datos de entrada, delega el procesamiento a comp
 ### Endpoints Expuestos
 
 | Método | Endpoint | Descripción |
-|---|---|---|
+|----------|----------|-------------|
 | POST | /api/v1/auth/login | Autentica un usuario y retorna un token JWT |
-| POST | /api/v1/auth/register | Registra un nuevo usuario en la plataforma |
+| POST | /api/v1/auth/register | Registra un nuevo usuario dentro de la plataforma |
 
-### Recursos de Entrada
+### Request Models
 
 #### LoginRequest
 
-Utilizado en el proceso de inicio de sesión.
+Objeto utilizado para transportar la información requerida durante el proceso de autenticación.
 
 **Campos:**
 
@@ -2123,7 +2311,7 @@ Utilizado en el proceso de inicio de sesión.
 
 #### RegisterRequest
 
-Utilizado en el proceso de registro.
+Objeto utilizado para transportar la información requerida durante el proceso de registro de nuevos usuarios.
 
 **Campos:**
 
@@ -2133,11 +2321,11 @@ Utilizado en el proceso de registro.
 - password  
 - roles  
 
-### Recursos de Salida
+### Response Model
 
 #### AuthResponse
 
-Retornado luego de una autenticación exitosa.
+Objeto retornado luego de una autenticación exitosa.
 
 **Campos:**
 
@@ -2148,79 +2336,115 @@ Retornado luego de una autenticación exitosa.
 - email  
 - roles  
 
+Este recurso permite que las aplicaciones cliente mantengan la sesión autenticada y conozcan los roles asociados al usuario.
+
 #### UserResource
 
-Retornado luego del registro exitoso de un usuario.
+Objeto retornado luego del registro exitoso de un usuario.
+
+Representa la información básica del usuario creada dentro del sistema y utilizada posteriormente por otros bounded contexts de la plataforma.
 
 ### Responsabilidades de la Interface Layer
 
-- Recibir solicitudes del cliente.  
-- Validar payloads de entrada.  
-- Invocar lógica interna del sistema.  
-- Retornar respuestas HTTP estructuradas.  
-- Separar la comunicación externa de la lógica interna.  
+- Recibir solicitudes HTTP provenientes de aplicaciones cliente.
+- Validar formatos básicos de entrada y restricciones iniciales.
+- Transformar información entre recursos externos y objetos internos.
+- Delegar la ejecución de casos de uso a la Application Layer.
+- Retornar respuestas HTTP estructuradas.
+- Gestionar códigos de estado HTTP y mensajes de error.
+- Mantener desacoplada la comunicación externa de la lógica de negocio.
 
-Esta capa se representa en los diagramas mediante el AuthController y sus interacciones con la aplicación móvil.
+La Interface Layer constituye la capa de presentación del bounded context y se encuentra representada principalmente por el **AuthController**, los objetos de entrada (**Request Models**) y los objetos de salida (**Response Models**) utilizados por los consumidores externos de la plataforma.
 
 ---
 
 
-
 ##### 4.2.1.3. Application Layer
 
-La Application Layer coordina los casos de uso del sistema y controla el flujo de ejecución entre la Interface Layer, los componentes de seguridad, las entidades del dominio y los servicios de infraestructura.
+La Application Layer coordina los casos de uso del bounded context **Identity & Access Management** y controla el flujo de ejecución entre la Interface Layer, el modelo de dominio, los componentes de seguridad y la Infrastructure Layer.
 
-Su propósito no es almacenar datos ni modelar entidades, sino orquestar el comportamiento requerido por cada operación.
+Su propósito no es almacenar datos ni representar entidades del dominio, sino orquestar las operaciones necesarias para autenticar usuarios, registrar nuevas identidades digitales, validar credenciales y generar tokens de acceso para las aplicaciones cliente de Nexora.
 
-### Componentes Principales
+### Application Services
 
 #### JwtService
 
-Responsable de generar y validar tokens JWT luego de una autenticación exitosa.
+El servicio **JwtService** es responsable de generar, validar e interpretar tokens JWT utilizados durante el proceso de autenticación.
+
+Este componente permite que la plataforma mantenga un esquema de autenticación stateless, donde las aplicaciones cliente pueden enviar el token en sus solicitudes posteriores para acceder a recursos protegidos.
 
 **Responsabilidades principales:**
 
-- Generar tokens para usuarios autenticados.  
-- Extraer usernames desde tokens.  
-- Parsear y validar la estructura del token.  
+- Generar tokens JWT para usuarios autenticados.
+- Extraer el username o email desde un token.
+- Validar la estructura y vigencia del token.
+- Asociar el token generado con la identidad autenticada.
+- Soportar el flujo de autorización en endpoints protegidos.
 
 #### CustomUserDetailsService
 
-Responsable de cargar credenciales y roles desde persistencia durante el proceso de autenticación.
+El servicio **CustomUserDetailsService** es responsable de cargar la información de autenticación del usuario desde la persistencia y adaptarla al mecanismo de seguridad utilizado por Spring Security.
+
+Este componente permite conectar el modelo de usuarios y roles del bounded context con el proceso de autenticación de la plataforma.
 
 **Responsabilidades principales:**
 
-- Buscar usuarios por email.  
-- Proveer credenciales a Spring Security.  
-- Retornar authorities autorizadas.  
+- Buscar usuarios registrados mediante su correo electrónico.
+- Cargar credenciales cifradas del usuario.
+- Recuperar los roles asociados al usuario.
+- Transformar los roles del dominio en authorities utilizadas por Spring Security.
+- Proveer información de autenticación al flujo de seguridad.
 
-### Casos de Uso Principales
+### Use Cases
 
 #### User Login
 
-1. AuthController recibe las credenciales.  
-2. Spring Security valida las credenciales.  
-3. CustomUserDetailsService carga al usuario.  
-4. JwtService genera el token.  
-5. Se retorna AuthResponse.  
+El caso de uso **User Login** permite autenticar a un usuario registrado y generar un token JWT válido para acceder a recursos protegidos de Nexora.
+
+**Flujo principal:**
+
+1. **AuthController** recibe las credenciales del usuario.
+2. La Application Layer coordina la validación de las credenciales.
+3. **CustomUserDetailsService** carga la información del usuario desde persistencia.
+4. Spring Security valida la contraseña y los roles asociados.
+5. **JwtService** genera un token JWT para el usuario autenticado.
+6. El sistema retorna un **AuthResponse** con el token y la información básica del usuario.
 
 #### User Registration
 
-1. AuthController recibe los datos de registro.  
-2. El sistema valida que el email no exista previamente.  
-3. La contraseña es cifrada.  
-4. Se asignan roles.  
-5. El usuario es persistido.  
-6. Se retorna UserResource.  
+El caso de uso **User Registration** permite registrar una nueva identidad digital dentro de Nexora.
+
+**Flujo principal:**
+
+1. **AuthController** recibe los datos de registro.
+2. La Application Layer valida que el correo electrónico no exista previamente.
+3. El sistema cifra la contraseña del nuevo usuario.
+4. Se asignan los roles correspondientes según el tipo de usuario registrado.
+5. El usuario es persistido mediante el repositorio correspondiente.
+6. El sistema retorna un **UserResource** con la información del usuario creado.
+
+### Command Handlers y Event Handlers
+
+Para el alcance actual de este bounded context, los casos de uso de autenticación y registro se gestionan mediante servicios de aplicación y componentes de seguridad. No se han definido Command Handlers o Event Handlers explícitos como clases separadas, ya que la implementación actual mantiene una estructura simple y coherente con el tamaño del proyecto.
+
+Sin embargo, conceptualmente, los flujos principales pueden asociarse a los siguientes comandos:
+
+- **LoginUserCommand:** representa la solicitud de autenticación de un usuario.
+- **RegisterUserCommand:** representa la solicitud de registro de una nueva identidad digital.
+
+En futuras iteraciones, estos comandos podrían implementarse como clases separadas junto con sus respectivos handlers para aumentar la trazabilidad y escalabilidad del diseño táctico.
+
 
 ### Beneficios de la Application Layer
 
-- Coordinación centralizada de casos de uso.  
-- Separación entre API y persistencia.  
-- Mayor mantenibilidad.  
-- Mejor testabilidad de flujos.  
+- Centraliza la coordinación de los casos de uso del bounded context.
+- Separa la lógica de presentación de la lógica de aplicación.
+- Evita que los controladores accedan directamente a la persistencia.
+- Facilita la integración con componentes de seguridad.
+- Mejora la mantenibilidad y testabilidad de los flujos.
+- Permite evolucionar hacia una estructura basada en Command Handlers y Event Handlers si el proyecto lo requiere.
 
-Este comportamiento orquestador se refleja en los diagramas de componentes y code level.
+Este comportamiento orquestador se refleja en los diagramas de componentes y code level, donde la Application Layer conecta las solicitudes recibidas por la Interface Layer con los servicios de seguridad, repositorios y entidades del dominio.
 
 ---
 
@@ -2228,115 +2452,176 @@ Este comportamiento orquestador se refleja en los diagramas de componentes y cod
 
 ##### 4.2.1.4. Infrastructure Layer
 
-La Infrastructure Layer contiene las implementaciones técnicas necesarias para persistencia de datos, ejecución de seguridad, inicialización del sistema y conectividad con la base de datos.
+La Infrastructure Layer contiene las implementaciones técnicas necesarias para soportar las capacidades del bounded context **Identity & Access Management**. Esta capa proporciona mecanismos concretos para persistencia de datos, configuración de seguridad, inicialización del sistema y acceso a servicios tecnológicos externos.
 
-Esta capa soporta al resto de la arquitectura mediante componentes concretos basados en framework.
+Siguiendo los principios de Domain-Driven Design, la Infrastructure Layer implementa las abstracciones definidas por las capas superiores, permitiendo que el dominio permanezca desacoplado de frameworks, motores de base de datos y detalles de infraestructura.
 
-### Componentes de Persistencia
+### Persistence Components
 
 #### UserRepository
 
-Proporciona operaciones de acceso a datos para usuarios.
+Implementación responsable de acceder y persistir información relacionada con usuarios registrados dentro del sistema.
+
+Este repositorio implementa las operaciones requeridas por el dominio para consultar y almacenar identidades digitales.
 
 **Operaciones principales:**
 
-- findByEmail(email)  
-- existsByEmail(email)  
-- save(user)  
+- findByEmail(email)
+- existsByEmail(email)
+- save(user)
 
 #### RoleRepository
 
-Proporciona operaciones de persistencia para roles.
+Implementación responsable de gestionar la persistencia de roles y perfiles de autorización.
 
 **Operaciones principales:**
 
-- findByName(name)  
-- save(role)  
+- findByName(name)
+- save(role)
 
-Ambos repositorios se implementan mediante Spring Data JPA.
+Ambos repositorios se implementan utilizando **Spring Data JPA**, facilitando el acceso a datos mediante una capa de abstracción sobre la base de datos relacional.
 
-### Componentes de Seguridad
+### Security Components
 
 #### JwtAuthFilter
 
-Intercepta solicitudes HTTP entrantes y valida tokens Bearer antes de permitir acceso a endpoints protegidos.
+Componente encargado de interceptar solicitudes HTTP entrantes y validar tokens JWT enviados por los clientes.
+
+Su función principal es verificar la autenticidad del token antes de permitir el acceso a recursos protegidos de la plataforma.
+
+**Responsabilidades principales:**
+
+- Interceptar solicitudes autenticadas.
+- Extraer el token JWT desde los encabezados HTTP.
+- Validar la autenticidad y vigencia del token.
+- Establecer el contexto de seguridad para el usuario autenticado.
 
 #### SecurityConfig
 
-Define la configuración global de seguridad del sistema.
+Componente responsable de definir la configuración global de seguridad utilizada por el bounded context.
 
-**Responsabilidades:**
+Este componente centraliza las políticas de autenticación y autorización de la plataforma.
 
-- Registrar filtros.  
-- Configurar reglas de acceso por rutas.  
-- Definir comportamiento de autenticación.  
-- Configurar seguridad stateless.  
+**Responsabilidades principales:**
 
-### Componente de Inicialización
+- Registrar filtros de seguridad.
+- Configurar reglas de acceso por rutas y endpoints.
+- Definir mecanismos de autenticación.
+- Configurar políticas stateless basadas en JWT.
+- Integrar los componentes de seguridad con Spring Security.
+
+### Initialization Components
 
 #### DataInitializer
 
-Ejecuta lógica de inicialización durante el arranque de la aplicación.
+Componente encargado de ejecutar procesos de inicialización durante el arranque de la aplicación.
 
-**Responsabilidades:**
+Su objetivo es preparar los datos mínimos requeridos para el correcto funcionamiento del bounded context.
 
-- Crear roles por defecto.  
-- Registrar usuarios iniciales.  
-- Preparar datos base del IAM.  
+**Responsabilidades principales:**
+
+- Crear roles por defecto.
+- Registrar usuarios iniciales cuando corresponda.
+- Inicializar información básica de Identity & Access Management.
+- Garantizar la disponibilidad de configuraciones esenciales para la autenticación y autorización.
 
 ### Database Layer
 
 #### IAM Database
 
-Almacena la información persistente del bounded context.
+Base de datos responsable de almacenar la información persistente del bounded context **Identity & Access Management**.
 
-### Tablas Principales
+Esta base de datos soporta la gestión de usuarios, roles y relaciones de autorización utilizadas por la plataforma Nexora.
 
-- users  
-- roles  
-- users_roles  
+### Main Tables
+
+#### users
+
+Almacena la información principal de los usuarios registrados.
+
+**Campos principales:**
+
+- id
+- first_name
+- last_name
+- email
+- password
+
+#### roles
+
+Almacena los perfiles de autorización disponibles en el sistema.
+
+**Campos principales:**
+
+- id
+- name
+
+#### users_roles
+
+Tabla intermedia que implementa la relación muchos-a-muchos entre usuarios y roles.
+
+**Campos principales:**
+
+- user_id
+- role_id
+
+### Infrastructure Responsibilities
+
+- Implementar mecanismos de persistencia definidos por el dominio.
+- Gestionar la configuración técnica de seguridad.
+- Integrar la plataforma con Spring Security.
+- Administrar la conexión con la base de datos.
+- Inicializar datos requeridos durante el arranque del sistema.
+- Proporcionar servicios técnicos reutilizables para el bounded context.
 
 ### Beneficios de la Infrastructure Layer
 
-- Modelo de persistencia confiable.  
-- Patrón repository reutilizable.  
-- Filtrado seguro de solicitudes.  
-- Inicialización rápida del entorno.  
-- Almacenamiento relacional escalable.  
+- Persistencia desacoplada de la lógica de negocio.
+- Implementación reutilizable del patrón Repository.
+- Gestión centralizada de seguridad.
+- Configuración consistente de autenticación y autorización.
+- Inicialización automatizada del entorno.
+- Almacenamiento relacional confiable y escalable.
 
-La Infrastructure Layer se encuentra representada en los diagramas de componentes, code level y base de datos.
-
-##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
-
-Este diagrama de nivel de componentes describe la arquitectura interna del bounded context **Identity & Access Management**. En esta vista se observa cómo la **Mobile App** consume los endpoints expuestos por el **AuthController**, el cual centraliza las operaciones de autenticación y registro de usuarios.
-
-La seguridad del contexto se apoya en **SecurityConfig**, encargado de definir las reglas de acceso y registrar el filtro de autenticación, y en **JwtAuthFilter**, responsable de validar los tokens enviados en las solicitudes. Asimismo, **JwtService** permite generar y validar tokens JWT, mientras que **CustomUserDetailsService** carga las credenciales y roles del usuario desde persistencia.
-
-Los componentes **UserRepository** y **RoleRepository** permiten acceder a la información almacenada en la base de datos IAM. Finalmente, **DataInitializer** prepara datos iniciales como roles y usuarios base para el funcionamiento del sistema.
-
-![Identity & Access Management - Component Diagram](assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/component-diagram.png)
+La Infrastructure Layer se encuentra representada en los diagramas de componentes, diagramas de clases y diagramas de base de datos del bounded context, evidenciando la implementación concreta de los servicios técnicos requeridos para soportar las capacidades de Identity & Access Management.
 
 ---
 
-##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+El siguiente diagrama de componentes presenta la arquitectura interna del bounded context **Identity & Access Management**, mostrando cómo colaboran los principales componentes de las capas de interfaz, aplicación e infraestructura para soportar los procesos de autenticación y autorización de usuarios dentro de la plataforma Nexora.
+
+La interacción inicia cuando una aplicación cliente consume los endpoints expuestos por **AuthController**, responsable de recibir solicitudes de autenticación y registro. Dichas solicitudes son coordinadas por los servicios de aplicación **JwtService** y **CustomUserDetailsService**, los cuales gestionan la generación de tokens JWT, validación de credenciales y recuperación de información de usuarios y roles.
+
+La infraestructura de seguridad se encuentra soportada por **SecurityConfig** y **JwtAuthFilter**, componentes encargados de configurar las políticas de acceso y validar los tokens enviados en las solicitudes protegidas. Asimismo, los repositorios **UserRepository** y **RoleRepository** proporcionan acceso a la persistencia de usuarios y roles almacenados en la base de datos IAM.
+
+Finalmente, el componente **DataInitializer** permite inicializar información básica del sistema durante el arranque de la aplicación, garantizando la disponibilidad de roles y configuraciones esenciales para el funcionamiento del bounded context.
+
+![Identity & Access Management - Component Diagram](assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/component-diagram_v3.png)
+
+---
+
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 En esta sección se presentan los diagramas de nivel de código correspondientes al bounded context **Identity & Access Management**. Estos diagramas permiten visualizar la estructura interna del modelo de dominio y el diseño de persistencia utilizado para soportar las funcionalidades de autenticación y autorización.
 
 ---
 
-###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del dominio para el contexto de **Identity & Access Management** representa las principales clases, interfaces y relaciones que soportan el control de acceso de la plataforma. Se identifican como elementos centrales a **User**, **Role** y **RoleName**, los cuales permiten modelar identidades digitales y perfiles de autorización.
+El siguiente diagrama de clases representa los principales elementos del dominio pertenecientes al bounded context **Identity & Access Management**. El modelo se encuentra centrado en la gestión de identidades digitales y perfiles de autorización utilizados por la plataforma Nexora.
 
-La clase **User** representa a los usuarios registrados en NexIoT y mantiene una relación muchos-a-muchos con **Role**, permitiendo que una misma cuenta pueda tener uno o más perfiles de acceso. La enumeración **RoleName** define los roles válidos para el sistema, adaptados al contexto del proyecto: **ADMIN**, **LANDLORD** y **TENANT**.
+La entidad **User** actúa como Aggregate Root del dominio y representa a los usuarios registrados dentro del sistema. Cada usuario puede estar asociado a uno o varios roles mediante una relación muchos-a-muchos con la entidad **Role**, permitiendo un esquema flexible de autorización basado en roles.
 
-Además, el diagrama incluye componentes de seguridad como **JwtService**, **JwtAuthFilter**, **SecurityConfig** y **CustomUserDetailsService**, así como los repositorios **UserRepository** y **RoleRepository**, mostrando la trazabilidad entre las capas de interfaz, seguridad, dominio e infraestructura.
+Por su parte, la enumeración **RoleName** define los perfiles de acceso válidos dentro del sistema, incluyendo los roles **ADMIN**, **LANDLORD** y **TENANT**. Adicionalmente, el diagrama incorpora las interfaces **UserRepository** y **RoleRepository**, las cuales representan los mecanismos de acceso a persistencia definidos por el dominio.
 
-<img src="assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/class-diagram.png" alt="Identity & Access Management - Class Diagram" width="750"/>
+Este modelo constituye la base conceptual sobre la cual se implementan los procesos de autenticación y autorización del bounded context.
+
+<img src="assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/class-diagram_v2.png" alt="Identity & Access Management - Class Diagram" width="750"/>
 
 ---
 
-###### 4.2.4.6.2. Bounded Context Database Design Diagram
+###### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 El diseño de base de datos del bounded context **Identity & Access Management** está orientado a soportar el registro de usuarios, la gestión de roles y la relación entre ambos. El modelo utiliza un enfoque relacional simple y coherente con la implementación en Spring Boot y JPA.
 
@@ -2344,687 +2629,1861 @@ La tabla **users** almacena la información principal de cada usuario, incluyend
 
 Finalmente, la tabla **users_roles** resuelve la relación muchos-a-muchos entre usuarios y roles mediante las claves foráneas **user_id** y **role_id**, permitiendo un modelo flexible de autorización dentro de la plataforma.
 
+### Constraints Principales
+
+**users**
+- PK: id
+- UK: email
+
+**roles**
+- PK: id
+- UK: name
+
+**users_roles**
+- PK: (user_id, role_id)
+- FK: user_id → users.id
+- FK: role_id → roles.id
+
 <img src="assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/database-diagram.png" alt="Identity & Access Management - Database Diagram" height="750"/>
 
 #### 4.2.2. Bounded Context: Service Monitoring & Intelligence
 
-Este Bounded Context es el núcleo analítico del sistema Nexora. Se encarga de la ingesta de telemetría proveniente de los sensores IoT (Gas, Aire, Temperatura), la evaluación de riesgos en tiempo real y la generación de alertas ante anomalías detectadas en las viviendas.
+Este bounded context representa el núcleo analítico de Nexora. Se encarga de procesar la telemetría proveniente de sensores IoT, evaluar riesgos en tiempo real y generar alertas ante anomalías detectadas dentro de las viviendas inteligentes.
+
+Dentro del monolito modular de Nexora, este bounded context concentra una de las capacidades core del negocio, ya que transforma datos físicos capturados por sensores en información accionable para usuarios, arrendadores y otros módulos del sistema.
 
 #### 4.2.2.1. Domain Layer
 
-**App Móvil:**
-En esta capa se describen las clases que representan las abstracciones del monitoreo para el inquilino. Se incluyen clases de serialización para visualizar niveles de gas y calidad de aire en tiempo real.
+La Domain Layer contiene los conceptos centrales del negocio relacionados con el monitoreo inteligente de sensores IoT. En esta capa se modelan las lecturas de telemetría, anomalías, umbrales de seguridad y estados de bienestar utilizados para evaluar el estado de una vivienda.
 
-### DTO
+Siguiendo los principios de Domain-Driven Design (DDD), esta capa se mantiene independiente de frameworks, controladores, mecanismos de persistencia o detalles de comunicación como MQTT. Su responsabilidad principal es representar las reglas de negocio que permiten determinar si una lectura es segura, riesgosa o crítica.
 
-**TelemetryDto**
+### Aggregate Root
+
+#### TelemetryRecord
+
+La entidad **TelemetryRecord** actúa como Aggregate Root del bounded context, ya que representa una lectura completa capturada por el sistema IoT en un instante específico y permite evaluar su nivel de riesgo según los umbrales configurados.
+
+**Atributos:**
+
 | Atributo | Tipo | Descripción |
 | :--- | :--- | :--- |
-| id | int | Identificador único del registro de telemetría |
-| gasPpm | double | Concentración de gas detectada en partes por millón |
-| airQualityIndex | int | Índice de calidad del aire calculado |
-| capturedAt | date | Fecha y hora exacta de la lectura |
+| id | Long | Identificador único del registro de telemetría |
+| deviceId | Long | Identificador del dispositivo que generó la lectura |
+| gasPpm | Double | Concentración de gas detectada en partes por millón |
+| airQuality | Double | Nivel de calidad del aire registrado |
+| temperature | Double | Temperatura capturada por el sensor |
+| capturedAt | DateTime | Fecha y hora exacta de la lectura |
 
-**RealTimeStatusDto**
-| Atributo | Tipo | Descripción |
-| :--- | :--- | :--- |
-| status | string | Estado general (Seguro, Advertencia, Peligro) |
-| lastValue | double | Último valor de gas recibido |
-
----
-
-**Backend:**
-En esta capa se describen las clases que representan el núcleo del dominio del monitoreo. Se incluyen las entidades, objetos de valor y la lógica de detección de fugas bajo el patrón CQRS.
-
-#### Entities
-
-**MonitoringDevice**
-Representa el nodo sensor (ESP32) desde la perspectiva de su flujo de datos.
-| Atributo | Tipo |
-| :--- | :--- |
-| Id | int |
-| DeviceCode | string |
-| IsOnline | bool |
-| LastCalibration | DateTime |
-
-**Anomaly**
-Representa una detección de lectura fuera de los parámetros normales (fugas o incendios).
-| Atributo | Tipo |
-| :--- | :--- |
-| Id | int |
-| Severity | string |
-| Description | string |
-| Resolved | bool |
-
----
-
-#### Value Objects
-
-**Thresholds**
-| Atributo | Descripción |
-| :--- | :--- |
-| CriticalLevel | Valor PPM que dispara la alerta inmediata y cierre de válvula |
-| WarningLevel | Valor que sugiere ventilación preventiva |
-
-**WellnessStates**
-| Atributo | Descripción |
-| :--- | :--- |
-| Safe | Niveles normales de gas y aire excelente |
-| Risky | Presencia leve de gas o aire muy viciado |
-| Danger | Fuga confirmada o niveles tóxicos |
-
----
-
-#### Aggregates
-
-**TelemetryRecord**
-Representa el conjunto de datos capturados por el sistema IoT en un instante dado.
-| Atributo | Tipo |
-| :--- | :--- |
-| Id | long |
-| DeviceId | int |
-| GasPpm | double |
-| AirQuality | double |
-| Temperature | double |
-| CapturedAt | DateTime |
+**Métodos:**
 
 | Método | Descripción |
 | :--- | :--- |
-| EvaluateRisk | Compara la lectura contra los umbrales para determinar si existe una anomalía |
-| IsCritical | Retorna verdadero si el nivel de gas exige el cierre automático de la válvula |
+| evaluateRisk(thresholds) | Compara la lectura con los umbrales definidos para determinar el estado de bienestar |
+| isCritical(thresholds) | Retorna verdadero si la lectura supera el nivel crítico configurado |
+| generateAnomaly(thresholds) | Genera una anomalía cuando la lectura representa un riesgo para la vivienda |
+
+### Entities
+
+#### Anomaly
+
+La entidad **Anomaly** representa una lectura fuera de los parámetros normales del sistema, como una posible fuga de gas, mala calidad de aire o condición crítica detectada por los sensores.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador único de la anomalía |
+| telemetryRecordId | Long | Identificador de la lectura que originó la anomalía |
+| severity | String | Nivel de severidad de la anomalía detectada |
+| description | String | Descripción del riesgo identificado |
+| resolved | Boolean | Indica si la anomalía fue atendida o cerrada |
+| detectedAt | DateTime | Fecha y hora en la que se detectó la anomalía |
+
+**Métodos:**
+
+| Método | Descripción |
+| :--- | :--- |
+| markAsResolved() | Marca la anomalía como resuelta |
+| isActive() | Retorna verdadero si la anomalía aún no ha sido resuelta |
+
+#### MonitoringDevice
+
+La entidad **MonitoringDevice** representa una referencia al dispositivo IoT desde la perspectiva del monitoreo. Este bounded context no administra el ciclo de vida completo del dispositivo, ya que esa responsabilidad pertenece a **Resource & Asset Management**. Sin embargo, mantiene la información mínima necesaria para interpretar la telemetría recibida.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador del dispositivo de monitoreo |
+| deviceCode | String | Código único del dispositivo IoT |
+| isOnline | Boolean | Indica si el dispositivo se encuentra conectado |
+| lastCalibration | DateTime | Última fecha de calibración conocida |
+
+### Value Objects
+
+#### Thresholds
+
+El Value Object **Thresholds** representa los límites configurados para evaluar si una lectura de telemetría se encuentra en estado seguro, advertencia o peligro.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| warningLevel | Double | Valor que indica una condición preventiva o de advertencia |
+| criticalLevel | Double | Valor que dispara una alerta crítica o acción inmediata |
+
+**Reglas:**
+
+- El nivel crítico debe ser mayor que el nivel de advertencia.
+- Los umbrales deben estar asociados a un dispositivo o tipo de sensor.
+- Una lectura que supera el nivel crítico debe generar una anomalía.
+
+#### WellnessState
+
+**WellnessState** es una enumeración que define los posibles estados de bienestar de una vivienda según las lecturas recibidas.
+
+**Valores definidos:**
+
+| Valor | Descripción |
+| :--- | :--- |
+| SAFE | Niveles normales de gas, temperatura y calidad de aire |
+| RISKY | Presencia leve de riesgo o valores fuera del rango recomendado |
+| DANGER | Fuga confirmada, niveles tóxicos o condición crítica |
+
+### Domain Services
+
+#### RiskEvaluator
+
+El servicio de dominio **RiskEvaluator** encapsula la lógica de evaluación de riesgo a partir de una lectura de telemetría y los umbrales configurados.
+
+Este servicio permite desacoplar la lógica de cálculo de riesgo de las entidades, facilitando cambios futuros en los criterios de evaluación.
+
+**Métodos principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| evaluate(record, thresholds) | Determina el estado de bienestar de una lectura |
+| detectAnomaly(record, thresholds) | Evalúa si una lectura debe generar una anomalía |
+| calculateSeverity(record, thresholds) | Calcula la severidad de la anomalía detectada |
+
+### Repository Interfaces
+
+#### ITelemetryRepository
+
+Abstracción utilizada por el dominio para acceder a la persistencia de registros de telemetría.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(record) | Persiste una lectura de telemetría |
+| findLatestByDeviceId(deviceId) | Obtiene la última lectura de un dispositivo |
+| findHistoryByDeviceId(deviceId) | Obtiene el histórico de lecturas de un dispositivo |
+
+#### IAnomalyRepository
+
+Abstracción utilizada para acceder a la persistencia de anomalías detectadas.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(anomaly) | Persiste una anomalía detectada |
+| findActiveByDeviceId(deviceId) | Obtiene anomalías activas asociadas a un dispositivo |
+| findHistoryByDeviceId(deviceId) | Obtiene el historial de anomalías de un dispositivo |
+
+### Commands & Queries
+
+Aunque los Commands y Queries son orquestados principalmente desde la Application Layer, se identifican en este bounded context porque representan capacidades relevantes del dominio de monitoreo.
+
+| Clase | Tipo | Descripción |
+| :--- | :--- | :--- |
+| ProcessTelemetryCommand | Command | Registra y analiza una nueva lectura recibida desde un sensor |
+| CreateAnomalyCommand | Command | Registra una anomalía cuando una lectura supera los umbrales definidos |
+| GetCurrentStatusQuery | Query | Obtiene el estado más reciente de los sensores de una vivienda |
+| GetTelemetryHistoryQuery | Query | Consulta el histórico de lecturas para visualización y análisis |
+
+### Domain Relationships
+
+- Un **MonitoringDevice** puede generar múltiples **TelemetryRecord**.
+- Un **TelemetryRecord** puede generar cero o una **Anomaly**.
+- Una **Anomaly** se origina a partir de una lectura específica de telemetría.
+- **Thresholds** define los límites utilizados para evaluar un **TelemetryRecord**.
+- **RiskEvaluator** utiliza **TelemetryRecord** y **Thresholds** para determinar el **WellnessState**.
+
+### Domain Rules
+
+1. Toda lectura de telemetría debe estar asociada a un dispositivo registrado.
+2. Una lectura que supera el nivel crítico debe generar una anomalía.
+3. El nivel crítico debe ser mayor que el nivel de advertencia.
+4. Una anomalía activa debe mantenerse abierta hasta ser atendida o marcada como resuelta.
+5. El estado de bienestar de una vivienda se determina a partir de la última lectura válida.
+6. El bounded context no administra el ciclo de vida completo de los dispositivos; solo consume referencias necesarias para monitoreo.
+7. La lógica de evaluación de riesgo debe mantenerse desacoplada de los mecanismos técnicos de comunicación o persistencia.
+
+La Domain Layer constituye la base conceptual del bounded context **Service Monitoring & Intelligence** y se refleja en los diagramas de componentes, clases de dominio y diseño de base de datos presentados en las siguientes secciones.
 
 ---
 
-#### Commands & Queries
-
-| Clase | Descripción |
-| :--- | :--- |
-| ProcessTelemetryCommand | Registra y analiza una nueva lectura de datos del sensor |
-| CreateAnomalyCommand | Registra una incidencia de seguridad confirmada en el sistema |
-| GetCurrentStatusQuery | Obtiene el estado más reciente de los sensores de una propiedad |
-| GetTelemetryHistoryQuery | Consulta el histórico de lecturas para la generación de gráficos |
-
 #### 4.2.2.2. Interface Layer
 
-**Backend:**
-Define los recursos y controladores que exponen la inteligencia del sistema a las aplicaciones cliente.
+La Interface Layer del bounded context **Service Monitoring & Intelligence** es responsable de exponer las capacidades de monitoreo inteligente hacia las aplicaciones cliente de Nexora mediante APIs RESTful y recursos de consulta.
 
-#### Resources
-| Clase | Descripción |
-| :--- | :--- |
-| TelemetryResource | Entrega los datos de consumo y estado de aire al usuario |
-| AnomalyResource | Detalla una incidencia de seguridad para el historial del arrendador |
-| UpdateThresholdResource | Recurso para modificar los límites de alerta de un dispositivo |
+Esta capa actúa como intermediaria entre los consumidores externos y la lógica interna del bounded context, permitiendo acceder a información de telemetría, estados de bienestar, anomalías detectadas y configuraciones de monitoreo sin exponer directamente las entidades del dominio.
 
-#### Controllers
+Siguiendo los principios de separación de responsabilidades, la Interface Layer recibe solicitudes HTTP, transforma información entre recursos externos y objetos internos, y delega el procesamiento de los casos de uso a la Application Layer.
 
-**MonitoringController**
-| Ruta específica | Descripción |
-| :--- | :--- |
-| /api/v1/monitoring/stream | Canal de datos en tiempo real para la App Móvil |
-| /api/v1/monitoring/anomalies | Consulta de alertas históricas por propiedad |
+### Controller Principal
 
+#### MonitoringController
+
+El **MonitoringController** actúa como punto de entrada para las operaciones relacionadas con monitoreo, visualización de telemetría, consulta de anomalías y configuración de umbrales de seguridad.
+
+Este controlador recibe solicitudes provenientes de aplicaciones móviles, aplicaciones web y otros consumidores autorizados de la plataforma.
+
+### Endpoints Expuestos
+
+| Método | Endpoint | Descripción |
+|----------|----------|-------------|
+| GET | /api/v1/monitoring/stream | Obtiene información de monitoreo en tiempo real |
+| GET | /api/v1/monitoring/anomalies | Consulta el historial de anomalías registradas |
+| GET | /api/v1/monitoring/history | Obtiene el histórico de lecturas de telemetría |
+| PUT | /api/v1/monitoring/thresholds | Actualiza los umbrales de monitoreo configurados |
+
+### Resources
+
+#### TelemetryResource
+
+Recurso utilizado para representar información de telemetría procesada por el sistema.
+
+**Campos principales:**
+
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador del registro |
+| gasPpm | Double | Nivel de gas detectado |
+| airQuality | Double | Calidad del aire registrada |
+| temperature | Double | Temperatura registrada |
+| capturedAt | DateTime | Fecha y hora de captura |
+
+Este recurso permite visualizar información histórica y en tiempo real de los sensores IoT.
+
+---
+
+#### AnomalyResource
+
+Recurso utilizado para representar anomalías detectadas por el sistema.
+
+**Campos principales:**
+
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador de la anomalía |
+| severity | String | Nivel de severidad |
+| description | String | Descripción de la anomalía |
+| resolved | Boolean | Estado de resolución |
+| detectedAt | DateTime | Fecha de detección |
+
+Este recurso permite consultar incidentes históricos y alertas activas dentro de una propiedad.
+
+---
+
+#### UpdateThresholdResource
+
+Recurso utilizado para modificar los límites de seguridad configurados para un dispositivo o sensor.
+
+**Campos principales:**
+
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| warningLevel | Double | Nivel de advertencia configurado |
+| criticalLevel | Double | Nivel crítico configurado |
+
+Este recurso permite personalizar el comportamiento del monitoreo según las necesidades de cada inmueble.
+
+### Responsabilidades de la Interface Layer
+
+- Recibir solicitudes HTTP provenientes de aplicaciones cliente.
+- Exponer capacidades de monitoreo mediante APIs RESTful.
+- Transformar entidades de dominio en recursos consumibles por el cliente.
+- Validar formatos básicos de entrada.
+- Delegar la ejecución de casos de uso a la Application Layer.
+- Gestionar respuestas HTTP y códigos de estado.
+- Mantener desacoplada la comunicación externa de la lógica de negocio.
+
+La Interface Layer constituye la capa de presentación del bounded context **Service Monitoring & Intelligence** y se encuentra representada principalmente por el **MonitoringController** y los recursos utilizados para exponer información de telemetría, anomalías y configuraciones de monitoreo a los consumidores externos de la plataforma.
+
+---
 
 #### 4.2.2.3. Application Layer
 
-**Backend:**
+La Application Layer del bounded context **Service Monitoring & Intelligence** es responsable de coordinar los casos de uso relacionados con el monitoreo inteligente, el procesamiento de telemetría, la detección de anomalías y la consulta de información histórica.
 
-### CommandServices
-| Clase | Descripción |
+Esta capa actúa como intermediaria entre la Interface Layer y el modelo de dominio, orquestando el flujo de ejecución de los procesos de negocio sin contener reglas propias del dominio. Su principal responsabilidad consiste en coordinar comandos, consultas y eventos generados a partir de las lecturas provenientes de los dispositivos IoT.
+
+### Command Services
+
+#### TelemetryCommandService
+
+El servicio **TelemetryCommandService** coordina el procesamiento de nuevas lecturas de telemetría recibidas desde la infraestructura IoT.
+
+Este servicio valida la información recibida, crea registros de telemetría y solicita la evaluación de riesgo correspondiente.
+
+**Responsabilidades principales:**
+
+- Procesar lecturas provenientes de sensores IoT.
+- Validar consistencia de los datos recibidos.
+- Registrar nuevos TelemetryRecord.
+- Invocar la evaluación de riesgo mediante el Domain Service.
+- Generar eventos de monitoreo cuando corresponda.
+
+---
+
+#### AnomalyCommandService
+
+El servicio **AnomalyCommandService** coordina el registro y tratamiento de anomalías detectadas durante el proceso de monitoreo.
+
+**Responsabilidades principales:**
+
+- Crear nuevas anomalías.
+- Registrar incidentes de seguridad.
+- Gestionar cambios de estado de anomalías.
+- Orquestar el envío de alertas y notificaciones.
+- Coordinar acciones posteriores a una detección crítica.
+
+### Query Services
+
+#### MonitoringQueryService
+
+El servicio **MonitoringQueryService** gestiona las consultas relacionadas con el estado actual de los sensores y el historial de monitoreo.
+
+**Responsabilidades principales:**
+
+- Recuperar el estado más reciente de una propiedad.
+- Consultar el histórico de telemetría.
+- Obtener anomalías activas o históricas.
+- Generar información para dashboards y gráficos.
+- Proveer información consolidada para aplicaciones cliente.
+
+### Commands
+
+Los principales comandos identificados dentro de este bounded context son:
+
+| Command | Descripción |
 | :--- | :--- |
-| TelemetryCommandService | Maneja la lógica de ingesta y validación de datos de la capa Edge |
-| AnomalyCommandService | Orquesta el disparo de notificaciones cuando se detecta un riesgo |
+| ProcessTelemetryCommand | Registra y procesa una nueva lectura proveniente de un sensor IoT |
+| CreateAnomalyCommand | Registra una anomalía detectada por el sistema |
+| ResolveAnomalyCommand | Marca una anomalía como resuelta |
+| UpdateThresholdCommand | Actualiza los umbrales de monitoreo configurados |
 
-### QueryServices
-| Clase | Descripción |
+### Queries
+
+Las consultas principales del bounded context son:
+
+| Query | Descripción |
 | :--- | :--- |
-| MonitoringQueryService | Gestiona la recuperación de estados actuales y datos históricos |
+| GetCurrentStatusQuery | Obtiene el estado actual de monitoreo de una vivienda |
+| GetTelemetryHistoryQuery | Recupera el histórico de lecturas registradas |
+| GetActiveAnomaliesQuery | Obtiene las anomalías activas de una propiedad |
+| GetAnomalyHistoryQuery | Recupera el historial completo de anomalías |
 
+### Event Handling
+
+Este bounded context trabaja bajo un enfoque orientado a eventos, ya que las lecturas provenientes de la capa IoT generan procesos automáticos de análisis y detección de riesgos.
+
+Los eventos principales identificados son:
+
+| Evento | Descripción |
+| :--- | :--- |
+| TelemetryReceivedEvent | Indica que una nueva lectura ha sido recibida desde un dispositivo IoT |
+| RiskDetectedEvent | Indica que una lectura presenta condiciones de riesgo |
+| AnomalyDetectedEvent | Indica que se ha generado una anomalía dentro del sistema |
+| AnomalyResolvedEvent | Indica que una anomalía fue atendida y cerrada |
+
+### Capacidades de Aplicación
+
+La Application Layer soporta las siguientes capacidades principales del bounded context:
+
+- Procesamiento de telemetría en tiempo real.
+- Detección automática de riesgos.
+- Registro y gestión de anomalías.
+- Consulta de estados actuales de monitoreo.
+- Consulta de históricos de telemetría.
+- Generación de información para analítica y visualización.
+
+### Beneficios de la Application Layer
+
+- Centraliza la coordinación de los casos de uso.
+- Separa la lógica de negocio de la lógica de presentación.
+- Facilita la implementación de CQRS.
+- Permite integrar eventos provenientes de dispositivos IoT.
+- Mejora la mantenibilidad y escalabilidad del sistema.
+- Facilita la incorporación futura de nuevos sensores y reglas de monitoreo.
+
+La Application Layer constituye el punto de orquestación principal del bounded context **Service Monitoring & Intelligence**, coordinando la interacción entre la Interface Layer, los servicios de dominio, los repositorios y los componentes de infraestructura encargados del monitoreo inteligente.
+
+---
 
 
 #### 4.2.2.4. Infrastructure Layer
 
-**Backend:**
+La Infrastructure Layer del bounded context **Service Monitoring & Intelligence** contiene las implementaciones técnicas necesarias para soportar el procesamiento de telemetría, la persistencia de datos de monitoreo y la integración con la infraestructura IoT desplegada en las propiedades inteligentes.
 
-### Implementación de Repositorios
-| Clase | Interfaz Implementada | Descripción |
-| :--- | :--- | :--- |
-| TelemetryRepository | ITelemetryRepository | Maneja la persistencia en base de datos de series temporales |
-| AnomalyRepository | IAnomalyRepository | Persistencia y auditoría de alertas de seguridad |
+Siguiendo los principios de Domain-Driven Design, esta capa implementa las abstracciones definidas por el dominio y proporciona mecanismos concretos para almacenamiento de información, recepción de mensajes MQTT y acceso a servicios tecnológicos externos.
 
-### IoT Communication
-| Clase | Descripción |
+### Repository Implementations
+
+#### TelemetryRepository
+
+Implementación concreta de la interfaz **ITelemetryRepository**, responsable de persistir y recuperar registros de telemetría generados por los sensores IoT.
+
+Este repositorio permite almacenar información histórica utilizada para monitoreo, análisis y generación de reportes.
+
+**Operaciones principales:**
+
+| Método | Descripción |
 | :--- | :--- |
-| MqttInboundAdapter | Adaptador técnico que traduce mensajes MQTT del hardware a objetos de dominio |
+| save(record) | Persiste una nueva lectura de telemetría |
+| findLatestByDeviceId(deviceId) | Recupera la última lectura registrada |
+| findHistoryByDeviceId(deviceId) | Recupera el historial completo de lecturas |
 
+---
+
+#### AnomalyRepository
+
+Implementación concreta de la interfaz **IAnomalyRepository**, responsable de almacenar y recuperar anomalías detectadas por el sistema.
+
+Además de la persistencia operativa, permite mantener trazabilidad histórica para auditorías y análisis posteriores.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(anomaly) | Persiste una anomalía detectada |
+| findActiveByDeviceId(deviceId) | Obtiene anomalías activas |
+| findHistoryByDeviceId(deviceId) | Recupera el historial de anomalías |
+
+Ambos repositorios son implementados utilizando **Spring Data JPA**, permitiendo acceder a la información mediante una capa de abstracción desacoplada del dominio.
+
+### IoT Communication Components
+
+#### MqttInboundAdapter
+
+El componente **MqttInboundAdapter** actúa como adaptador técnico entre la infraestructura IoT y el bounded context de monitoreo.
+
+Su función principal consiste en recibir mensajes MQTT provenientes de sensores y dispositivos Edge, transformar la información recibida y entregarla a la Application Layer para su procesamiento.
+
+**Responsabilidades principales:**
+
+- Suscribirse a tópicos MQTT configurados.
+- Recibir lecturas enviadas por dispositivos IoT.
+- Validar el formato de los mensajes recibidos.
+- Transformar mensajes MQTT en objetos utilizados por la aplicación.
+- Enviar información hacia los servicios de procesamiento de telemetría.
+
+### Database Layer
+
+#### Monitoring Database
+
+Base de datos responsable de almacenar la información persistente relacionada con el monitoreo inteligente.
+
+Esta base de datos soporta la gestión histórica de lecturas de sensores, anomalías detectadas y configuraciones de monitoreo utilizadas por el sistema.
+
+### Main Tables
+
+#### telemetry_records
+
+Almacena las lecturas capturadas por los dispositivos IoT.
+
+**Campos principales:**
+
+- id
+- device_id
+- gas_ppm
+- air_quality
+- temperature
+- captured_at
+
+---
+
+#### anomalies
+
+Almacena las anomalías detectadas por el sistema de monitoreo.
+
+**Campos principales:**
+
+- id
+- telemetry_record_id
+- severity
+- description
+- resolved
+- detected_at
+
+---
+
+#### thresholds
+
+Almacena los límites configurados para la evaluación de riesgo.
+
+**Campos principales:**
+
+- id
+- warning_level
+- critical_level
+- device_id
+
+### Infrastructure Responsibilities
+
+- Implementar mecanismos de persistencia definidos por el dominio.
+- Gestionar el almacenamiento histórico de telemetría.
+- Administrar el registro de anomalías.
+- Integrar la plataforma con la infraestructura MQTT.
+- Transformar mensajes IoT en objetos procesables por la aplicación.
+- Proporcionar acceso eficiente a información histórica de monitoreo.
+
+### Beneficios de la Infrastructure Layer
+
+- Persistencia desacoplada de la lógica de negocio.
+- Integración transparente con dispositivos IoT.
+- Almacenamiento histórico para analítica y auditoría.
+- Escalabilidad para grandes volúmenes de telemetría.
+- Reutilización de repositorios mediante patrones DDD.
+- Facilita la incorporación de nuevos sensores y fuentes de datos.
+
+La Infrastructure Layer constituye el soporte técnico del bounded context **Service Monitoring & Intelligence**, permitiendo integrar la información proveniente de la infraestructura IoT con los procesos de monitoreo, evaluación de riesgos y detección de anomalías implementados por la plataforma Nexora.
+
+---
 
 ### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-Este diagrama de nivel 3 describe la arquitectura interna del Bounded Context encargado de la "inteligencia" del sistema. Se observa un flujo basado en eventos donde el MQTT Inbound Adapter recibe la telemetría y la traslada a los servicios de aplicación (Telemetry Command Service).
+El diagrama de nivel de componentes describe la arquitectura interna del bounded context **Service Monitoring & Intelligence**, el cual forma parte del backend monolítico modular de Nexora. Esta vista permite observar cómo se distribuyen las responsabilidades entre los componentes encargados de recibir telemetría, procesar lecturas, evaluar riesgos, consultar información histórica y registrar anomalías.
 
-La lógica de negocio reside en el Risk Evaluator, un servicio de dominio que analiza las lecturas en partes por millón (PPM) para identificar anomalías. Este diseño bajo el patrón CQRS permite separar eficientemente la ingesta masiva de datos (escritura) de la consulta de estados y alertas (lectura), permitiendo que la Mobile App obtenga respuestas rápidas sobre la seguridad de la vivienda.
+El flujo principal inicia cuando **MqttInboundAdapter** recibe lecturas provenientes del hardware IoT mediante MQTT y las transforma en información procesable por la Application Layer. Luego, **TelemetryCommandService** coordina la ingesta de datos, registra la lectura mediante **ITelemetryRepository** y solicita a **RiskEvaluator** la evaluación del riesgo según los umbrales configurados.
 
-![Service Monitoring & Intelligence - Component Diagram](/assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/component-diagram.png)
+La lógica principal del dominio se concentra en **RiskEvaluator**, un Domain Service encargado de determinar si una lectura se encuentra en estado seguro, riesgoso o crítico. Cuando se detecta una condición anómala, **AnomalyCommandService** registra la anomalía correspondiente mediante **IAnomalyRepository**.
+
+Por otro lado, **MonitoringController** expone endpoints REST para que las aplicaciones cliente consulten el estado actual, el historial de telemetría y las anomalías detectadas. Estas consultas son coordinadas por **MonitoringQueryService**, permitiendo separar las operaciones de escritura y procesamiento de las operaciones de lectura, siguiendo un enfoque CQRS.
+
+La persistencia se realiza en la base de datos central de Nexora, específicamente en las tablas relacionadas con este bounded context, como `telemetry_records`, `anomalies` y `device_thresholds`.
+
+
+![Service Monitoring & Intelligence - Component Diagram](/assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/component-diagram-v2.png)
 
 ---
 
 ### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
+En esta sección se presentan los diagramas de nivel de código correspondientes al bounded context **Service Monitoring & Intelligence**. Estos diagramas permiten visualizar la estructura del modelo de dominio y el diseño de persistencia utilizado para soportar el monitoreo IoT, la evaluación de riesgos y la gestión de anomalías dentro de Nexora.
+
+
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del dominio para el contexto de Monitoring & Intelligence define las reglas tácticas y las abstracciones del sistema. Se identifican como entidades clave a TelemetryRecord, que captura la medición sensorial, y Anomaly, que representa un incidente de seguridad.
+El diagrama de clases del dominio representa los principales elementos tácticos del bounded context **Service Monitoring & Intelligence**. El modelo se centra en la clase **TelemetryRecord**, la cual actúa como Aggregate Root al representar una lectura completa capturada por el sistema IoT en un momento específico.
 
-El modelo utiliza un Domain Service (RiskEvaluator) para desacoplar la lógica de cálculo de riesgos de las entidades, permitiendo que el sistema sea flexible ante cambios en los umbrales de seguridad (Thresholds). El uso de enumeraciones para los estados de bienestar (WellnessState) asegura un lenguaje ubicuo consistente entre el desarrollo y el negocio.
+La entidad **Anomaly** modela una condición fuera de los parámetros normales y se relaciona con la lectura que la originó. Asimismo, **MonitoringDevice** se representa como una referencia al dispositivo IoT desde la perspectiva del monitoreo, debido a que el ciclo de vida completo de los dispositivos pertenece al bounded context **Resource & Asset Management**.
 
-<img src="assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/class-diagram.png" alt="Service Monitoring & Intelligence - Class Diagram" width="450"/>
+El modelo también incluye el Value Object **Thresholds**, utilizado para definir los niveles de advertencia y criticidad, y la enumeración **WellnessState**, que establece los posibles estados de bienestar de la vivienda: **SAFE**, **RISKY** y **DANGER**. Finalmente, **RiskEvaluator** se define como un Domain Service encargado de evaluar las lecturas contra los umbrales configurados, mientras que **ITelemetryRepository** e **IAnomalyRepository** representan las interfaces de persistencia requeridas por el dominio.
+
+
+<img src="assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/class-diagram-v2.png" alt="Service Monitoring & Intelligence - Class Diagram" width="450"/>
 
 ---
 #### 4.2.2.6.2. Bounded Context Database Design Diagram
 
-El diseño del esquema de base de datos para este contexto está optimizado para el almacenamiento de registros históricos y la gestión de eventos críticos. La tabla telemetry_logs utiliza tipos de datos de alta capacidad (BigInt) para soportar el flujo constante de lecturas de los sensores MQ-2 y MQ-135.
+El diseño de base de datos del bounded context **Service Monitoring & Intelligence** representa las tablas necesarias para persistir la información de monitoreo dentro de la base de datos central de Nexora. Aunque el sistema utiliza una sola base de datos física por su enfoque de monolito modular, este diagrama muestra únicamente las tablas asociadas a este bounded context.
 
-El esquema establece una relación de trazabilidad entre cada registro de telemetría y las posibles anomalies generadas, permitiendo una auditoría completa de qué lectura exacta disparó una alerta. Por otro lado, la tabla device_thresholds permite la personalización de los niveles de alerta por cada inmueble, brindando flexibilidad a la configuración del sistema de seguridad.
+La tabla `monitoring_devices` almacena la referencia mínima de los dispositivos monitoreados desde la perspectiva de este contexto. La tabla `device_thresholds` registra los niveles de advertencia y criticidad configurados para evaluar las lecturas recibidas. Por su parte, `telemetry_records` almacena el histórico de lecturas provenientes de sensores IoT, incluyendo gas, calidad de aire, temperatura y fecha de captura.
 
-<img src="assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/database-diagram.png" alt="Service Monitoring & Intelligence - Database Diagram"  height="750"/>
+Finalmente, la tabla `anomalies` permite registrar las condiciones críticas detectadas por el sistema y mantener trazabilidad con la lectura de telemetría que originó la anomalía. Esta relación permite auditar qué lectura específica disparó una alerta y consultar posteriormente el historial de eventos críticos.
 
+### Constraints Principales
+
+**monitoring_devices**
+- PK: id
+- UK: device_code
+
+**device_thresholds**
+- PK: id
+- FK: device_id → monitoring_devices.id
+
+**telemetry_records**
+- PK: id
+- FK: device_id → monitoring_devices.id
+
+**anomalies**
+- PK: id
+- FK: telemetry_record_id → telemetry_records.id
+
+<img src="assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/database-diagram-v2.png" alt="Service Monitoring & Intelligence - Database Diagram"  height="750"/>
 
 
 #### 4.2.3. Bounded Context: Resource & Asset Management
 
-Este Bounded Context se encarga de la gestión de la infraestructura física y el inventario tecnológico del ecosistema Nexora. Su función principal es mantener la jerarquía de activos (propiedades y unidades) y asegurar la correcta vinculación y seguimiento del estado de los dispositivos IoT y sensores distribuidos en el complejo.
+Este bounded context se encarga de la gestión de la infraestructura física y del inventario tecnológico del ecosistema Nexora. Su función principal es mantener la jerarquía de activos, propiedades, unidades habitacionales y dispositivos IoT, asegurando la correcta vinculación, trazabilidad y seguimiento operativo de los recursos físicos distribuidos en los inmuebles.
+
+Dentro del monolito modular de Nexora, este bounded context actúa como un módulo de soporte clave, ya que proporciona la base estructural que otros contextos necesitan para interpretar telemetría, gestionar incidencias y aplicar reglas comerciales relacionadas con activos.
 
 ---
 
 #### 4.2.3.1. Domain Layer
 
-**App Móvil:**
+La Domain Layer contiene los conceptos centrales del negocio relacionados con la administración de propiedades, unidades habitacionales, dispositivos IoT y procesos de vinculación técnica. En esta capa se modelan las entidades, objetos de valor, agregados y reglas que permiten representar la estructura física y tecnológica de Nexora.
 
-En esta capa se describen las clases que representan las abstracciones del inventario para el administrador y el personal técnico. Se incluyen clases de serialización para gestionar el mapeo físico de los dispositivos en las unidades habitacionales.
+Siguiendo los principios de Domain-Driven Design (DDD), esta capa se mantiene independiente de frameworks, controladores, persistencia o protocolos de comunicación con hardware. Su responsabilidad principal es representar las reglas de negocio asociadas al inventario de activos y a la asignación de dispositivos a unidades inteligentes.
 
----
+### Aggregate Root
 
-### DTO
+#### SmartUnit
 
-**AssetSummaryDto**
+La entidad **SmartUnit** actúa como Aggregate Root del bounded context, ya que representa la unidad habitacional donde convergen los activos físicos y los dispositivos IoT vinculados.
 
-| Atributo | Tipo | Descripción |
-| :--- | :--- | :--- |
-| propertyId | int | Identificador de la propiedad o complejo |
-| unitName | string | Etiqueta de la unidad habitacional (ej. "Apto 101") |
-| deviceCount | int | Número total de dispositivos vinculados |
+Desde esta entidad se controla la consistencia del inventario activo de una unidad, asegurando que la vinculación y desvinculación de dispositivos respete las reglas del dominio.
 
----
-
-**DeviceStatusDto**
+**Atributos:**
 
 | Atributo | Tipo | Descripción |
 | :--- | :--- | :--- |
-| deviceId | int | Identificador único del dispositivo físico |
-| model | string | Modelo o tipo de hardware |
-| connectionState | string | Estado actual de conexión (Sincronizado, Offline) |
-| batteryLevel | int | Nivel de energía reportado por el dispositivo |
+| id | Long | Identificador único de la unidad inteligente |
+| propertyId | Long | Identificador de la propiedad a la que pertenece la unidad |
+| gatewayId | Long | Identificador del gateway asociado a la unidad |
+| linkedDevices | List<IoTDevice> | Lista de dispositivos vinculados a la unidad |
+| lastSyncAt | DateTime | Última fecha de sincronización del inventario |
 
----
-
-**Backend:**
-
-En esta capa se describen las clases que representan el núcleo del dominio de gestión de activos. Se incluyen las entidades que definen la jerarquía física, los objetos de valor de hardware y la lógica de comisionamiento de dispositivos bajo el patrón CQRS.
-
----
-
-#### Entities
-
-**PropertyAsset**
-
-Representa la unidad física dentro de la jerarquía organizacional del sistema.
-
-| Atributo | Tipo |
-| :--- | :--- |
-| Id | int |
-| Name | string |
-| ParentId | int |
-| Type | string |
-| IsActive | bool |
-
----
-
-**IoTDevice**
-
-Representa el hardware físico registrado en el inventario desde su perspectiva de activo fijo.
-
-| Atributo | Tipo |
-| :--- | :--- |
-| Id | int |
-| SerialNumber | string |
-| FirmwareVersion | string |
-| DeviceType | string |
-| AssignedUnitId | int |
-
----
-
-#### Value Objects
-
-**DeviceMetadata**
-
-| Atributo | Descripción |
-| :--- | :--- |
-| MACAddress | Dirección física única del hardware para su identificación |
-| Manufacturer | Nombre del fabricante del componente |
-| ProductionDate | Fecha de fabricación para control de ciclos de vida |
-
----
-
-**PhysicalAddress**
-
-| Atributo | Descripción |
-| :--- | :--- |
-| Latitude | Coordenada geográfica para geolocalización de la propiedad |
-| Longitude | Coordenada geográfica para geolocalización de la propiedad |
-| StreetAddress | Dirección física legible del inmueble |
-
----
-
-#### Aggregates
-
-**SmartUnit**
-
-Representa la unidad habitacional como el núcleo donde convergen el espacio físico y los dispositivos vinculados.
-
-| Atributo | Tipo |
-| :--- | :--- |
-| UnitId | int |
-| GatewayId | int |
-| LinkedDevices | List |
-| LastSyncAt | DateTime |
-
----
+**Métodos:**
 
 | Método | Descripción |
 | :--- | :--- |
-| LinkSensor | Vincula un sensor a la unidad validando compatibilidad con el Gateway local |
-| UnlinkSensor | Desvincula un dispositivo del inventario activo de la unidad |
-| UpdateSyncStatus | Refleja el estado de sincronización global de la infraestructura de la unidad |
+| linkDevice(device) | Vincula un dispositivo IoT a la unidad validando compatibilidad y disponibilidad |
+| unlinkDevice(deviceId) | Desvincula un dispositivo del inventario activo de la unidad |
+| updateSyncStatus(syncDate) | Actualiza el estado de sincronización de la unidad |
+| hasDevice(deviceId) | Verifica si un dispositivo se encuentra vinculado a la unidad |
+
+### Entities
+
+#### PropertyAsset
+
+La entidad **PropertyAsset** representa un activo físico dentro de la jerarquía organizacional de Nexora, como un edificio, piso, departamento o unidad administrativa.
+
+Esta entidad permite modelar estructuras jerárquicas mediante una relación padre-hijo.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador único del activo físico |
+| name | String | Nombre o etiqueta del activo |
+| parentId | Long | Identificador del activo padre dentro de la jerarquía |
+| type | String | Tipo de activo, como building, floor o unit |
+| isActive | Boolean | Indica si el activo se encuentra activo dentro del sistema |
+| physicalAddress | PhysicalAddress | Dirección física asociada al activo |
+
+**Métodos:**
+
+| Método | Descripción |
+| :--- | :--- |
+| activate() | Marca el activo como activo |
+| deactivate() | Marca el activo como inactivo |
+| assignParent(parentId) | Asigna un activo padre dentro de la jerarquía |
 
 ---
 
-#### Commands & Queries
+#### IoTDevice
 
-| Clase | Descripción |
+La entidad **IoTDevice** representa un dispositivo físico registrado dentro del inventario tecnológico de Nexora, como sensores, gateways o actuadores.
+
+Esta entidad mantiene información relevante para controlar su estado operativo, versión de firmware y vinculación con una unidad inteligente.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador único del dispositivo IoT |
+| serialNumber | String | Número de serie único del hardware |
+| firmwareVersion | String | Versión actual del firmware instalado |
+| deviceType | String | Tipo de dispositivo, como sensor, gateway o actuator |
+| assignedUnitId | Long | Identificador de la unidad inteligente asignada |
+| metadata | DeviceMetadata | Información técnica inmutable del dispositivo |
+| operationalStatus | String | Estado operativo actual del dispositivo |
+
+**Métodos:**
+
+| Método | Descripción |
 | :--- | :--- |
-| RegisterPropertyCommand | Crea una nueva entidad en la jerarquía de activos del sistema |
-| LinkDeviceToUnitCommand | Ejecuta el proceso de vinculación técnica entre un sensor y una unidad |
-| UpdateDeviceStateCommand | Modifica los metadatos o el estado operativo de un activo de hardware |
-| GetPropertyHierarchyQuery | Consulta la estructura de árbol de las propiedades y sus unidades |
-| GetUnitInventoryQuery | Obtiene la lista detallada de todos los activos asignados a una unidad |
+| assignToUnit(unitId) | Asigna el dispositivo a una unidad inteligente |
+| unassign() | Libera el dispositivo de la unidad asignada |
+| updateFirmwareVersion(version) | Actualiza la versión de firmware registrada |
+| updateOperationalStatus(status) | Actualiza el estado operativo del dispositivo |
+
+### Value Objects
+
+#### DeviceMetadata
+
+El Value Object **DeviceMetadata** representa información técnica inmutable del dispositivo IoT, utilizada para identificar y auditar el hardware registrado.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| macAddress | String | Dirección física única del hardware |
+| manufacturer | String | Nombre del fabricante del dispositivo |
+| productionDate | DateTime | Fecha de fabricación del hardware |
+
+---
+
+#### PhysicalAddress
+
+El Value Object **PhysicalAddress** representa la ubicación física de una propiedad o activo.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| latitude | Double | Coordenada geográfica de latitud |
+| longitude | Double | Coordenada geográfica de longitud |
+| streetAddress | String | Dirección física legible del inmueble |
+
+### Domain Services
+
+#### DeviceCompatibilityService
+
+El servicio de dominio **DeviceCompatibilityService** encapsula las reglas necesarias para validar si un dispositivo IoT puede vincularse correctamente a una unidad inteligente o gateway.
+
+Este servicio permite mantener la lógica de compatibilidad separada de las entidades principales, facilitando cambios futuros en los criterios técnicos de vinculación.
+
+**Métodos principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| isCompatible(device, gatewayId) | Verifica si un dispositivo es compatible con el gateway indicado |
+| canBeLinked(device, smartUnit) | Evalúa si un dispositivo puede vincularse a una unidad inteligente |
+| validateProvisioning(device, smartUnit) | Valida las condiciones necesarias para completar el pairing |
+
+### Repository Interfaces
+
+#### IPropertyRepository
+
+Abstracción utilizada por el dominio para acceder a la persistencia de propiedades, unidades y jerarquías físicas.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(propertyAsset) | Persiste un activo físico o propiedad |
+| findById(id) | Busca un activo físico por identificador |
+| findHierarchyByRootId(rootId) | Recupera la jerarquía de activos desde un nodo raíz |
+
+#### IDeviceRepository
+
+Abstracción utilizada para acceder a la persistencia de dispositivos IoT registrados.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(device) | Persiste un dispositivo IoT |
+| findBySerialNumber(serialNumber) | Busca un dispositivo por número de serie |
+| findByAssignedUnitId(unitId) | Obtiene dispositivos vinculados a una unidad |
+
+### Commands & Queries
+
+Aunque los Commands y Queries son orquestados principalmente desde la Application Layer, se identifican en este bounded context porque representan capacidades relevantes para la gestión de activos y dispositivos.
+
+| Clase | Tipo | Descripción |
+| :--- | :--- | :--- |
+| RegisterPropertyCommand | Command | Crea una nueva entidad dentro de la jerarquía de activos |
+| LinkDeviceToUnitCommand | Command | Ejecuta la vinculación técnica entre un dispositivo IoT y una unidad inteligente |
+| UpdateDeviceStateCommand | Command | Modifica el estado operativo o metadatos permitidos de un dispositivo |
+| GetPropertyHierarchyQuery | Query | Consulta la estructura jerárquica de propiedades y unidades |
+| GetUnitInventoryQuery | Query | Obtiene los dispositivos vinculados a una unidad inteligente |
+
+### Domain Relationships
+
+- Una **PropertyAsset** puede contener otros **PropertyAsset** mediante una relación jerárquica padre-hijo.
+- Una **PropertyAsset** puede contener una o varias **SmartUnit**.
+- Una **SmartUnit** puede tener múltiples **IoTDevice** vinculados.
+- Un **IoTDevice** solo puede estar vinculado a una **SmartUnit** activa a la vez.
+- Un **IoTDevice** posee un único **DeviceMetadata**.
+- Una **PropertyAsset** puede tener un **PhysicalAddress** asociado.
+- **DeviceCompatibilityService** valida si un **IoTDevice** puede vincularse a una **SmartUnit**.
+
+### Domain Rules
+
+1. Un dispositivo IoT no puede estar vinculado a más de una unidad inteligente al mismo tiempo.
+2. Toda unidad inteligente debe pertenecer a una propiedad registrada.
+3. Un dispositivo debe estar registrado antes de ser vinculado a una unidad.
+4. La vinculación de un dispositivo debe validar compatibilidad con el gateway de la unidad.
+5. Un dispositivo inactivo no puede ser asignado a una unidad inteligente.
+6. La dirección MAC de un dispositivo debe ser única dentro del inventario.
+7. Una propiedad inactiva no debe permitir nuevas vinculaciones de dispositivos.
+8. El ciclo de vida físico de los dispositivos pertenece a este bounded context y es consumido por otros contextos, como Monitoring o Maintenance.
+
+La Domain Layer constituye la base conceptual del bounded context **Resource & Asset Management** y se refleja en los diagramas de componentes, clases de dominio y diseño de base de datos presentados en las siguientes secciones.
+
+---
 
 #### 4.2.3.2. Interface Layer
 
-**Backend:**
+La Interface Layer del bounded context **Resource & Asset Management** es responsable de exponer las capacidades de gestión de propiedades, unidades inteligentes, inventario de dispositivos y procesos de vinculación técnica mediante APIs RESTful.
 
-Define los recursos y controladores que permiten la gestión del inventario físico y la configuración de dispositivos a través de la API del sistema Nexora.
+Esta capa permite que las aplicaciones cliente de Nexora consulten y administren la jerarquía física de inmuebles, revisen el inventario tecnológico asociado a cada unidad y ejecuten operaciones de provisioning o pairing de dispositivos IoT sin acceder directamente a las entidades del dominio.
 
----
+Siguiendo los principios de separación de responsabilidades, la Interface Layer recibe solicitudes HTTP, transforma la información entre recursos externos y objetos internos, valida datos básicos de entrada y delega la ejecución de los casos de uso a la Application Layer.
+
+### Controllers Principales
+
+#### AssetManagementController
+
+El **AssetManagementController** actúa como punto de entrada para las operaciones relacionadas con propiedades, unidades inteligentes y jerarquía física de activos.
+
+Este controlador permite registrar, consultar y organizar la estructura física administrada por Nexora.
+
+#### DeviceController
+
+El **DeviceController** actúa como punto de entrada para las operaciones relacionadas con dispositivos IoT, inventario tecnológico, estado operativo y vinculación con unidades inteligentes.
+
+Este controlador permite ejecutar procesos de pairing, consultar dispositivos asignados y actualizar el estado operativo del hardware registrado.
+
+### Endpoints Expuestos
+
+| Método | Endpoint | Descripción |
+|----------|----------|-------------|
+| GET | /api/v1/assets/properties | Consulta la jerarquía física de propiedades y activos |
+| POST | /api/v1/assets/properties | Registra una nueva propiedad o activo físico |
+| GET | /api/v1/assets/units/{id}/inventory | Lista los dispositivos vinculados a una unidad inteligente |
+| POST | /api/v1/devices/pair | Ejecuta la vinculación de un dispositivo IoT con una unidad inteligente |
+| GET | /api/v1/devices/{id}/status | Consulta el estado operativo de un dispositivo |
+| PUT | /api/v1/devices/{id}/status | Actualiza el estado operativo de un dispositivo |
 
 ### Resources
 
-| Clase | Descripción |
-| :--- | :--- |
-| PropertyResource | Expone los detalles de la infraestructura (edificios, pisos, unidades) |
-| DeviceInventoryResource | Provee la información técnica y metadatos de los sensores y gateways |
-| ProvisioningResource | Gestiona los datos necesarios para el proceso de vinculación de hardware |
+#### PropertyResource
+
+Recurso utilizado para exponer la información de propiedades, activos físicos y unidades inteligentes.
+
+**Campos principales:**
+
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador del activo físico |
+| name | String | Nombre o etiqueta de la propiedad o unidad |
+| parentId | Long | Identificador del activo padre dentro de la jerarquía |
+| type | String | Tipo de activo físico |
+| isActive | Boolean | Estado de actividad del activo |
+| streetAddress | String | Dirección física legible del inmueble |
 
 ---
 
-### Controllers
+#### DeviceInventoryResource
 
-**AssetManagementController**
+Recurso utilizado para exponer información técnica y operativa de los dispositivos IoT vinculados a una unidad.
 
-| Ruta específica | Descripción |
-| :--- | :--- |
-| /api/v1/assets/properties | Gestión y consulta de la jerarquía física de inmuebles |
-| /api/v1/assets/units/{id}/inventory | Listado de dispositivos vinculados a una unidad específica |
+**Campos principales:**
+
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| deviceId | Long | Identificador único del dispositivo |
+| serialNumber | String | Número de serie del hardware |
+| deviceType | String | Tipo de dispositivo IoT |
+| firmwareVersion | String | Versión actual del firmware |
+| operationalStatus | String | Estado operativo del dispositivo |
+| assignedUnitId | Long | Unidad inteligente a la que se encuentra vinculado |
 
 ---
 
-**DeviceController**
+#### ProvisioningResource
 
-| Ruta específica | Descripción |
-| :--- | :--- |
-| /api/v1/devices/pair | Endpoint para ejecutar la vinculación de un nuevo sensor al Gateway |
-| /api/v1/devices/{id}/status | Actualización y consulta del estado operativo del hardware |
+Recurso utilizado para transportar la información necesaria durante el proceso de vinculación o pairing de un dispositivo IoT.
+
+**Campos principales:**
+
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| deviceId | Long | Identificador del dispositivo a vincular |
+| unitId | Long | Identificador de la unidad inteligente |
+| gatewayId | Long | Identificador del gateway local |
+| pairingCode | String | Código utilizado para validar el proceso de vinculación |
+
+### Responsabilidades de la Interface Layer
+
+- Recibir solicitudes HTTP provenientes de aplicaciones cliente.
+- Exponer capacidades de gestión de propiedades y dispositivos mediante APIs RESTful.
+- Transformar entidades de dominio en recursos consumibles por el cliente.
+- Validar formatos básicos de entrada.
+- Delegar casos de uso a la Application Layer.
+- Retornar respuestas HTTP estructuradas.
+- Gestionar códigos de estado y mensajes de error.
+- Mantener desacoplada la comunicación externa de la lógica de negocio.
+
+La Interface Layer constituye la capa de presentación del bounded context **Resource & Asset Management** y se encuentra representada principalmente por **AssetManagementController**, **DeviceController** y los recursos utilizados para exponer la jerarquía física, el inventario tecnológico y los procesos de vinculación de dispositivos dentro de Nexora.
+
+---
 
 #### 4.2.3.3. Application Layer
 
-**Backend:**
+La Application Layer del bounded context **Resource & Asset Management** es responsable de coordinar los casos de uso relacionados con la gestión de propiedades, unidades inteligentes, inventario tecnológico y procesos de vinculación de dispositivos IoT.
 
----
+Esta capa actúa como intermediaria entre la Interface Layer y el modelo de dominio, orquestando el flujo de ejecución de los procesos de negocio sin contener reglas propias del dominio. Su responsabilidad principal consiste en coordinar comandos, consultas y eventos relacionados con la administración de activos físicos y dispositivos tecnológicos.
 
 ### Command Services
 
-| Clase | Descripción |
-| :--- | :--- |
-| AssetCommandService | Orquesta la creación de la jerarquía de inmuebles y el registro de nuevas unidades |
-| DeviceProvisioningCommandService | Gestiona el flujo lógico de vinculación (pairing) entre sensores y gateways, validando compatibilidad |
+#### AssetCommandService
+
+El servicio **AssetCommandService** coordina las operaciones de creación y actualización de la jerarquía física administrada por Nexora.
+
+Este servicio permite registrar propiedades, crear unidades inteligentes y mantener la estructura organizacional de los activos físicos.
+
+**Responsabilidades principales:**
+
+- Registrar nuevas propiedades.
+- Crear unidades inteligentes.
+- Actualizar información de activos físicos.
+- Gestionar la estructura jerárquica de inmuebles.
+- Coordinar operaciones de alta y baja de activos.
 
 ---
+
+#### DeviceProvisioningCommandService
+
+El servicio **DeviceProvisioningCommandService** coordina el proceso de vinculación técnica entre dispositivos IoT y unidades inteligentes.
+
+Este servicio valida la compatibilidad entre dispositivos y gateways, ejecuta el flujo de provisioning y actualiza el inventario tecnológico de la unidad.
+
+**Responsabilidades principales:**
+
+- Gestionar procesos de pairing de dispositivos.
+- Validar compatibilidad entre sensores y gateways.
+- Asignar dispositivos a unidades inteligentes.
+- Actualizar estados operativos de dispositivos.
+- Registrar eventos de provisioning.
 
 ### Query Services
 
-| Clase | Descripción |
+#### PropertyQueryService
+
+El servicio **PropertyQueryService** gestiona las consultas relacionadas con la estructura física de propiedades, edificios y unidades inteligentes.
+
+**Responsabilidades principales:**
+
+- Recuperar jerarquías de propiedades.
+- Consultar información de activos físicos.
+- Obtener detalles de unidades inteligentes.
+- Generar vistas organizacionales de infraestructura.
+
+---
+
+#### InventoryQueryService
+
+El servicio **InventoryQueryService** gestiona las consultas relacionadas con el inventario tecnológico y los dispositivos IoT registrados.
+
+**Responsabilidades principales:**
+
+- Consultar dispositivos asignados a una unidad.
+- Recuperar información técnica de hardware.
+- Consultar estados operativos de dispositivos.
+- Obtener disponibilidad de activos tecnológicos.
+
+### Commands
+
+Los principales comandos identificados dentro de este bounded context son:
+
+| Command | Descripción |
 | :--- | :--- |
-| PropertyQueryService | Recupera la estructura organizacional de los activos y el mapeo físico de las propiedades |
-| InventoryQueryService | Provee consultas sobre el estado del stock tecnológico y la disponibilidad de dispositivos |
+| RegisterPropertyCommand | Registra una nueva propiedad dentro de la jerarquía de activos |
+| RegisterSmartUnitCommand | Registra una nueva unidad inteligente dentro de una propiedad |
+| LinkDeviceToUnitCommand | Ejecuta la vinculación de un dispositivo IoT a una unidad inteligente |
+| UnlinkDeviceCommand | Elimina la vinculación entre un dispositivo y una unidad |
+| UpdateDeviceStateCommand | Actualiza el estado operativo de un dispositivo |
+| UpdatePropertyStatusCommand | Modifica el estado de actividad de una propiedad o activo físico |
+
+### Queries
+
+Las consultas principales del bounded context son:
+
+| Query | Descripción |
+| :--- | :--- |
+| GetPropertyHierarchyQuery | Obtiene la estructura completa de propiedades y unidades |
+| GetPropertyDetailsQuery | Recupera información detallada de una propiedad |
+| GetUnitInventoryQuery | Obtiene los dispositivos vinculados a una unidad inteligente |
+| GetDeviceDetailsQuery | Recupera información técnica de un dispositivo |
+| GetAvailableDevicesQuery | Obtiene los dispositivos disponibles para asignación |
+
+### Event Handling
+
+Este bounded context genera y procesa eventos relacionados con la administración de activos y dispositivos IoT.
+
+Los eventos principales identificados son:
+
+| Evento | Descripción |
+| :--- | :--- |
+| PropertyRegisteredEvent | Indica que una nueva propiedad fue registrada |
+| SmartUnitCreatedEvent | Indica que una nueva unidad inteligente fue creada |
+| DevicePairedEvent | Indica que un dispositivo fue vinculado exitosamente |
+| DeviceUnpairedEvent | Indica que un dispositivo fue desvinculado |
+| DeviceStatusUpdatedEvent | Indica que el estado operativo de un dispositivo cambió |
+
+### Capacidades de Aplicación
+
+La Application Layer soporta las siguientes capacidades principales del bounded context:
+
+- Gestión de propiedades e infraestructura física.
+- Administración de unidades inteligentes.
+- Gestión de inventario tecnológico.
+- Provisioning de dispositivos IoT.
+- Consulta de jerarquías organizacionales.
+- Consulta de inventario y estado de hardware.
+- Control del ciclo de vida de dispositivos.
+
+### Beneficios de la Application Layer
+
+- Centraliza la coordinación de los casos de uso.
+- Facilita la implementación del patrón CQRS.
+- Mantiene separadas las operaciones de lectura y escritura.
+- Simplifica la integración con dispositivos IoT.
+- Mejora la mantenibilidad y escalabilidad del sistema.
+- Facilita la incorporación futura de nuevos tipos de activos y dispositivos.
+
+La Application Layer constituye el punto principal de orquestación del bounded context **Resource & Asset Management**, coordinando la interacción entre la Interface Layer, los servicios de dominio, los repositorios y los componentes de infraestructura responsables de la administración de activos físicos y dispositivos IoT dentro de Nexora.
+
+---
 
 #### 4.2.3.4. Infrastructure Layer
 
-**Backend:**
+La Infrastructure Layer del bounded context **Resource & Asset Management** contiene las implementaciones técnicas necesarias para soportar la persistencia de propiedades, unidades inteligentes y dispositivos IoT, así como la integración con los mecanismos de provisioning y monitoreo de hardware desplegados en la infraestructura física de Nexora.
 
----
+Siguiendo los principios de Domain-Driven Design, esta capa implementa las abstracciones definidas por el dominio y proporciona mecanismos concretos para almacenamiento de información, comunicación con dispositivos IoT y ejecución de procesos técnicos relacionados con el inventario de activos.
 
-### Implementación de Repositorios
+### Repository Implementations
 
-| Clase | Interfaz Implementada | Descripción |
-| :--- | :--- | :--- |
-| PropertyRepository | IPropertyRepository | Gestiona la persistencia de la jerarquía de inmuebles y unidades en la base de datos relacional |
-| DeviceRepository | IDeviceRepository | Maneja el ciclo de vida de los registros de hardware y su asignación técnica |
+#### PropertyRepository
 
----
+Implementación concreta de la interfaz **IPropertyRepository**, responsable de persistir y recuperar la información relacionada con propiedades, activos físicos y unidades inteligentes.
 
-### IoT Communication
+Este repositorio permite gestionar la jerarquía organizacional de inmuebles utilizada por el resto de los bounded contexts del sistema.
 
-| Clase | Descripción |
+**Operaciones principales:**
+
+| Método | Descripción |
 | :--- | :--- |
-| DevicePairingAdapter | Adaptador técnico que gestiona los protocolos de enlace y handshaking entre el Gateway y los sensores |
-| GatewayStatusService | Servicio de infraestructura que monitorea el "heartbeat" y la salud de la red local de dispositivos |
+| save(propertyAsset) | Persiste un activo físico o propiedad |
+| findById(id) | Recupera un activo físico por identificador |
+| findHierarchyByRootId(rootId) | Obtiene la estructura jerárquica completa desde un nodo raíz |
+| update(propertyAsset) | Actualiza información de una propiedad existente |
+
+---
+
+#### DeviceRepository
+
+Implementación concreta de la interfaz **IDeviceRepository**, responsable de gestionar el ciclo de vida completo de los dispositivos IoT registrados dentro de Nexora.
+
+Este repositorio mantiene la información técnica, asignaciones y estado operativo de los dispositivos.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(device) | Persiste un dispositivo IoT |
+| findById(id) | Recupera un dispositivo por identificador |
+| findBySerialNumber(serialNumber) | Busca un dispositivo por número de serie |
+| findByAssignedUnitId(unitId) | Obtiene dispositivos vinculados a una unidad |
+| update(device) | Actualiza información técnica u operativa |
+
+Ambos repositorios son implementados mediante **Spring Data JPA**, permitiendo desacoplar la lógica del dominio de los detalles específicos de persistencia.
+
+### IoT Communication Components
+
+#### DevicePairingAdapter
+
+El componente **DevicePairingAdapter** actúa como adaptador técnico entre la plataforma Nexora y la infraestructura IoT desplegada en campo.
+
+Su función principal consiste en gestionar los procesos de provisioning, pairing y validación técnica requeridos para vincular sensores y dispositivos con una unidad inteligente.
+
+**Responsabilidades principales:**
+
+- Ejecutar procesos de pairing entre dispositivos y gateways.
+- Gestionar protocolos de descubrimiento y enlace.
+- Validar la identidad técnica de dispositivos IoT.
+- Traducir mensajes de infraestructura a objetos de aplicación.
+- Registrar resultados del proceso de provisioning.
+
+---
+
+#### GatewayStatusService
+
+El componente **GatewayStatusService** monitorea continuamente el estado operativo de los gateways desplegados en las propiedades administradas por Nexora.
+
+Este servicio permite verificar disponibilidad, conectividad y salud general de la infraestructura local.
+
+**Responsabilidades principales:**
+
+- Monitorear señales heartbeat provenientes de gateways.
+- Detectar interrupciones de conectividad.
+- Verificar disponibilidad de dispositivos asociados.
+- Registrar eventos relacionados con la infraestructura local.
+- Proporcionar información operativa para diagnósticos técnicos.
+
+### Database Layer
+
+#### Nexora Database
+
+El bounded context **Resource & Asset Management** persiste su información dentro de la base de datos central de Nexora, manteniendo separación lógica mediante tablas especializadas para propiedades, unidades inteligentes, dispositivos IoT y operaciones de provisioning.
+
+### Main Tables
+
+#### properties
+
+Almacena la jerarquía física de propiedades, edificios, pisos y activos organizacionales.
+
+**Campos principales:**
+
+- id
+- name
+- parent_id
+- type
+- is_active
+
+---
+
+#### smart_units
+
+Almacena las unidades inteligentes administradas por Nexora.
+
+**Campos principales:**
+
+- id
+- property_id
+- gateway_id
+- last_sync_at
+
+---
+
+#### iot_devices
+
+Almacena los dispositivos IoT registrados en el inventario tecnológico.
+
+**Campos principales:**
+
+- id
+- serial_number
+- firmware_version
+- device_type
+- assigned_unit_id
+
+---
+
+#### device_metadata
+
+Almacena información técnica inmutable asociada a los dispositivos.
+
+**Campos principales:**
+
+- id
+- device_id
+- mac_address
+- manufacturer
+- production_date
+
+---
+
+#### unit_provisioning_logs
+
+Registra el historial de procesos de vinculación y provisioning ejecutados sobre los dispositivos.
+
+**Campos principales:**
+
+- id
+- device_id
+- unit_id
+- provisioning_date
+- provisioning_status
+
+### Infrastructure Responsibilities
+
+- Implementar los mecanismos de persistencia definidos por el dominio.
+- Gestionar el almacenamiento de propiedades y unidades inteligentes.
+- Administrar el ciclo de vida de dispositivos IoT.
+- Ejecutar procesos de provisioning y pairing.
+- Monitorear la salud operativa de gateways.
+- Proporcionar acceso eficiente a información de inventario.
+- Mantener trazabilidad de las operaciones realizadas sobre los activos.
+
+### Beneficios de la Infrastructure Layer
+
+- Persistencia desacoplada de la lógica de negocio.
+- Integración transparente con dispositivos IoT.
+- Gestión centralizada del inventario tecnológico.
+- Trazabilidad completa de procesos de provisioning.
+- Reutilización de repositorios mediante patrones DDD.
+- Facilidad para incorporar nuevos tipos de dispositivos y protocolos.
+
+La Infrastructure Layer constituye el soporte técnico del bounded context **Resource & Asset Management**, permitiendo integrar la gestión de activos físicos y dispositivos IoT con los procesos operativos implementados por la plataforma Nexora.
+
+---
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-Este diagrama de nivel 3 describe la arquitectura interna del Bounded Context encargado de la gestión del inventario físico y la configuración de dispositivos IoT dentro del ecosistema Nexora. Se observa un flujo REST donde la Mobile App interactúa con dos controladores especializados: el `AssetManagementController`, responsable de exponer la jerarquía de propiedades y unidades, y el `DeviceController`, encargado de los endpoints de pairing y consulta de estado de hardware.
+El diagrama de componentes describe la arquitectura interna del bounded context **Resource & Asset Management**, responsable de gestionar la jerarquía física de propiedades, unidades inteligentes, inventario tecnológico y procesos de vinculación de dispositivos IoT dentro de Nexora.
 
-Ambos controladores delegan la lógica hacia la capa de aplicación, compuesta por los servicios `AssetCommandService` y `DeviceProvisioningCommandService` para operaciones de escritura, y por `PropertyQueryService` e `InventoryQueryService` para las consultas. La infraestructura separa claramente la persistencia relacional (a través de `PropertyRepository` y `DeviceRepository`) de la comunicación IoT (mediante el `DevicePairingAdapter` y el `GatewayStatusService`), asegurando un diseño desacoplado donde los protocolos de enlace con hardware no contaminan la lógica de negocio.
+El flujo principal inicia cuando la **Mobile App** consume los endpoints expuestos por **AssetManagementController** y **DeviceController**. El primero permite consultar y administrar propiedades, unidades y jerarquías físicas, mientras que el segundo gestiona operaciones relacionadas con dispositivos, pairing y estado operativo del hardware.
 
-![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/component-diagram.jpg)
+Ambos controladores delegan la ejecución de casos de uso a la Application Layer. Las operaciones de escritura son coordinadas por **AssetCommandService** y **DeviceProvisioningCommandService**, mientras que las consultas son atendidas por **PropertyQueryService** e **InventoryQueryService**. La validación de compatibilidad entre dispositivos y gateways se concentra en **DeviceCompatibilityService**, evitando que esta regla técnica contamine los controladores o repositorios.
+
+La Infrastructure Layer implementa la persistencia mediante **IPropertyRepository** e **IDeviceRepository**, además de integrar componentes técnicos como **DevicePairingAdapter** y **GatewayStatusService**. La información del bounded context se almacena en las tablas correspondientes dentro de la base de datos central de Nexora.
+
+![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/component-diagram_2v.png)
 
 ---
 
 ### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
+En esta sección se presentan los diagramas de nivel de código correspondientes al bounded context **Resource & Asset Management**, incluyendo el diagrama de clases del dominio y el diseño de base de datos utilizado para persistir propiedades, unidades, dispositivos y operaciones de provisioning.
+
+---
+
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del dominio para el contexto de Resource & Asset Management define las reglas tácticas para la jerarquía de activos físicos y el ciclo de vida de los dispositivos IoT. Se identifican como entidades clave `PropertyAsset`, que modela la unidad física dentro de la jerarquía organizacional del complejo (con soporte para relaciones padre-hijo entre edificios, pisos y unidades), e `IoTDevice`, que representa el hardware registrado como activo fijo con su firmware y tipo de dispositivo.
+El diagrama de clases del dominio representa los principales elementos tácticos del bounded context **Resource & Asset Management**. El modelo se centra en **SmartUnit**, que actúa como Aggregate Root al representar la unidad inteligente donde convergen los dispositivos IoT vinculados.
 
-El Aggregate Root `SmartUnit` actúa como el núcleo donde convergen el espacio físico y los dispositivos vinculados, exponiendo métodos como `linkSensor`, `unlinkSensor` y `updateSyncStatus` para gestionar el inventario activo de una unidad habitacional. Los Value Objects `DeviceMetadata` y `PhysicalAddress` garantizan la inmutabilidad e identidad de los datos de hardware y geolocalización respectivamente. Finalmente, el modelo aplica el patrón CQRS mediante Commands (`RegisterPropertyCommand`, `LinkDeviceToUnitCommand`, `UpdateDeviceStateCommand`) y Queries (`GetPropertyHierarchyQuery`, `GetUnitInventoryQuery`), separando explícitamente las intenciones de escritura de las de lectura.
+La entidad **PropertyAsset** modela la jerarquía física de propiedades, edificios, pisos y unidades, mientras que **IoTDevice** representa el hardware registrado dentro del inventario tecnológico de Nexora. Los Value Objects **PhysicalAddress** y **DeviceMetadata** encapsulan información inmutable relacionada con ubicación física y datos técnicos del dispositivo.
 
-![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/class-diagram.jpg)
+El modelo también incluye **DeviceCompatibilityService** como Domain Service encargado de validar la compatibilidad entre dispositivos y gateways durante el proceso de vinculación. Finalmente, **IPropertyRepository** e **IDeviceRepository** representan las interfaces de persistencia requeridas por el dominio.
+
+![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/class-diagram_2v.png)
 
 ---
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
 
-El diseño del esquema de base de datos para el contexto de Resource & Asset Management está orientado a la persistencia de la jerarquía de activos físicos y al ciclo de vida completo de los dispositivos IoT. La tabla `properties` actúa como el núcleo jerárquico del modelo gracias a su auto-referencia mediante la columna `parent_id`, lo que permite representar de forma natural la estructura de complejo → piso → unidad sin necesidad de tablas adicionales.
+El diseño de base de datos del bounded context **Resource & Asset Management** representa las tablas necesarias para persistir información de activos físicos y tecnológicos dentro de la base de datos central de Nexora. Aunque el sistema mantiene una sola base de datos física por su enfoque de monolito modular, este diagrama muestra únicamente las tablas asociadas a este bounded context.
 
-El esquema establece una cadena de relaciones donde cada `smart_unit` pertenece a una `property`, cada `iot_device` se vincula a una `smart_unit`, y cada dispositivo posee exactamente un registro en `device_metadata` con sus datos físicos únicos (dirección MAC, fabricante y fecha de producción). La tabla `unit_provisioning_log` cierra el diseño asegurando la trazabilidad de cada operación de pairing, lo que facilita auditorías técnicas y el control del historial de comisionamiento de dispositivos en campo.
+La tabla `properties` almacena la jerarquía física de propiedades mediante la columna `parent_id`, permitiendo representar estructuras como edificio, piso y unidad. La tabla `smart_units` representa las unidades inteligentes asociadas a una propiedad, mientras que `iot_devices` registra los dispositivos vinculados a dichas unidades.
 
-![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/database-diagram.png)
+La tabla `device_metadata` almacena información técnica única de cada dispositivo, como dirección MAC, fabricante y fecha de producción. Finalmente, `unit_provisioning_logs` permite mantener trazabilidad de los procesos de pairing y provisioning realizados sobre los dispositivos IoT.
 
-### 4.2.4. Bounded Context: Service Execution & Maintenance Bounded context  
-Responsable de la ejecución operativa de mantenimientos y la atención de incidentes técnicos en tiempo real. Gestiona órdenes de trabajo, técnicos y seguimiento de reparaciones.
+### Constraints Principales
 
-#### 4.2.4.1. Domain Layer  
-En esta capa se definen las entidades, agregados y reglas de negocio relacionadas con la ejecución de servicios técnicos
+**properties**
+- PK: id
+- FK: parent_id → properties.id
 
----
+**smart_units**
+- PK: id
+- FK: property_id → properties.id
+
+**iot_devices**
+- PK: id
+- UK: serial_number
+- FK: assigned_unit_id → smart_units.id
+
+**device_metadata**
+- PK: id
+- UK: mac_address
+- FK: device_id → iot_devices.id
+
+**unit_provisioning_logs**
+- PK: id
+- FK: unit_id → smart_units.id
+- FK: device_id → iot_devices.id
+
+
+![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/database-diagram_2v.png)
+
+#### 4.2.4.1. Domain Layer
+
+La Domain Layer contiene los conceptos centrales del negocio relacionados con la ejecución de mantenimientos y la atención de incidentes técnicos dentro de la plataforma Nexora. En esta capa se modelan las órdenes de trabajo, los técnicos responsables de las intervenciones y los incidentes que originan las actividades de mantenimiento.
+
+Siguiendo los principios de Domain-Driven Design (DDD), esta capa permanece independiente de frameworks, mecanismos de persistencia o detalles de infraestructura. Su responsabilidad principal es representar las reglas de negocio que permiten gestionar el ciclo de vida de las órdenes de mantenimiento y coordinar la atención de incidencias detectadas por otros bounded contexts.
+
+### Aggregate Root
+
+#### MaintenanceOrder
+
+La entidad **MaintenanceOrder** actúa como Aggregate Root del bounded context, ya que representa la unidad principal de trabajo sobre la cual se gestionan las actividades de mantenimiento, asignación de técnicos y seguimiento de reparaciones.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador único de la orden de mantenimiento |
+| propertyId | Long | Identificador de la propiedad afectada |
+| technicianId | Long | Identificador del técnico asignado |
+| status | MaintenanceStatus | Estado actual de la orden |
+| priority | PriorityLevel | Nivel de prioridad de la intervención |
+| createdAt | DateTime | Fecha y hora de creación |
+| completedAt | DateTime | Fecha y hora de finalización |
+
+**Métodos:**
+
+| Método | Descripción |
+| :--- | :--- |
+| assignTechnician(technicianId) | Asigna un técnico a la orden |
+| startWork() | Inicia la ejecución del mantenimiento |
+| completeWork() | Finaliza la orden de mantenimiento |
+| updatePriority(priority) | Actualiza la prioridad de la orden |
 
 ### Entities
 
-**MaintenanceOrder**
-
-| Elemento | Detalle |
-| ----- | ----- |
-| Descripción | Representa una orden de mantenimiento generada a partir de un incidente o solicitud. |
-
-**Atributos**
-
-| Nombre | Tipo | Descripción |
-| ----- | ----- | ----- |
-| id | int | Identificador único de la orden |
-| propertyId | int | Identificador de la propiedad afectada |
-| technicianId | int | Técnico asignado |
-| status | string | Estado de la orden |
-| priority | string | Nivel de prioridad |
-| createdAt | DateTime | Fecha de creación |
-| completedAt | DateTime | Fecha de finalización |
-
-**Métodos**
-
-| Nombre | Descripción |
-| ----- | ----- |
-| assignTechnician() | Asigna un técnico a la orden |
-| startWork() | Inicia el trabajo de mantenimiento |
-| completeWork() | Finaliza la orden |
-
----
-
 #### Technician
 
-| Elemento | Detalle |
-| ----- | ----- |
-| Descripción | Representa al técnico encargado de ejecutar tareas de mantenimiento. |
+La entidad **Technician** representa al personal técnico encargado de ejecutar actividades de mantenimiento dentro de las propiedades administradas por la plataforma.
 
-**Atributos**
+**Atributos:**
 
-| Nombre | Tipo | Descripción |
-| ----- | ----- | ----- |
-| id | int | Identificador del técnico |
-| name | string | Nombre del técnico |
-| specialty | string | Especialidad técnica |
-| availabilityStatus | string | Estado de disponibilidad |
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador único del técnico |
+| name | String | Nombre completo del técnico |
+| specialty | String | Especialidad técnica |
+| availabilityStatus | String | Estado actual de disponibilidad |
 
-**Métodos**
+**Métodos:**
 
-| Nombre | Descripción |
-| ----- | ----- |
-| assignTask() | Asigna una tarea al técnico |
-| updateAvailability() | Actualiza su disponibilidad |
-
----
+| Método | Descripción |
+| :--- | :--- |
+| assignTask(orderId) | Asigna una tarea al técnico |
+| updateAvailability(status) | Actualiza la disponibilidad del técnico |
+| isAvailable() | Verifica si el técnico puede recibir nuevas tareas |
 
 #### Incident
 
-| Elemento | Detalle |
-| ----- | ----- |
-| Descripción | Representa una alerta o problema detectado que requiere mantenimiento. |
+La entidad **Incident** representa una anomalía o problema detectado que requiere una acción correctiva mediante una orden de mantenimiento.
 
-**Atributos**
+**Atributos:**
 
-| Nombre | Tipo | Descripción |
-| ----- | ----- | ----- |
-| id | int | Identificador del incidente |
-| type | string | Tipo de incidente |
-| severity | string | Nivel de severidad |
-| detectedAt | DateTime | Fecha de detección |
-| status | string | Estado del incidente |
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador único del incidente |
+| type | String | Tipo de incidente detectado |
+| severity | String | Nivel de severidad |
+| detectedAt | DateTime | Fecha y hora de detección |
+| status | String | Estado actual del incidente |
 
----
+**Métodos:**
 
-###  Value Objects
+| Método | Descripción |
+| :--- | :--- |
+| markAsProcessed() | Marca el incidente como procesado |
+| isCritical() | Determina si el incidente requiere atención inmediata |
+
+### Value Objects
 
 #### PriorityLevel
 
-| Elemento | Detalle |
-| ----- | ----- |
-| Descripción | Define el nivel de prioridad de una orden de mantenimiento. |
+El Value Object **PriorityLevel** define el nivel de prioridad asignado a una orden de mantenimiento.
+
+**Valores definidos:**
 
 | Valor | Descripción |
-| ----- | ----- |
-| High | Alta prioridad |
-| Medium | Prioridad media |
-| Low | Baja prioridad |
-
----
+| :--- | :--- |
+| HIGH | Requiere atención inmediata |
+| MEDIUM | Prioridad operativa normal |
+| LOW | Atención programada |
 
 #### MaintenanceStatus
 
-| Elemento | Detalle |
-| ----- | ----- |
-| Descripción | Define el estado de la orden de mantenimiento. |
+El Value Object **MaintenanceStatus** define el estado del ciclo de vida de una orden de mantenimiento.
+
+**Valores definidos:**
 
 | Valor | Descripción |
-| ----- | ----- |
-| Pending | Pendiente |
-| Assigned | Asignada |
-| InProgress | En progreso |
-| Completed | Completada |
+| :--- | :--- |
+| PENDING | Orden creada pendiente de asignación |
+| ASSIGNED | Técnico asignado |
+| IN_PROGRESS | Trabajo en ejecución |
+| COMPLETED | Orden finalizada |
 
----
-
-###  Aggregates
-
-#### MaintenanceAggregate
-
-| Elemento | Detalle |
-| ----- | ----- |
-| Descripción | Coordina la lógica principal del mantenimiento integrando órdenes e incidentes. |
-
-**Métodos**
-
-| Nombre | Descripción |
-| ----- | ----- |
-| createOrderFromIncident() | Genera una orden desde un incidente |
-| assignTechnician() | Asigna un técnico |
-| closeOrder() | Cierra la orden |
-
----
-
-###  Domain Services
+### Domain Services
 
 #### MaintenanceAssignmentService
 
-| Elemento | Detalle |
-| ----- | ----- |
-| Descripción | Gestiona la asignación automática de técnicos según disponibilidad y prioridad. |
+El servicio de dominio **MaintenanceAssignmentService** encapsula la lógica de asignación automática de técnicos según disponibilidad, especialidad y prioridad de la orden.
 
----
+**Métodos principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| assignTechnician(order, technicians) | Selecciona el técnico más adecuado |
+| findAvailableTechnician() | Busca técnicos disponibles |
+| validateAssignment() | Valida restricciones de asignación |
 
 #### NotificationDomainService
 
-| Elemento | Detalle |
-| ----- | ----- |
-| Descripción | Define la lógica de envío de notificaciones del sistema. |
+El servicio de dominio **NotificationDomainService** define las reglas de negocio asociadas a las notificaciones generadas durante el ciclo de mantenimiento.
+
+**Métodos principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| notifyTechnician(order) | Notifica una nueva asignación |
+| notifyCompletion(order) | Notifica la finalización de una orden |
+| notifyIncident(incident) | Notifica incidentes críticos |
+
+### Repository Interfaces
+
+#### IMaintenanceOrderRepository
+
+Abstracción utilizada por el dominio para acceder a la persistencia de órdenes de mantenimiento.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(order) | Persiste una orden |
+| findById(id) | Obtiene una orden específica |
+| findByStatus(status) | Obtiene órdenes por estado |
+
+#### ITechnicianRepository
+
+Abstracción utilizada por el dominio para acceder a la persistencia de técnicos.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(technician) | Persiste un técnico |
+| findById(id) | Obtiene un técnico específico |
+| findAvailable() | Obtiene técnicos disponibles |
+
+### Domain Relationships
+
+- Un **Incident** puede generar una **MaintenanceOrder**.
+- Una **MaintenanceOrder** puede ser asignada a un único **Technician**.
+- Un **Technician** puede gestionar múltiples **MaintenanceOrder**.
+- **MaintenanceAssignmentService** utiliza **MaintenanceOrder** y **Technician** para ejecutar asignaciones automáticas.
+- **NotificationDomainService** utiliza **MaintenanceOrder** e **Incident** para generar notificaciones de negocio.
+
+### Domain Rules
+
+1. Toda orden de mantenimiento debe estar asociada a una propiedad válida.
+2. Una orden debe tener una prioridad definida.
+3. Una orden no puede completarse sin haber sido asignada previamente.
+4. Un técnico solo puede recibir nuevas órdenes si se encuentra disponible.
+5. Todo incidente crítico debe generar una orden de mantenimiento.
+6. Una orden completada no puede volver al estado pendiente.
+7. Las notificaciones deben generarse cuando se crea, asigna o completa una orden.
+
+La Domain Layer constituye la base conceptual del bounded context **Service Execution & Maintenance** y se refleja en los diagramas de componentes, clases de dominio y diseño de base de datos presentados en las siguientes secciones.
+
+#### 4.2.4.2. Interface Layer
+
+La Interface Layer del bounded context **Service Execution & Maintenance** es responsable de exponer las capacidades de gestión de incidentes, órdenes de mantenimiento y asignación de técnicos mediante APIs RESTful.
+
+Esta capa permite que las aplicaciones cliente de Nexora y otros módulos internos del monolito modular registren incidentes, creen órdenes de mantenimiento, asignen técnicos y actualicen el estado de las intervenciones sin acceder directamente a las entidades del dominio.
+
+### Controllers Principales
+
+#### MaintenanceController
+
+El **MaintenanceController** actúa como punto de entrada para las operaciones relacionadas con la creación, asignación, seguimiento y cierre de órdenes de mantenimiento.
+
+#### IncidentController
+
+El **IncidentController** actúa como punto de entrada para registrar incidentes provenientes de otros bounded contexts, como **Service Monitoring & Intelligence**, cuando se detecta una anomalía que requiere intervención técnica.
+
+### Endpoints Expuestos
+
+| Método | Endpoint | Descripción |
+|----------|----------|-------------|
+| POST | /api/v1/maintenance/orders | Crea una nueva orden de mantenimiento |
+| PUT | /api/v1/maintenance/orders/{id}/assign | Asigna un técnico a una orden existente |
+| PUT | /api/v1/maintenance/orders/{id}/complete | Finaliza una orden de mantenimiento |
+| POST | /api/v1/incidents | Registra un incidente recibido desde otro bounded context |
+| GET | /api/v1/maintenance/orders/{id} | Consulta el detalle de una orden de mantenimiento |
+| GET | /api/v1/maintenance/orders | Lista órdenes de mantenimiento por estado o prioridad |
+
+### Resources
+
+#### MaintenanceOrderResource
+
+Representa la información expuesta sobre una orden de mantenimiento.
+
+**Campos principales:**
+
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador de la orden |
+| propertyId | Long | Propiedad afectada |
+| technicianId | Long | Técnico asignado |
+| status | String | Estado actual de la orden |
+| priority | String | Nivel de prioridad |
+| createdAt | DateTime | Fecha de creación |
+| completedAt | DateTime | Fecha de finalización |
+
+#### IncidentResource
+
+Representa la información recibida o expuesta sobre un incidente técnico.
+
+**Campos principales:**
+
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador del incidente |
+| type | String | Tipo de incidente |
+| severity | String | Nivel de severidad |
+| detectedAt | DateTime | Fecha de detección |
+| status | String | Estado del incidente |
+
+#### AssignTechnicianResource
+
+Transporta la información necesaria para asignar un técnico a una orden.
+
+**Campos principales:**
+
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| technicianId | Long | Identificador del técnico asignado |
+| assignedAt | DateTime | Fecha de asignación |
+
+### Responsabilidades de la Interface Layer
+
+- Recibir solicitudes HTTP provenientes de aplicaciones cliente o módulos internos.
+- Exponer operaciones para crear, asignar y completar órdenes de mantenimiento.
+- Recibir incidentes provenientes del bounded context de monitoreo.
+- Validar formatos básicos de entrada.
+- Transformar recursos externos en comandos de aplicación.
+- Delegar los casos de uso a la Application Layer.
+- Retornar respuestas HTTP estructuradas.
+
+La Interface Layer constituye la capa de presentación del bounded context **Service Execution & Maintenance** y se encuentra representada principalmente por **MaintenanceController**, **IncidentController** y los recursos utilizados para exponer órdenes, incidentes y asignaciones técnicas.
+
+#### 4.2.4.3. Application Layer
+
+La Application Layer del bounded context **Service Execution & Maintenance** coordina los casos de uso relacionados con la gestión de órdenes de mantenimiento, asignación de técnicos y atención de incidentes operativos.
+
+Su responsabilidad principal es orquestar el flujo de ejecución entre la Interface Layer, las entidades del dominio, los servicios de dominio y los componentes de infraestructura. Esta capa no contiene reglas de negocio complejas ni mecanismos de persistencia, sino que coordina las operaciones necesarias para ejecutar los procesos del mantenimiento.
+
+### Command Handlers
+
+Los Command Handlers gestionan las operaciones que modifican el estado del sistema.
+
+#### CreateMaintenanceOrderCommandHandler
+
+Responsable de crear nuevas órdenes de mantenimiento a partir de incidentes registrados o solicitudes operativas.
+
+**Responsabilidades principales:**
+
+- Validar la información de entrada.
+- Crear una nueva instancia de MaintenanceOrder.
+- Establecer prioridad inicial.
+- Persistir la orden generada.
+- Publicar eventos asociados a la creación.
+
+#### AssignTechnicianCommandHandler
+
+Responsable de asignar automáticamente un técnico a una orden de mantenimiento.
+
+**Responsabilidades principales:**
+
+- Consultar técnicos disponibles.
+- Invocar MaintenanceAssignmentService.
+- Actualizar la orden con el técnico seleccionado.
+- Persistir los cambios realizados.
+- Generar notificaciones de asignación.
+
+#### CompleteMaintenanceCommandHandler
+
+Responsable de finalizar una orden de mantenimiento.
+
+**Responsabilidades principales:**
+
+- Validar que la orden se encuentre en ejecución.
+- Actualizar el estado a COMPLETED.
+- Registrar fecha de finalización.
+- Persistir cambios.
+- Disparar eventos de cierre.
+
+### Event Handlers
+
+Los Event Handlers procesan eventos generados por otros bounded contexts o por el propio contexto de mantenimiento.
+
+#### IncidentReceivedEventHandler
+
+Procesa incidentes recibidos desde el bounded context **Service Monitoring & Intelligence**.
+
+**Responsabilidades principales:**
+
+- Recibir eventos de incidentes.
+- Evaluar prioridad inicial.
+- Crear órdenes de mantenimiento cuando corresponda.
+- Iniciar el flujo de atención operativa.
+
+#### MaintenanceCompletedEventHandler
+
+Gestiona las acciones posteriores a la finalización de una intervención técnica.
+
+**Responsabilidades principales:**
+
+- Actualizar registros relacionados.
+- Notificar a usuarios involucrados.
+- Registrar eventos de auditoría.
+- Actualizar indicadores operativos.
+
+### Application Services
+
+#### MaintenanceService
+
+El servicio de aplicación **MaintenanceService** coordina los principales casos de uso del bounded context y centraliza la lógica de orquestación requerida para la gestión de mantenimientos.
+
+**Métodos principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| createMaintenanceOrder() | Crea una nueva orden de mantenimiento |
+| assignTechnician() | Ejecuta el proceso de asignación |
+| completeMaintenance() | Finaliza una orden de trabajo |
+| processIncident() | Procesa un incidente recibido |
+| getMaintenanceStatus() | Consulta el estado actual de una orden |
+
+### Casos de Uso Principales
+
+#### Incident Processing
+
+1. El sistema recibe un incidente desde Monitoring.
+2. IncidentReceivedEventHandler procesa el evento.
+3. MaintenanceService valida la información.
+4. CreateMaintenanceOrderCommandHandler genera una nueva orden.
+5. La orden es persistida y queda disponible para asignación.
+
+#### Technician Assignment
+
+1. Se crea una orden de mantenimiento.
+2. AssignTechnicianCommandHandler consulta técnicos disponibles.
+3. MaintenanceAssignmentService selecciona el técnico más adecuado.
+4. La orden es actualizada.
+5. Se genera una notificación de asignación.
+
+#### Maintenance Completion
+
+1. El técnico concluye la intervención.
+2. CompleteMaintenanceCommandHandler valida el estado.
+3. Se actualiza la orden a COMPLETED.
+4. Se registra la fecha de finalización.
+5. MaintenanceCompletedEventHandler ejecuta acciones posteriores.
+
+### Beneficios de la Application Layer
+
+- Coordinación centralizada de casos de uso.
+- Separación entre presentación, dominio e infraestructura.
+- Soporte para arquitectura orientada a eventos.
+- Mayor mantenibilidad y escalabilidad.
+- Mejor trazabilidad de los procesos operativos.
+- Facilita la implementación de CQRS mediante Commands y Events.
+
+La Application Layer constituye el núcleo de orquestación del bounded context **Service Execution & Maintenance** y se refleja posteriormente en los diagramas de componentes y de nivel de código.
+
+#### 4.2.4.4. Infrastructure Layer
+
+La Infrastructure Layer del bounded context **Service Execution & Maintenance** contiene las implementaciones técnicas necesarias para soportar la persistencia de órdenes de mantenimiento, la gestión de técnicos, el envío de notificaciones y la comunicación basada en eventos con otros módulos de la plataforma Nexora.
+
+Siguiendo los principios de Domain-Driven Design, esta capa implementa las abstracciones definidas por el dominio y proporciona mecanismos concretos para almacenamiento de información, integración con servicios externos y propagación de eventos de negocio.
+
+### Repository Implementations
+
+#### MaintenanceOrderRepositoryImpl
+
+Implementación concreta de la interfaz **IMaintenanceOrderRepository**, responsable de persistir y recuperar órdenes de mantenimiento dentro del sistema.
+
+Este repositorio permite gestionar el ciclo de vida completo de las intervenciones técnicas, desde su creación hasta su cierre.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(order) | Persiste una orden de mantenimiento |
+| findById(id) | Recupera una orden específica |
+| findByStatus(status) | Obtiene órdenes según su estado |
+| update(order) | Actualiza información de una orden existente |
 
 ---
 
-### Repositories (Interfaces)
+#### TechnicianRepositoryImpl
 
-| Interfaz | Descripción |
-| ----- | ----- |
-| IMaintenanceOrderRepository | Maneja la persistencia de órdenes de mantenimiento |
-| ITechnicianRepository | Maneja la persistencia de técnicos |
+Implementación concreta de la interfaz **ITechnicianRepository**, responsable de gestionar la persistencia y recuperación de información relacionada con los técnicos registrados.
 
-#### 4.2.4.2. Interface Layer.
+**Operaciones principales:**
 
-Esta capa expone las funcionalidades mediante controladores que reciben solicitudes externas.
+| Método | Descripción |
+| :--- | :--- |
+| save(technician) | Persiste un técnico |
+| findById(id) | Recupera un técnico específico |
+| findAvailable() | Obtiene técnicos disponibles |
+| update(technician) | Actualiza información del técnico |
 
-### Controllers
+Ambos repositorios son implementados mediante **Spring Data JPA**, permitiendo desacoplar el dominio de los detalles específicos de persistencia.
 
-**MaintenanceController**
+### Integration Adapters
 
-| Endpoint | Descripción |
-| ----- | ----- |
-| POST /maintenance/orders | Crea una orden de mantenimiento |
-| PUT /maintenance/orders/{id}/assign | Asigna técnico |
-| PUT /maintenance/orders/{id}/complete | Finaliza orden |
+#### NotificationAdapter
 
----
+El componente **NotificationAdapter** actúa como adaptador técnico encargado de la comunicación con los mecanismos de notificación utilizados por la plataforma.
 
-**IncidentController**
+Su función principal consiste en traducir eventos de negocio en mensajes que puedan ser enviados a usuarios, técnicos o administradores.
 
-| Endpoint | Descripción |
-| ----- | ----- |
-| POST /incidents | Registra un incidente desde otro bounded context |
+**Responsabilidades principales:**
 
-#### 4.2.4.3. Application Layer.
-
-En esta capa se gestionan los flujos de negocio mediante handlers y servicios.
-
-**Command Handlers**
-
-| Clase | Descripción |
-| ----- | ----- |
-| CreateMaintenanceOrderCommandHandler | Crea órdenes de mantenimiento |
-| AssignTechnicianCommandHandler | Asigna técnicos automáticamente |
-| CompleteMaintenanceCommandHandler | Finaliza órdenes |
+- Enviar notificaciones de asignación.
+- Enviar notificaciones de mantenimiento completado.
+- Comunicar incidentes críticos.
+- Integrarse con servicios de correo electrónico, push notifications o mensajería.
 
 ---
 
- 
+#### MessageBrokerAdapter
 
-**Event Handlers**
+El componente **MessageBrokerAdapter** permite la comunicación basada en eventos entre bounded contexts dentro del monolito modular de Nexora.
 
-| Clase | Descripción |
-| ----- | ----- |
-| IncidentReceivedEventHandler | Procesa incidentes del Monitoring |
-| MaintenanceCompletedEventHandler | Maneja acciones post-mantenimiento |
+Aunque la solución actual se implementa como un monolito modular, este adaptador abstrae la publicación y consumo de eventos, permitiendo una futura evolución hacia arquitecturas distribuidas sin afectar el dominio.
+
+**Responsabilidades principales:**
+
+- Publicar eventos de dominio.
+- Consumir eventos provenientes de otros módulos.
+- Encapsular la tecnología de mensajería utilizada.
+- Facilitar la integración entre bounded contexts.
+
+### Database Layer
+
+#### Nexora Database
+
+El bounded context **Service Execution & Maintenance** persiste su información dentro de la base de datos central de Nexora, manteniendo separación lógica mediante tablas especializadas para órdenes de mantenimiento, incidentes y técnicos.
+
+### Main Tables
+
+#### maintenance_orders
+
+Almacena las órdenes de mantenimiento generadas por el sistema.
+
+**Campos principales:**
+
+- id
+- property_id
+- technician_id
+- priority
+- status
+- created_at
+- completed_at
 
 ---
 
-**Application Services**
+#### technicians
 
-| Clase | Descripción |
-| ----- | ----- |
-| MaintenanceService | Coordina los procesos principales del mantenimiento |
+Almacena la información de los técnicos registrados en la plataforma.
 
+**Campos principales:**
 
-#### 4.2.4.4. Infrastructure Layer.
-
-Esta capa implementa persistencia e integración con servicios externos.
-
-### Repositories
-
-| Clase | Interfaz | Descripción |
-| ----- | ----- | ----- |
-| MaintenanceOrderRepositoryImpl | IMaintenanceOrderRepository | Persistencia de órdenes |
-| TechnicianRepositoryImpl | ITechnicianRepository | Persistencia de técnicos |
+- id
+- name
+- specialty
+- availability_status
 
 ---
 
-### Adapters
+#### incidents
 
-| Clase | Descripción |
-| ----- | ----- |
-| NotificationAdapter | Envío de notificaciones |
-| MessageBrokerAdapter | Comunicación por eventos (RabbitMQ/Kafka) |
+Almacena los incidentes que originan procesos de mantenimiento.
 
+**Campos principales:**
+
+- id
+- type
+- severity
+- detected_at
+- status
+
+---
+
+#### maintenance_history
+
+Almacena el historial de cambios de estado realizados sobre las órdenes de mantenimiento.
+
+**Campos principales:**
+
+- id
+- maintenance_order_id
+- previous_status
+- new_status
+- changed_at
+
+### Infrastructure Responsibilities
+
+- Implementar los mecanismos de persistencia definidos por el dominio.
+- Gestionar el almacenamiento de órdenes de mantenimiento.
+- Administrar la información de técnicos y disponibilidad.
+- Integrar el sistema con mecanismos de notificación.
+- Facilitar la comunicación basada en eventos.
+- Mantener trazabilidad de las operaciones realizadas.
+- Proporcionar acceso eficiente a la información operativa.
+
+### Beneficios de la Infrastructure Layer
+
+- Persistencia desacoplada de la lógica de negocio.
+- Integración transparente con servicios externos.
+- Comunicación desacoplada mediante eventos.
+- Trazabilidad completa del ciclo de mantenimiento.
+- Reutilización de repositorios mediante patrones DDD.
+- Preparación para futuras integraciones y escalabilidad.
+
+La Infrastructure Layer constituye el soporte técnico del bounded context **Service Execution & Maintenance**, permitiendo integrar la gestión de incidentes, órdenes de mantenimiento y técnicos con los mecanismos de persistencia, notificación y comunicación requeridos por la plataforma Nexora.
+
+---
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-Este diagrama de nivel 3 describe la arquitectura interna del Bounded Context encargado de la ejecución operativa de mantenimientos y la atención de incidentes técnicos. Se observa un flujo basado en eventos donde el Incident Event Consumer recibe alertas provenientes del Monitoring Context y las traslada a los servicios de aplicación (Maintenance Command Service), encargados de orquestar la creación y gestión de órdenes de mantenimiento.
+El diagrama de componentes describe la arquitectura interna del bounded context **Service Execution & Maintenance**, responsable de gestionar incidentes técnicos, órdenes de mantenimiento, asignación de técnicos y cierre de intervenciones dentro de Nexora.
 
-La lógica de negocio reside en el Maintenance Aggregate y en servicios de dominio como MaintenanceAssignmentService, que permiten gestionar la asignación automática de técnicos según disponibilidad y prioridad. Este diseño sigue un enfoque desacoplado y orientado a eventos, donde se separan las operaciones de escritura (gestión de órdenes) de las consultas (estado de mantenimiento), permitiendo además la integración con aplicaciones móviles para notificación y actualización en tiempo real.
+El flujo principal inicia cuando **IncidentEventConsumer** recibe eventos internos provenientes del bounded context **Service Monitoring & Intelligence**. Estos eventos son procesados por la Application Layer mediante **MaintenanceService** y los Command Handlers encargados de crear, asignar y completar órdenes de mantenimiento.
 
-<img src="assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/component-diagram.png" alt="Service Execution & Maintenance  - Component Diagram" width="800"/>
+La lógica de negocio se concentra en **MaintenanceOrder**, que actúa como Aggregate Root, y en **MaintenanceAssignmentService**, Domain Service encargado de seleccionar técnicos disponibles según prioridad y especialidad. Las notificaciones se gestionan mediante **NotificationDomainService** y se ejecutan técnicamente a través de **NotificationAdapter**.
+
+La persistencia se realiza en la base de datos central de Nexora mediante **IMaintenanceOrderRepository** e **ITechnicianRepository**, manteniendo separación lógica mediante tablas propias del bounded context.
+
+<img src="assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/component-diagram-2v.png" alt="Service Execution & Maintenance  - Component Diagram" width="800"/>
 
 ---
 
 ### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
+En esta sección se presentan los diagramas de nivel de código correspondientes al bounded context **Service Execution & Maintenance**, incluyendo el diagrama de clases del dominio y el diseño de base de datos utilizado para persistir incidentes, técnicos, órdenes de mantenimiento e historial operativo.
+
+---
+
 #### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del dominio para el contexto de Service Execution & Maintenance define las reglas tácticas para la gestión de órdenes de mantenimiento y la atención de incidentes técnicos. Se identifican como entidades clave a MaintenanceOrder, que representa la ejecución de trabajos técnicos, Technician, encargado de realizar las tareas, y Incident, que representa la alerta recibida desde el Monitoring Context.
+El diagrama de clases del dominio representa los principales elementos tácticos del bounded context **Service Execution & Maintenance**. El modelo se centra en **MaintenanceOrder**, que actúa como Aggregate Root al representar el ciclo de vida completo de una intervención técnica.
 
-El modelo utiliza un Domain Service (MaintenanceAssignmentService) para desacoplar la lógica de asignación de técnicos de las entidades, permitiendo una mayor flexibilidad en la gestión de disponibilidad y prioridad. Asimismo, el uso de value objects como PriorityLevel y MaintenanceStatus asegura la consistencia del lenguaje ubicuo dentro del dominio.
+La entidad **Incident** representa el problema técnico detectado que puede originar una orden de mantenimiento, mientras que **Technician** modela al personal encargado de ejecutar las tareas. Las enumeraciones **PriorityLevel** y **MaintenanceStatus** permiten mantener consistencia en los niveles de prioridad y estados de la orden.
 
-<img src="assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/class-diagram.png" alt="Service Execution & Maintenance - Class Diagram" width="450"/>
+El modelo también incluye **MaintenanceAssignmentService** y **NotificationDomainService** como Domain Services, además de las interfaces **IMaintenanceOrderRepository** e **ITechnicianRepository**, encargadas de representar las abstracciones de persistencia requeridas por el dominio.
+
+
+<img src="assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/class-diagram-2v.png" alt="Service Execution & Maintenance - Class Diagram" width="450"/>
 
 ---
 
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-El diseño del esquema de base de datos para el contexto de Service Execution & Maintenance está orientado a la gestión de órdenes de mantenimiento y la trazabilidad de incidentes técnicos. La tabla maintenance_orders actúa como el núcleo del modelo, almacenando el ciclo de vida completo de cada intervención técnica.
+El diseño de base de datos del bounded context **Service Execution & Maintenance** representa las tablas necesarias para persistir información operativa dentro de la base de datos central de Nexora. Aunque el sistema mantiene una sola base de datos física por su enfoque de monolito modular, este diagrama muestra únicamente las tablas asociadas a este bounded context.
 
-El esquema establece una relación directa entre los incidentes detectados y las órdenes generadas, permitiendo identificar qué evento originó cada acción de mantenimiento. Asimismo, la tabla technicians permite gestionar la asignación de recursos humanos, asegurando la disponibilidad y especialización adecuada para cada tarea. Este diseño facilita el seguimiento, auditoría y control de las operaciones en campo.
+La tabla `incidents` almacena los incidentes técnicos recibidos desde el monitoreo. La tabla `maintenance_orders` registra las órdenes generadas para atender dichos incidentes, incluyendo prioridad, estado, técnico asignado y fechas relevantes. La tabla `technicians` permite gestionar la información del personal técnico y su disponibilidad. Finalmente, `maintenance_history` mantiene trazabilidad de los cambios de estado realizados durante el ciclo de vida de cada orden.
 
-<img src="assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/database-diagram.jpeg" alt="Service Execution & Maintenance - Database Diagram" width="450"/>
+### Constraints Principales
+
+**incidents**
+- PK: id
+
+**technicians**
+- PK: id
+
+**maintenance_orders**
+- PK: id
+- FK: incident_id → incidents.id
+- FK: technician_id → technicians.id
+
+**maintenance_history**
+- PK: id
+- FK: maintenance_order_id → maintenance_orders.id
+
+<img src="assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/database-diagram-2v.png" alt="Service Execution & Maintenance - Database Diagram" width="450"/>
 
 ## 4.2.5. Bounded Context: Subscriptions & Payment Management
 
@@ -3218,7 +4677,7 @@ Se construye sobre cuatro pilares fundamentales:
 
 #### **Logo**
 
-![Logo-Nexora](assets/chapter-5/style-guidelines/general-style-guidelines//logo-nexora.png)
+![Logo-Nexora](assets/chapter-5/style-guidelines/general-style-guidelines/logo-nexora.png)
 
 <br>
 
@@ -5820,9 +7279,7 @@ Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equi
 
 ---
 
-## Sprint
-
-**Sprint 1**
+## Sprint 1
 
 | User Story |                                | Work-Item / Task |                                             |                                                                |                        |                   |            |
 | ---------- | ------------------------------ | ---------------- | ------------------------------------------- | -------------------------------------------------------------- | ---------------------- | ----------------- | ---------- |
@@ -6161,14 +7618,1661 @@ A partir de la información visualizada en los analíticos de GitHub, el equipo 
 
 En conclusión, los analíticos de GitHub validan que el proceso de implementación del Sprint 1 fue un esfuerzo conjunto y coordinado, cumpliendo con los estándares de calidad y colaboración exigidos para el proyecto Nexora.
 
+## 6.2. Landing Page, Services & Applications Implementation
+### 6.2.1. Sprint 2
+#### 6.2.1.1. Sprint Planning 2
+
+## Introducción
+
+El Sprint Planning 2 marca la consolidación operativa y la expansión del ecosistema digital e IoT de Nexora. Tras haber cimentado las bases estructurales en el ciclo previo, este Sprint se planificó con el objetivo de dotar de dinamismo real a las plataformas, integrando el Frontend con servicios del Backend, desplegando las primeras arquitecturas de servicios perimetrales (Edge) e introduciendo la primera iteración de la aplicación móvil para arrendatarios.
+
+El enfoque de este Sprint se dividió en cinco frentes estratégicos altamente interconectados. En primer lugar, el cierre definitivo de la Landing Page comercial incorporando la nueva estructura de monetización (Planes Basic y Professional), optimizaciones de SEO, y mejoras en diferentes secciones de la misma. En segundo lugar, la evolución de la Web Application para arrendadores, habilitando la autenticación real, la gestión completa de propiedades y la pasarela de suscripciones vinculada al Backend. En tercer lugar, el despliegue de la Mobile Application operando sobre datos emulados para validar flujos de experiencia de usuario. En cuarto lugar, la estabilización de los servicios de Backend, Edge Services y sistemas embebidos para la ingesta incipiente de telemetría física. Finalmente, el inicio del proceso de validación empírica mediante entrevistas con usuarios reales interactuando con el ecosistema.
+
+Durante esta sesión de planificación, el equipo técnico y de producto estimó el esfuerzo del Backlog seleccionado, definió el Sprint Goal e identificó las dependencias críticas de integración de datos para asegurar el éxito del incremento.
+
+---
+
+## Sprint Planning Meeting Summary
+
+| Sprint 2 | Multi-Platform Integration & IoT Enablement |
+| --- | --- |
+| Sprint Planning Background | Consolidación del ecosistema Nexora mediante la integración completa de datos reales en la web app, el lanzamiento de la primera versión móvil con FakeAPI, el despliegue de la API/Edge Services y el cierre comercial de la Landing Page. |
+| Date | 2026-05-19 |
+| Time | 19:00 PM |
+| Location | Reunión virtual desarrollada mediante Google Meet y coordinación colaborativa mediante Discord |
+| Prepared By | Jhosep Argomedo |
+| Attendees (to planning meeting) | Argomedo, Jhosep; Castañeda, Kevin; Linares, Jorge; Muñoz, Mauricio; O'higgins, Andrea; Peña, Maria; Ramirez, Sebastian |
+| Sprint 1 Review Summary | El Sprint 1 concluyó con éxito la maquetación base de la Landing Page y las vistas estáticas del Frontend Web. Se identificó la necesidad de transicionar inmediatamente de componentes estáticos a un flujo de datos dinámico provisto por servicios del lado del servidor. |
+| Sprint 0 Retrospective Summary | El equipo destacó la excelente velocidad de maquetación de interfaces, pero señaló como punto de mejora la temprana definición de contratos de API (JSON schemas) para evitar desajustes durante las integraciones de fin de ciclo entre Frontend y Backend. |
+
+---
+
+## Sprint Goal & User Stories
+
+### Sprint 2 Goal
+
+“Our focus is on delivering a fully integrated multi-platform experience by finalizing the commercial Landing Page, enabling real-world database interactions within the Web Application, launching the initial Mobile MVP, deploying stable API and Edge services, and executing the first round of user validation interviews.
+
+We believe it delivers a cohesive, data-driven system that accurately demonstrates Nexora's value proposition across web, mobile, and initial IoT telemetry, bridging the gap between hardware simulation and software interface.
+
+This will be confirmed when:
+
+Users navigate the 100% complete Landing Page, exploring upgraded plans, metadata, and testimonials.
+
+Landlords can successfully register, log in, manage subscriptions, update profiles, and manage properties with real, persistent database operations, receiving initial voltage telemetry.
+
+Tenants interact seamlessly with all UI modules of the Mobile Application via a simulated data layer.
+
+Edge Services and Embedded applications successfully ingest actual gas sensor signals and simulate resource consumption data.
+
+Qualitative insights are gathered from active validation interviews using both platforms.”
+
+---
+
+### Sprint 2 Velocity
+
+| Sprint Velocity | 200 Story Points |
+| --- | --- |
+
+
+---
+
+### Sum of Story Points
+
+| Sum of Story Points | 195 Story Points |
+| --- | --- |
+
+
+---
+
+## User Stories Included in Sprint 2
+
+| User Story ID | Title | Story Points |
+| --- | --- | --- |
+| US01 | Acceso rápido a información | 3 |
+| US02 | Experiencia intuitiva de navegación | 5 |
+| US03 | Adaptabilidad multidispositivo | 5 |
+| US09 | Comprensión de beneficios operativos y solución inmobiliaria | 5 |
+| US11 | Monitoreo IoT en tiempo real | 8 |
+| US12 | Información de aplicación para arrendatarios | 3 |
+| US13 | Comprensión de beneficios y automatización inteligente | 3 |
+| US33 | Visualización y acceso al panel de alertas recientes | 5 |
+| US34 | Visualización del inventario de propiedades con métricas de salud | 8 |
+| US35 | Registro de nueva propiedad con vinculación de gateway IoT | 8 |
+| US37 | Gestión de vinculación de dispositivos en propiedad | 5 |
+| US39 | Registro de nuevo activo IoT | 5 |
+| US46 | Gestión de respuesta a incidencia crítica activa | 8 |
+| US47 | Exportación de reporte de incidencias | 3 |
+| US49 | Visualización del detalle completo de una incidencia crítica | 8 |
+| US51 | Activación del protocolo de apagado de emergencia | 3 |
+| US52 | Visualización de métricas de consumo del período actual | 5 |
+| US53 | Análisis comparativo de consumo por período y tipo de recurso | 5 |
+| US57 | Gestión del perfil personal y ubicación de operaciones | 3 |
+| US59 | Gestión de alertas de acceso crítico detectado | 3 |
+| US60 | Gestión del equipo operativo | 5 |
+
+## Technical Stories Included in Sprint 2
+
+| Technical Story ID | Title | Story Points |
+| --- | --- | --- |
+| TS07 | API de vinculación y gestión de gateways en propiedad | 5 |
+| TS08 | API de gestión de arrendatarios en propiedad | 3 |
+| TS09 | API de consulta de la flota de dispositivos | 5 |
+| TS11 | API de logs y perfil de hardware de dispositivo | 3 |
+| TS12 | API de acciones remotas sobre dispositivo | 5 |
+| TS13 | API de consulta y filtrado de alertas | 3 |
+| TS14 | API de detalle y actualización de estado de alerta | 3 |
+| TS15 | API de asignación de técnicos y personal de emergencia | 5 |
+| TS16 | API de acción de apagado de emergencia | 5 |
+| TS17 | API de exportación de reporte de incidencias | 3 |
+| TS18 | API de métricas de consumo del período activo | 5 |
+| TS19 | API de analítica comparativa de consumo | 5 |
+| TS21 | API de exportación de reportes de consumo | 3 |
+| TS22 | API de gestión del perfil de usuario | 3 |
+| TS23 | API de configuración de notificaciones y contactos de emergencia | 3 |
+| TS24 | API de configuración de umbrales de sensores | 5 |
+| TS-EMB-01 | Inicialización de Hardware, Lectura de Sensores y Consolidación de Payload | 5 |
+| TS-EMB-02 | Transmisión de Datos por HTTP y Tolerancia a Fallos de Red Local | 5 |
+| TS-EMB-03 | Retroalimentación Visual a través de Actuadores y LEDs de Estado | 3 |
+| TS-EMB-04 | Señalización de Disponibilidad mediante Mecanismo de Latido (Heartbeat) | 3 |
+| TS-EDGE-01 | API Rest local de Ingesta para Dispositivos IoT | 5 |
+| TS-EDGE-02 | Persistencia Perimetral de Datos en Contingencia (Modo Offline) | 5 |
+| TS-HW-01 | Ensamblaje Electrónico y Calibración del Sensor de Gas | 3 |
+| TS-HW-02 | Ensamblaje del ESP32 con el sensor MQ2 para detección de gases | 3 |
+
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 2, el equipo organizó la implementación y validación de la solución dividiendo las responsabilidades en seis servicios clave: **Edge Service**, **Landing Page**, **Mobile App**, **Embedded Apps**, **Web Service** y **Web Application**. Estos servicios abarcan los componentes principales de la arquitectura del ecosistema Nexora.
+
+El propósito de esta sección es establecer la Matriz de Liderazgo y Colaboración (LACX) que identifica las responsabilidades de liderazgo y los roles de colaboración asignados a cada miembro del equipo para cada servicio considerado durante la ejecución del Sprint. Esta organización de líderes y colaboradores está alineada con el alcance esperado del Sprint y las responsabilidades de desarrollo asociadas.
+
+### 6.2.2.2.1. Sprint 2 Leadership-and-Collaboration Matrix (LACX)
+
+| Team Member (Last Name, First Name) | GitHub Username | Edge Service | Landing Page | Mobile App | Embedded Apps | Web Service | Web Application |
+|---|---|---|---|---|---|---|---|
+| Argomedo Camacho, Jhosep Jamil | [@JhosepAC](https://github.com/JhosepAC) | C | C | C | C | L | L |
+| Ramirez Tello, Sebastian | [@SRT0808](https://github.com/SRT0808) | C | C | C | C | L | L |
+| Linares Arroyo, Jorge Alexandro | [@jlinares30](https://github.com/jlinares30) | L | C | C | L | C | C |
+| O'Higgins Rosales, Andrea Namie | [@AndreaOhiggins](https://github.com/AndreaOhiggins) | C | C | L | C | C | C |
+| Peña Riofrio, Maria Fernanda | [@mariafep](https://github.com/mariafep) | C | L | C | C | C | C |
+| Castañeda Llanos, Kevin Alexander | [@KevCast1604](https://github.com/KevCast1604) | C | C | C | L | L | L |
+| Muñoz Vilcapoma, Mauricio | [@MauricioMVilcapoma](https://github.com/MauricioMVilcapoma) | C | C | L | C | C | C |
+
+---
+
+> **L**: Leader (Líder de aspecto)  
+> **C**: Collaborator (Colaborador)
+
+#### 6.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 reúne el conjunto de User Stories y tareas técnicas definidas para la implementación de la versión final de la Landing Page comercial y la consolidación de la segunda versión de la Web Application basada en datos dinámicos y persistentes. Asimismo, durante este ciclo se integró la primera versión funcional de la Mobile Application operando bajo una arquitectura de datos simulados (FakeAPI), en paralelo con el despliegue del Backend corporativo, el desarrollo de la primera versión del EdgeService para telemetría de gases y la programación inicial de la Embedded Application para la simulación de consumo de agua, energía y lecturas de voltaje en tiempo real.
+
+Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equipo mediante la descomposición de cada User Story en tareas específicas, facilitando el seguimiento del avance, la asignación de responsabilidades y el control del estado de desarrollo dentro del Sprint Board, sirviendo además como el núcleo de software evaluado durante las primeras entrevistas de validación con usuarios del segmento objetivo.
+
+**Sprint Board URL:**
+`https://trello.com/invite/b/6a18757b6ac2253d93654cef/ATTIff24fd95adda159783fb84dcded55b368BE28E3C/sprint-2-nexiot`
+
+**Sprint 2 Backlog:**
+![Sprint 2 Backlog](assets/chapter-6/implementation/sprint-2/sprint-2.jpg)
+
+## Sprint 2
+
+| User Story |                                | Work-Item / Task |                                             |                                                                |                        |                   |            |
+| ---------- | ------------------------------ | ---------------- | ------------------------------------------- | -------------------------------------------------------------- | ---------------------- | ----------------- | ---------- |
+| **Id**     | **Title**                      | **Id**           | **Title**                                   | **Description**                                                | **Estimation (Hours)** | **Assigned To**   | **Status** |
+| US01 | Acceso rápido a información | T-01 | Implementar navegación y accesos rápidos en la Landing Page | Creación de la barra de navegación responsive y accesos rápidos en la Landing Page. | 4 | Maria Fernanda Peña Riofrio | Done |
+| US02 | Experiencia intuitiva de navegación | T-02 | Diseñar menú interactivo y transiciones de página | Diseño del menú interactivo, animaciones de transición y navegación interna del sitio. | 6 | Maria Fernanda Peña Riofrio | Done |
+| US03 | Adaptabilidad multidispositivo | T-03 | Configurar estilos responsivos para móvil y tablet | Ajuste de estilos CSS y media queries para optimizar la visualización en dispositivos móviles. | 5 | Maria Fernanda Peña Riofrio | Done |
+| US09 | Comprensión de beneficios operativos y solución inmobiliaria | T-04 | Desarrollar sección de beneficios para arrendadores | Desarrollo de las secciones de beneficios operativos y ventajas para arrendadores. | 5 | Maria Fernanda Peña Riofrio | Done |
+| US11 | Monitoreo IoT en tiempo real | T-05 | Integrar visualización en vivo de telemetría de dispositivos | Integración de componentes gráficos en tiempo real para visualizar telemetría de sensores. | 8 | Jorge Alexandro Linares Arroyo | Done |
+| US12 | Información de aplicación para arrendatarios | T-06 | Diseñar sección informativa para arrendatarios | Maquetación de la sección informativa de la aplicación móvil dirigida a arrendatarios. | 4 | Jhosep Jamil Argomedo Camacho | Done |
+| US13 | Comprensión de beneficios y automatización inteligente | T-07 | Implementar sección de automatización de la Landing Page | Implementación de tarjetas informativas sobre automatización y control inteligente. | 4 | Kevin Alexander Castañeda Llanos | Done |
+| US33 | Visualización y acceso al panel de alertas recientes | T-08 | Crear componente de alertas recientes en el dashboard | Diseño del panel resumen de alertas recientes y críticas en el dashboard principal. | 6 | Kevin Alexander Castañeda Llanos | Done |
+| US34 | Visualización del inventario de propiedades con métricas de salud | T-09 | Desarrollar tabla de inventario de propiedades con estados | Desarrollo de la tabla con el listado de propiedades vinculadas y sus indicadores de salud. | 7 | Jhosep Jamil Argomedo Camacho | Done |
+| US35 | Registro de nueva propiedad con vinculación de gateway IoT | T-10 | Crear formulario de registro y flujo de vinculación de gateway | Creación del formulario de registro y flujo de vinculación de un nuevo gateway IoT. | 8 | Jhosep Jamil Argomedo Camacho | Done |
+| US37 | Gestión de vinculación de dispositivos en propiedad | T-11 | Implementar endpoints y UI para asociar dispositivos a propiedades | Programación de la interfaz para asociar, desvincular o editar dispositivos en propiedades. | 6 | Jhosep Jamil Argomedo Camacho | Done |
+| US39 | Registro de nuevo activo IoT | T-12 | Desarrollar vista de registro de nuevos activos/dispositivos | Diseño de la interfaz de registro de nuevos activos IoT especificando tipo y ubicación. | 5 | Kevin Alexander Castañeda Llanos | Done |
+| US46 | Gestión de respuesta a incidencia crítica activa | T-13 | Crear flujo de atención de incidencias y cambio de estados | Implementación de flujos de interacción para el cambio de estado de incidencias críticas. | 8 | Jhosep Jamil Argomedo Camacho | In Progress |
+| US47 | Exportación de reporte de incidencias | T-14 | Implementar descarga en formato estructurado de incidencias | Programación de la lógica para descargar reportes de incidencias en formatos legibles. | 4 | Kevin Alexander Castañeda Llanos | Done |
+| US49 | Visualización del detalle completo de una incidencia crítica | T-15 | Diseñar modal/vista de detalle extendido de incidencias | Desarrollo de la vista modal interactiva con el detalle completo de incidencias críticas. | 6 | Kevin Alexander Castañeda Llanos | Done |
+| US51 | Activación del protocolo de apagado de emergencia | T-16 | Implementar botón de pánico y lógica de apagado remoto | Configuración del botón de parada de emergencia y control remoto del estado del actuador. | 8 | Kevin Alexander Castañeda Llanos | Done |
+| US52 | Visualización de métricas de consumo del período actual | T-17 | Desarrollar gráficos de consumo eléctrico y hídrico del mes | Desarrollo de widgets y gráficas con el consumo eléctrico e hídrico del período actual. | 6 | Kevin Alexander Castañeda Llanos | In Progress |
+| US53 | Análisis comparativo de consumo por período y tipo de recurso | T-18 | Integrar filtros de fecha y comparación de consumo en gráficos | Integración de filtros y vistas comparativas de consumo histórico en la aplicación. | 6 | Sebastian Ramirez Tello | Done |
+| US57 | Gestión del perfil personal y ubicación de operaciones | T-19 | Desarrollar formulario de edición de perfil y operaciones | Creación de las vistas para la gestión del perfil del usuario y ubicación de operaciones. | 4 | Sebastian Ramirez Tello | Done |
+| US59 | Gestión de alertas de acceso crítico detectado | T-20 | Implementar alerts push y visuales de accesos no autorizados | Configuración de notificaciones visuales y auditivas en caso de alertas de acceso crítico. | 6 | Jhosep Jamil Argomedo Camacho | Done |
+| US60 | Gestión del equipo operativo | T-21 | Crear sección de visualización y edición de miembros del equipo | Desarrollo del panel CRUD para la administración del equipo y personal operativo. | 5 | Kevin Alexander Castañeda Llanos | Done |
+| TS07 | API de vinculación y gestión de gateways en propiedad | T-22 | Desarrollar endpoints POST/DELETE para gateways en propiedad | Desarrollo de endpoints de la API para vincular y desvincular gateways a propiedades. | 8 | Jhosep Jamil Argomedo Camacho | Done |
+| TS08 | API de gestión de arrendatarios en propiedad | T-23 | Desarrollar CRUD de arrendatarios en el Web Service | Creación del controlador y endpoints para la administración de arrendatarios. | 6 | Mauricio Muñoz Vilcapoma | In Progress |
+| TS09 | API de consulta de la flota de dispositivos | T-24 | Desarrollar endpoints de consulta y paginación de dispositivos | Desarrollo de endpoints GET con paginación para consultar la flota de dispositivos. | 6 | Jhosep Jamil Argomedo Camacho | Done |
+| TS11 | API de logs y perfil de hardware de dispositivo | T-25 | Implementar endpoints para consultar logs técnicos de hardware | Implementación de endpoints para obtener logs de eventos y el perfil de hardware. | 6 | Sebastian Ramirez Tello | Done |
+| TS12 | API de acciones remotas sobre dispositivo | T-26 | Desarrollar endpoints para enviar comandos a los dispositivos | Desarrollo de la API para enviar comandos remotos de reinicio y calibración al hardware. | 8 | Jorge Alexandro Linares Arroyo | Done |
+| TS13 | API de consulta y filtrado de alertas | T-27 | Desarrollar endpoints para filtrado y consulta de alertas | Desarrollo de endpoints con filtros de fecha y prioridad para alertas. | 6 | Jorge Alexandro Linares Arroyo | Done |
+| TS14 | API de detalle y actualización de estado de alerta | T-28 | Desarrollar endpoint de actualización de estado de alertas | Programación de endpoints PUT para actualizar el estado de alertas de emergencia. | 5 | Kevin Alexander Castañeda Llanos | Done |
+| TS15 | API de asignación de técnicos y personal de emergencia | T-29 | Implementar endpoints para asignar personal a incidencias | Implementación de endpoints para asignar personal a incidencias. | 6 | Kevin Alexander Castañeda Llanos | Done |
+| TS16 | API de acción de apagado de emergencia | T-30 | Desarrollar endpoint de ejecución de apagado de emergencia | Desarrollo de endpoints REST para ejecutar la acción de apagado remoto de emergencia. | 8 | Sebastian Ramirez Tello | In Progress |
+| TS17 | API de exportación de reporte de incidencias | T-31 | Desarrollar lógica de backend para exportación de reportes | Programación de la API de backend para generar y descargar archivos de reporte de incidencias. | 5 | Sebastian Ramirez Tello | In Progress |
+| TS18 | API de métricas de consumo del período activo | T-32 | Implementar endpoints de agregación de consumo periódico | Desarrollo de endpoints de agregación de datos de consumo del período activo. | 6 | Kevin Alexander Castañeda Llanos | Done |
+| TS19 | API de analítica comparativa de consumo | T-33 | Desarrollar consultas analíticas de consumo entre periodos | Desarrollo de consultas agregadas para comparar analíticas de consumo entre periodos. | 6 | Mauricio Muñoz Vilcapoma | Done |
+| TS21 | API de exportación de reportes de consumo | T-34 | Desarrollar lógica de backend para exportar datos de consumo | Implementación de endpoints para exportar reportes de consumo en formatos CSV/Excel. | 5 | Kevin Alexander Castañeda Llanos | Done |
+| TS22 | API de gestión del perfil de usuario | T-35 | Implementar endpoints de consulta y edición de perfil | Creación de la API de perfil de usuario para gestionar credenciales y datos personales. | 4 | Andrea Namie O'Higgins Rosales | Done |
+| TS23 | API de configuración de notificaciones y contactos de emergencia | T-36 | Desarrollar endpoints para persistir contactos y config de alertas | Desarrollo de endpoints para configurar notificaciones y contactos de emergencia. | 5 | Jhosep Jamil Argomedo Camacho | Done |
+| TS24 | API de configuración de umbrales de sensores | T-37 | Implementar endpoints para definir límites de alerta por sensor | Implementación de endpoints para definir y actualizar umbrales de sensores. | 6 | Andrea Namie O'Higgins Rosales | Done |
+| TS-EMB-01 | Inicialización de Hardware, Lectura de Sensores y Consolidación de Payload | T-38 | Inicializar hardware y lectura de sensores en ESP32 | Programación del firmware para inicializar hardware, leer sensores y consolidar el payload. | 6 | Mauricio Muñoz Vilcapoma, Kevin Alexander Castañeda Llanos, Jorge Alexandro Linares Arroyo | Done |
+| TS-EMB-02 | Transmisión de Datos por HTTP y Tolerancia a Fallos de Red Local | T-39 | Implementar cliente HTTP y reintento en caso de fallo de red | Implementación de la transmisión por HTTP y mecanismo de almacenamiento temporal local. | 8 | Kevin Alexander Castañeda Llanos, Jorge Alexandro Linares Arroyo, Mauricio Muñoz Vilcapoma | Done |
+| TS-EMB-03 | Retroalimentación Visual a través de Actuadores y LEDs de Estado | T-40 | Configurar LEDs de estado y actuadores visuales en placa | Configuración del firmware para activar actuadores físicos y LEDs según estado. | 5 | Kevin Alexander Castañeda Llanos, Jorge Alexandro Linares Arroyo, Mauricio Muñoz Vilcapoma | Done |
+| TS-EMB-04 | Señalización de Disponibilidad mediante Mecanismo de Latido (Heartbeat) | T-41 | Implementar envío periódico de latidos de disponibilidad | Programación de la señalización de disponibilidad mediante mecanismo de heartbeat. | 4 | Kevin Alexander Castañeda Llanos, Jorge Alexandro Linares Arroyo, Mauricio Muñoz Vilcapoma | Done |
+| TS-EDGE-01 | API Rest local de Ingesta para Dispositivos IoT | T-42 | Desarrollar API local de ingesta de datos en el gateway | Desarrollo de la API REST local en el Gateway para recibir tramas del ESP32. | 8 | Jorge Alexandro Linares Arroyo | Done |
+| TS-EDGE-02 | Persistencia Perimetral de Datos en Contingencia (Modo Offline) | T-43 | Implementar almacenamiento local SQLite en gateway en modo offline | Implementación del modo offline con almacenamiento en base de datos local SQLite. | 8 | Jorge Alexandro Linares Arroyo | Done |
+| TS-HW-01 | Ensamblaje Electrónico y Calibración del Sensor de Gas | T-44 | Ensamblar prototipo físico y calibrar sensor de gas MQ2 | Ensamblaje del circuito y calibración física del sensor de gas analógico MQ-2. | 6 | Todo el equipo | Done |
+| TS-HW-02 | Ensamblaje del ESP32 con el sensor MQ2 para detección de gases | T-45 | Montar circuito electrónico ESP32 con módulo sensor de gas | Conexión electrónica y soldadura del ESP32 con el sensor MQ2 en placa de desarrollo. | 5 | Todo el equipo | Done |
+
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se explican y presentan los avances en implementación con relación a los productos de la solución según el alcance del Sprint 2: Edge Service, Landing Page, Mobile App, Embedded Apps, Web Service y Web Application.
+
+---
+
+## Edge Service
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| nexora.edgeservice | develop| 57d5384| Merge branch 'develop'| ---| 20/06/2026|
+| nexora.edgeservice | feature/monitoring | d73e39b| feat: add voltage safety device seeding and extend telemetry record model | ---| 19/06/2026|
+| nexora.edgeservice | feature/database| d9a7a87| feat: implement database initialization and table creation for edge service | ---| 19/06/2026|
+| nexora.edgeservice | feature/iam-domain-layer | fbb59bb| feat: add domain layer for iam context| ---| 19/06/2026|
+| nexora.edgeservice | feature/iam-application-layer| 9fdb501| feat: add application layer for iam context| ---| 19/06/2026|
+| nexora.edgeservice | feature/monitoring-application-layer | c301ab6| Merge branch 'feature/monitoring-application-layer' into develop| ---| 19/06/2026|
+| nexora.edgeservice | feature/monitoring-application-layer | e49a977| feat: add application layer for monitoring context| ---| 19/06/2026|
+| nexora.edgeservice | develop| 8604b92| Merge branch 'develop' of [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.edgeservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.edgeservice) into develop | ---| 19/06/2026|
+| nexora.edgeservice | feature/iam-interface-layer | e8c3d70| Merge branch 'feature/iam-interface-layer' into develop| ---| 19/06/2026|
+| nexora.edgeservice | feature/iam-infrastructure-layer | 0c39c5c| Merge branch 'feature/iam-infrastructure-layer' into develop| ---| 19/06/2026|
+| nexora.edgeservice | feature/monitoring-infrastructure-layer | f10357d| feat: add infrastructure layer for monitoring context| ---| 19/06/2026|
+| nexora.edgeservice | feature/monitoring-interface-layer| a29db5a| Merge branch 'feature/monitoring-interface-layer' into develop| ---| 19/06/2026|
+| nexora.edgeservice | feature/monitoring-interface-layer| d20361c| feat: add interface layer for monitoring context| ---| 19/06/2026|
+| nexora.edgeservice | feature/iam-interface-layer | 7378374| feat: add IAM interface and auth helper| ---| 17/06/2026|
+| nexora.edgeservice | feature/iam-infrastructure-layer | cbca94f| feat: add IAM infrastructure models| ---| 17/06/2026|
+| nexora.edgeservice | feature/monitoring-domain-layer| af82fdb| Merge branch 'feature/monitoring-domain-layer' into develop| ---| 17/06/2026|
+| nexora.edgeservice | feature/monitoring-domain-layer| 39a6d04| feat: add domain layer for monitoring context| ---| 17/06/2026|
+| nexora.edgeservice | main| 3be4e58| first commit| ---| 16/06/2026|
+
+
+<br><br>
+
+## Landing Page
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| nexora.website | fix/content-sections| a59059| Merge branch 'fix/content-sections' into develop| --- | 19/06/2026 |
+| nexora.website | fix/content-sections| 0fbcb4f| update the video section about the team with real-time interaction| --- | 19/06/2026 |
+| nexora.website | fix/content-sections| dc739cf| update the video section with real-time interaction | --- | 19/06/2026 |
+| nexora.website | fix/content-sections| 8ae8053| fix: add vertical spacing to sections, and add a favicon to all pages| --- | 19/06/2026 |
+| nexora.website | fix/content-sections| 4b74fe1| refactor(landing): reorganize about and home video content| --- | 19/06/2026 |
+| nexora.website | fix/terms| 380ff31| fix(terms): correct translations and content alignment| --- | 18/06/2026 |
+| nexora.website | feature/privacy-policy| bcf4872| feat(privacy): add privacy policy page with i18n support| --- | 18/06/2026 |
+| nexora.website | fix/terms| 5eeb174| fix(terms): align navbar and optimize terms page spacing| --- | 18/06/2026 |
+| nexora.website | fix/tenants | f854e6c| fix(tenants): update layout and testimonials section| --- | 18/06/2026 |
+| nexora.website | fix/landlords| ac0694d| fix(landlords): update CTA, plans and testimonials| --- | 18/06/2026 |
+| nexora.website | fix/home| 1d9766e| fix(home): update content, navigation and pricing section| --- | 18/06/2026 |
+| nexora.website | design/about-page| 35d2269| design: replace gray video placeholders in About page with premium 16:9 video cards | --- | 12/06/2026 |
+| nexora.website | hotfix/testimonials-section | 6ac8582| Merge branch 'hotfix/testimonials-section' into develop | --- | 12/06/2026 |
+| nexora.website | hotfix/testimonials-section | a6bb56a| fix: load product-specific testimonials dynamically and enable navigation controls| --- | 12/06/2026 |
+| nexora.website | hotfix/faq-view | fba54b2| Merge branch 'hotfix/faq-view' into develop | --- | 12/06/2026 |
+| nexora.website | hotfix/faq-view | 8825bc8| fix: route in footer to FAQ view| --- | 12/06/2026 |
+
+<br><br>
+
+## Mobile App
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| nexora.mobile | feature/automations| 3d2bb57| Merge branch 'feature/automations' into develop| ---| 20/06/2026 |
+| nexora.mobile | feature/automations| fafe297| chore(deps): update pubspec.lock dependencies| ---| 20/06/2026 |
+| nexora.mobile | feature/automations| 6851e3a| feat(automations/presentation): add automations list page and new automation flow| ---| 20/06/2026 |
+| nexora.mobile | feature/automations| 0766e46| feat(automations/infra): implement fake automation repository| ---| 20/06/2026 |
+| nexora.mobile | feature/automations| c053cb5| feat(automations/domain): add automation entity and repository interface| ---| 20/06/2026 |
+| nexora.mobile | feature/iam| 51457d2| Merge branch 'feature/iam' into develop| ---| 20/06/2026 |
+| nexora.mobile | feature/iam| 6bbfce5| feat(mobile): add profile options page | ---| 20/06/2026 |
+| nexora.mobile | feature/alerts| 2841a24| Merge branch 'feature/alerts' into develop| ---| 20/06/2026 |
+| nexora.mobile | feature/alerts| c7cee15| feat: add alertspage for incidents| ---| 20/06/2026 |
+| nexora.mobile | feature/properties | 496467d| Merge branch 'feature/properties' into develop | ---| 20/06/2026 |
+| nexora.mobile | feature/alerts| 164e146| feat: add Incident entity and IncidentLevel enum | ---| 20/06/2026 |
+| nexora.mobile | feature/consumption-bounded-context | 46cdcdb| Merge branch 'feature/consumption-bounded-context' into develop| ---| 20/06/2026 |
+| nexora.mobile | feature/consumption-bounded-context | 3e60491| feat(consumption): add consumption presentation pages| ---| 20/06/2026 |
+| nexora.mobile | feature/consumption-bounded-context | f94d555| feat(consumption): add consumption domain entities| ---| 20/06/2026 |
+| nexora.mobile | feature/properties | 8051d4d| feat(properties/presentation): create HomePage for real-time dashboard visualization| ---| 20/06/2026 |
+| nexora.mobile | feature/properties | 625e86c| feat(properties/infrastructure): implement FakeNexoraApi and FakePropertiesRepository | ---| 20/06/2026 |
+| nexora.mobile | feature/properties | 7f1f805| feat(properties/domain): define AppData entity and PropertiesRepository interface| ---| 20/06/2026 |
+| nexora.mobile | feature/device-ddd-context| 0f74d9c| Merge branch 'feature/device-ddd-context' into develop | ---| 20/06/2026 |
+| nexora.mobile | feature/device-ddd-context| ae261e5| feat: add device sensor domain entity| ---| 20/06/2026 |
+| nexora.mobile | feature/device-ddd-context| 6ffd666| feat: add device page presentation view| ---| 20/06/2026 |
+| nexora.mobile | architecture/ddd-migration|| Migrate mobile app to DDD architecture | ---| 20/06/2026 |
+
+<br><br>
+
+## Embedded Apps
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| nexora.iot | develop | 00e076c| Merge remote-tracking branch 'origin/develop' | ---| 19/06/2026|
+| nexora.iot | feature/water-consumption| 14e8e79| feat: add water consumption folder| ---| 19/06/2026|
+| nexora.iot | develop | 253b0e8| Merge branch 'develop'| ---| 19/06/2026|
+| nexora.iot | docs | 38d681a| docs: update global README file| ---| 19/06/2026|
+| nexora.iot | develop | 83d7593| Merge branch 'develop'| ---| 18/06/2026|
+| nexora.iot | feature/voltage-consumption | cb3dd4a| fix(voltage): connections with serial monitor and add wifi | ---| 18/06/2026|
+| nexora.iot | develop | 81221da| Merge branch 'develop'| ---| 17/06/2026|
+| nexora.iot | docs | f410723| docs: add global README file| ---| 17/06/2026|
+| nexora.iot | docs | 14a8c86| docs: add voltage consumption documentation| ---| 17/06/2026|
+| nexora.iot | docs | f0cff23| docs: add gas-safety documentation| ---| 17/06/2026|
+| nexora.iot | develop | 1800385| Merge branch 'develop'| ---| 17/06/2026|
+| nexora.iot | feature/water-consumption| 3abcfff| feat: add skeleton folder for water consumption| ---| 17/06/2026|
+| nexora.iot | feature/voltage-consumption | 5bac819| feat: add voltage consumption folder| ---| 17/06/2026|
+| nexora.iot | refactor/gas-safety| 45a7b76| chore: move nexora gas safety in a new folder | ---| 17/06/2026|
+| nexora.iot | main | e6edecc| first commit | ---| 15/06/2026|
+
+<br><br>
+
+## Web Service
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| nexora.backend | feature/service-monitoring-intelligence| dd3dcdb| Merge branch 'feature/service-monitoring-intelligence' into develop| ---| 20/06/2026|
+| nexora.backend | feature/service-monitoring-intelligence| f9c769a| feat(monitoring/presentation): add alerts, health check, reports, and telemetry controllers| ---| 20/06/2026|
+| nexora.backend | feature/service-monitoring-intelligence| 53c0343| feat(monitoring/infra): implement alert and telemetry repositories and report services | ---| 20/06/2026|
+| nexora.backend | feature/service-monitoring-intelligence| de00b9e| feat(monitoring/application): implement telemetry processing commands and services| ---| 20/06/2026|
+| nexora.backend | feature/service-monitoring-intelligence| d454528| feat(monitoring/domain): add service monitoring domain entities and repository contracts| ---| 20/06/2026|
+| nexora.backend | feature/resource-asset-management| 7018556| Merge branch 'feature/resource-asset-management' into develop| ---| 19/06/2026|
+| nexora.backend | feature/resource-asset-management| 1516a73| feat(resource-asset-management/presentation): add presentation layer and API controllers| ---| 19/06/2026|
+| nexora.backend | feature/resource-asset-management| 1027510| feat(resource-asset-management/infrastructure): add repositories, services, and infrastructure project | ---| 19/06/2026|
+| nexora.backend | feature/resource-asset-management| ce74818| feat(resource-asset-management/application): implement Tenant and Property CQRS commands and handlers| ---| 19/06/2026|
+| nexora.backend | feature/resource-asset-management| 782f2c8| feat(resource-asset-management/application): add DTOs and project setup | ---| 19/06/2026|
+| nexora.backend | feature/resource-asset-management| 5ac2604| feat(resource-asset-management/domain): add repository interfaces, domain services, and project setup| ---| 19/06/2026|
+| nexora.backend | feature/resource-asset-management| ab92cfe| feat(resource-asset-management/domain): define Tenant, Landlord, Property, and Device entities| ---| 19/06/2026|
+| nexora.backend | feature/resource-asset-management| a1ed687| feat(resource-asset-management/domain): define enums for property type, status, and device connection| ---| 19/06/2026|
+| nexora.backend | feature/subscription-management-context| f14f3ec| Merge branch 'feature/subscription-management-context' into develop| ---| 19/06/2026|
+| nexora.backend | feature/subscriptions-payment-management | 8a14aad| feat(subscriptions-payment-management/presentation): implement subscriptions controller| ---| 19/06/2026|
+| nexora.backend | feature/subscriptions-payment-management | b9a5775| feat(subscriptions-payment-management/presentation): setup presentation project| ---| 19/06/2026|
+| nexora.backend | feature/subscriptions-payment-management | 7bd40ed| feat(subscriptions-payment-management/infra): implement invoice repository| ---| 19/06/2026|
+| nexora.backend | feature/subscriptions-payment-management | 5673751| feat(subscriptions-payment-management/infra): implement subscription repository and infrastructure setup | ---| 19/06/2026|
+| nexora.backend | feature/subscriptions-payment-management | 464dd47| feat(subscriptions-payment-management/application): implement subscription policy application service| ---| 19/06/2026|
+| nexora.backend | feature/subscriptions-payment-management | 03b91a9| feat(subscriptions-payment-management/application): define dto and setup application project| ---| 19/06/2026|
+| nexora.backend | feature/subscriptions-payment-management | 54710c8| feat(subscriptions-payment-management/domain): define domain services and repositories interfaces with project setup | ---| 19/06/2026|
+| nexora.backend | feature/identity-access-management| 7231fee| Merge branch 'feature/identity-access-management' into develop | ---| 19/06/2026|
+| nexora.backend | feature/subscriptions-payment-management | d8c40ed| feat(subscriptions-payment-management/domain): define invoicing and payment domain entities| ---| 19/06/2026|
+| nexora.backend | feature/subscriptions-payment-management | dddad96| feat(subscriptions-payment-management/domain): define subscription-related domain entities| ---| 19/06/2026|
+| nexora.backend | feature/subscriptions-payment-management | 067dbd0| feat(subscriptions-payment-management/domain): define enums for subscription, invoice, and payment status| ---| 19/06/2026|
+| nexora.backend | feature/identity-access-management| 8106cfb| feat: add identity access management auth | ---| 19/06/2026|
+| nexora.backend | feature/identity-access-management| 9c60561| feat: add user repository and project files| ---| 19/06/2026|
+| nexora.backend | feature/identity-access-management| f31f5a0| feat: add iam dtos, user entity and userrole enum| ---| 19/06/2026|
+| nexora.backend | feature/maintenance-context| eaccc53| feat(context): initialize application and presentation layer project configurations| ---| 19/06/2026|
+| nexora.backend | feature/maintenance-context| e0b8b32| feat(infra): implement maintenance ticket repository and project setup| ---| 19/06/2026|
+| nexora.backend | feature/maintenance-context| 4888b88| feat(domain): define domain entities, enums, and repository interface for maintenance tickets | ---| 19/06/2026|
+| nexora.backend | main | 4c1eda6| infra: initialize backend architecture and host structure | ---| 19/06/2026|
+
+<br><br>
+
+## Web Application
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| nexora.webapp | feature/iam-integration | d08ebb7| Merge branch 'feature/iam-integration' into develop | ---| 20/06/2026|
+| nexora.webapp | feature/iam-integration | 5a13304| feat(iam/presentation): add user forms, views, and pinia stores| ---| 20/06/2026|
+| nexora.webapp | feature/iam-integration | 32922d1| feat(iam/infra): add infrastructure mappers, mock data, and repository implementations| ---| 20/06/2026|
+| nexora.webapp | feature/iam-integration | a1142ef| feat(iam/application): implement application use cases and services| ---| 20/06/2026|
+| nexora.webapp | feature/iam-integration | b55e539| feat(iam/domain): add core domain entities, value objects, and repository interfaces| ---| 20/06/2026|
+| nexora.webapp | feature/subscriptions-payment-management | 4154f26| Merge branch 'feature/subscriptions-payment-management' into develop | ---| 19/06/2026|
+| nexora.webapp | feature/subscriptions-payment-management | f293a97| feat(subscriptions): add payment management interface| ---| 19/06/2026|
+| nexora.webapp | feature/subscriptions-payment-management | 31e6cfe| feat(subscriptions): add payment management store| ---| 19/06/2026|
+| nexora.webapp | feature/subscriptions-payment-management | e75a117| feat(subscriptions): add payment management interface| ---| 19/06/2026|
+| nexora.webapp | feature/service-monitoring| 7541c73| feat(service-monitoring): add dashboard presentation components (AirQualityCard, ConsumptionChart, KpiCard, RecentAlerts, SystemHealthCard) | ---| 19/06/2026|
+| nexora.webapp | feature/service-monitoring| 91cbf2b| feat(service-monitoring): add dashboard Pinia store and main Dashboard view| ---| 19/06/2026|
+| nexora.webapp | feature/service-monitoring| cb18cf7| feat(service-monitoring): add dashboard stats entity, repository implementation, and get dashboard stats use case | ---| 19/06/2026|
+| nexora.webapp | feature/service-monitoring| a9c535e| feat(service-monitoring): add presentation components for alerts center (KPI Card, Recent Events Table, Status Badge)| ---| 19/06/2026|
+| nexora.webapp | feature/service-monitoring| 60aa82d| feat(service-monitoring): add alerts center and alerts investigation views| ---| 19/06/2026|
+| nexora.webapp | feature/service-monitoring| e2c93f8| feat(service-monitoring): add alerts domain entity, repository interface, and repository implementation| ---| 19/06/2026|
+| nexora.webapp | feature/service-monitoring| ba41b13| feat(service-monitoring): add core domain events, repositories, value objects, and health calculation service| ---| 19/06/2026|
+| nexora.webapp | feature/subscriptions-payment-management | 693763d| feat(subscriptions): add payment infrastructure| ---| 19/06/2026|
+| nexora.webapp | feature/subscriptions-payment-management | fd53617| feat(subscriptions): add subscription domain services and events| ---| 19/06/2026|
+| nexora.webapp | feature/subscriptions-payment-management | 59a14a9| feat(subscriptions): add payment value objects| ---| 19/06/2026|
+| nexora.webapp | feature/subscriptions-payment-management | d46a3b0| feat(subscriptions): add subscription payment entities | ---| 19/06/2026|
+| nexora.webapp | feature/subscriptions-payment-management | e1dde96| feat(subscriptions): add payment management use cases| ---| 19/06/2026|
+| nexora.webapp | feature/iam | ca748f6| Merge branch 'feature/iam' into develop | ---| 19/06/2026|
+| nexora.webapp | feature/iam-settings | 963ef7c| feat(iam-settings): add settings Pinia store and modal component| ---| 19/06/2026|
+| nexora.webapp | feature/iam-settings | 7ee2cc3| feat(iam-settings): add settings mapper and repository implementation| ---| 19/06/2026|
+| nexora.webapp | feature/iam-settings | a5da987| feat(iam-settings): add domain entity and use case for system settings| ---| 19/06/2026|
+| nexora.webapp | feature/asset-management| 6f54e35| feat(asset-management): add device management views | ---| 19/06/2026|
+| nexora.webapp | feature/asset-management| 41f40f6| feat(asset-management): add devices store| ---| 19/06/2026|
+| nexora.webapp | feature/asset-management| 253bf4a| feat(asset-management): add device fleet use case| ---| 19/06/2026|
+| nexora.webapp | feature/asset-management| 3732f50| feat(asset-management): add device entity and mapper| ---| 19/06/2026|
+| nexora.webapp | feature/analytics | a590069| feat(subscriptions): add payment repository infrastructure| ---| 19/06/2026|
+| nexora.webapp | feature/analytics | 22ef8ad| Merge branch 'feature/analytics' into develop | ---| 19/06/2026|
+| nexora.webapp | feature/analytics | 73a9343| feat: add budget utilization and consumption value| ---| 19/06/2026|
+| nexora.webapp | feature/analytics | 4fb2cd1| feat: add analytics report use-case, mapper, store| ---| 19/06/2026|
+| nexora.webapp | feature/analytics | bdd26b5| feat: add analytics reports feature and view| ---| 19/06/2026|
+| nexora.webapp | feature/asset-management| 0471bf1| Merge branch 'feature/asset-management' into develop| ---| 19/06/2026|
+| nexora.webapp | feature/asset-management| cac1382| feat(asset-management): add tenants subdomain | ---| 19/06/2026|
+| nexora.webapp | feature/asset-management| 861bb52| feat(asset-management): add properties views| ---| 19/06/2026|
+| nexora.webapp | feature/asset-management| 49f3e6f| feat(asset-management): add properties presentation components | ---| 19/06/2026|
+| nexora.webapp | feature/asset-management| 0f133e4| feat(asset-management): add properties domain entity and infrastructure | ---| 19/06/2026|
+| nexora.webapp | feature/asset-management| c3feb2a| feat(asset-management): add domain layer foundation | ---| 19/06/2026|
+| nexora.webapp | feature/ddd-architecture-migration | 55115d8| Merge branch 'feature/ddd-architecture-migration' into develop | ---| 19/06/2026|
+| nexora.webapp | feature/ddd-architecture-migration | d70ae39| feat: add future routes| ---| 19/06/2026|
+| nexora.webapp | feature/ddd-architecture-migration | ed06634| feat: update .json about language change| ---| 19/06/2026|
+| nexora.webapp | feature/shared | 0acb8dc| feat(shared): enhance HeaderTop with breadcrumbs, notifications, and user avatar| ---| 19/06/2026|
+| nexora.webapp | feature/shared | f22e5e5| feat(shared): integrate i18n and enhanced features into SidebarMenu| ---| 19/06/2026|
+| nexora.webapp | feature/shared | f392e85| feat(shared): add DDD infrastructure foundation| ---| 19/06/2026|
+| nexora.webapp | feature/ddd-architecture-migration || fix: update file tree, remove folders that follow a clean architecture| ---| 19/06/2026|
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados para los Web Services de Nexora en el Sprint 2. Las pruebas están organizadas en dos contextos acotados principales: **Resource & Asset Management** y **Service Monitoring & Intelligence**.
+
+---
+
+### **1. Unit Tests (Pruebas Unitarias)**
+
+Las pruebas unitarias se enfocan en verificar de manera aislada los comportamientos y validaciones de las reglas de negocio críticas definidas dentro de las entidades del dominio de la aplicación.
+
+#### **A. Pruebas Unitarias de Dispositivos (Resource & Asset Management)**
+* **Clase Evaluada:** `Device`
+* **Comportamientos Evaluados:**
+  * **Inicialización Válida:** Verificación de que un dispositivo se cree correctamente con su ID, estado inicial de conexión y fecha de sincronización.
+  * **Validación de Identificador Obligatorio:** Lanzamiento de excepción (`ArgumentException`) ante identificadores nulos, vacíos o con espacios.
+  * **Vinculación a Propiedad:** Asignación del identificador de la propiedad a la que pertenece el dispositivo.
+  * **Actualización de Sincronización:** Actualización del estado de conexión y marca de tiempo tras telemetrías.
+
+#### **B. Pruebas Unitarias de Alertas (Service Monitoring & Intelligence)**
+* **Clase Evaluada:** `Alert`
+* **Comportamientos Evaluados:**
+  * **Inicialización Válida:** Creación correcta con severidad (`AlertSeverity`), tipo descriptivo, fecha y origen.
+  * **Validación de DeviceId:** Lanzamiento de excepción ante identificador de dispositivo vacío o nulo.
+  * **Validación de Tipo Obligatorio:** Lanzamiento de excepción ante tipos de alerta vacíos.
+
+#### Código de los Unit Tests:
+```csharp
+// Ubicación: src/test/Nexora.WebApi.Tests/DeviceTests.cs
+using System;
+using Nexora.Domain.Entities;
+using Nexora.Domain.Enums;
+using Xunit;
+
+namespace Nexora.WebApi.Tests
+{
+    public class DeviceTests
+    {
+        [Fact]
+        public void CreateDevice_WithValidData_ShouldInitializeCorrectly()
+        {
+            var id = "ESP32-HW-99";
+            var status = ConnectionStatus.Offline;
+            var syncTime = DateTime.UtcNow;
+
+            var device = new Device(id, status, syncTime);
+
+            Assert.Equal(id, device.Id);
+            Assert.Equal(status, device.ConnectionStatus);
+            Assert.Equal(syncTime, device.LastSyncAt);
+            Assert.Null(device.PropertyId);
+        }
+
+        [Theory]
+        [InlineData("")]
+        [InlineData(" ")]
+        [InlineData(null)]
+        public void CreateDevice_WithInvalidId_ShouldThrowArgumentException(
+            string invalidId)
+        {
+            Assert.Throws<ArgumentException>(() => 
+                new Device(invalidId, ConnectionStatus.Offline, DateTime.UtcNow));
+        }
+
+        [Fact]
+        public void AssignToProperty_ShouldUpdatePropertyId()
+        {
+            var device = new Device("ESP32-HW-99", 
+                ConnectionStatus.Offline, DateTime.UtcNow);
+            long expectedPropertyId = 123;
+
+            device.AssignToProperty(expectedPropertyId);
+
+            Assert.Equal(expectedPropertyId, device.PropertyId);
+        }
+
+        [Fact]
+        public void UpdateSync_ShouldUpdateStatusAndSyncTime()
+        {
+            var device = new Device("ESP32-HW-99", 
+                ConnectionStatus.Offline, DateTime.UtcNow.AddMinutes(-5));
+            var newStatus = ConnectionStatus.Online;
+            var newSyncTime = DateTime.UtcNow;
+
+            device.UpdateSync(newStatus, newSyncTime);
+
+            Assert.Equal(newStatus, device.ConnectionStatus);
+            Assert.Equal(newSyncTime, device.LastSyncAt);
+        }
+    }
+}
+```
+
+```csharp
+// Ubicación: src/test/Nexora.WebApi.Tests/AlertTests.cs
+using System;
+using Nexora.Domain.Entities;
+using Nexora.Domain.Enums;
+using Xunit;
+
+namespace Nexora.WebApi.Tests
+{
+    public class AlertTests
+    {
+        [Fact]
+        public void CreateAlert_WithValidData_ShouldInitializeCorrectly()
+        {
+            var severity = AlertSeverity.Critical;
+            var type = "Critical Gas Leak Detected";
+            var timestamp = DateTime.UtcNow;
+            var deviceId = "ESP32-HW-01";
+
+            var alert = new Alert(severity, type, timestamp, deviceId);
+
+            Assert.Equal(severity, alert.Severity);
+            Assert.Equal(type, alert.Type);
+            Assert.Equal(timestamp, alert.Timestamp);
+            Assert.Equal(deviceId, alert.DeviceId);
+        }
+
+        [Theory]
+        [InlineData("")]
+        [InlineData(" ")]
+        [InlineData(null)]
+        public void CreateAlert_WithInvalidDeviceId_ShouldThrowArgumentException(
+            string invalidDeviceId)
+        {
+            Assert.Throws<ArgumentException>(() => 
+                new Alert(AlertSeverity.Warning, "Gas Leak", 
+                    DateTime.UtcNow, invalidDeviceId));
+        }
+
+        [Theory]
+        [InlineData("")]
+        [InlineData(" ")]
+        [InlineData(null)]
+        public void CreateAlert_WithInvalidType_ShouldThrowArgumentException(
+            string invalidType)
+        {
+            Assert.Throws<ArgumentException>(() => 
+                new Alert(AlertSeverity.Warning, invalidType, 
+                    DateTime.UtcNow, "ESP32-HW-01"));
+        }
+    }
+}
+```
+
+---
+
+### **2. Integration & Acceptance Tests bajo Enfoque BDD**
+
+Validación bajo **Behavior-Driven Development (BDD)** usando escenarios Gherkin (`.feature`) y Steps ejecutados con XUnit.
+
+#### **A. Vinculación de Dispositivos (US37: Gestión de vinculación de dispositivos)**
+* **Objetivo:** Asociación efectiva de dispositivos físicos a propiedades.
+
+##### Archivo Feature:
+```gherkin
+# Ubicación: src/test/Nexora.WebApi.Tests/Features/DeviceManagement.feature
+Feature: Device Management
+  As a Landlord
+  I want to register and manage my IoT devices
+  So that I can monitor the resource usage of my properties
+
+  Scenario: Successfully register a new device to a property
+    Given a property with ID 5 exists
+    And a device with ID "ESP32-HW-01" is not associated with any property
+    When the landlord associates the device "ESP32-HW-01" with property ID 5
+    Then the device should have property ID 5 assigned
+```
+
+##### Código de los Pasos (Steps):
+```csharp
+// Ubicación: src/test/Nexora.WebApi.Tests/Steps/DeviceManagementSteps.cs
+using System;
+using Nexora.Domain.Entities;
+using Nexora.Domain.Enums;
+using Xunit;
+
+namespace Nexora.WebApi.Tests.Steps
+{
+    public class DeviceManagementSteps
+    {
+        private long _propertyId;
+        private Device _device;
+
+        [Fact]
+        public void Scenario_SuccessfullyRegisterANewDeviceToAProperty()
+        {
+            GivenAPropertyWithIDExists(5);
+            AndADeviceWithIDIsNotAssociatedWithAnyProperty("ESP32-HW-01");
+            WhenTheLandlordAssociatesTheDeviceWithPropertyID("ESP32-HW-01", 5);
+            ThenTheDeviceShouldHavePropertyIDAssigned(5);
+        }
+
+        private void GivenAPropertyWithIDExists(long propertyId)
+        {
+            _propertyId = propertyId;
+        }
+
+        private void AndADeviceWithIDIsNotAssociatedWithAnyProperty(string deviceId)
+        {
+            _device = new Device(deviceId, ConnectionStatus.Offline, DateTime.UtcNow);
+            Assert.Null(_device.PropertyId);
+        }
+
+        private void WhenTheLandlordAssociatesTheDeviceWithPropertyID(
+            string deviceId, long propertyId)
+        {
+            Assert.Equal(deviceId, _device.Id);
+            _device.AssignToProperty(propertyId);
+        }
+
+        private void ThenTheDeviceShouldHavePropertyIDAssigned(long propertyId)
+        {
+            Assert.Equal(propertyId, _device.PropertyId);
+        }
+    }
+}
+```
+
+#### **B. Consulta y Filtrado de Alertas (US33: Visualización de alertas recientes / TS13)**
+* **Objetivo:** Filtrado rápido de alertas críticas por severidad y tipo.
+
+##### Archivo Feature:
+```gherkin
+# Ubicación: src/test/Nexora.WebApi.Tests/Features/AlertManagement.feature
+Feature: Alert Query and Filtering
+  As a Landlord
+  I want to filter the security and telemetry alerts of my properties
+  So that I can quickly identify critical risks
+
+  Scenario: Filter alerts by severity and type
+    Given the system has registered alerts:
+      | DeviceId    | Severity | Type                      |
+      | ESP32-HW-01 | Critical | Critical Gas Leak Detected|
+      | ESP32-HW-02 | Warning  | Low Voltage Warning       |
+      | ESP32-HW-01 | Critical | Intrusion Alert           |
+    When the landlord filters alerts by severity "Critical" and type "Gas"
+    Then the result should contain 1 alert
+    And the alert should have type "Critical Gas Leak Detected" and severity "Critical"
+```
+
+##### Código de los Pasos (Steps):
+```csharp
+// Ubicación: src/test/Nexora.WebApi.Tests/Steps/AlertManagementSteps.cs
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Nexora.Domain.Entities;
+using Nexora.Domain.Enums;
+using Xunit;
+
+namespace Nexora.WebApi.Tests.Steps
+{
+    public class AlertManagementSteps
+    {
+        private List<Alert> _systemAlerts = new();
+        private List<Alert> _filteredResults = new();
+
+        [Fact]
+        public void Scenario_FilterAlertsBySeverityAndType()
+        {
+            GivenTheSystemHasRegisteredAlerts();
+            WhenTheLandlordFiltersAlertsBySeverityAndType(
+                AlertSeverity.Critical, "Gas");
+            ThenTheResultShouldContainAlerts(1);
+            AndTheAlertShouldHaveTypeAndSeverity(
+                "Critical Gas Leak Detected", AlertSeverity.Critical);
+        }
+
+        private void GivenTheSystemHasRegisteredAlerts()
+        {
+            _systemAlerts = new List<Alert>
+            {
+                new Alert(AlertSeverity.Critical, "Critical Gas Leak Detected", 
+                    DateTime.UtcNow, "ESP32-HW-01"),
+                new Alert(AlertSeverity.Warning, "Low Voltage Warning", 
+                    DateTime.UtcNow, "ESP32-HW-02"),
+                new Alert(AlertSeverity.Critical, "Intrusion Alert", 
+                    DateTime.UtcNow, "ESP32-HW-01")
+            };
+        }
+
+        private void WhenTheLandlordFiltersAlertsBySeverityAndType(
+            AlertSeverity severity, string typeQuery)
+        {
+            _filteredResults = _systemAlerts
+                .Where(a => a.Severity == severity && 
+                            a.Type.Contains(typeQuery, 
+                                StringComparison.OrdinalIgnoreCase))
+                .ToList();
+        }
+
+        private void ThenTheResultShouldContainAlerts(int expectedCount)
+        {
+            Assert.Equal(expectedCount, _filteredResults.Count);
+        }
+
+        private void AndTheAlertShouldHaveTypeAndSeverity(
+            string expectedType, AlertSeverity expectedSeverity)
+        {
+            var alert = _filteredResults.First();
+            Assert.Equal(expectedType, alert.Type);
+            Assert.Equal(expectedSeverity, alert.Severity);
+        }
+    }
+}
+```
+
+---
+
+### **3. Evidencia de Ejecución de Pruebas**
+
+Ejecución de la suite completa con 100% de éxito:
+
+```bash
+dotnet test
+```
+
+**Consola:**
+```text
+Passed!  - Failed:     0, Passed:    15, Skipped:     0, Total:    15, Duration: 196 ms - Nexora.WebApi.Tests.dll (net8.0)
+```
+
+---
+
+### **4. Repositorios y Commits Relacionados**
+
+Relación de commits vinculados con los avances del Testing de este Sprint:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `628b722` | test: add unit and BDD tests for device management contexts | Implement Unit Tests for Device entity domain logic and Gherkin BDD scenario for registering new devices to properties. | 20/06/2026 |
+| [upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `1ee5b4c` | test: add unit and BDD tests for alert context | Create Unit Tests for Alert domain entity and BDD integration scenario for filtering alerts by severity and type. | 20/06/2026 |
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+Durante el Sprint 2, se consolidó la integración de datos y el flujo de comunicación entre todos los componentes del sistema (Embedded App, Edge Service, Web Service y las aplicaciones frontend Web y Móvil). Los logros principales de ejecución para este Sprint incluyen:
+
+* **Web Application**: Visualización de telemetría de sensores IoT en tiempo real mediante widgets y gráficos interactivos, centro de alertas críticas y flujos CRUD de administración inmobiliaria.
+* **Mobile Application (Prototipo)**: Pantallas de login, estados de la propiedad y visualización de notificaciones del arrendatario.
+* **Web Service (Backend API)**: Implementación de la versión 1 (`/api/v1/`) de los endpoints documentados en Swagger y generación de reportes PDF de alertas.
+* **Edge Service**: Capacidad de ingesta de telemetría local de gases/voltaje y almacenamiento temporal offline mediante base de datos SQLite.
+
+A continuación, se presentan las capturas de pantalla de la ejecución del sistema:
+
+---
+
+##### 1. Evidencia de la Web Application & Landing Page
+* **Landing Page de Nexora**: Sección final comercial responsiva.
+* **Dashboard y Telemetría**: Gráficos dinámicos de consumo del periodo actual.
+* **Flujo de Suscripción**: Catálogo y checkout para arrendadores.
+
+| Vista | Descripción | Captura de Pantalla |
+| :--- | :--- | :--- |
+| **Login / Acceso** | Interfaz de inicio de sesión seguro en el frontend. | ![Login](assets/chapter-6/implementation/sprint-2/execution1-sprint2.jpg) |
+| **Dashboard y Consumos** | Panel de telemetría dinámico de agua, gas y electricidad. | ![Dashboard](assets/chapter-6/implementation/sprint-2/execution2-sprint2.jpg) |
+| **Propiedades y Gateways** | Registro de propiedades y asociación física de Gateways. | ![Properties](assets/chapter-6/implementation/sprint-2/execution3-sprint2.jpg) |
+| **Alertas e Incidentes** | Vista de alertas críticas en vivo (fugas de gas e intrusiones). | ![Alerts](assets/chapter-6/implementation/sprint-2/execution4-sprint2.jpg) |
+
+---
+
+##### 2. Evidencia de la Mobile Application (Flutter)
+Evidencia del prototipo en desarrollo ejecutándose sobre el emulador o Chrome:
+
+| Vista Móvil | Descripción | Captura de Pantalla |
+| :--- | :--- | :--- |
+| **Dashboard Devices** | Pantalla de dispositivos IoT. | ![Dashboard Devices](assets/chapter-6/implementation/sprint-2/execution-mobile-devices.png) |
+| **Dashboard del Residente** | Widget resumen de consumo y estado de seguridad de la vivienda. | ![Dashboard Mobile](assets/chapter-6/implementation/sprint-2/execution-mobile-dashboard.jpg) |
+
+---
+
+##### 3. Evidencia del Backend & Swagger API
+* Documentación en vivo interactiva y autorizada mediante Swagger UI.
+
+| Módulo Backend | Descripción | Captura de Pantalla |
+| :--- | :--- | :--- |
+| **Documentación OpenAPI** | Relación de endpoints del monolito modular RESTful. | ![Swagger Backend](assets/chapter-6/implementation/sprint-2/execution-backend-swagger.jpg) |
+
+---
+
+##### 4. Evidencia del Edge Service (Gateway IoT)
+* Consola local de ejecución de Python (`app.py`) demostrando la ingesta y persistencia SQLite offline de las tramas enviadas por los sensores.
+
+| Servicio Edge | Descripción | Captura de Pantalla |
+| :--- | :--- | :--- |
+| **Consola del Gateway** | logs de tramas recibidas y guardadas localmente. | ![Edge Service Console](assets/chapter-6/implementation/sprint-2/execution-edge-service.png) |
+
+---
+
+##### 5. Evidencia de la Embedded Application (ESP32 / Wokwi)
+* Prototipo físico o entorno de simulación (Wokwi) de la placa ESP32 con sensores de telemetría (agua, gas, electricidad, voltaje) y actuadores de parada de emergencia.
+
+| Componente Embebido | Descripción | Captura de Pantalla |
+| :--- | :--- | :--- |
+| **Simulación del Circuito** | Conexiones del microcontrolador ESP32 con sensores (MQ-2, flujo) y actuador remoto. | ![Embedded App Circuit](assets/chapter-6/implementation/sprint-2/execution-embedded-circuit.jpg) |
+
+---
+
+**Enlace al Video:** [Video de Ejecución - Sprint 2](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
+
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+#### **Introducción y Logros de Documentación**
+
+Durante el Sprint 2, se ha logrado consolidar la documentación del **Web Service (Nexora Web API)** mediante la integración de **Swagger / OpenAPI (v1)** en la solución de ASP.NET Core 8. Este esfuerzo de documentación acompaña a una reestructuración de la base de código bajo un enfoque de **Monolito Modular**, agrupando la funcionalidad por contextos acotados (Bounded Contexts) bien definidos:
+1. **Identity & Access Management (Gestión de Identidad y Acceso)**
+2. **Resource & Asset Management (Gestión de Recursos y Activos)**
+3. **Service Monitoring & Intelligence (Monitoreo e Inteligencia de Servicios)**
+4. **Service Monitoring & Maintenance (Monitoreo y Mantenimiento de Servicios)**
+5. **Subscriptions & Payment Management (Gestión de Suscripciones y Pagos)**
+
+### Logros Clave de Documentación en este Sprint:
+* **Diseño RESTful y Control de Versiones:** Todos los controladores han sido rediseñados bajo la versión `/api/v1/` para cumplir con las mejores prácticas de nomenclatura RESTful.
+* **Seguridad Integrada (JWT Bearer):** Se ha configurado Swagger UI con soporte nativo para autorización JWT (`Bearer {token}`). Esto permite interactuar directamente con los endpoints privados desde la interfaz web de documentación.
+* **Esquemas Completos de Request/Response:** Se documentaron los modelos DTO (Data Transfer Objects) tanto de entrada como de salida, incluyendo validaciones automáticas y códigos de estado HTTP estándar (200 OK, 201 Created, 400 BadRequest, 401 Unauthorized, 404 NotFound y 500 InternalServerError).
+* **Parámetros y Query Filters:** Se incluyeron descripciones técnicas de los parámetros de paginación (`page`, `pageSize`) y filtrado avanzado (por ejemplo, filtros de severidad y tipo de alerta).
+
+---
+
+#### **Repositorio y Commits del Web Service**
+
+* **URL del Repositorio:** [nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice)
+* **Rama Principal de Desarrollo:** `develop`
+
+#### Commits Relacionados con la Implementación y Documentación (Sprint 2):
+
+| Commit ID | Autor / Desarrollador | Mensaje de Confirmación | Fecha |
+| :--- | :--- | :--- | :--- |
+| `bfcccb5` | Sebastian | refactor: redesign Web API endpoints to follow RESTful naming conventions and versioning v1 | 19/06/2026 |
+| `461f06a` | Jorge, Kevin y Mauricio | feat(report): add Alerts PDF report generation and controller endpoint | 18/06/2026 |
+| `a8af25b` | Jorge y Mauricio | feat(monitoring): add severity and type query filters to GET /api/v1/alerts backend endpoint | 18/06/2026 |
+| `3ca33dd` | Jorge y Mauricio | feat(presentation): add DevicesController and GET latest telemetry endpoint | 18/06/2026 |
+| `80ed32d` | Sebastian | fix: add CORS after JWT, condition HTTPS redirect, and UseCors | 15/06/2026 |
+| `b7b0f17` | Kevin | feat: implement property management cqrs flows and analytical dashboard | 07/06/2026 |
+| `af11faa` | Kevin | feat: implement secure identity management and jwt authentication | 07/06/2026 |
+| `bbe3649` | Jhamil | feat: register database and ingestion dependencies in presentation host | 04/06/2026 |
+
+---
+
+#### **Relación General de Endpoints Documentados**
+
+A continuación se detalla la tabla resumen de todos los endpoints configurados e indexados a través de Swagger UI:
+
+| Contexto Acotado | Módulo/Controlador | Método HTTP | Sintaxis del Endpoint | Autorización |
+| :--- | :--- | :--- | :--- | :--- |
+| **Identity & Access** | `AuthController` | POST | `/api/v1/authentication/signin` | Público |
+| **Identity & Access** | `AuthController` | POST | `/api/v1/authentication/signup` | Público |
+| **Identity & Access** | `AuthController` | POST | `/api/v1/authentication/change-password` | Requiere JWT |
+| **Identity & Access** | `ProfileController` | GET | `/api/v1/profiles/me` | Requiere JWT |
+| **Identity & Access** | `ProfileController` | PUT | `/api/v1/profiles/me` | Requiere JWT |
+| **Identity & Access** | `SettingsController` | GET | `/api/v1/settings` | Requiere JWT |
+| **Identity & Access** | `SettingsController` | PUT | `/api/v1/settings/language` | Requiere JWT |
+| **Identity & Access** | `SettingsController` | PUT | `/api/v1/settings/notifications` | Requiere JWT |
+| **Identity & Access** | `SettingsController` | PUT | `/api/v1/settings/security/passwords` | Requiere JWT |
+| **Identity & Access** | `SettingsController` | PUT | `/api/v1/settings/security/two-factor` | Requiere JWT |
+| **Resource & Asset** | `PropertiesController` | POST | `/api/v1/properties` | Requiere JWT |
+| **Resource & Asset** | `PropertiesController` | GET | `/api/v1/properties` | Requiere JWT |
+| **Resource & Asset** | `PropertiesController` | GET | `/api/v1/properties/{id}` | Requiere JWT |
+| **Resource & Asset** | `PropertiesController` | PUT | `/api/v1/properties/{id}` | Requiere JWT |
+| **Resource & Asset** | `PropertiesController` | PUT | `/api/v1/properties/{id}/status` | Requiere JWT |
+| **Resource & Asset** | `PropertiesController` | GET | `/api/v1/properties/stats` | Requiere JWT |
+| **Resource & Asset** | `PropertiesController` | GET | `/api/v1/properties/dashboards` | Requiere JWT |
+| **Resource & Asset** | `TenantsController` | POST | `/api/v1/tenants` | Requiere JWT |
+| **Resource & Asset** | `TenantsController` | GET | `/api/v1/tenants` | Requiere JWT |
+| **Resource & Asset** | `TenantsController` | GET | `/api/v1/tenants/{id}` | Requiere JWT |
+| **Resource & Asset** | `TenantsController` | PUT | `/api/v1/tenants/{id}` | Requiere JWT |
+| **Resource & Asset** | `TenantsController` | DELETE | `/api/v1/tenants/{id}` | Requiere JWT |
+| **Resource & Asset** | `TenantsController` | GET | `/api/v1/properties/{propertyId}/tenants` | Requiere JWT |
+| **Resource & Asset** | `DevicesController` | GET | `/api/v1/devices` | Requiere JWT |
+| **Monitoring & Intelligence** | `TelemetryController` | POST | `/api/v1/telemetries` | Público |
+| **Monitoring & Intelligence** | `TelemetryController` | GET | `/api/v1/telemetries/latest` | Público |
+| **Monitoring & Intelligence** | `HealthCheckController` | GET | `/api/v1/health-checks` | Público |
+| **Monitoring & Intelligence** | `ReportsController` | GET | `/api/v1/reports` | Público |
+| **Monitoring & Intelligence** | `ReportsController` | GET | `/api/v1/alerts/reports` | Público |
+| **Monitoring & Intelligence** | `AlertsController` | GET | `/api/v1/alerts` | Público |
+| **Monitoring & Intelligence** | `AlertsController` | GET | `/api/v1/alerts/{id}` | Público |
+| **Monitoring & Intelligence** | `AlertsController` | POST | `/api/v1/alerts/{id}/tickets` | Público |
+| **Monitoring & Intelligence** | `AlertsController` | PUT | `/api/v1/alerts/{id}/status` | Público |
+| **Subscriptions & Payment** | `SubscriptionsController` | GET | `/api/v1/subscriptions/plans` | Público |
+| **Subscriptions & Payment** | `SubscriptionsController` | GET | `/api/v1/subscriptions/current` | Requiere JWT |
+| **Subscriptions & Payment** | `SubscriptionsController` | POST | `/api/v1/subscriptions` | Requiere JWT |
+| **Subscriptions & Payment** | `SubscriptionsController` | GET | `/api/v1/subscriptions/payment-methods` | Requiere JWT |
+| **Subscriptions & Payment** | `SubscriptionsController` | GET | `/api/v1/subscriptions/payment-methods/{id}`| Requiere JWT |
+| **Subscriptions & Payment** | `SubscriptionsController` | PUT | `/api/v1/subscriptions/payment-methods/{id}`| Requiere JWT |
+| **Subscriptions & Payment** | `SubscriptionsController` | GET | `/api/v1/subscriptions/invoices` | Requiere JWT |
+| **Subscriptions & Payment** | `SubscriptionsController` | PUT | `/api/v1/subscriptions/status` | Requiere JWT |
+
+---
+
+#### **Especificación Técnica de los Endpoints del Sprint 2**
+
+A continuación se detallan los endpoints clave desarrollados y documentados en OpenAPI para el Sprint 2:
+
+#### **Módulo de Autenticación y Perfiles (Identity & Access Management)**
+
+#### A. Inicio de Sesión (Sign In)
+* **Verbo HTTP:** POST
+* **Sintaxis:** `/api/v1/authentication/signin`
+* **Parámetros (Cuerpo):**
+  * `email` (string, requerido): Correo electrónico del usuario.
+  * `password` (string, requerido): Contraseña.
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+```json
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "email": "landlord@nexora.com",
+  "userId": 1,
+  "role": "LANDLORD"
+}
+```
+
+#### B. Registro de Arrendador (Sign Up)
+* **Verbo HTTP:** POST
+* **Sintaxis:** `/api/v1/authentication/signup`
+* **Parámetros (Cuerpo):**
+  * `email` (string, requerido): Correo electrónico único.
+  * `password` (string, requerido): Contraseña fuerte.
+  * `firstName` (string, requerido): Nombre.
+  * `lastName` (string, requerido): Apellido.
+  * `phoneNumber` (string): Número telefónico.
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+```json
+{
+  "userId": 1,
+  "email": "landlord@nexora.com",
+  "message": "User registered successfully."
+}
+```
+
+#### C. Obtener Datos del Perfil
+* **Verbo HTTP:** GET
+* **Sintaxis:** `/api/v1/profiles/me`
+* **Cabecera de Autorización:** `Authorization: Bearer {token}`
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+```json
+{
+  "profile": {
+    "email": "landlord@nexora.com",
+    "firstName": "Kevin",
+    "lastName": "Reynaldo",
+    "isActive": true,
+    "country": "Perú",
+    "city": "Lima",
+    "address": "Av. Primavera 123",
+    "phoneNumber": "+51999888777"
+  }
+}
+```
+
+---
+
+#### **Módulo de Propiedades e Inquilinos (Resource & Asset Management)**
+
+#### A. Crear Propiedad
+* **Verbo HTTP:** POST
+* **Sintaxis:** `/api/v1/properties`
+* **Cabecera de Autorización:** `Authorization: Bearer {token}`
+* **Parámetros (Cuerpo):**
+  * `name` (string, requerido): Nombre descriptivo de la propiedad.
+  * `description` (string): Descripción de la propiedad.
+  * `type` (string, requerido): Tipo de propiedad (`HOUSE`, `APARTMENT`, `COMMERCIAL`).
+  * `country` (string, requerido): País.
+  * `city` (string, requerido): Ciudad.
+  * `address` (string, requerido): Dirección.
+  * `isSecurityModeArmed` (boolean): `true` si el sistema de seguridad para intrusiones está armado.
+* **Ejemplo de Respuesta (HTTP 201 - Created):**
+  * Retorna la cabecera `Location` con la URL del recurso `/api/v1/properties/{id}` y el ID generado.
+```json
+5
+```
+
+#### B. Obtener todas las Propiedades del Arrendador
+* **Verbo HTTP:** GET
+* **Sintaxis:** `/api/v1/properties`
+* **Cabecera de Autorización:** `Authorization: Bearer {token}`
+* **Parámetros de Consulta (Opcionales):**
+  * `code` (string): Código único autogenerado de la propiedad para búsqueda rápida.
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+```json
+[
+  {
+    "id": 5,
+    "propertyCode": "PROP-928A",
+    "name": "Departamento Miraflores",
+    "description": "Frente al parque",
+    "propertyType": "APARTMENT",
+    "country": "Perú",
+    "city": "Lima",
+    "address": "Calle Alcanfores 456",
+    "status": "ACTIVE",
+    "isSecurityModeArmed": true,
+    "createdAt": "2026-06-19T18:00:00Z",
+    "updatedAt": "2026-06-19T18:00:00Z",
+    "landlord": {
+      "id": 1,
+      "userId": 1,
+      "firstName": "Kevin",
+      "lastName": "Reynaldo",
+      "phoneNumber": "+51999888777"
+    }
+  }
+]
+```
+
+#### C. Crear Inquilino para Propiedad
+* **Verbo HTTP:** POST
+* **Sintaxis:** `/api/v1/tenants`
+* **Cabecera de Autorización:** `Authorization: Bearer {token}`
+* **Parámetros (Cuerpo):**
+  * `propertyId` (long, requerido): ID de la propiedad que habitará.
+  * `firstName` (string, requerido): Nombre del inquilino.
+  * `lastName` (string, requerido): Apellido del inquilino.
+  * `country` (string, requerido): País.
+  * `city` (string, requerido): Ciudad.
+  * `address` (string, requerido): Dirección.
+  * `phoneNumber` (string, requerido): Teléfono.
+* **Ejemplo de Respuesta (HTTP 201 - Created):**
+```json
+12
+```
+
+---
+
+#### **Módulo de Telemetría y Alertas (Service Monitoring & Intelligence)**
+
+#### A. Recepción de Telemetría (Ingesta)
+* **Verbo HTTP:** POST
+* **Sintaxis:** `/api/v1/telemetries`
+* **Parámetros (Cuerpo):**
+  * `deviceId` (string, requerido): Identificador de hardware del dispositivo IoT.
+  * `waterReading` (double, requerido): Lectura del medidor de agua.
+  * `gasReading` (double, requerido): Lectura del medidor de gas.
+  * `presenceReading` (boolean, requerido): Sensor de movimiento.
+  * `electricityReading` (double, requerido): Consumo eléctrico.
+  * `voltageReading` (double, requerido): Medición de voltaje.
+* **Ejemplo de Respuesta (HTTP 201 - Created):**
+  * Retorna estado vacío (HTTP 201) al registrar con éxito el payload de datos y evaluar las reglas de negocio (fugas de gas/agua, intrusiones de seguridad y fluctuaciones de voltaje).
+
+#### B. Obtener Listado Paginado y Filtrado de Alertas
+* **Verbo HTTP:** GET
+* **Sintaxis:** `/api/v1/alerts`
+* **Parámetros de Consulta (Opcionales):**
+  * `page` (int, default = 1): Número de página.
+  * `pageSize` (int, default = 10): Tamaño de la página.
+  * `severity` (string): Severidad de la alerta (`INFO`, `WARNING`, `CRITICAL`).
+  * `type` (string): Tipo de alerta para búsqueda parcial (ej. `Gas`, `Intrusion`, `Voltage`).
+* **Cabeceras de Respuesta Destacadas:**
+  * `X-Total-Count`: Cantidad total de registros que coinciden con los filtros (para paginación en frontend).
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+```json
+[
+  {
+    "id": 15,
+    "severity": "CRITICAL",
+    "timestamp": "2026-06-19T23:10:00Z",
+    "deviceId": "ESP32-HW-01",
+    "type": "Critical Gas Leak Detected"
+  }
+]
+```
+
+#### C. Exportar Reporte de Alertas en PDF
+* **Verbo HTTP:** GET
+* **Sintaxis:** `/api/v1/alerts/reports`
+* **Parámetros de Consulta:**
+  * `startDate` (datetime, opcional): Fecha de inicio del filtro.
+  * `endDate` (datetime, opcional): Fecha de fin del filtro.
+  * `format` (string, default = "pdf"): Formato de salida (soporta `pdf`).
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+  * Retorna un archivo binario bin-stream con tipo de contenido `application/pdf` y cabecera de descarga de archivos `Content-Disposition`.
+
+---
+
+#### **Módulo de Suscripciones y Pagos (Subscriptions & Payment Management)**
+
+#### A. Activar Plan de Suscripción
+* **Verbo HTTP:** POST
+* **Sintaxis:** `/api/v1/subscriptions`
+* **Cabecera de Autorización:** `Authorization: Bearer {token}`
+* **Parámetros (Cuerpo):**
+  * `subscriptionPlanId` (long, requerido): ID del plan seleccionado.
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+```json
+{
+  "subscription": {
+    "id": 3,
+    "plan": {
+      "id": 2,
+      "name": "Standard Plan",
+      "monthlyPrice": 19.99,
+      "maxPropertiesLimit": 5,
+      "unlimitedProperties": false
+    },
+    "status": "Active",
+    "startedAt": "2026-06-19T19:30:00Z",
+    "currentPeriodStart": "2026-06-19T19:30:00Z",
+    "currentPeriodEnd": "2026-07-19T19:30:00Z",
+    "cancelAtPeriodEnd": false
+  },
+  "monthlyPrice": 19.99,
+  "dueDate": "2026-06-26T19:30:00Z",
+  "invoiceId": 8
+}
+```
+
+---
+
+#### **Capturas de Interacción con OpenAPI/Swagger**
+
+#### **Registro e Inicio de Sesión de Usuario (Autenticación)**
+
+* **Interacción `/api/v1/authentication/signup` y `/signin`:**
+  * *Acción:* Registro de un nuevo arrendador y el subsecuente inicio de sesión para obtener el token JWT que otorga el acceso a la plataforma.
+  
+  ![Captura de Swagger UI - Sign Up y Sign In](assets/chapter-6/implementation/sprint-2/swagger-auth-signin.jpg)
+  * *Descripción:* Captura que muestra la respuesta HTTP 200 del endpoint de SignIn, devolviendo el JWT para el usuario.
+
+---
+
+#### **Autorización mediante Swagger UI (Bearer JWT)**
+
+* **Interacción del botón de "Authorize" en Swagger:**
+  * *Acción:* Introducir el token JWT copiado en el cuadro de diálogo de autorización de Swagger para poder testear los endpoints restringidos.
+  
+  ![Captura de Swagger UI - Cuadro de Diálogo de Autorización Bearer](assets/chapter-6/implementation/sprint-2/swagger-bearer-token.jpg)
+  * *Descripción:* Configuración del esquema de seguridad Bearer con el formato `"Bearer {token}"` habilitado en Swagger UI.
+
+---
+
+#### **Creación y Visualización de Propiedades del Arrendador**
+
+* **Interacción `POST /api/v1/properties` y `GET /api/v1/properties`:**
+  * *Acción:* Creación exitosa de una propiedad (casa/apartamento) y su consulta a través del método GET usando el token JWT en las cabeceras.
+  
+  ![Captura de Swagger UI - Crear y Obtener Propiedades](assets/chapter-6/implementation/sprint-2/swagger-properties.jpg)
+  * *Descripción:* Listado de propiedades retornadas en formato JSON donde se aprecia la relación con el Arrendador correspondiente.
+
+---
+
+#### **Listado Paginado de Alertas y Severidad**
+
+* **Interacción `GET /api/v1/alerts`:**
+  * *Acción:* Obtener las alertas registradas en el sistema filtrando por parámetros de consulta como `severity = CRITICAL` y `type = Gas`.
+  
+  ![Captura de Swagger UI - Consulta Filtrada de Alertas](assets/chapter-6/implementation/sprint-2/swagger-alerts.jpg)
+  * *Descripción:* Cabeceras HTTP de respuesta que muestran el contador total expuesto `X-Total-Count` y el listado de alertas de criticidad alta.
+
+---
+
+#### **Generación y Descarga de Reportes en PDF y Excel**
+
+* **Interacción `GET /api/v1/reports` y `GET /api/v1/alerts/reports`:**
+  * *Acción:* Solicitud y descarga del reporte PDF generado de manera dinámica en el backend con las alertas del sistema.
+  
+  ![Captura de Swagger UI - Descarga de Reporte PDF de Alertas](assets/chapter-6/implementation/sprint-2/reports-swagger-document.jpg)
+  * *Descripción:* Descarga de reporte de alertas de tipo `application/pdf`.
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo de desarrollo consolidó el despliegue de la arquitectura multi-capa del ecosistema Nexora. A diferencia del ciclo anterior, este incremento integró no solo las capas de presentación visual (Landing Page optimizada y Frontend Web), sino también la infraestructura del lado del servidor (*Backend API*) y el almacenamiento relacional (*Database*), logrando la transición de interfaces estáticas hacia un sistema dinámico que opera con datos persistentes y telemetría real en producción.
+
+A continuación, se presentan las evidencias de configuración de la infraestructura y los entornos productivos desplegados para la revisión del Sprint.
+
+<br>
+
+# Despliegue de la Base de Datos – Supabase
+
+## Configuración del Proyecto en Supabase
+
+Para dar soporte a la persistencia de datos de usuarios, propiedades, planes de suscripción y telemetría de Nexora, el equipo configuró una instancia relacional gestionada en la plataforma Cloud de Supabase.
+
+### Actividades realizadas
+
+* Creación del proyecto y provisión de la base de datos PostgreSQL en el entorno de Supabase.
+* Diseño e implementación del esquema relacional de tablas (`Users`, `Properties`, `Subscriptions`, `Telemetry`).
+* Configuración de credenciales de acceso seguro y cadenas de conexión directas.
+* Validación de políticas de almacenamiento de datos para operaciones en tiempo real.
+
+---
+
+## Configuración y Verificación del Esquema
+
+El almacenamiento fue estructurado para permitir transacciones concurrentes desde el servidor Backend, asegurando la integridad de los datos reales del ecosistema.
+
+### Actividades realizadas
+
+* Creación de tablas de entidades mediante scripts SQL optimizados.
+* Configuración de variables de entorno para la comunicación segura con el Backend.
+* Monitoreo de logs iniciales de conexión y persistencia de datos.
+
+### Resultado del despliegue
+
+La base de datos relacional quedó desplegada de forma exitosa en la nube, sirviendo como el motor de persistencia centralizado para todo el portafolio de Nexora.
+
+![Configuración de Base de Datos](assets/chapter-6/implementation/sprint-2/configuration-database.png)
+
+<br>
+
+# Despliegue del WebService REST API – Render
+
+## Configuración del Proyecto en Render
+
+Para el despliegue de la lógica de negocio y los endpoints de la API Core (v1.0), el equipo configuró un Web Service dentro de la plataforma Render.
+
+### Actividades realizadas
+
+* Creación del workspace de la API en la nube de Render.
+* Importación del repositorio del Backend desde el perfil de GitHub.
+* Configuración de los comandos de compilación (`npm install`) y de inicio de producción (`npm start`).
+* Inyección de variables de entorno críticas (`DATABASE_URL` vinculada a Supabase, `JWT_SECRET`).
+
+---
+
+## Configuración de Integración Continua (CI/CD)
+
+El servicio del lado del servidor fue conectado directamente con GitHub para automatizar el despliegue ante cualquier cambio estructural en la rama principal.
+
+### Actividades realizadas
+
+* Conexión entre los servidores de Render y el repositorio de código de la API.
+* Configuración de despliegues automáticos (*Automated Deploys*).
+* Verificación de los logs de compilación de node y estado de arranque del servidor.
+* Validación del correcto enrutamiento del CORS para peticiones externas del frontend.
+
+![Configuración del WebService](assets/chapter-6/implementation/sprint-2/configuration-backend.png)
+
+### Resultado del despliegue
+
+La API REST funcional de Nexora fue publicada con éxito, quedando disponible en producción para procesar las peticiones HTTP del ecosistema.
+
+![Configuración del WebService](assets/chapter-6/implementation/sprint-2/webservice.png)
+
+**URL de la API del Webservice:** [ https://nexora-webservice.onrender.com/swagger/index.html](60-chapter-6-implementation-validation/62-implementation/sprint-2/ https:/nexora-webservice.onrender.com/swagger/index.html)
+
+<br>
+
+# Despliegue del Landing Page – GitHub Pages
+
+## Configuración e Integración Comercial (100%)
+
+El sitio web corporativo fue actualizado en GitHub Pages para incorporar la versión comercial definitiva que incluye los planes Basic y Professional estructurados en dólares, los testimonios del segmento y los metadatos SEO revisados.
+
+### Actividades realizadas
+
+* Carga de componentes de la matriz de precios y secciones actualizadas (*About Us*).
+* Configuración y optimización de etiquetas meta y Open Graph para la indexación en motores de búsqueda.
+* Validación del despliegue automatizado directo a la rama de publicación de GitHub Pages.
+
+<br>
+
+![Configuración inicial de la Landing Page](assets/chapter-6/implementation/sprint-2/configuration-landig_page.png)
+
+![Landing Page](assets/chapter-6/implementation/sprint-2/landing_page.png)
+
+**URL Landing Page:** [https://upc-202610-1asi0572-6779-nexiot.github.io/nexora.website/](https://upc-202610-1asi0572-6779-nexiot.github.io/nexora.website/)
+
+<br>
+
+# Despliegue del Frontend Web – Vercel
+
+## Conexión Dinámica y Consolidación del Dashboard
+
+La aplicación web en Vercel fue actualizada para transicionar de componentes visuales estáticos hacia un flujo interactivo en tiempo real conectado directamente a la API de Render.
+
+### Actividades realizadas
+
+* Configuración de las variables de entorno de producción en Vercel para apuntar al servidor real en Render.
+* Validación del módulo completo de autenticación (*Sign Up*, *Log In* con persistencia en base de datos).
+* Pruebas del flujo dinámico de gestión de propiedades y suscripciones desde el panel de control del arrendador.
+
+![Configuración AppWeb](assets/chapter-6/implementation/sprint-2/webapp.png)
+
+
+
+**URL de la aplicación web:** [https://nexora-webapp-eight.vercel.app/login](https://nexora-webapp-eight.vercel.app/login)
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint 2, el equipo de Nexora continuó utilizando una metodología de trabajo altamente colaborativa y la división de responsabilidades según los roles técnicos definidos. Para este Sprint, el alcance incluyó el desarrollo paralelo y la integración de múltiples componentes clave de la solución de IoT: **Edge Service**, **Landing Page**, **Mobile App**, **Embedded Apps**, **Web Service** y **Web Application**.
+
+La gestión de código y la colaboración técnica se centralizaron en GitHub, haciendo un uso riguroso de políticas de *Pull Requests*, revisiones cruzadas de código (*Code Reviews*) por parte de los líderes de aspecto, y validaciones previas a la fusión para asegurar la consistencia arquitectónica y de diseño (DDD).
+
+##### Analíticos de Colaboración y Commits en GitHub
+
+A continuación, se presentan las capturas de pantalla de los analíticos de colaboración (Pulse / Contributors) recopiladas directamente de GitHub para cada uno de los componentes de software desarrollados en el Sprint 2:
+
+###### 1. Landing Page (nexora.website)
+![GitHub Pulse - Landing Page](assets/chapter-6/implementation/sprint-2/insights-landingpage.jpg)
+
+###### 2. Mobile App (nexora.mobileapp)
+![GitHub Pulse - Mobile App](assets/chapter-6/implementation/sprint-2/insights-mobile.jpg)
+
+###### 3. Web Application (nexora.webapp)
+![GitHub Pulse - Web Application](assets/chapter-6/implementation/sprint-2/insights-appweb.jpg)
+
+###### 4. Edge Service (nexora.edgeservice)
+![GitHub Pulse - Edge Service](assets/chapter-6/implementation/sprint-2/insights-edge.jpg)
+
+###### 5. Embedded Apps (nexora.embeddedapp)
+![GitHub Pulse - Embedded Apps](assets/chapter-6/implementation/sprint-2/insights-embedded.jpg)
+
+##### Interpretación de los Analíticos
+
+A partir de las métricas visualizadas en los analíticos de GitHub para el Sprint 2, el equipo presenta la siguiente interpretación:
+
+1.  **Distribución de Trabajo y Cohesión**: Los analíticos de contribuciones reflejan un esfuerzo conjunto. Cada miembro del equipo participó activamente en la implementación de las distintas capas del sistema (Domain, Interface, Application, Infrastructure), asegurando que el conocimiento técnico no estuviera centralizado y promoviendo la resiliencia del equipo.
+2.  **Ritmo de Desarrollo y Frecuencia de Commits**: La frecuencia de los commits a lo largo del Sprint evidencia un desarrollo iterativo y constante. Se identifican incrementos de commits correlacionados con la culminación de tareas críticas y la posterior fase de integración de los microservicios y las aplicaciones del cliente.
+3.  **Gestión de Ramas e Integración Sincronizada**: El *Network Graph* demuestra una correcta adopción de las políticas de ramificación. Las ramas de características específicas (*feature branches*) se mantuvieron con un ciclo de vida corto y enfocado, integrándose a `develop` de manera fluida y con resolución proactiva de conflictos de código.
+4.  **Participación en los Productos del Sprint**: Se evidencia y documenta la participación equitativa de todos los miembros en la implementación de los productos definidos para este Sprint:
+    -   **Landing Page**: Ajustes e integración de secciones dinámicas para la interacción del usuario final.
+    -   **Web Services**: Desarrollo y refinamiento de los bounded contexts del backend siguiendo principios de DDD (Identity & Access Management, Service Monitoring & Intelligence, Subscriptions & Payment Management).
+    -   **Aplicaciones (Mobile & Web)**: Desarrollo de la aplicación móvil bajo arquitectura DDD y la aplicación web para la monitorización de alertas y el panel analítico.
+
+En conclusión, los analíticos del repositorio confirman que la entrega de valor de Nexora en este Sprint 2 se llevó a cabo bajo un enfoque coordinado, con una alta participación de todos sus integrantes, y asegurando el cumplimiento de las metas planteadas en el Sprint Backlog.
+
+
+## 6.3.1. Diseño de las Guías de Entrevistas de Validación
+
+Esta sección establece la guía metodológica y de diseño que el equipo de desarrollo sigue durante las sesiones de entrevista de validación con los usuarios de los segmentos objetivos del proyecto **Nexora**. La estructura asegura un proceso uniforme y profesional para recopilar retroalimentación cualitativa sobre la solución IoT propuesta.
+
+---
+
+### 1. Datos del Entrevistado
+
+Antes de dar inicio a la sesión de interacción, es obligatorio registrar la siguiente información demográfica de cada participante para contextualizar su perfil dentro del segmento objetivo:
+
+* **Nombres:** `[Nombres del Entrevistado]`
+* **Apellidos:** `[Apellidos del Entrevistado]`
+* **Edad:** `[Edad]`
+* **Distrito de Residencia:** `[Distrito / Ciudad]`
+* **Segmento Objetivo:** `[Arrendador (Landlord) / Arrendatario (Tenant)]`
+
+---
+
+### 2. Proceso de la Entrevista de Validación
+
+La sesión de validación con el usuario debe seguir rigurosamente los siguientes tres pasos:
+
+#### **Paso 1: Presentación (Duración estimada: 1-2 minutos)**
+* **Objetivo:** Establecer confianza con el entrevistado, explicar la dinámica y solicitar el consentimiento para grabar la sesión con fines de análisis de usabilidad.
+* **Guion de guía:**
+  > *"Hola, mi nombre es [Nombre del Entrevistador] y formo parte del equipo de desarrollo de Nexora. Te agradecemos mucho por tu tiempo hoy. El propósito de esta sesión es presentarte una solución tecnológica que hemos desarrollado y observar cómo interactúas con ella para identificar mejoras de diseño, usabilidad y valor. No evaluamos tus habilidades, sino el diseño de nuestra aplicación. ¿Nos das tu consentimiento para grabar la pantalla y tu voz únicamente con propósitos académicos y de optimización de la experiencia?"*
+
+#### **Paso 2: Información de la Startup (Duración estimada: 2-3 minutos)**
+* **Objetivo:** Introducir la propuesta de valor y el concepto detrás de la startup Nexora para alinear la expectativa del usuario.
+* **Guion de guía:**
+  > *"Nexora es una startup enfocada en brindar tranquilidad y automatización en la gestión de propiedades en alquiler mediante tecnología IoT. Ayudamos a los arrendadores a monitorear consumos críticos en tiempo real (agua, gas y electricidad), detectar riesgos de seguridad (como intrusiones o fugas de gas) y gestionar de manera ágil el estado de sus propiedades y la comunicación con sus inquilinos. A través de sensores de hardware y una plataforma digital, centralizamos la información para evitar pérdidas económicas y accidentes domésticos."*
+
+#### **Paso 3: Presentación de los Productos (Duración de interacción: 5-7 minutos)**
+El entrevistador guiará al usuario para que interactúe con los dos productos principales de la solución:
+
+1. **Landing Page (`nexora.website`):**
+   * El usuario revisará la página web de cara al público, evaluando si el mensaje, el equipo, los planes de precios y los testimonios son claros y persuasivos.
+2. **Aplicación Seleccionada**
+   * El usuario interactuará con la plataforma correspondiente (WebApp o MobileApp). A través de flujos de uso reales, se evaluará la facilidad para gestionar sus propiedades, añadir inquilinos, monitorear alertas críticas en tiempo real (como fluctuaciones de voltaje o presencia no autorizada) y descargar reportes dinámicos de consumo.
+
+---
+
+### 3. Elementos a Incluir en la Sesión de Validación por Segmento
+
+El equipo define qué componentes y flujos de usuario se deben evaluar con base en las necesidades específicas de cada segmento objetivo.
+
+#### **Segmento A: Arrendadores (Landlords - Propietarios de Inmuebles)**
+Es el segmento principal de administración y monitoreo. Se valida la interacción completa con:
+* **Landing Page:** Comprensión de los beneficios de seguridad IoT, navegación al equipo e información de soporte/FAQ.
+* **Web Application:** Panel de administración, ingreso de propiedades, registro de inquilinos, panel de telemetría en tiempo real y flujo de gestión de tickets de mantenimiento ante alarmas generadas.
+
+#### **Segmento B: Arrendatarios (Tenants - Inquilinos de Inmuebles)**
+Es el segmento de consumo. Se valida:
+* **Landing Page:** Comprensión de cómo el ecosistema de sensores Nexora los protege contra accidentes (fugas de gas o cortocircuitos) y asegura la transparencia en la facturación de consumos.
+* **Mobile Application:** Acceso simplificado para visualizar consumos históricos asignados a su propiedad.
+
+---
+
+### 4. User Flows Establecidos para la Validación
+
+Durante la evaluación de los productos, se solicita al usuario realizar las siguientes tareas específicas (User Flows), permitiendo observar su comportamiento, dificultades de navegación y nivel de satisfacción:
+
+#### **User Flow 1: Interacción en la Landing Page (nexora.website)**
+* **Objetivo:** Evaluar la claridad de la propuesta comercial, la transparencia de los servicios y la facilidad de navegación general.
+* **Pasos del flujo:**
+  1. El usuario navega en la página principal para conocer los beneficios del sistema inteligente de monitoreo.
+  2. El usuario accede a la sección "About Us" para visualizar el video del equipo e interactuar con el widget del staff.
+  3. El usuario revisa los planes de suscripción disponibles y la sección de testimonios de otros arrendadores y arrendatarios.
+  4. El usuario localiza la sección de FAQ (Preguntas Frecuentes) a través del enlace del footer para resolver dudas sobre el hardware IoT y el soporte.
+
+#### **User Flow 2: Administración y Monitoreo en la Web Application**
+* **Objetivo:** Validar la usabilidad de las herramientas operativas de administración y respuesta rápida ante alarmas domésticas.
+* **Pasos del flujo:**
+  1. **Inicio de Sesión:** El arrendador inicia sesión en la plataforma e ingresa al panel principal usando credenciales de prueba.
+  2. **Registro de Recursos:** El usuario registra una nueva propiedad de prueba (tipo, dirección, modo de seguridad armado/desarmado) y procede a crear y vincular un registro de inquilino para la misma.
+  3. **Visualización de Telemetría:** El usuario navega al módulo de telemetría para monitorear el consumo de agua, gas, electricidad y el estado del voltaje del inmueble.
+  4. **Gestión de Alertas y Mantenimiento:**
+     * Ante una alerta de criticidad alta (ej. fuga de gas o sobrecorriente detectada), el usuario localiza el módulo de alertas.
+     * El usuario visualiza el detalle de la alerta y los últimos 10 logs de telemetría previos para analizar el contexto.
+     * Crea un ticket de mantenimiento asignándolo a un técnico.
+     * Marca el ticket como resuelto una vez simulada la reparación.
+  5. **Exportación de Evidencia:** El usuario genera y descarga el reporte en formato PDF/Excel con el historial de alertas y telemetría de la propiedad evaluada.
+
+
+## 6.3.2. Registro de Entrevistas de Validación
+
+Esta sección presenta el registro detallado de las entrevistas de validación realizadas con usuarios reales pertenecientes a los segmentos objetivos definidos para la solución de **Nexora**. Las entrevistas sirven como evidencia del proceso de validación e interacción directa de los usuarios con la Landing Page y los prototipos funcionales (Web y Mobile).
+
+---
+
+### **1. Segmento Objetivo: Arrendadores (Landlords)**
+
+#### **Entrevista 1**
+* **Nombres y Apellidos:** Yoselin Canahuiri
+* **Edad:** 25 años
+* **Distrito de Residencia:** Surco
+* **Fecha de la Entrevista:** 19/06/2026
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/IQBaXNAMjnj6Qo-r0c44go5wAR0oDeMpffll7GxMyHzWcd8?e=LpxL9H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 8 Mins 00 segs
+
+**Evidencia de la Entrevista (Screenshot):**
+![Captura de Pantalla - Entrevista 1](assets/chapter-6/validation-interviews/validation-interview-1.jpg)
+
+**Resumen de la Entrevista (Principales Apreciaciones):**
+* **Landing Page:** La entrevistada considera que la landing page es clara y concisa y le parece interesante la idea de negocio.  
+* **Web Application:** La entrevistada considera que el diseño de la app es ordenada, sin embargo, siente que no le queda claro como o porque deberia de comprar nuestros dispositivos para sus propiedades 
+* **Conclusiones y Recomendaciones del Usuario:** A la entrevistada le convenció el diseño y el proposito de NexIoT, sin embargo, considera que debe de explicarse mejor el porque ella como propietaria, debe de comprar las soluciones IoT y el porque es beneficioso para ella en térmitos económicps.
+
+---
+
+#### **Entrevista 2**
+* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
+* **Edad:** `[Edad]` años
+* **Distrito de Residencia:** `[Distrito / Ciudad]`
+* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](60-chapter-6-implementation-validation/63-validation-interviews/URL_DEL_VIDEO)
+* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
+
+**Evidencia de la Entrevista (Screenshot):**
+![Captura de Pantalla - Entrevista 2](../assets/chapter-6/validation/interview-landlord-2.jpg)
+*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
+
+**Resumen de la Entrevista (Principales Apreciaciones):**
+* **Landing Page:** 
+* **Web Application:** 
+* **Mobile App:** 
+* **Conclusiones y Recomendaciones del Usuario:** 
+
+---
+
+#### **Entrevista 3**
+* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
+* **Edad:** `[Edad]` años
+* **Distrito de Residencia:** `[Distrito / Ciudad]`
+* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](60-chapter-6-implementation-validation/63-validation-interviews/URL_DEL_VIDEO)
+* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
+
+**Evidencia de la Entrevista (Screenshot):**
+![Captura de Pantalla - Entrevista 3](../assets/chapter-6/validation/interview-landlord-3.jpg)
+*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
+
+**Resumen de la Entrevista (Principales Apreciaciones):**
+* **Landing Page:** 
+* **Web Application:** 
+* **Mobile App:** 
+* **Conclusiones y Recomendaciones del Usuario:** 
+
+---
+
+### **2. Segmento Objetivo: Arrendatarios / Inquilinos (Tenants)**
+
+#### **Entrevista 4**
+* **Nombres y Apellidos:** Diego Castro
+* **Edad:** 25 años
+* **Distrito de Residencia:** Jesus María, Lima
+* **Fecha de la Entrevista:** 20/06/2026
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCStSYLNTFtSZd3auMZ1mptAbZkhIJviHHIye58zZJ1ScE?e=PaG2aW)
+* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 5 Mins 00 segs
+
+**Evidencia de la Entrevista (Screenshot):**
+![Captura de Pantalla - Entrevista 4](assets/chapter-6/validation-interviews/validation-interview-4.png)
+
+**Resumen de la Entrevista (Principales Apreciaciones):**
+* **Landing Page:** El entrevistado considera que el diseño visual es moderno y explica adecuadamente cómo los sensores previenen accidentes (como fugas de gas) y aseguran la transparencia en la facturación, lo cual le genera tranquilidad como inquilino.
+* **Mobile App:** Considera de gran utilidad la visualización de consumos históricos y en tiempo real de agua y energía eléctrica. Sin embargo, observó que las alertas ante anomalías de consumo deberían ser más prominentes en la pantalla de inicio, y sugirió la implementación de notificaciones push de alta prioridad.
+* **Conclusiones y Recomendaciones del Usuario:** Le parece excelente contar con un control móvil para la monitorización de su departamento. Recomienda destacar visualmente las alertas críticas en la interfaz y proveer plantillas de automatización rápidas para reducir consumos comunes.
+
+---
+
+#### **Entrevista 5**
+* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
+* **Edad:** `[Edad]` años
+* **Distrito de Residencia:** `[Distrito / Ciudad]`
+* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](60-chapter-6-implementation-validation/63-validation-interviews/URL_DEL_VIDEO)
+* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
+
+**Evidencia de la Entrevista (Screenshot):**
+![Captura de Pantalla - Entrevista 5](../assets/chapter-6/validation/interview-tenant-2.jpg)
+*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
+
+**Resumen de la Entrevista (Principales Apreciaciones):**
+* **Landing Page:** 
+* **Web Application:** 
+* **Mobile App:** 
+* **Conclusiones y Recomendaciones del Usuario:** 
+
+---
+
+#### **Entrevista 6**
+* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
+* **Edad:** `[Edad]` años
+* **Distrito de Residencia:** `[Distrito / Ciudad]`
+* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](60-chapter-6-implementation-validation/63-validation-interviews/URL_DEL_VIDEO)
+* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
+
+**Evidencia de la Entrevista (Screenshot):**
+![Captura de Pantalla - Entrevista 6](../assets/chapter-6/validation/interview-tenant-3.jpg)
+*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
+
+**Resumen de la Entrevista (Principales Apreciaciones):**
+* **Landing Page:** 
+* **Web Application:** 
+* **Mobile App:** 
+* **Conclusiones y Recomendaciones del Usuario:** 
+
+
+## 6.3 Validación según heurísticas
+
+
+### Usability – Inclusive Design – Information Architecture
+
+* **CARRERA:** Ingeniería de Software
+* **CURSO:** Desarrollo de Soluciones IoT
+* **SECCIÓN:** 6779 
+* **AUDITOR:** NexIoT Team
+* **CLIENTE(S):** Arrendatarios y arrendadores.
+
+---
+
+### SITE o APP A EVALUAR:
+* Landing Page (`nexora.website`), Web Application (`nexora.webapp`) y Mobile Application (`nexora.mobile`).
+
+### TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Revisión de beneficios de seguridad e información de precios en la Landing Page.
+2. Registro de propiedades y vinculación de dispositivos en la Web Application.
+3. Visualización de telemetría y alertas en tiempo real y configuración de automatizaciones en la Mobile Application.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Pasarela de pagos real (solo simulación de checkout).
+2. Configuración física avanzada del hardware de sensores ESP32 (pairing físico).
+3. Procesamiento de analíticas de consumo para históricos mayores a 12 meses.
+
+---
+
+### ESCALA DE SEVERIDAD:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+| :---: | :--- |
+| **1** | **Problema superficial:** puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release. |
+| **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+### TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| :---: | :--- | :---: | :--- |
+| 1 | Falta de claridad en la adquisición e integración de dispositivos IoT y su ROI económico (Arrendadores). | **3** | Heurística #10 (Ayuda y Documentación) y Heurística #2 (Relación entre el sistema y el mundo real) |
+| 2 | Falta de prominencia y claridad en la visualización inmediata de alertas críticas de consumos anómalos o fugas (Arrendatarios). | **3** | Heurística #1 (Visibilidad del estado del sistema) |
+| 3 | Complejidad en el flujo de registro y vinculación de dispositivos IoT (pairing) para arrendadores. | **2** | Heurística #5 (Prevención de errores) y Heurística #6 (Reconocimiento antes que recuerdo) |
+| 4 | Curva de aprendizaje al configurar automatizaciones de dispositivos IoT. | **2** | Heurística #7 (Flexibilidad y eficiencia de uso) y Heurística #10 (Ayuda y Documentación) |
+
+---
+
+### DESCRIPCIÓN DE PROBLEMAS:
+
+#### **PROBLEMA #1: Falta de claridad en la adquisición e integración de dispositivos IoT y su ROI económico (Arrendadores).**
+* **Severidad:** 3
+* **Heurística violada:** Heurística #10 (Ayuda y Documentación) y Heurística #2 (Relación entre el sistema y el mundo real)
+
+**Descripción:**
+El usuario del segmento Arrendador percibe la interfaz web como ordenada, pero no entiende cómo comprar los dispositivos, cómo instalarlos ni la rentabilidad económica que justifica el costo de adquisición del hardware.
+
+**Recomendación:**
+* Incluir en la Landing Page y en la Web App una calculadora interactiva de ROI que proyecte el ahorro en mantenimiento correctivo y consumo de agua/energía.
+* Documentar visualmente el proceso de "3 pasos para digitalizar tu inmueble" (Adquisición, Instalación, Activación).
+
+---
+
+#### **PROBLEMA #2: Falta de prominencia y claridad en la visualización inmediata de alertas críticas de consumos anómalos o fugas (Arrendatarios).**
+* **Severidad:** 3
+* **Heurística violada:** Heurística #1 (Visibilidad del estado del sistema)
+
+**Descripción:**
+El usuario inquilino necesita enterarse de inmediato ante una filtración de agua o fuga de gas para evitar accidentes. Aunque los datos de telemetría son correctos, las alertas críticas no se destacan de forma intrusiva en la pantalla principal del dashboard móvil (falta soporte de alertas push visualmente urgentes).
+
+**Recomendación:**
+* Implementar notificaciones push inmediatas de alta prioridad.
+* Agregar indicadores visuales de color rojo de alta criticidad en la pantalla principal del móvil para capturar la atención inmediata del inquilino ante incidentes graves.
+
+---
+
+#### **PROBLEMA #3: Complejidad en el flujo de registro y vinculación de dispositivos IoT (pairing) para arrendadores.**
+* **Severidad:** 2
+* **Heurística violada:** Heurística #5 (Prevención de errores) y Heurística #6 (Reconocimiento antes que recuerdo)
+
+**Descripción:**
+El flujo para vincular un dispositivo requiere que el arrendador recuerde e ingrese manualmente códigos de vinculación complejos de los gateways y dispositivos sin validación en tiempo real de su estado de conexión.
+
+**Recomendación:**
+* Sustituir la entrada de texto manual por la lectura de un código QR impreso en el hardware del dispositivo.
+* Implementar una funcionalidad de auto-descubrimiento en la red local de los dispositivos cercanos para el emparejamiento con un solo clic.
+
+---
+
+#### **PROBLEMA #4: Curva de aprendizaje al configurar automatizaciones de dispositivos IoT.**
+* **Severidad:** 2
+* **Heurística violada:** Heurística #7 (Flexibilidad y eficiencia de uso) y Heurística #10 (Ayuda y Documentación)
+
+**Descripción:**
+Al crear una nueva automatización (ej. apagar luces si no hay movimiento tras 10 minutos), el inquilino debe configurar reglas complejas de tipo "si pasa esto, haz esto" sin contar con sugerencias o configuraciones estándar precargadas.
+
+**Recomendación:**
+* Añadir plantillas de automatización rápida de un solo toque para los escenarios más comunes descritos por los inquilinos (ej. "Modo Ahorro", "Modo Vacaciones", "Control de Inactividad").
+
+
 # Conclusiones
 
 A partir del desarrollo del Sprint 1 y la consolidación de la arquitectura del proyecto Nexora, el equipo presenta las siguientes conclusiones:
 
+## TB1
+
 1.  **Impacto de la Integración IoT en la Experiencia de Usuario**: La implementación de dispositivos inteligentes (ESP32) integrados con interfaces web y móviles permite una gestión proactiva de la seguridad y el consumo. Esto no solo optimiza la operación de las propiedades, sino que proporciona a los residentes una herramienta de control en tiempo real que aumenta significativamente su percepción de seguridad y bienestar.
 2.  **Escalabilidad mediante Diseño Orientado al Dominio (DDD)**: La adopción de arquitecturas estratégicas y tácticas basadas en DDD ha permitido separar claramente las responsabilidades del sistema. Esta modularidad garantiza que el proyecto pueda crecer con nuevas funcionalidades (como integraciones con terceros o analítica avanzada) sin comprometer la estabilidad del núcleo del negocio.
-3.  **Efectividad de la Metodología Ágil y Trabajo Colaborativo**: El uso de Scrum y el flujo de trabajo GitFlow durante el Sprint 1 fue fundamental para alcanzar un Producto Mínimo Viable (MVP) funcional en un corto periodo de tiempo. La clara definición de roles y la integración continua permitieron resolver dependencias técnicas de forma eficiente, asegurando una entrega de alta calidad.
+3.  **Efectividad de la Metodología Ágil y Trabajo Colaborativo**: El uso de Scrum y el flujo de trabajo en Trello durante el Sprint 1 fue fundamental para alcanzar un Producto Mínimo Viable (MVP) funcional en un corto periodo de tiempo. La clara definición de roles y la integración continua permitieron resolver dependencias técnicas de forma eficiente, asegurando una entrega de alta calidad.
 
+## AV2
+
+1. **Desarrollo de dispositivos IoT**: La implementación de embedded apps mediante un prototipo físico usando un ESP32 y simuladores en Wokwi, nos permitió entender como crear soluciones conectando hardware y software. La creación de un edge service nos permitió transportar datos hacia nuestra aplicación para la realización de métricas e identificación de riesgos
+2. **Distribución del Sprint 2**: Nos distribuimos de manera eficiente y ágil para cumplir con la mayoría de historias de usuario y requisitos necesarios para el alcance del Sprint 2. Logramos tener un gran avance para nuestros embedded apps, prototipo físico, edge service, web app y la primera versión de nuestra mobile app.
+3. **DDD como paradigma para todos los ítems creaods**: Se utilizó Domain Driven Design para la creación de todos los software propuestos, siguiendo el patrón de carpetas de *Domain*, *Infastructure*, *Interface/Presentation* e *Infrastructure*.
 
 # Referencias Bibliográficas
 
@@ -6218,5 +9322,3 @@ En esta sección se consolidan los recursos digitales y evidencias complementari
 ### 4. Despliegues en Producción
 *   **Web Application en Producción:** [https://nexora-webapp-xi.vercel.app/](https://nexora-webapp-xi.vercel.app/)
 *   **Landing Page en Producción:** [https://upc-202610-1asi0572-6779-nexiot.github.io/nexora.website/](https://upc-202610-1asi0572-6779-nexiot.github.io/nexora.website/)
-
-
