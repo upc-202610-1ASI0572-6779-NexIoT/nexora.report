@@ -18,10 +18,10 @@ A continuación, se presentan las capturas de pantalla de la ejecución del sist
 
 | Vista | Descripción | Captura de Pantalla |
 | :--- | :--- | :--- |
-| **Login / Acceso** | Interfaz de inicio de sesión seguro en el frontend. | ![Login](../../../assets/chapter-6/implementation/sprint-2/execution-web-login.png) |
-| **Dashboard y Consumos** | Panel de telemetría dinámico de agua, gas y electricidad. | ![Dashboard](../../../assets/chapter-6/implementation/sprint-2/execution-web-dashboard.png) |
-| **Propiedades y Gateways** | Registro de propiedades y asociación física de Gateways. | ![Properties](../../../assets/chapter-6/implementation/sprint-2/execution-web-properties.png) |
-| **Alertas e Incidentes** | Vista de alertas críticas en vivo (fugas de gas e intrusiones). | ![Alerts](../../../assets/chapter-6/implementation/sprint-2/execution-web-alerts.png) |
+| **Login / Acceso** | Interfaz de inicio de sesión seguro en el frontend. | ![Login](../../../assets/chapter-6/implementation/sprint-2/execution1-sprint2.jpg) |
+| **Dashboard y Consumos** | Panel de telemetría dinámico de agua, gas y electricidad. | ![Dashboard](../../../assets/chapter-6/implementation/sprint-2/execution2-sprint2.jpg) |
+| **Propiedades y Gateways** | Registro de propiedades y asociación física de Gateways. | ![Properties](../../../assets/chapter-6/implementation/sprint-2/execution3-sprint2.jpg) |
+| **Alertas e Incidentes** | Vista de alertas críticas en vivo (fugas de gas e intrusiones). | ![Alerts](../../../assets/chapter-6/implementation/sprint-2/execution4-sprint2.jpg) |
 
 ---
 
@@ -53,8 +53,14 @@ Evidencia del prototipo en desarrollo ejecutándose sobre el emulador o Chrome:
 
 ---
 
-##### Video de Demostración del Sprint 2
+##### 5. Evidencia de la Embedded Application (ESP32 / Wokwi)
+* Prototipo físico o entorno de simulación (Wokwi) de la placa ESP32 con sensores de telemetría (agua, gas, electricidad, voltaje) y actuadores de parada de emergencia.
 
-En el siguiente enlace se presenta el recorrido interactivo de navegación por las interfaces web y móvil, demostrando el flujo completo de telemetría (Dispositivo -> Edge -> Web Service -> Dashboard Frontend):
+| Componente Embebido | Descripción | Captura de Pantalla |
+| :--- | :--- | :--- |
+| **Simulación del Circuito** | Conexiones del microcontrolador ESP32 con sensores (MQ-2, flujo) y actuador remoto. | ![Embedded App Circuit](../../../assets/chapter-6/implementation/sprint-2/execution-embedded-circuit.png) |
+| **Consola Serial (Logs)** | Registro del envío periódico de payloads JSON y recepción de comandos del Gateway. | ![Embedded App Console](../../../assets/chapter-6/implementation/sprint-2/execution-embedded-console.png) |
 
-**Enlace al Video:** [Video de Ejecución - Sprint 2](TU_ENLACE_DE_ONEDRIVE_O_YOUTUBE_AQUI)
+---
+
+**Enlace al Video:** [Video de Ejecución - Sprint 2](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
