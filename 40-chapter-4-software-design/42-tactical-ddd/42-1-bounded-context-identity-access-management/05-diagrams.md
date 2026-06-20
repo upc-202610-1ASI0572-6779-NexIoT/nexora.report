@@ -8,7 +8,7 @@ La infraestructura de seguridad se encuentra soportada por **SecurityConfig** y 
 
 Finalmente, el componente **DataInitializer** permite inicializar información básica del sistema durante el arranque de la aplicación, garantizando la disponibilidad de roles y configuraciones esenciales para el funcionamiento del bounded context.
 
-![Identity & Access Management - Component Diagram](../../../assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/component-diagram_v2.png)
+![Identity & Access Management - Component Diagram](../../../assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/component-diagram_v3.png)
 
 ---
 
