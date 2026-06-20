@@ -1,13 +1,6 @@
-#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 1, el equipo realizó las actividades necesarias para el despliegue de la primera versión funcional del Landing Page y del Frontend de la Web Application. El proceso de despliegue incluyó la configuración de repositorios, creación y configuración de servicios en la nube, integración con plataformas de hosting, automatización de despliegues y validación de los entornos de producción.
-
-Para el despliegue del Landing Page se utilizó GitHub Pages como plataforma de hosting, permitiendo publicar el sitio web estático directamente desde el repositorio del proyecto. Asimismo, se configuró el flujo de despliegue automático mediante la integración con la rama principal del repositorio.
-
-Por otro lado, para el despliegue del Frontend de la aplicación web se utilizó Vercel como plataforma cloud de despliegue. El proceso incluyó la importación del repositorio desde GitHub, configuración del proyecto, validación de compilación y activación de despliegues automáticos para cada actualización realizada en el repositorio.
-
-Las actividades desarrolladas durante este Sprint permitieron garantizar la disponibilidad inicial de ambos productos digitales y establecer la base del pipeline de despliegue continuo para futuras iteraciones del proyecto.
-
+Durante el Sprint 2, el...
 ---
 
 <br>
