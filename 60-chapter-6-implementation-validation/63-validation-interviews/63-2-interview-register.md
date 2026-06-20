@@ -67,20 +67,18 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 ### **2. Segmento Objetivo: Arrendatarios / Inquilinos (Tenants)**
 
 #### **Entrevista 4**
-* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
-* **Edad:** `[Edad]` años
-* **Distrito de Residencia:** `[Distrito / Ciudad]`
-* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](URL_DEL_VIDEO)
-* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
+* **Nombres y Apellidos:** Diego Castro
+* **Edad:** 25 años
+* **Distrito de Residencia:** Jesus María, Lima
+* **Fecha de la Entrevista:** 20/06/2026
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCStSYLNTFtSZd3auMZ1mptAbZkhIJviHHIye58zZJ1ScE?e=PaG2aW)
+* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 5 Mins 00 segs
 
 **Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 4](../../../assets/chapter-6/validation/interview-tenant-1.jpg)
-*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
+![Captura de Pantalla - Entrevista 4](../../assets/chapter-6/validation-interviews/validation-interview-4.png)
 
 **Resumen de la Entrevista (Principales Apreciaciones):**
 * **Landing Page:** 
-* **Web Application:** 
 * **Mobile App:** 
 * **Conclusiones y Recomendaciones del Usuario:** 
 
