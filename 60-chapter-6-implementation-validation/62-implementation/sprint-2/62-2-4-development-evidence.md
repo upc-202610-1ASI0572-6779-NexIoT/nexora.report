@@ -47,7 +47,14 @@ En esta sección se explican y presentan los avances en implementación con rela
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | | | |
+| nexora.webservice | develop | bfcccb5 | refactor: redesign Web API endpoints to follow RESTful naming conventions and versioning v1 | - | 19/06/2026 |
+| nexora.webservice | develop | 461f06a | feat(report): add Alerts PDF report generation and controller endpoint | - | 18/06/2026 |
+| nexora.webservice | develop | a8af25b | feat(monitoring): add severity and type query filters to GET /api/v1/alerts backend endpoint | - | 18/06/2026 |
+| nexora.webservice | develop | 3ca33dd | feat(presentation): add DevicesController and GET latest telemetry endpoint | - | 18/06/2026 |
+| nexora.webservice | develop | 80ed32d | fix: add CORS after JWT, condition HTTPS redirect, and UseCors | - | 15/06/2026 |
+| nexora.webservice | develop | b7b0f17 | feat: implement property management cqrs flows and analytical dashboard | - | 07/06/2026 |
+| nexora.webservice | develop | af11faa | feat: implement secure identity management and jwt authentication | - | 07/06/2026 |
+| nexora.webservice | develop | bbe3649 | feat: register database and ingestion dependencies in presentation host | - | 04/06/2026 |
 
 ---
 
