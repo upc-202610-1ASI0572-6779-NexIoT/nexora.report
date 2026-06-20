@@ -30,17 +30,17 @@ Evidencia del prototipo en desarrollo ejecutándose sobre el emulador o Chrome:
 
 | Vista Móvil | Descripción | Captura de Pantalla |
 | :--- | :--- | :--- |
-| **Login Móvil** | Pantalla de inicio de sesión dirigida a inquilinos y arrendadores. | ![Login Mobile](../../../assets/chapter-6/implementation/sprint-2/execution-mobile-login.png) |
-| **Dashboard del Residente** | Widget resumen de consumo y estado de seguridad de la vivienda. | ![Dashboard Mobile](../../../assets/chapter-6/implementation/sprint-2/execution-mobile-dashboard.png) |
+| **Dashboard Devices** | Pantalla de dispositivos IoT. | ![Dashboard Devices](../../../assets/chapter-6/implementation/sprint-2/execution-mobile-devices.png) |
+| **Dashboard del Residente** | Widget resumen de consumo y estado de seguridad de la vivienda. | ![Dashboard Mobile](../../../assets/chapter-6/implementation/sprint-2/execution-mobile-dashboard.jpg) |
 
 ---
 
 ##### 3. Evidencia del Backend & Swagger API
-* Documentación en vivo interactiva y autorizada mediante Swagger UI en `http://localhost:5001/swagger`.
+* Documentación en vivo interactiva y autorizada mediante Swagger UI.
 
 | Módulo Backend | Descripción | Captura de Pantalla |
 | :--- | :--- | :--- |
-| **Documentación OpenAPI** | Relación de endpoints del monolito modular RESTful. | ![Swagger Backend](../../../assets/chapter-6/implementation/sprint-2/execution-backend-swagger.png) |
+| **Documentación OpenAPI** | Relación de endpoints del monolito modular RESTful. | ![Swagger Backend](../../../assets/chapter-6/implementation/sprint-2/execution-backend-swagger.jpg) |
 
 ---
 
@@ -49,7 +49,7 @@ Evidencia del prototipo en desarrollo ejecutándose sobre el emulador o Chrome:
 
 | Servicio Edge | Descripción | Captura de Pantalla |
 | :--- | :--- | :--- |
-| **Consola del Gateway** | logs de tramas recibidas y guardadas localmente. | ![Edge Service Console](../../../assets/chapter-6/implementation/sprint-2/execution-edge-console.png) |
+| **Consola del Gateway** | logs de tramas recibidas y guardadas localmente. | ![Edge Service Console](../../../assets/chapter-6/implementation/sprint-2/execution-edge-service.png) |
 
 ---
 
@@ -58,8 +58,7 @@ Evidencia del prototipo en desarrollo ejecutándose sobre el emulador o Chrome:
 
 | Componente Embebido | Descripción | Captura de Pantalla |
 | :--- | :--- | :--- |
-| **Simulación del Circuito** | Conexiones del microcontrolador ESP32 con sensores (MQ-2, flujo) y actuador remoto. | ![Embedded App Circuit](../../../assets/chapter-6/implementation/sprint-2/execution-embedded-circuit.png) |
-| **Consola Serial (Logs)** | Registro del envío periódico de payloads JSON y recepción de comandos del Gateway. | ![Embedded App Console](../../../assets/chapter-6/implementation/sprint-2/execution-embedded-console.png) |
+| **Simulación del Circuito** | Conexiones del microcontrolador ESP32 con sensores (MQ-2, flujo) y actuador remoto. | ![Embedded App Circuit](../../../assets/chapter-6/implementation/sprint-2/execution-embedded-circuit.jpg) |
 
 ---
 
