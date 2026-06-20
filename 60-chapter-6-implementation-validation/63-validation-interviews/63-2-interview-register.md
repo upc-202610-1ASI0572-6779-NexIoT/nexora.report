@@ -25,22 +25,21 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 ---
 
 #### **Entrevista 2**
-* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
-* **Edad:** `[Edad]` años
-* **Distrito de Residencia:** `[Distrito / Ciudad]`
-* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](URL_DEL_VIDEO)
-* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
+* **Nombres y Apellidos:** Jocelyn Damaly Almerco Rojas
+* **Edad:** 25 años
+* **Distrito de Residencia:** Lima
+* **Fecha de la Entrevista:** 19/06/2026
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://1drv.ms/v/c/a3bebbb4408387f0/IQB0IC8AOhbDQr2pHWJwxG9RATPesag7HoY1xgmKOgBcl3U?e=Re1eYW)
+* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 6 min 52 segs
 
 **Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 2](../../../assets/chapter-6/validation/interview-landlord-2.jpg)
-*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
+![Captura de Pantalla - Entrevista 2](../../assets/chapter-6/validation-interviews/validation_interview_2.png)
+
 
 **Resumen de la Entrevista (Principales Apreciaciones):**
-* **Landing Page:** 
-* **Web Application:** 
-* **Mobile App:** 
-* **Conclusiones y Recomendaciones del Usuario:** 
+* **Landing Page:** La entrevistada considera que la landing page tiene un formato claro, se ve enfocado a lo que necesita, es precisa, y le gusta mucho el tema a tratar pq le beneficia como arrendedora.  
+* **Web Application:** A la entrevistada le parecio llamativa nuestra app, le parece genial que le existan secciones con gráficos,para poder visualizar mejor el contenido de la aplicación y no tener un documento que a veces no se entiende mucho, aunque cuestiona el tema de larjeta guardada en la aplicación y como sería factible saber si es seguro para el usuario que no se va a ver si otro usuario llegará entrar a la cuenta.
+* **Conclusiones y Recomendaciones del Usuario:** Como conclusión, a la entrevistada le gustó lo visual y las funcionalidades claves para el proyecto, sin embargo cree que debería haber pasos de verificación para el cuidado de la tarjeta en la aplicación para que no exista un riesgo de saber los datos de esta.
 
 ---
 
