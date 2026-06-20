@@ -1,14 +1,13 @@
-# Anexo D. Formato para Evaluación de User Experience según Heurísticas
+## 6.3 Validación según heurísticas
 
-## UX Heuristics & Principles Evaluation
+
 ### Usability – Inclusive Design – Information Architecture
 
 * **CARRERA:** Ingeniería de Software
 * **CURSO:** Desarrollo de Soluciones IoT
-* **SECCIÓN:** 
-* **PROFESORES:** Todos
-* **AUDITOR:** 
-* **CLIENTE(S):** 
+* **SECCIÓN:** 6779 
+* **AUDITOR:** NexIoT Team
+* **CLIENTE(S):** Arrendatarios y arrendadores.
 
 ---
 
@@ -17,11 +16,13 @@
 
 ### TAREAS A EVALUAR:
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
 1. 
 2. 
 3. 
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
+
 1. 
 2. 
 3. 
@@ -58,10 +59,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 * **Severidad:** 
 * **Heurística violada:** 
 
-**Problema:**
-* 
-* *(Incluir además una captura de pantalla ilustrando el problema)*
-* ![Descripción de la captura](../../assets/chapter-6/validation/heuristics-problem-1.jpg)
 
 **Recomendación:**
 * 
@@ -72,11 +69,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 * **Severidad:** 
 * **Heurística violada:** 
 
-**Problema:**
-* 
-* *(Incluir además una captura de pantalla ilustrando el problema)*
-* ![Descripción de la captura](../../assets/chapter-6/validation/heuristics-problem-2.jpg)
-
 **Recomendación:**
 * 
 
@@ -86,10 +78,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 * **Severidad:** 
 * **Heurística violada:** 
 
-**Problema:**
-* 
-* *(Incluir además una captura de pantalla ilustrando el problema)*
-* ![Descripción de la captura](../../assets/chapter-6/validation/heuristics-problem-3.jpg)
 
 **Recomendación:**
 * 
