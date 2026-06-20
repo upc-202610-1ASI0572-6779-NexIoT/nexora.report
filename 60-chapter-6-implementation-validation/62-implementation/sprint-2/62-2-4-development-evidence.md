@@ -36,7 +36,10 @@ En esta sección se explican y presentan los avances en implementación con rela
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | | | |
+| nexora.embeddedapp | develop | 45a7b76 | chore: move nexora gas safety in a new folder | - | 17/06/2026 |
+| nexora.embeddedapp | develop | f0cff23 | docs: add gas-safety documentation | - | 17/06/2026 |
+| nexora.embeddedapp | develop | 14a8c86 | docs: add voltage consumption documentation | - | 17/06/2026 |
+| nexora.embeddedapp | develop | cb3dd4a | fix(voltage): connections with serial monitor and add wifi | - | 18/06/2026 |
 
 ---
 
