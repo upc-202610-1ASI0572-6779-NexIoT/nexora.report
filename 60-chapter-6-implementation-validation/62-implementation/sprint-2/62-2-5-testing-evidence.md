@@ -9,19 +9,19 @@ En esta sección se explica y presenta el conjunto de Unit Tests, Integration Te
 Las pruebas unitarias se enfocan en verificar de manera aislada los comportamientos y validaciones de las reglas de negocio críticas definidas dentro de las entidades del dominio de la aplicación.
 
 #### **A. Pruebas Unitarias de Dispositivos (Resource & Asset Management)**
-* **Clase Evaluada:** `Device` ([Device.cs](file:///d:/u/IoT/nexora.webservice/src/contexts/resource-asset-management/Domain/Entities/Device.cs))
+* **Clase Evaluada:** `Device`
 * **Comportamientos Evaluados:**
   * **Inicialización Válida:** Verificación de que un dispositivo se cree correctamente con su ID, estado inicial de conexión y fecha de sincronización.
-  * **Validación de Identificador Obligatorio:** Comprobación de que se lance una excepción (`ArgumentException`) si se intenta instanciar un dispositivo sin un identificador válido (nulo, vacío o espacios).
-  * **Vinculación a Propiedad:** Asegurar que el método `AssignToProperty` modifique adecuadamente la propiedad externa asociada.
-  * **Actualización de Estado de Sincronización:** Validación de que el estado de conexión (`ConnectionStatus`) y la última sincronización (`LastSyncAt`) se actualicen adecuadamente tras eventos de telemetría o heartbeat.
+  * **Validación de Identificador Obligatorio:** Lanzamiento de excepción (`ArgumentException`) ante identificadores nulos, vacíos o con espacios.
+  * **Vinculación a Propiedad:** Asignación del identificador de la propiedad a la que pertenece el dispositivo.
+  * **Actualización de Sincronización:** Actualización del estado de conexión y marca de tiempo tras telemetrías.
 
 #### **B. Pruebas Unitarias de Alertas (Service Monitoring & Intelligence)**
-* **Clase Evaluada:** `Alert` ([Alert.cs](file:///d:/u/IoT/nexora.webservice/src/contexts/service-monitoring-intelligence/Domain/Entities/Alert.cs))
+* **Clase Evaluada:** `Alert`
 * **Comportamientos Evaluados:**
-  * **Inicialización Válida:** Verificación de que una alerta se cree correctamente con su severidad (`AlertSeverity`), tipo descriptivo, marca de tiempo y el identificador del dispositivo (`DeviceId`) de origen.
-  * **Validación de Identificador de Dispositivo Obligatorio:** Comprobación de que se lance una excepción (`ArgumentException`) si se intenta crear una alerta sin un identificador de dispositivo válido (nulo o vacío).
-  * **Validación de Tipo Obligatorio:** Comprobación de que se lance una excepción si se intenta crear una alerta sin un tipo de evento o nombre descriptivo.
+  * **Inicialización Válida:** Creación correcta con severidad (`AlertSeverity`), tipo descriptivo, fecha y origen.
+  * **Validación de DeviceId:** Lanzamiento de excepción ante identificador de dispositivo vacío o nulo.
+  * **Validación de Tipo Obligatorio:** Lanzamiento de excepción ante tipos de alerta vacíos.
 
 #### Código de los Unit Tests:
 ```csharp
@@ -54,15 +54,18 @@ namespace Nexora.WebApi.Tests
         [InlineData("")]
         [InlineData(" ")]
         [InlineData(null)]
-        public void CreateDevice_WithInvalidId_ShouldThrowArgumentException(string invalidId)
+        public void CreateDevice_WithInvalidId_ShouldThrowArgumentException(
+            string invalidId)
         {
-            Assert.Throws<ArgumentException>(() => new Device(invalidId, ConnectionStatus.Offline, DateTime.UtcNow));
+            Assert.Throws<ArgumentException>(() => 
+                new Device(invalidId, ConnectionStatus.Offline, DateTime.UtcNow));
         }
 
         [Fact]
         public void AssignToProperty_ShouldUpdatePropertyId()
         {
-            var device = new Device("ESP32-HW-99", ConnectionStatus.Offline, DateTime.UtcNow);
+            var device = new Device("ESP32-HW-99", 
+                ConnectionStatus.Offline, DateTime.UtcNow);
             long expectedPropertyId = 123;
 
             device.AssignToProperty(expectedPropertyId);
@@ -73,7 +76,8 @@ namespace Nexora.WebApi.Tests
         [Fact]
         public void UpdateSync_ShouldUpdateStatusAndSyncTime()
         {
-            var device = new Device("ESP32-HW-99", ConnectionStatus.Offline, DateTime.UtcNow.AddMinutes(-5));
+            var device = new Device("ESP32-HW-99", 
+                ConnectionStatus.Offline, DateTime.UtcNow.AddMinutes(-5));
             var newStatus = ConnectionStatus.Online;
             var newSyncTime = DateTime.UtcNow;
 
@@ -117,18 +121,24 @@ namespace Nexora.WebApi.Tests
         [InlineData("")]
         [InlineData(" ")]
         [InlineData(null)]
-        public void CreateAlert_WithInvalidDeviceId_ShouldThrowArgumentException(string invalidDeviceId)
+        public void CreateAlert_WithInvalidDeviceId_ShouldThrowArgumentException(
+            string invalidDeviceId)
         {
-            Assert.Throws<ArgumentException>(() => new Alert(AlertSeverity.Warning, "Gas Leak", DateTime.UtcNow, invalidDeviceId));
+            Assert.Throws<ArgumentException>(() => 
+                new Alert(AlertSeverity.Warning, "Gas Leak", 
+                    DateTime.UtcNow, invalidDeviceId));
         }
 
         [Theory]
         [InlineData("")]
         [InlineData(" ")]
         [InlineData(null)]
-        public void CreateAlert_WithInvalidType_ShouldThrowArgumentException(string invalidType)
+        public void CreateAlert_WithInvalidType_ShouldThrowArgumentException(
+            string invalidType)
         {
-            Assert.Throws<ArgumentException>(() => new Alert(AlertSeverity.Warning, invalidType, DateTime.UtcNow, "ESP32-HW-01"));
+            Assert.Throws<ArgumentException>(() => 
+                new Alert(AlertSeverity.Warning, invalidType, 
+                    DateTime.UtcNow, "ESP32-HW-01"));
         }
     }
 }
@@ -138,10 +148,10 @@ namespace Nexora.WebApi.Tests
 
 ### **2. Integration & Acceptance Tests bajo Enfoque BDD**
 
-Para las pruebas de aceptación e integración bajo el enfoque de **Behavior-Driven Development (BDD)**, se definieron escenarios legibles en Gherkin (`.feature`) y sus correspondientes clases de definición de pasos (Steps) que verifican el correcto comportamiento integrado de las funcionalidades críticas.
+Validación bajo **Behavior-Driven Development (BDD)** usando escenarios Gherkin (`.feature`) y Steps ejecutados con XUnit.
 
-#### **A. Vinculación de Dispositivos a Propiedades (US37: Gestión de vinculación de dispositivos en propiedad)**
-* **Objetivo:** Asegurar que el arrendador pueda asociar de manera efectiva los dispositivos físicos a sus propiedades registradas.
+#### **A. Vinculación de Dispositivos (US37: Gestión de vinculación de dispositivos)**
+* **Objetivo:** Asociación efectiva de dispositivos físicos a propiedades.
 
 ##### Archivo Feature:
 ```gherkin
@@ -193,7 +203,8 @@ namespace Nexora.WebApi.Tests.Steps
             Assert.Null(_device.PropertyId);
         }
 
-        private void WhenTheLandlordAssociatesTheDeviceWithPropertyID(string deviceId, long propertyId)
+        private void WhenTheLandlordAssociatesTheDeviceWithPropertyID(
+            string deviceId, long propertyId)
         {
             Assert.Equal(deviceId, _device.Id);
             _device.AssignToProperty(propertyId);
@@ -207,8 +218,8 @@ namespace Nexora.WebApi.Tests.Steps
 }
 ```
 
-#### **B. Consulta y Filtrado de Alertas Recientes (US33: Visualización y acceso al panel de alertas recientes / TS13: API de consulta y filtrado de alertas)**
-* **Objetivo:** Verificar que el arrendador pueda filtrar alertas basándose en criterios específicos de criticidad y tipo para responder rápidamente a contingencias.
+#### **B. Consulta y Filtrado de Alertas (US33: Visualización de alertas recientes / TS13)**
+* **Objetivo:** Filtrado rápido de alertas críticas por severidad y tipo.
 
 ##### Archivo Feature:
 ```gherkin
@@ -250,25 +261,33 @@ namespace Nexora.WebApi.Tests.Steps
         public void Scenario_FilterAlertsBySeverityAndType()
         {
             GivenTheSystemHasRegisteredAlerts();
-            WhenTheLandlordFiltersAlertsBySeverityAndType(AlertSeverity.Critical, "Gas");
+            WhenTheLandlordFiltersAlertsBySeverityAndType(
+                AlertSeverity.Critical, "Gas");
             ThenTheResultShouldContainAlerts(1);
-            AndTheAlertShouldHaveTypeAndSeverity("Critical Gas Leak Detected", AlertSeverity.Critical);
+            AndTheAlertShouldHaveTypeAndSeverity(
+                "Critical Gas Leak Detected", AlertSeverity.Critical);
         }
 
         private void GivenTheSystemHasRegisteredAlerts()
         {
             _systemAlerts = new List<Alert>
             {
-                new Alert(AlertSeverity.Critical, "Critical Gas Leak Detected", DateTime.UtcNow, "ESP32-HW-01"),
-                new Alert(AlertSeverity.Warning, "Low Voltage Warning", DateTime.UtcNow, "ESP32-HW-02"),
-                new Alert(AlertSeverity.Critical, "Intrusion Alert", DateTime.UtcNow, "ESP32-HW-01")
+                new Alert(AlertSeverity.Critical, "Critical Gas Leak Detected", 
+                    DateTime.UtcNow, "ESP32-HW-01"),
+                new Alert(AlertSeverity.Warning, "Low Voltage Warning", 
+                    DateTime.UtcNow, "ESP32-HW-02"),
+                new Alert(AlertSeverity.Critical, "Intrusion Alert", 
+                    DateTime.UtcNow, "ESP32-HW-01")
             };
         }
 
-        private void WhenTheLandlordFiltersAlertsBySeverityAndType(AlertSeverity severity, string typeQuery)
+        private void WhenTheLandlordFiltersAlertsBySeverityAndType(
+            AlertSeverity severity, string typeQuery)
         {
             _filteredResults = _systemAlerts
-                .Where(a => a.Severity == severity && a.Type.Contains(typeQuery, StringComparison.OrdinalIgnoreCase))
+                .Where(a => a.Severity == severity && 
+                            a.Type.Contains(typeQuery, 
+                                StringComparison.OrdinalIgnoreCase))
                 .ToList();
         }
 
@@ -277,7 +296,8 @@ namespace Nexora.WebApi.Tests.Steps
             Assert.Equal(expectedCount, _filteredResults.Count);
         }
 
-        private void AndTheAlertShouldHaveTypeAndSeverity(string expectedType, AlertSeverity expectedSeverity)
+        private void AndTheAlertShouldHaveTypeAndSeverity(
+            string expectedType, AlertSeverity expectedSeverity)
         {
             var alert = _filteredResults.First();
             Assert.Equal(expectedType, alert.Type);
@@ -291,13 +311,13 @@ namespace Nexora.WebApi.Tests.Steps
 
 ### **3. Evidencia de Ejecución de Pruebas**
 
-Se ejecutó la suite completa de pruebas en el entorno de desarrollo local mediante la CLI de `.NET Core`, obteniendo un resultado exitoso que garantiza la correcta implementación de la lógica del backend:
+Ejecución de la suite completa con 100% de éxito:
 
 ```bash
 dotnet test
 ```
 
-**Resultado de la Consola:**
+**Consola:**
 ```text
 Passed!  - Failed:     0, Passed:    15, Skipped:     0, Total:    15, Duration: 196 ms - Nexora.WebApi.Tests.dll (net8.0)
 ```
@@ -306,7 +326,7 @@ Passed!  - Failed:     0, Passed:    15, Skipped:     0, Total:    15, Duration:
 
 ### **4. Repositorios y Commits Relacionados**
 
-A continuación se detalla la relación de commits vinculados con los avances del Testing de este Sprint en el repositorio de control de versiones:
+Relación de commits vinculados con los avances del Testing de este Sprint:
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
