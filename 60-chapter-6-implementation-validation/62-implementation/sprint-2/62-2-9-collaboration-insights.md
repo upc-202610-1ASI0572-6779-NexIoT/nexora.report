@@ -9,7 +9,7 @@ La gestión de código y la colaboración técnica se centralizaron en GitHub, h
 A continuación, se presentan las capturas de pantalla de los analíticos de colaboración (Pulse / Contributors) recopiladas directamente de GitHub para cada uno de los componentes de software desarrollados en el Sprint 2:
 
 ###### 1. Landing Page (nexora.website)
-![GitHub Pulse - Landing Page](../../../assets/chapter-6/implementation/sprint-2/insights-landingpage.jpg)
+![GitHub Pulse - Landing Page](../../../assets/chapter-6/implementation/sprint-2/insights-landing_page.jpg)
 
 ###### 2. Mobile App (nexora.mobileapp)
 ![GitHub Pulse - Mobile App](../../../assets/chapter-6/implementation/sprint-2/insights-mobile.jpg)
