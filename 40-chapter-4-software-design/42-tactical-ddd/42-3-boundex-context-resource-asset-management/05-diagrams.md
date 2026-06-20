@@ -1,29 +1,67 @@
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-Este diagrama de nivel 3 describe la arquitectura interna del Bounded Context encargado de la gestión del inventario físico y la configuración de dispositivos IoT dentro del ecosistema Nexora. Se observa un flujo REST donde la Mobile App interactúa con dos controladores especializados: el `AssetManagementController`, responsable de exponer la jerarquía de propiedades y unidades, y el `DeviceController`, encargado de los endpoints de pairing y consulta de estado de hardware.
+El diagrama de componentes describe la arquitectura interna del bounded context **Resource & Asset Management**, responsable de gestionar la jerarquía física de propiedades, unidades inteligentes, inventario tecnológico y procesos de vinculación de dispositivos IoT dentro de Nexora.
 
-Ambos controladores delegan la lógica hacia la capa de aplicación, compuesta por los servicios `AssetCommandService` y `DeviceProvisioningCommandService` para operaciones de escritura, y por `PropertyQueryService` e `InventoryQueryService` para las consultas. La infraestructura separa claramente la persistencia relacional (a través de `PropertyRepository` y `DeviceRepository`) de la comunicación IoT (mediante el `DevicePairingAdapter` y el `GatewayStatusService`), asegurando un diseño desacoplado donde los protocolos de enlace con hardware no contaminan la lógica de negocio.
+El flujo principal inicia cuando la **Mobile App** consume los endpoints expuestos por **AssetManagementController** y **DeviceController**. El primero permite consultar y administrar propiedades, unidades y jerarquías físicas, mientras que el segundo gestiona operaciones relacionadas con dispositivos, pairing y estado operativo del hardware.
 
-![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/component-diagram.jpg)
+Ambos controladores delegan la ejecución de casos de uso a la Application Layer. Las operaciones de escritura son coordinadas por **AssetCommandService** y **DeviceProvisioningCommandService**, mientras que las consultas son atendidas por **PropertyQueryService** e **InventoryQueryService**. La validación de compatibilidad entre dispositivos y gateways se concentra en **DeviceCompatibilityService**, evitando que esta regla técnica contamine los controladores o repositorios.
+
+La Infrastructure Layer implementa la persistencia mediante **IPropertyRepository** e **IDeviceRepository**, además de integrar componentes técnicos como **DevicePairingAdapter** y **GatewayStatusService**. La información del bounded context se almacena en las tablas correspondientes dentro de la base de datos central de Nexora.
+
+![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/component-diagram_2v.png)
 
 ---
 
 ### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
+En esta sección se presentan los diagramas de nivel de código correspondientes al bounded context **Resource & Asset Management**, incluyendo el diagrama de clases del dominio y el diseño de base de datos utilizado para persistir propiedades, unidades, dispositivos y operaciones de provisioning.
+
+---
+
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del dominio para el contexto de Resource & Asset Management define las reglas tácticas para la jerarquía de activos físicos y el ciclo de vida de los dispositivos IoT. Se identifican como entidades clave `PropertyAsset`, que modela la unidad física dentro de la jerarquía organizacional del complejo (con soporte para relaciones padre-hijo entre edificios, pisos y unidades), e `IoTDevice`, que representa el hardware registrado como activo fijo con su firmware y tipo de dispositivo.
+El diagrama de clases del dominio representa los principales elementos tácticos del bounded context **Resource & Asset Management**. El modelo se centra en **SmartUnit**, que actúa como Aggregate Root al representar la unidad inteligente donde convergen los dispositivos IoT vinculados.
 
-El Aggregate Root `SmartUnit` actúa como el núcleo donde convergen el espacio físico y los dispositivos vinculados, exponiendo métodos como `linkSensor`, `unlinkSensor` y `updateSyncStatus` para gestionar el inventario activo de una unidad habitacional. Los Value Objects `DeviceMetadata` y `PhysicalAddress` garantizan la inmutabilidad e identidad de los datos de hardware y geolocalización respectivamente. Finalmente, el modelo aplica el patrón CQRS mediante Commands (`RegisterPropertyCommand`, `LinkDeviceToUnitCommand`, `UpdateDeviceStateCommand`) y Queries (`GetPropertyHierarchyQuery`, `GetUnitInventoryQuery`), separando explícitamente las intenciones de escritura de las de lectura.
+La entidad **PropertyAsset** modela la jerarquía física de propiedades, edificios, pisos y unidades, mientras que **IoTDevice** representa el hardware registrado dentro del inventario tecnológico de Nexora. Los Value Objects **PhysicalAddress** y **DeviceMetadata** encapsulan información inmutable relacionada con ubicación física y datos técnicos del dispositivo.
 
-![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/class-diagram.jpg)
+El modelo también incluye **DeviceCompatibilityService** como Domain Service encargado de validar la compatibilidad entre dispositivos y gateways durante el proceso de vinculación. Finalmente, **IPropertyRepository** e **IDeviceRepository** representan las interfaces de persistencia requeridas por el dominio.
+
+![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/class-diagram_2v.png)
 
 ---
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
 
-El diseño del esquema de base de datos para el contexto de Resource & Asset Management está orientado a la persistencia de la jerarquía de activos físicos y al ciclo de vida completo de los dispositivos IoT. La tabla `properties` actúa como el núcleo jerárquico del modelo gracias a su auto-referencia mediante la columna `parent_id`, lo que permite representar de forma natural la estructura de complejo → piso → unidad sin necesidad de tablas adicionales.
+El diseño de base de datos del bounded context **Resource & Asset Management** representa las tablas necesarias para persistir información de activos físicos y tecnológicos dentro de la base de datos central de Nexora. Aunque el sistema mantiene una sola base de datos física por su enfoque de monolito modular, este diagrama muestra únicamente las tablas asociadas a este bounded context.
 
-El esquema establece una cadena de relaciones donde cada `smart_unit` pertenece a una `property`, cada `iot_device` se vincula a una `smart_unit`, y cada dispositivo posee exactamente un registro en `device_metadata` con sus datos físicos únicos (dirección MAC, fabricante y fecha de producción). La tabla `unit_provisioning_log` cierra el diseño asegurando la trazabilidad de cada operación de pairing, lo que facilita auditorías técnicas y el control del historial de comisionamiento de dispositivos en campo.
+La tabla `properties` almacena la jerarquía física de propiedades mediante la columna `parent_id`, permitiendo representar estructuras como edificio, piso y unidad. La tabla `smart_units` representa las unidades inteligentes asociadas a una propiedad, mientras que `iot_devices` registra los dispositivos vinculados a dichas unidades.
 
-![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/database-diagram.png)
+La tabla `device_metadata` almacena información técnica única de cada dispositivo, como dirección MAC, fabricante y fecha de producción. Finalmente, `unit_provisioning_logs` permite mantener trazabilidad de los procesos de pairing y provisioning realizados sobre los dispositivos IoT.
+
+### Constraints Principales
+
+**properties**
+- PK: id
+- FK: parent_id → properties.id
+
+**smart_units**
+- PK: id
+- FK: property_id → properties.id
+
+**iot_devices**
+- PK: id
+- UK: serial_number
+- FK: assigned_unit_id → smart_units.id
+
+**device_metadata**
+- PK: id
+- UK: mac_address
+- FK: device_id → iot_devices.id
+
+**unit_provisioning_logs**
+- PK: id
+- FK: unit_id → smart_units.id
+- FK: device_id → iot_devices.id
+
+
+![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/database-diagram_2v.png)
