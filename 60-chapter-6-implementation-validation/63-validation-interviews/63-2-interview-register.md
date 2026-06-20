@@ -75,7 +75,7 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 5 Mins 00 segs
 
 **Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 4](../../assets/chapter-6/validation-interviews/validation-interview-4.jpg)
+![Captura de Pantalla - Entrevista 4](../../assets/chapter-6/validation-interviews/validation-interview-4.png)
 
 **Resumen de la Entrevista (Principales Apreciaciones):**
 * **Landing Page:** 
