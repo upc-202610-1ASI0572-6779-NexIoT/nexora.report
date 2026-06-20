@@ -153,6 +153,8 @@
     
 ### [Conclusiones](#conclusiones)
 
+### [Recomendaciones](#recomendaciones)
+
 ### [Bibliografía](#bibliografía)
 
 ### [Anexos](#anexos)
