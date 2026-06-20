@@ -73,7 +73,7 @@ Para el despliegue del Frontend de la aplicación web, el equipo configuró el p
 
 <br>
 
-> **Agregar captura:** Dashboard del proyecto en Vercel.
+![Dashboard del proyecto en Vercel](../../../assets/chapter-6/implementation/sprint-1/vercel-deploy-webapp.jpg)
 
 ---
 
@@ -90,12 +90,15 @@ El frontend fue integrado con GitHub para permitir despliegues automáticos cada
 
 <br>
 
-> **Agregar captura:** Estado exitoso del despliegue en Vercel.
+![Configuración de Integración Continua](../../../assets/chapter-6/implementation/sprint-1/vercel2-deploy-webapp.jpg)
 
 ### Resultado del despliegue
 
 La aplicación frontend fue desplegada exitosamente y quedó disponible mediante la URL de producción generada por Vercel.
 
-> **Agregar captura:** Frontend desplegado correctamente en producción.
+![Frontend desplegado correctamente en producción](../../../assets/chapter-6/implementation/sprint-1/vercel3-deploy-webapp.jpg)
 
-**URL de la aplicación web:** 
+
+**URL de la aplicación web:** [https://nexora-webapp-xi.vercel.app/login](https://nexora-webapp-xi.vercel.app)
+
+---
