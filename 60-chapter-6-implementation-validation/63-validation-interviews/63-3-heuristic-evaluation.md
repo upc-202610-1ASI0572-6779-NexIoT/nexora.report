@@ -1,4 +1,4 @@
-## 6.3 Validación según heurísticas
+## 6.3 git po f
 
 ### Usability – Inclusive Design – Information Architecture
 
