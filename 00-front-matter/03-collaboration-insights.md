@@ -52,7 +52,7 @@ A continuación, se presentan las evidencias gráficas para el segundo entregabl
 
 ### Insights de Github (AV2)
 
-A continuación, se presentan los analíticos de colaboración recopilados de los repositorios de GitHub, que evidencian la actividad y contribución de cada miembro del equipo durante los Sprints 1 y 2:
+A continuación, se presentan los analíticosp de colaboración recopilados de los repositorios de GitHub, que evidencian la actividad y contribución de cada miembro del equipo durante los Sprints 1 y 2:
 
 #### Sprint 1
 
@@ -68,7 +68,7 @@ A continuación, se presentan los analíticos de colaboración recopilados de lo
 #### Sprint 2
 
 ##### 1. Landing Page (nexora.website)
-![GitHub Pulse - Landing Page](../assets/chapter-6/implementation/sprint-2/insights-landingpage.jpg)
+![GitHub Pulse - Landing Page](../assets/chapter-6/implementation/sprint-2/insights-landing_page.jpg)
 
 ##### 2. Mobile App (nexora.mobileapp)
 ![GitHub Pulse - Mobile App](../assets/chapter-6/implementation/sprint-2/insights-mobile.jpg)

@@ -37,4 +37,4 @@
 
 <br>
 
-<div align="center">Abril, 2026</div>
+<div align="center">Junio, 2026</div>
