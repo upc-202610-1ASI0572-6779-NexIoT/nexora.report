@@ -78,9 +78,9 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 ![Captura de Pantalla - Entrevista 4](../../assets/chapter-6/validation-interviews/validation-interview-4.png)
 
 **Resumen de la Entrevista (Principales Apreciaciones):**
-* **Landing Page:** 
-* **Mobile App:** 
-* **Conclusiones y Recomendaciones del Usuario:** 
+* **Landing Page:** El entrevistado considera que el diseño visual es moderno y explica adecuadamente cómo los sensores previenen accidentes (como fugas de gas) y aseguran la transparencia en la facturación, lo cual le genera tranquilidad como inquilino.
+* **Mobile App:** Considera de gran utilidad la visualización de consumos históricos y en tiempo real de agua y energía eléctrica. Sin embargo, observó que las alertas ante anomalías de consumo deberían ser más prominentes en la pantalla de inicio, y sugirió la implementación de notificaciones push de alta prioridad.
+* **Conclusiones y Recomendaciones del Usuario:** Le parece excelente contar con un control móvil para la monitorización de su departamento. Recomienda destacar visualmente las alertas críticas en la interfaz y proveer plantillas de automatización rápidas para reducir consumos comunes.
 
 ---
 
