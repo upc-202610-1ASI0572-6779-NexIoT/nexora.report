@@ -44,22 +44,22 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 ---
 
 #### **Entrevista 3**
-* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
-* **Edad:** `[Edad]` años
-* **Distrito de Residencia:** `[Distrito / Ciudad]`
-* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](URL_DEL_VIDEO)
-* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
+* **Nombres y Apellidos:** Veronica Rojas
+* **Edad:** 40 años
+* **Distrito de Residencia:** Lima
+* **Fecha de la Entrevista:** 25/06/2026
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://1drv.ms/v/c/017052aac6508873/IQDx1O1Zs6vmRZ9QLNng3ZvRAbEZE1reVqtNi-id9woUWKU?e=tlgCue)
+* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 12 min 47 segs
 
 **Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 3](../../../assets/chapter-6/validation/interview-landlord-3.jpg)
-*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
+![Captura de Pantalla - Entrevista 3](../../assets/chapter-6/validation-interviews/validation-interview-3.png)
 
 **Resumen de la Entrevista (Principales Apreciaciones):**
-* **Landing Page:** 
-* **Web Application:** 
-* **Mobile App:** 
-* **Conclusiones y Recomendaciones del Usuario:** 
+* **Landing Page:** Le parece una propuesta muy interesante. Destaca que la cantidad de información presentada sirve como una excelente guía para entender cómo aprovechar los recursos de la plataforma.
+
+* **Web Application:** Considera de gran utilidad la generación de reportes de consumo (luz, agua, gas) y las alertas de fugas, ya que le permite monitorear sus propiedades sin estar físicamente presente. Sin embargo, sugiere implementar un manual o video tutorial para facilitar el uso inicial de las distintas secciones. También recomienda especificar mejor qué incluye exactamente cada paquete de suscripción.
+
+* **Conclusiones y Recomendaciones del Usuario:** La entrevistada se mostró muy dispuesta a adquirir la solución tecnológica. Concluye que la aplicación le ahorraría mucho tiempo, dinero y esfuerzo al no tener que desplazarse físicamente a sus propiedades ni contratar técnicos para revisiones rutinarias, dándole la tranquilidad de un monitoreo constante.
 
 ---
 
