@@ -1,10 +1,13 @@
 ##### 4.2.1.2. Interface Layer
 
-La Interface Layer es responsable de exponer las capacidades del bounded context IAM hacia consumidores externos mediante APIs RESTful.
+La Interface Layer es responsable de exponer las capacidades del bounded context **Identity & Access Management** hacia consumidores externos mediante APIs RESTful.
 
-En la arquitectura actual, el principal consumidor externo es la aplicación móvil de NexIoT.
+Esta capa actúa como punto de interacción entre las aplicaciones cliente de Nexora y las funcionalidades internas del bounded context, permitiendo gestionar procesos de autenticación y registro de usuarios sin exponer directamente la lógica de negocio.
 
-### Componente Principal
+Siguiendo los principios de separación de responsabilidades, la Interface Layer se encarga únicamente de recibir solicitudes, validar información básica de entrada, transformar datos y delegar el procesamiento a la Application Layer.
+
+
+### Controller Principal
 
 #### AuthController
 
@@ -15,15 +18,15 @@ Recibe solicitudes HTTP, valida datos de entrada, delega el procesamiento a comp
 ### Endpoints Expuestos
 
 | Método | Endpoint | Descripción |
-|---|---|---|
+|----------|----------|-------------|
 | POST | /api/v1/auth/login | Autentica un usuario y retorna un token JWT |
-| POST | /api/v1/auth/register | Registra un nuevo usuario en la plataforma |
+| POST | /api/v1/auth/register | Registra un nuevo usuario dentro de la plataforma |
 
-### Recursos de Entrada
+### Request Models
 
 #### LoginRequest
 
-Utilizado en el proceso de inicio de sesión.
+Objeto utilizado para transportar la información requerida durante el proceso de autenticación.
 
 **Campos:**
 
@@ -32,7 +35,7 @@ Utilizado en el proceso de inicio de sesión.
 
 #### RegisterRequest
 
-Utilizado en el proceso de registro.
+Objeto utilizado para transportar la información requerida durante el proceso de registro de nuevos usuarios.
 
 **Campos:**
 
@@ -42,11 +45,11 @@ Utilizado en el proceso de registro.
 - password  
 - roles  
 
-### Recursos de Salida
+### Response Model
 
 #### AuthResponse
 
-Retornado luego de una autenticación exitosa.
+Objeto retornado luego de una autenticación exitosa.
 
 **Campos:**
 
@@ -57,19 +60,24 @@ Retornado luego de una autenticación exitosa.
 - email  
 - roles  
 
+Este recurso permite que las aplicaciones cliente mantengan la sesión autenticada y conozcan los roles asociados al usuario.
+
 #### UserResource
 
-Retornado luego del registro exitoso de un usuario.
+Objeto retornado luego del registro exitoso de un usuario.
+
+Representa la información básica del usuario creada dentro del sistema y utilizada posteriormente por otros bounded contexts de la plataforma.
 
 ### Responsabilidades de la Interface Layer
 
-- Recibir solicitudes del cliente.  
-- Validar payloads de entrada.  
-- Invocar lógica interna del sistema.  
-- Retornar respuestas HTTP estructuradas.  
-- Separar la comunicación externa de la lógica interna.  
+- Recibir solicitudes HTTP provenientes de aplicaciones cliente.
+- Validar formatos básicos de entrada y restricciones iniciales.
+- Transformar información entre recursos externos y objetos internos.
+- Delegar la ejecución de casos de uso a la Application Layer.
+- Retornar respuestas HTTP estructuradas.
+- Gestionar códigos de estado HTTP y mensajes de error.
+- Mantener desacoplada la comunicación externa de la lógica de negocio.
 
-Esta capa se representa en los diagramas mediante el AuthController y sus interacciones con la aplicación móvil.
+La Interface Layer constituye la capa de presentación del bounded context y se encuentra representada principalmente por el **AuthController**, los objetos de entrada (**Request Models**) y los objetos de salida (**Response Models**) utilizados por los consumidores externos de la plataforma.
 
 ---
-
