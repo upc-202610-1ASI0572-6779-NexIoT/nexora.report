@@ -38,3 +38,5 @@
 | TB2.1.0.3 | 29/06/26 | Sebastian Ramirez | Agregar entrevista de validación faltante en el Sprint 2 |
 | TB2.1.0.4 | 03/07/26 | Jhosep Argomedo  | Correción de la carátula para mantener la correcta capa y división de páginas entre los siguientes items.|
 | TB2.1.0.5 | 03/07/26 | Kevin Castañeda | Correción de enlaces en capítulo 6 |
+
+<div style="page-break-after: always;"></div>
