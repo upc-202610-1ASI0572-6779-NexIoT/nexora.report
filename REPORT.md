@@ -68,35 +68,32 @@
   <strong>Período 202610</strong>
 </p>
 
+<div style="page-break-after: always;"></div>
 
 # Registro de versiones del Informe
 
 | Versión | Fecha | Autor(es) | Descripción de modificación |
 |----------|------------|------------|------------|
-| AV1.0 | 19/04/2026 | Jhosep Argomedo Camacho | Inicialización del informe técnico del proyecto NexIoT, elaboración de portada, estructura general del documento, historial de versiones, tabla de contenidos, perfiles del equipo y desarrollo inicial del Capítulo I: Introducción, incluyendo Startup Profile, antecedentes, Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas. |
-| AV1.1 | 20/04/2026 | Kevin Alexander Castañeda Llanos, Jhosep Argomedo Camacho | Desarrollo del Capítulo II: Requirements Elicitation & Analysis, incorporando entrevistas, empathy maps, event storming, ubiquitous language y técnicas de análisis de requerimientos. Además, se añadieron diagramas y evidencias iniciales relacionadas con IoT Monitoring y segmentación de usuarios. |
-| AV1.2 | 21/04/2026 | Kevin Alexander Castañeda Llanos, Mauricio Vilcapoma, Sebastian Ramirez, Jorge Linares, Andrea O'Higgins | Incorporación y refinamiento del Capítulo III: Requirements Specification, incluyendo User Stories, Product Backlog, Impact Mapping, User Task Matrix, User Personas y User Journey Mapping. Asimismo, se añadieron artefactos de Strategic DDD y Candidate Context Discovery. |
-| AV1.3 | 22/04/2026 | Kevin Alexander Castañeda Llanos, Jorge Linares, Andrea O'Higgins, Maria Fernanda Peña | Desarrollo del Capítulo IV: Software Design, integrando Context Mapping, Domain Message Flows, Bounded Context Canvases, diagramas C4 (System Landscape, Context Level y Container Level), análisis competitivo y modelado estratégico de arquitectura de software. |
+| AV1.0 | 19/04/2026 | Jhosep Argomedo | Inicialización del informe técnico del proyecto NexIoT, elaboración de portada, estructura general del documento, historial de versiones, tabla de contenidos, perfiles del equipo y desarrollo inicial del Capítulo I: Introducción, incluyendo Startup Profile, antecedentes, Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas. |
+| AV1.1 | 20/04/2026 | Kevin Castañeda| Desarrollo del Capítulo II: Requirements Elicitation & Analysis, incorporando entrevistas, empathy maps, event storming, ubiquitous language y técnicas de análisis de requerimientos. Además, se añadieron diagramas y evidencias iniciales relacionadas con IoT Monitoring y segmentación de usuarios. |
+| AV1.2 | 21/04/2026 | Sebastian Ramirez | Incorporación y refinamiento del Capítulo III: Requirements Specification, incluyendo User Stories, Product Backlog, Impact Mapping, User Task Matrix, User Personas y User Journey Mapping. Asimismo, se añadieron artefactos de Strategic DDD y Candidate Context Discovery. |
+| AV1.3 | 22/04/2026 | Jorge Linares | Desarrollo del Capítulo IV: Software Design, integrando Context Mapping, Domain Message Flows, Bounded Context Canvases, diagramas C4 (System Landscape, Context Level y Container Level), análisis competitivo y modelado estratégico de arquitectura de software. |
 | AV1.4 | 23/04/2026 | Jorge Linares | Ampliación de la documentación arquitectónica mediante la incorporación detallada de diagramas Container Level y reorganización de secciones relacionadas con bounded contexts y arquitectura empresarial. |
-| AV1.5 | 24/04/2026 | Jhosep Argomedo Camacho, Sebastian Ramirez, Andrea O'Higgins | Refinamiento de estrategias competitivas, actualización del Front-Matter y mejora de diagramas e imágenes arquitectónicas. Además, se añadieron nuevos artefactos relacionados con entrevistas, backlog y documentación de bounded contexts. |
-| AV1.6 | 25/04/2026 | Andrea O'Higgins, Jorge Linares | Incorporación de bounded contexts relacionados con Subscriptions & Payments y Service Monitoring & Intelligence, incluyendo capas Domain, Interface, Application e Infrastructure, así como diagramas y documentación técnica complementaria. |
-| AV1.7 | 26/04/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Jorge Linares, Andrea O'Higgins, Kevin Alexander Castañeda Llanos, Sebastian Ramirez, Maria Fernanda Peña | Consolidación general del AV1 mediante correcciones de arquitectura táctica y estratégica, actualización de perfiles, entrevistas, Student Outcomes, bounded contexts, diagramas C4, Deployment Diagram, Product Backlog y Needfinding. Además, se realizaron ajustes al Lean UX, eliminación del tercer segmento objetivo y publicación de la versión release V1.0 del proyecto. |
-| TB1.0 | 28/04/2026 | Jhosep Argomedo Camacho | Inicialización de la estructura correspondiente a los capítulos V y VI, relacionados con Solution UI/UX Design y Product Implementation, Validation & Deployment. |
-| TB1.1 | 01/05/2026 | Jhosep Argomedo Camacho | Desarrollo inicial de lineamientos visuales del sistema, incluyendo branding, tipografía, colores, identidad visual y Style Guidelines multiplataforma para Web, Mobile e IoT. |
-| TB1.2 | 02/05/2026 | Jhosep Argomedo Camacho | Incorporación de la sección Source Code Management, definición de convenciones de ramas y commits, configuración del entorno de desarrollo y estructura base del capítulo de implementación y despliegue. |
+| AV1.5 | 24/04/2026 | Jhosep Argomedo | Refinamiento de estrategias competitivas, actualización del Front-Matter y mejora de diagramas e imágenes arquitectónicas. Además, se añadieron nuevos artefactos relacionados con entrevistas, backlog y documentación de bounded contexts. |
+| AV1.6 | 25/04/2026 | Andrea O'Higgins | Incorporación de bounded contexts relacionados con Subscriptions & Payments y Service Monitoring & Intelligence, incluyendo capas Domain, Interface, Application e Infrastructure, así como diagramas y documentación técnica complementaria. |
+| AV1.7 | 26/04/2026 | Jhosep Argomedo | Consolidación general del AV1 mediante correcciones de arquitectura táctica y estratégica, actualización de perfiles, entrevistas, Student Outcomes, bounded contexts, diagramas C4, Deployment Diagram, Product Backlog y Needfinding. Además, se realizaron ajustes al Lean UX, eliminación del tercer segmento objetivo y publicación de la versión release V1.0 del proyecto. |
+| TB1.0 | 28/04/2026 | Jhosep Argomedo | Inicialización de la estructura correspondiente a los capítulos V y VI, relacionados con Solution UI/UX Design y Product Implementation, Validation & Deployment. |
+| TB1.1 | 01/05/2026 | Jhosep Argomedo | Desarrollo inicial de lineamientos visuales del sistema, incluyendo branding, tipografía, colores, identidad visual y Style Guidelines multiplataforma para Web, Mobile e IoT. |
+| TB1.2 | 02/05/2026 | Jhosep Argomedo | Incorporación de la sección Source Code Management, definición de convenciones de ramas y commits, configuración del entorno de desarrollo y estructura base del capítulo de implementación y despliegue. |
 | TB1.3 | 04/05/2026 | Jorge Linares | Incorporación de Navigation Systems y documentación relacionada con arquitectura de navegación para aplicaciones web y móviles. |
-| TB1.4 | 05/05/2026 | Maria Fernanda Peña, Kevin Alexander Castañeda Llanos | Desarrollo de la Information Architecture, incluyendo Organization Systems y optimización SEO mediante meta tags y convenciones de indexación para la aplicación web. |
-| TB1.5 | 10/05/2026 | Andrea O'Higgins, Mauricio Vilcapoma | Desarrollo y refinamiento de wireframes de alta fidelidad para aplicaciones web e IoT, incluyendo Searching Systems, dispositivos inteligentes, automatizaciones, alertas, reportes de consumo y arquitectura visual de pantallas. |
-| TB1.6 | 11/05/2026 | Kevin Alexander Castañeda Llanos, Mauricio Vilcapoma | Actualización de mockups y wireframes de Landing Page, incorporación de vistas Home, FAQ, Tenant y Property Manager, así como documentación relacionada con IoT Design. |
-| TB1.7 | 12/05/2026 | Kevin Alexander Castañeda Llanos, Sebastian Ramirez | Incorporación de convenciones de desarrollo para Backend y Frontend, lineamientos SCM, mejoras de SEO y documentación de Labeling Systems para la arquitectura de información. |
-| TB1.8 | 13/05/2026 | Jhosep Argomedo Camacho, Jorge Linares, Kevin Alexander Castañeda Llanos, Sebastian Ramirez | Reestructuración del informe para Sprint 1, actualización de Lean UX según la tercera edición del libro Lean UX, incorporación de capítulos V y VI, refinamiento de User Stories, Product Backlog, Wireflows y documentación de UI/UX y Product Implementation. |
-| AV2.1 | 4/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Avance de primera versión del Web Service orientado a la aplicación web.|
-| AV2.2 | 04/06/2026 - 16/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Creación del prototipo físico |
-| AV2.3 | 08/06/2026 - 18/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Edge Service para embedded appications. |
-| AV2.4 | 04/06/2026 - 18/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Frontend para la aplicación móvil. |
-| AV2.5 | 11/06/2026 - 18/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Embedded apps para prototype y las dos simulaciones en Wokwi. |
-| AV2.6 | 17/06/2026 | Jhosep Argomedo Camacho, Mauricio Vilcapoma, Maria Fernanda Peña, Andrea O'Higgins, Jorge Linares, Sebastian Ramirez | Mejora y correción de errores en la Landing Page. |
-
+| TB1.4 | 05/05/2026 | Kevin Castañeda  | Desarrollo de la Information Architecture, incluyendo Organization Systems y optimización SEO mediante meta tags y convenciones de indexación para la aplicación web. |
+| TB1.5 | 10/05/2026 | Andrea O'Higgins | Desarrollo y refinamiento de wireframes de alta fidelidad para aplicaciones web e IoT, incluyendo Searching Systems, dispositivos inteligentes, automatizaciones, alertas, reportes de consumo y arquitectura visual de pantallas. |
+| TB1.6 | 11/05/2026 | Jhosep Argomedo| Actualización de mockups y wireframes de Landing Page, incorporación de vistas Home, FAQ, Tenant y Property Manager, así como documentación relacionada con IoT Design. |
+| TB1.7 | 12/05/2026 | Kevin Alexander | Incorporación de convenciones de desarrollo para Backend y Frontend, lineamientos SCM, mejoras de SEO y documentación de Labeling Systems para la arquitectura de información. |
+| TB1.8 | 13/05/2026 | Jhosep Argomedo | Reestructuración del informe para Sprint 1, actualización de Lean UX según la tercera edición del libro Lean UX, incorporación de capítulos V y VI, refinamiento de User Stories, Product Backlog, Wireflows y documentación de UI/UX y Product Implementation. |
+| TB2 |
+| TB2.1.0.0 | 26/05/26 | Jhosep Argomedo | Incoporación de estructura básica para el Sprint 3, y desarrollo del Aspect Leaders |
+| TB2.1.0.1 | 26/05/26 | Jhosep Argomedo | Corrección de Team Collaboration Insights/Contributors |
 
 ## Collaboration Insights
 
@@ -152,7 +149,7 @@ A continuación, se presentan las evidencias gráficas para el segundo entregabl
 
 ### Insights de Github (AV2)
 
-A continuación, se presentan los analíticos de colaboración recopilados de los repositorios de GitHub, que evidencian la actividad y contribución de cada miembro del equipo durante los Sprints 1 y 2:
+A continuación, se presentan los analíticosp de colaboración recopilados de los repositorios de GitHub, que evidencian la actividad y contribución de cada miembro del equipo durante los Sprints 1 y 2:
 
 #### Sprint 1
 
@@ -168,7 +165,7 @@ A continuación, se presentan los analíticos de colaboración recopilados de lo
 #### Sprint 2
 
 ##### 1. Landing Page (nexora.website)
-![GitHub Pulse - Landing Page](assets/chapter-6/implementation/sprint-2/insights-landingpage.jpg)
+![GitHub Pulse - Landing Page](assets/chapter-6/implementation/sprint-2/insights-landing_page.jpg)
 
 ##### 2. Mobile App (nexora.mobileapp)
 ![GitHub Pulse - Mobile App](assets/chapter-6/implementation/sprint-2/insights-mobile.jpg)
@@ -190,8 +187,6 @@ A partir de las evidencias mostradas, el equipo concluye lo siguiente:
 1.  **Participación Equitativa:** El gráfico de contribuyentes demuestra que todos los miembros del equipo han realizado aportes significativos al repositorio del informe, cumpliendo con el requisito de participación conjunta en todas las etapas.
 2.  **Coherencia con el Registro de Versiones:** La actividad registrada en GitHub (fechas y autores) guarda total coherencia con el [Registro de Versiones del Informe](00-front-matter/02-version-history.md), validando la veracidad de los cambios documentados.
 3.  **Flujo de Trabajo Iterativo:** La frecuencia de commits muestra un proceso de elaboración progresivo y no acumulativo al final de los plazos, lo que facilitó la revisión y mejora continua de la calidad del documento final.
-
-
 
 ### [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 
@@ -365,8 +360,8 @@ En el siguiente cuadro se describen las acciones realizadas y conclusiones del g
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |--------------------|--------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Argomedo Camacho, Jhosep Jamil (AV1)** <br> En esta entrega, participé activamente en la definición del perfil de nuestra startup, incluyendo la descripción de la empresa y los perfiles de los integrantes del equipo. También contribuí en el desarrollo del Solution Profile, trabajando en los antecedentes, la problemática y la estructuración del Lean UX Process, así como en la identificación de problem statements, assumptions, hypothesis statements, el Lean UX Canvas y los segmentos objetivo. Además, trabajé en el diseño y desarrollo del bounded context de Resource Asset Management, elaborando sus diagramas y coordinando con el equipo para asegurar la coherencia y la integración de nuestras aportaciones. <br><br>**Argomedo Camacho, Jhosep Jamil (TB1)** <br> En esta entrega, participé activamente en la definición de los lineamientos visuales y técnicos del proyecto mediante el desarrollo del General Style Guidelines, así como de los Web, Mobile and IoT Style Guidelines, estableciendo estándares de diseño y desarrollo para asegurar consistencia entre las distintas plataformas del producto. Asimismo, lideré el diseño de los wireframes y mock-ups de la Landing Page, aportando en la definición visual de la interfaz. Además, contribuí en la configuración del Software Development Environment y en la elaboración de las User Stories, facilitando la organización técnica y funcional del proyecto para el equipo. <br><br> **Peña Riofrio, Maria Fernanda (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas.<br><br>**Peña Riofrio, Maria Fernanda (TB1)** <br> Participé en el desarrollo del proyecto IoT mediante la creación del Organization Systems, wireframes, wireflows, mockups y prototipo de la aplicación móvil. Además, colaboré en la Landing Page desarrollando la sección How it Works y en la aplicación web implementando las secciones Choose Your Plan y Checkout.<br><br> **Castañeda Llanos, Kevin Alexander (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas. <br> <br> **Kevin Alexander Castañeda Llanos (TB1)** <br> Participe de forma efectiva en el proceso de realización de la Aplicación Web y la Landing Page. Además, lideré en la creación de los wireframes y mockups para la Landing Page, así como también la creación del Deployment Configuration y el Code Style Guide Conventions. <br>  <br> **O'Higgins Rosales, Andrea Namie (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas. <br><br> **O'Higgins Rosales, Andrea Namie (TB1)** <br> En esta entrega, colaboré con diseño de los wireframes, mockups y wireflow para la aplicación móvil, estableciendo las bases visuales y de interacción que el equipo utilizó como referencia durante el desarrollo del frontend. Asimismo, desarrollé las secciones hero, alliances y product de la Landing Page. Esto permitió al equipo avanzar con mayor claridad en el diseño y desarrollo de los productos, alineando las decisiones de interfaz con la arquitectura de información definida para Nexora.<br><br> **Muñoz Vilcapoma, Mauricio (AV1)** <br> Participé en la creación del User Task Matrix, el desarrollo del Journey Mapping, apoyo en actividades de Needfinding y en la redacción del Bounded Context, contribuyendo con la organización y documentación de artefactos clave del proyecto.<br><br> **Linares Arroyo, Jorge Alexandro (AV1)** <br> En esta entrega, lideré la definición técnica y estratégica del proyecto mediante la elaboración del Impact Mapping, alineando los objetivos de negocio con las capacidades de la plataforma. Fui responsable del diseño de la arquitectura del sistema, desarrollando los diagramas de Containers y Deployment, asegurando una infraestructura distribuida capaz de soportar la comunicación entre el hardware ESP32 y la nube. Asimismo, redacté y estructuré el Bounded Context de Service Monitoring & Intelligence, definiendo la lógica de dominio para la detección de anomalías y telemetría, y lideré la creación del Product Backlog en Jira, priorizando las historias de usuario y técnicas según su valor crítico para el MVP.<br><br>**Linares Arroyo, Jorge Alexandro (TB1)** <br> En esta entrega, lideré el diseño de la arquitectura de información y la experiencia de usuario de la aplicación web mediante el desarrollo de los navigation systems, wireframes, mockups y wireflows, definiendo el estándar visual y de flujo técnico. Asimismo, fui responsable del modelado y especificación del bounded context de Service Monitoring/Alerts, asegurando su alineación con las necesidades de la plataforma. Adicionalmente, asumí la dirección técnica en el desarrollo del application prototyping para validar los flujos críticos del sistema antes de su implementación en el frontend.<br><br> **Ramirez Tello, Sebastian (AV1)** <br> Participé en la alineación estratégica del proyecto mediante la elaboración del Impact Mapping y la estructuración del Product Backlog. Asimismo, contribuí en el desarrollo técnico de un Bounded Context, elaborando sus diagramas y asegurando la integración de la lógica de dominio con los objetivos del equipo.<br><br>  **Ramirez Tello, Sebastian (TB1)** <br> En esta entrega, participé activamente en el diseño de la interfaz de la aplicación web mediante la elaboración de wireframes, mockups y wireflows, coordinando con los integrantes del equipo para alinear la experiencia de usuario con los requerimientos funcionales del proyecto. Asimismo, desarrollé la sección About Us de la Landing Page y el apartado de propiedades dentro de la aplicación web, contribuyendo al desarrollo de componentes clave del producto y asegurando la integración entre diseño y desarrollo frontend. | **Conclusión general:**<br> El equipo logró un liderazgo compartido donde cada integrante asumió la responsabilidad de un área crítica, logrando integrar con éxito el análisis de usuarios, la arquitectura de software distribuida y el diseño de componentes IoT en una solución cohesiva denominada Nexora. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Argomedo Camacho, Jhosep Jamil (AV1)** <br> En esta entrega, promoví un entorno colaborativo e inclusivo mediante el seguimiento constante de las tareas del equipo, asegurando la participación activa de todos los integrantes. Me encargué de organizar y planificar el trabajo creando tableros en Jira y Trello para gestionar y monitorear el avance de las actividades, además de definir lapsos de tiempo para el cumplimiento de cada tarea. Esto permitió establecer metas claras, mejorar la coordinación del equipo y asegurar el logro de los objetivos planteados en el desarrollo del proyecto. <br><br> **Argomedo Camacho, Jhosep Jamil (TB1)** <br> Durante esta entrega, promoví un entorno colaborativo mediante la coordinación constante con el equipo para definir estándares de diseño, criterios de desarrollo y requerimientos funcionales del proyecto. Participé en la planificación y estructuración del Sprint 1, organizando tareas y prioridades junto a los integrantes para asegurar el cumplimiento de los objetivos planteados. Asimismo, desarrollé la Landing Page correspondiente a la vista de arrendadores, cumpliendo con los plazos establecidos y contribuyendo al avance continuo de los entregables del sprint. <br><br> **Peña Riofrio, Maria Fernanda (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context.<br><br> **Peña Riofrio, Maria Fernanda (TB1)** <br> Contribuí al trabajo colaborativo coordinando tareas relacionadas con UX/UI y prototipado, apoyando en la integración visual y funcional del proyecto para cumplir los objetivos y entregables establecidos en cada sprint. <br><br> **Castañeda Llanos, Kevin Alexander (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context. <br> <br> **Kevin Alexander Castañeda Llanos (TB1)** <br> Fomenté un entorno colabotativo apoyando a los demás en tareas grupales, así como también dando seguimiento de las tareas que se deben de realizar, para así mostrar un Sprint en donde todos participan por igual. <br> <br> **O'Higgins Rosales, Andrea Namie (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context. <br><br> **O'Higgins Rosales, Andrea Namie (TB1)** <br> Elaboré la documentación del searching systems en el informe del proyecto, garantizando que las decisiones de diseño de búsqueda tanto para la aplicación móvil como para la web quedaran formalizadas y accesibles para todos los integrantes del equipo. Adicionalmente, desarrollé la Documentation of Development Evidence for Sprint Review, consolidando las evidencias de los avances del sprint de forma ordenada para facilitar la revisión y el seguimiento colectivo del progreso. <br><br> **Muñoz Vilcapoma, Mauricio (AV1)** <br> Colaboré en la estructuración de entregables vinculados al análisis de usuarios y arquitectura funcional, manteniendo coordinación constante con el equipo para alinear contenidos, reorganizar información y cumplir los plazos establecidos para cada avance del proyecto.<br><br> **Linares Arroyo, Jorge Alexandro (AV1)** <br> Contribuí a la creación de un entorno colaborativo mediante la facilitación de sesiones de diseño para el Product Backlog, donde establecimos los Story Points y criterios de aceptación de forma consensuada. Planifiqué las tareas técnicas relacionadas con la arquitectura IoT, estableciendo hitos claros para la integración de los componentes de hardware con el backend. Además, coordiné con los responsables de otros Bounded Contexts para garantizar la interoperabilidad de la plataforma, asegurando que el flujo de datos desde los sensores hasta la aplicación móvil se cumpliera dentro de los plazos establecidos y bajo los estándares de calidad definidos por el equipo. <br><br>**Linares Arroyo, Jorge Alexandro (TB1)** <br> Contribuí al cumplimiento de los objetivos del equipo mediante el desarrollo de la documentación técnica correspondiente al primer sprint, facilitando un marco de referencia claro para el desarrollo del frontend. Promoví un entorno de colaboración al diseñar e implementar el apartado de FAQ de la landing page bajo los plazos establecidos, coordinando activamente con los encargados de los lineamientos de diseño para garantizar la consistencia visual del producto y asegurar la entrega oportuna de los artefactos del sprint. <br><br> **Ramirez Tello, Sebastian (AV1)** <br> Colabore en la redacción de User Stories y la definición de criterios de aceptación junto al equipo. Colaboré en la planificación de tareas y el seguimiento del backlog para asegurar el cumplimiento de las metas y la entrega oportuna de los requerimientos funcionales del proyecto.<br><br> **Ramirez Tello, Sebastian (TB1)** <br> Durante esta entrega, promoví un entorno de trabajo colaborativo mediante la comunicación constante con el equipo para validar diseños, funcionalidades y flujos de navegación de la aplicación web. Además, participé en la planificación y ejecución de las tareas asignadas durante el sprint, cumpliendo con los plazos establecidos para el desarrollo de la sección About Us de la Landing Page y del módulo de propiedades de la aplicación web, contribuyendo al cumplimiento de los objetivos planteados para la entrega. | **Conclusión general:**<br> A través del uso de herramientas de gestión como Jira y sesiones constantes de sincronización, el equipo estableció metas realistas y cumplió con el 100% de los entregables planeados, fomentando un ambiente inclusivo donde las decisiones técnicas fueron validadas colectivamente. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Argomedo Camacho, Jhosep Jamil (AV1)** <br> En esta entrega, participé activamente en la definición del perfil de nuestra startup, incluyendo la descripción de la empresa y los perfiles de los integrantes del equipo. También contribuí en el desarrollo del Solution Profile, trabajando en los antecedentes, la problemática y la estructuración del Lean UX Process, así como en la identificación de problem statements, assumptions, hypothesis statements, el Lean UX Canvas y los segmentos objetivo. Además, trabajé en el diseño y desarrollo del bounded context de Resource Asset Management, elaborando sus diagramas y coordinando con el equipo para asegurar la coherencia y la integración de nuestras aportaciones. <br><br>**Argomedo Camacho, Jhosep Jamil (TB1)** <br> En esta entrega, participé activamente en la definición de los lineamientos visuales y técnicos del proyecto mediante el desarrollo del General Style Guidelines, así como de los Web, Mobile and IoT Style Guidelines, estableciendo estándares de diseño y desarrollo para asegurar consistencia entre las distintas plataformas del producto. Asimismo, lideré el diseño de los wireframes y mock-ups de la Landing Page, aportando en la definición visual de la interfaz. Además, contribuí en la configuración del Software Development Environment y en la elaboración de las User Stories, facilitando la organización técnica y funcional del proyecto para el equipo. <br><br> **Argomedo Camacho, Jhosep Jamil (AV2)** <br> Asumí el rol de Líder (L) en el desarrollo del Web Service (Backend) en Render y de la Web Application en Vercel durante el Sprint 2. Dirigí la transición del sistema estático a un flujo completamente dinámico conectado a base de datos. Como Colaborador (C), coordiné activamente en las capas de Edge Service, Landing Page, Mobile App y Embedded Apps para asegurar la correcta integración de la API REST. <br><br> **Peña Riofrio, Maria Fernanda (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas.<br><br>**Peña Riofrio, Maria Fernanda (TB1)** <br> Participé en el desarrollo del proyecto IoT mediante la creación del Organization Systems, wireframes, wireflows, mockups y prototipo de la aplicación móvil. Además, colaboré en la Landing Page desarrollando la sección How it Works y en la aplicación web implementando las secciones Choose Your Plan y Checkout.<br><br> **Peña Riofrio, Maria Fernanda (AV2)** <br> Asumí el rol de Líder (L) en el desarrollo de la Landing Page de Nexora IoT, coordinando la implementación de mejoras visuales, la internacionalización de contenidos y la optimización de la experiencia de usuario para garantizar una presentación consistente del producto. Como Colaboradora (C), participé en la elaboración de la documentación técnica del proyecto, contribuyendo en el desarrollo de diagramas de arquitectura basados en DDD y C4 para los distintos Bounded Contexts de la solución..<br><br> **Castañeda Llanos, Kevin Alexander (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas. <br> <br> **Kevin Alexander Castañeda Llanos (TB1)** <br> Participe de forma efectiva en el proceso de realización de la Aplicación Web y la Landing Page. Además, lideré en la creación de los wireframes y mockups para la Landing Page, así como también la creación del Deployment Configuration y el Code Style Guide Conventions. <br><br> **Castañeda Llanos, Kevin Alexander (AV2)** <br> Ejercí el rol de Líder (L) en tres frentes técnicos durante el Sprint 2: Embedded Apps, Web Service y Web Application, logrando el despliegue del almacenamiento seguro en Supabase. Colaboré activamente (C) en la sincronización de servicios perimetrales de detección de gases (Edge), la Landing Page y la arquitectura simulada del entorno Mobile. <br><br> **O'Higgins Rosales, Andrea Namie (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas. <br><br> **O'Higgins Rosales, Andrea Namie (TB1)** <br> En esta entrega, colaboré con diseño de los wireframes, mockups y wireflow para la aplicación móvil, estableciendo las bases visuales y de interacción que el equipo utilizó como referencia durante el desarrollo del frontend. Asimismo, desarrollé las secciones hero, alliances y product de la Landing Page. Esto permitió al equipo avanzar con mayor claridad en el diseño y desarrollo de los productos, alineando las decisiones de interfaz con la arquitectura de información definida para Nexora.<br><br> **Muñoz Vilcapoma, Mauricio (AV1)** <br> Participé en la creación del User Task Matrix, el desarrollo del Journey Mapping, apoyo en actividades de Needfinding y en la redacción del Bounded Context, contribuyendo con la organización y documentación de artefactos clave del proyecto.<br><br> **Linares Arroyo, Jorge Alexandro (AV1)** <br> En esta entrega, lideré la definición técnica y estratégica del proyecto mediante la elaboración del Impact Mapping, alineando los objetivos de negocio con las capacidades de la plataforma. Fui responsable del diseño de la arquitectura del sistema, desarrollando los diagramas de Containers y Deployment, asegurando una infraestructura distribuida capaz de soportar la comunicación entre el hardware ESP32 y la nube. Asimismo, redacté y estructuré el Bounded Context de Service Monitoring & Intelligence, definiendo la lógica de dominio para la detección de anomalías y telemetría, y lideré la creación del Product Backlog en Jira, priorizando las historias de usuario y técnicas según su valor crítico para el MVP.<br><br>**Linares Arroyo, Jorge Alexandro (TB1)** <br> En esta entrega, lideré el diseño de la arquitectura de información y la experiencia de usuario de la aplicación web mediante el desarrollo de los navigation systems, wireframes, mockups y wireflows, definiendo el estándar visual y de flujo técnico. Asimismo, fui responsable del modelado y especificación del bounded context de Service Monitoring/Alerts, asegurando su alineación con las necesidades de la plataforma. Adicionalmente, asumí la dirección técnica en el desarrollo del application prototyping para validar los flujos críticos del sistema antes de su implementación en el frontend. <br><br> **Linares Arroyo, Jorge Alexandro (AV2)** <br>Asumí el rol de Líder (L) de los aspectos de Edge Service y Embedded Apps durante el Sprint 2, dirigiendo la programación de los microcontroladores para simular consumo y la telemetría real del sensor de gas. Participé como Colaborador (C) validando que estos datos se consumieran correctamente en las capas de Landing, Mobile, Web Service y Web Application. <br><br> **Ramirez Tello, Sebastian (AV1)** <br> Participé en la alineación estratégica del proyecto mediante la elaboración del Impact Mapping y la estructuración del Product Backlog. Asimismo, contribuí en el desarrollo técnico de un Bounded Context, elaborando sus diagramas y asegurando la integración de la lógica de dominio con los objetivos del equipo.<br><br>  **Ramirez Tello, Sebastian (TB1)** <br> En esta entrega, participé activamente en el diseño de la interfaz de la aplicación web mediante la elaboración de wireframes, mockups y wireflows, coordinando con los integrantes del equipo para alinear la experiencia de usuario con los requerimientos funcionales del proyecto. Asimismo, desarrollé la sección About Us de la Landing Page y el apartado de propiedades dentro de la aplicación web, contribuyendo al desarrollo de componentes clave del producto y asegurando la integración entre diseño y desarrollo frontend. <br><br> **Ramirez Tello, Sebastian (AV2)** <br> Me desempeñé como Líder (L) del Web Service y de la Web Application durante el Sprint 2, coliderando el despliegue dinámico de la lógica del servidor en Render y el almacenamiento en Supabase. Actué como Colaborador (C) apoyando técnicamente en la revisión de los servicios de Edge, la Landing Page, la Mobile App y la infraestructura Embedded para asegurar la interoperabilidad del sistema. | **Conclusión general:**<br> Durante la entrega AV2, el equipo demostró un esquema de coliderazgo altamente efectivo mediante la aplicación de la Matriz LACX. Al delegar liderazgos específicos para cada capa de la arquitectura IoT (Edge, Embedded, Web, Mobile), se garantizó que todos los frentes avanzaran con un responsable técnico dedicado, logrando integrar con éxito una solución multi-plataforma real y funcional en producción. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Argomedo Camacho, Jhosep Jamil (AV1)** <br> En esta entrega, promoví un entorno colaborativo e inclusivo mediante el seguimiento constante de las tareas del equipo, asegurando la participación activa de todos los integrantes. Me encargué de organizar y planificar el trabajo creando tableros en Jira y Trello para gestionar y monitorear el avance de las actividades, además de definir lapsos de tiempo para el cumplimiento de cada tarea. Esto permitió establecer metas claras, mejorar la coordinación del equipo y asegurar el logro de los objetivos planteados en el desarrollo del proyecto. <br><br> **Argomedo Camacho, Jhosep Jamil (TB1)** <br> Durante esta entrega, promoví un entorno colaborativo mediante la coordinación constante con el equipo para definir estándares de diseño, criterios de desarrollo y requerimientos funcionales del proyecto. Participé en la planificación y estructuración del Sprint 1, organizando tareas y prioridades junto a los integrantes para asegurar el cumplimiento de los objetivos planteados. Asimismo, desarrollé la Landing Page correspondiente a la vista de arrendadores, cumpliendo con los plazos establecidos y contribuyendo al avance continuo de los entregables del sprint. <br><br> **Argomedo Camacho, Jhosep Jamil (AV2)** <br> Fomenté un entorno colaborativo coordinando el flujo de Git/GitHub para evitar conflictos en la integración continua de los 5 repositorios. Participé en la planificación del Sprint Backlog 2 y lideré las modificaciones de seguridad y la estructura SaaS dynamic de la Web App bajo datos reales en base de datos de producción. <br><br> **Peña Riofrio, Maria Fernanda (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context.<br><br> **Peña Riofrio, Maria Fernanda (TB1)** <br> Contribuí al trabajo colaborativo coordinando tareas relacionadas con UX/UI y prototipado, apoyando en la integración visual y funcional del proyecto para cumplir los objetivos y entregables establecidos en cada sprint. <br><br>**Peña Riofrio, Maria Fernanda (AV2)**<br> Fomenté un entorno de trabajo colaborativo mediante la gestión de ramas e integración de cambios utilizando Git y GitHub, asegurando la correcta sincronización de entregables con la rama develop. Participé en la planificación y seguimiento de actividades del Sprint, apoyando la integración entre los componentes de Landing Page, Mobile App, Backend y Edge Service, así como en la construcción de los artefactos arquitectónicos requeridos para el proyecto.<br><br> **Castañeda Llanos, Kevin Alexander (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context. <br> <br> **Kevin Alexander Castañeda Llanos (TB1)** <br> Fomenté un entorno colabotativo apoyando a los demás en tareas grupales, así como también dando seguimiento de las tareas que se deben de realizar, para así mostrar un Sprint en donde todos participan por igual. <br><br> **Castañeda Llanos, Kevin Alexander (AV2)** <br> Promoví un ambiente inclusivo al dar soporte técnico a los miembros del equipo que requerían configurar las conexiones de red locales y las variables de entorno para Supabase y Render. Monitoreé el tablero Kanban de GitHub Projects para asegurar la entrega a tiempo de las historias de usuario. <br><br> **O'Higgins Rosales, Andrea Namie (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context. <br><br> **O'Higgins Rosales, Andrea Namie (TB1)** <br> Elaboré la documentación del searching systems en el informe del proyecto, garantizando que las decisiones de diseño de búsqueda tanto para la aplicación móvil como para la web quedaran formalizadas y accesibles para todos los integrantes del equipo. Adicionalmente, desarrollé la Documentation of Development Evidence for Sprint Review, consolidando las evidencias de los avances del sprint de forma ordenada para facilitar la revisión y el seguimiento colectivo del progreso. <br><br> **Muñoz Vilcapoma, Mauricio (AV1)** <br> Colaboré en la estructuración de entregables vinculados al análisis de usuarios y arquitectura funcional, manteniendo coordinación constante con el equipo para alinear contenidos, reorganizar información y cumplir los plazos establecidos para cada avance del proyecto.<br><br> **Linares Arroyo, Jorge Alexandro (AV1)** <br> Contribuí a la creación de un entorno colaborativo mediante la facilitación de sesiones de diseño para el Product Backlog, donde establecimos los Story Points y criterios de aceptación de forma consensuada. Planifiqué las tareas técnicas relacionadas con la arquitectura IoT, estableciendo hitos claros para la integración de los componentes de hardware con el backend. Además, coordiné con los responsables de otros Bounded Contexts para garantizar la interoperabilidad de la plataforma, asegurando que el flujo de datos desde los sensores hasta la aplicación móvil se cumpliera dentro de los plazos establecidos y bajo los estándares de calidad definidos por el equipo. <br><br>**Linares Arroyo, Jorge Alexandro (TB1)** <br> Contribuí al cumplimiento de los objetivos del equipo mediante el desarrollo de la documentación técnica correspondiente al primer sprint, facilitando un marco de referencia claro para el desarrollo del frontend. Promoví un entorno de colaboración al diseñar e implementar el apartado de FAQ de la landing page bajo los plazos establecidos, coordinando activamente con los encargados de los lineamientos de diseño para garantizar la consistencia visual del producto y asegurar la entrega oportuna de los artefactos del sprint. <br><br> **Linares Arroyo, Jorge Alexandro (AV2)** <br> Fomenté la colaboración cruzada al trabajar directamente con los encargados de la Web App para asegurar que las tramas de voltaje emuladas por el hardware real se reflejaran de manera transparente en la base de datos de Supabase, cumpliendo con los objetivos de telemetría establecidos en el Sprint. <br><br> **Ramirez Tello, Sebastian (AV1)** <br> Colabore en la redacción de User Stories y la definición de criterios de aceptación junto al equipo. Colaboré en la planificación de tareas y el seguimiento del backlog para asegurar el cumplimiento de las metas y la entrega oportuna de los requerimientos funcionales del proyecto.<br><br> **Ramirez Tello, Sebastian (TB1)** <br> Durante esta entrega, promoví un entorno de trabajo colaborativo mediante la comunicación constante con el equipo para validar diseños, funcionalidades y flujos de navegación de la aplicación web. Además, participé en la planificación y ejecución de las tareas asignadas durante el sprint, cumpliendo con los plazos establecidos para el desarrollo de la sección About Us de la Landing Page y del módulo de propiedades de la aplicación web, contribuyendo al cumplimiento de los objetivos planteados para la entrega. <br><br> **Ramirez Tello, Sebastian (AV2)** <br> Promoví la colaboración mediante sesiones de sincronización de contratos de API para conectar los endpoints de Render con el frontend. Planifiqué las tareas de persistencia del módulo de autenticación dinámica y gestión de propiedades, logrando el cumplimiento de las metas del Sprint 2 dentro de los plazos establecidos. | **Conclusión general:**<br> El uso estructurado de herramientas de integración y despliegue continuo (Render, Vercel, GitHub) junto con tableros ágiles permitió al equipo establecer hitos rigurosos y cumplir el 100% de los objetivos del Sprint 2. El entorno colaborativo se consolidó al procesar las entrevistas de usuarios reales directamente en un análisis heurístico conjunto, lo que garantizó un producto centrado en el usuario. |
 
 # Capítulo I: Introduction
 
@@ -566,7 +561,6 @@ El costo de un sistema como Nexora depende del alcance:
 * **Modelo SaaS:** suscripción mensual por propiedad, que puede oscilar entre USD 5 y USD 20 según funcionalidades.
 
 Este modelo híbrido (hardware + software) permite una adopción progresiva y escalable, reduciendo la barrera de entrada para arrendadores y facilitando el acceso a experiencias inteligentes para los arrendatarios.
-
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
@@ -1407,7 +1401,7 @@ Comprender el nivel de digitalización, interés en IoT, necesidades de diferenc
 | **Instante inicio**   | 00:31:43   |
 | **Duración**          | 6 min 20 seg |
 | **Resumen**           | Yoselin Canahuiri es una arrendadora independiente de 25 años que gestiona cuatro propiedades. Para mantener la comunicación con sus inquilinos, utiliza mayormente WhatsApp, reservando las llamadas para situaciones urgentes. Aunque suele visitar sus inmuebles una vez al mes, reconoce que le gustaría tener una mayor frecuencia para supervisar su estado, pero su agenda actual se lo impide. Valora positivamente el uso de alertas automáticas, ya que le facilitarían una respuesta más rápida ante posibles incidentes. Además, considera que recibir notificaciones sobre el estado de sus propiedades le permitiría gestionar mejor su tiempo y optimizar sus visitas. 
-| 
+|
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -1460,13 +1454,13 @@ Los segmentos objetivo considerados son los siguientes:
 
 Valeria Torres representa el segmento de jóvenes profesionales que alquilan departamentos en Lima Metropolitana y buscan mayor tranquilidad, comodidad y control sobre su hogar. Este perfil se caracteriza por mantener una rutina urbana acelerada, utilizar herramientas digitales diariamente y valorar soluciones simples que permitan optimizar tiempo, reducir preocupaciones y evitar gastos inesperados relacionados con servicios y seguridad del inmueble.
 
-![User Persona - Valeria Torres](/assets/chapter-2/needfinding/valeria-torres-user-persona.png)
+![User Persona - Valeria Torres](assets/chapter-2/needfinding/valeria-torres-user-persona.png)
 
 #### User Persona – Carlos Mendoza
 
 Carlos Mendoza representa el segmento de administradores inmobiliarios responsables de supervisar múltiples propiedades y coordinar operaciones relacionadas con mantenimiento, incidencias y atención a inquilinos. Este perfil prioriza la eficiencia operativa, la reducción de costos y el acceso rápido a información centralizada que le permita tomar decisiones y gestionar propiedades de manera más práctica y organizada.
 
-![User Persona - Carlos Mendoza](/assets/chapter-2/needfinding/carlos-mendoza-user-persona.png)
+![User Persona - Carlos Mendoza](assets/chapter-2/needfinding/carlos-mendoza-user-persona.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -1581,12 +1575,11 @@ Se desarrolló un journey map por cada segmento objetivo:
 
 #### User Journey Map – Valeria Torres
 
-![User Journey Map - Valeria Torres](/assets/chapter-2/needfinding/user-journey-map-valeria-torres.png)
+![User Journey Map - Valeria Torres](assets/chapter-2/needfinding/user-journey-map-valeria-torres.png)
 
 #### User Journey Map – Carlos Mendoza
 
-![User Journey Map - Carlos Mendoza](/assets/chapter-2/needfinding/user-journey-map-carlos-mendoza.png)
-
+![User Journey Map - Carlos Mendoza](assets/chapter-2/needfinding/user-journey-map-carlos-mendoza.png)
 
 ### 2.3.4. Empathy Mapping
 
@@ -1643,8 +1636,6 @@ Se enfoca en la frustración del usuario final. Los eventos muestran la incertid
 ### Conclusiones del EventStorming
 El taller permitió concluir que el modelo actual es **excesivamente reactivo**. Los principales Hotspots identificados se centran en la demora de detección de anomalías y en la desconfianza mutua entre arrendador e inquilino por la falta de evidencia basada en datos. Nexora atacará estos puntos transformando el mantenimiento correctivo en preventivo y otorgando transparencia total a través del monitoreo IoT en tiempo real.
 
-
-
 ## 2.5. Ubiquitous Language
 
 A continuación, se presenta el glosario de términos y conceptos fundamentales para el dominio del negocio de Nexora. Este lenguaje común permite una comunicación fluida y sin ambigüedades entre los miembros del equipo y los stakeholders, basándose directamente en las necesidades identificadas en el proceso de Needfinding y de la definición de productos que hemos definido en el capítulo 1.
@@ -1662,8 +1653,6 @@ A continuación, se presenta el glosario de términos y conceptos fundamentales 
 | **Smart Device (Dispositivo Inteligente)** | Componente de hardware (sensor o actuador) instalado en la propiedad que permite la recolección de datos y la ejecución de acciones remotas. |
 | **Property Status (Estado del Inmueble)** | Condición operativa actual de la unidad inmobiliaria (ej. Seguro, En Alerta, En Mantenimiento) derivada del análisis de datos en tiempo real. |
 | **Preventive Maintenance (Mantenimiento Preventivo)** | Estrategia de cuidado técnico programada para evitar el deterioro del activo y reducir costos por reparaciones reactivas. |
-
-
 
 # 3.1. User Stories — Nexora IoT Management Platform
 
@@ -1802,11 +1791,11 @@ A continuación se presenta el conjunto completo de Epics, User Stories y Techni
 
 A continuación se muestra el impact mapping del segmento arrendador.
 
-![Impact Mapping](/assets/chapter-3/impact-mapping/impact_map_arrendador.png)
+![Impact Mapping](assets/chapter-3/impact-mapping/impact_map_arrendador.png)
 
 A continuación se muestra el impact mapping del segmento inquilino.
 
-![Impact Mapping](/assets/chapter-3/impact-mapping/impact_map_inquilino.png)
+![Impact Mapping](assets/chapter-3/impact-mapping/impact_map_inquilino.png)
 
 ## 3.3. Product Backlog
 
@@ -1851,7 +1840,7 @@ A continuación se muestra el impact mapping del segmento inquilino.
 
 Evidencia de Organizacion del Product Backlog en Jira:
 
-![Product Backlog](/assets/chapter-3/product-backlog/backlog.png)
+![Product Backlog](assets/chapter-3/product-backlog/backlog.png)
 
 ## 4.1. Strategic-Level Domain-Driven Design
 
@@ -2092,7 +2081,6 @@ Contexto responsable de gestionar los planes comerciales, suscripciones y pagos 
     *   **Assumptions:** Nexora funcionará bajo un modelo SaaS con planes comerciales diferenciados.
     *   **Open Questions:** ¿Se manejarán periodos de prueba? ¿Habrá planes personalizados para empresas inmobiliarias grandes?
 
-
 ## 4.1.2. Context Mapping
 
 En esta sección, el equipo de **Nexora** explica el proceso realizado para elaborar los **Context Maps**, los cuales permiten visualizar las relaciones estructurales entre los bounded contexts identificados durante el diseño estratégico. El objetivo principal de esta actividad fue analizar cómo colaboran los contextos, qué dependencias existen entre ellos y qué patrones de relación de Domain-Driven Design resultan más adecuados para proteger los modelos core del negocio.
@@ -2128,8 +2116,6 @@ Siguiendo el proceso de diseño estratégico, el equipo se planteó las siguient
 El siguiente diagrama sintetiza las relaciones finales y los patrones de integración adoptados. Estas relaciones deben entenderse como colaboraciones internas entre módulos del backend monolítico, no como comunicación entre microservicios independientes:
 
 ![Context Map Nexora](assets/chapter-4/strategic-ddd/context-mapping/context-map_v2.jpg)
-
-
 
 ### 4.1.3. Software Architecture
 
@@ -2304,8 +2290,6 @@ La Domain Layer constituye la base conceptual del bounded context y sirve como f
 
 ---
 
-
-
 ##### 4.2.1.2. Interface Layer
 
 La Interface Layer es responsable de exponer las capacidades del bounded context **Identity & Access Management** hacia consumidores externos mediante APIs RESTful.
@@ -2389,7 +2373,6 @@ Representa la información básica del usuario creada dentro del sistema y utili
 La Interface Layer constituye la capa de presentación del bounded context y se encuentra representada principalmente por el **AuthController**, los objetos de entrada (**Request Models**) y los objetos de salida (**Response Models**) utilizados por los consumidores externos de la plataforma.
 
 ---
-
 
 ##### 4.2.1.3. Application Layer
 
@@ -2479,8 +2462,6 @@ En futuras iteraciones, estos comandos podrían implementarse como clases separa
 Este comportamiento orquestador se refleja en los diagramas de componentes y code level, donde la Application Layer conecta las solicitudes recibidas por la Interface Layer con los servicios de seguridad, repositorios y entidades del dominio.
 
 ---
-
-
 
 ##### 4.2.1.4. Infrastructure Layer
 
@@ -3057,7 +3038,6 @@ La Application Layer constituye el punto de orquestación principal del bounded 
 
 ---
 
-
 #### 4.2.2.4. Infrastructure Layer
 
 La Infrastructure Layer del bounded context **Service Monitoring & Intelligence** contiene las implementaciones técnicas necesarias para soportar el procesamiento de telemetría, la persistencia de datos de monitoreo y la integración con la infraestructura IoT desplegada en las propiedades inteligentes.
@@ -3200,7 +3180,7 @@ Por otro lado, **MonitoringController** expone endpoints REST para que las aplic
 La persistencia se realiza en la base de datos central de Nexora, específicamente en las tablas relacionadas con este bounded context, como `telemetry_records`, `anomalies` y `device_thresholds`.
 
 
-![Service Monitoring & Intelligence - Component Diagram](/assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/component-diagram-v2.png)
+![Service Monitoring & Intelligence - Component Diagram](assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/component-diagram-v2.png)
 
 ---
 
@@ -3248,7 +3228,6 @@ Finalmente, la tabla `anomalies` permite registrar las condiciones críticas det
 - FK: telemetry_record_id → telemetry_records.id
 
 <img src="assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/database-diagram-v2.png" alt="Service Monitoring & Intelligence - Database Diagram"  height="750"/>
-
 
 #### 4.2.3. Bounded Context: Resource & Asset Management
 
@@ -3862,7 +3841,7 @@ Ambos controladores delegan la ejecución de casos de uso a la Application Layer
 
 La Infrastructure Layer implementa la persistencia mediante **IPropertyRepository** e **IDeviceRepository**, además de integrar componentes técnicos como **DevicePairingAdapter** y **GatewayStatusService**. La información del bounded context se almacena en las tablas correspondientes dentro de la base de datos central de Nexora.
 
-![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/component-diagram_2v.png)
+![Resource & Asset Management - Database Diagram](assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/component-diagram_2v.png)
 
 ---
 
@@ -3880,7 +3859,7 @@ La entidad **PropertyAsset** modela la jerarquía física de propiedades, edific
 
 El modelo también incluye **DeviceCompatibilityService** como Domain Service encargado de validar la compatibilidad entre dispositivos y gateways durante el proceso de vinculación. Finalmente, **IPropertyRepository** e **IDeviceRepository** representan las interfaces de persistencia requeridas por el dominio.
 
-![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/class-diagram_2v.png)
+![Resource & Asset Management - Database Diagram](assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/class-diagram_2v.png)
 
 ---
 
@@ -3918,7 +3897,7 @@ La tabla `device_metadata` almacena información técnica única de cada disposi
 - FK: device_id → iot_devices.id
 
 
-![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/database-diagram_2v.png)
+![Resource & Asset Management - Database Diagram](assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/database-diagram_2v.png)
 
 #### 4.2.4.1. Domain Layer
 
@@ -4517,161 +4496,819 @@ La tabla `incidents` almacena los incidentes técnicos recibidos desde el monito
 
 <img src="assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/database-diagram-2v.png" alt="Service Execution & Maintenance - Database Diagram" width="450"/>
 
-## 4.2.5. Bounded Context: Subscriptions & Payment Management
+### 4.2.5. Bounded Context: Subscriptions & Payment Management
 
 En este bounded context se gestiona la monetización SaaS de la plataforma Nexora, incluyendo el ciclo de vida de suscripciones corporativas, la facturación recurrente por uso y la integración con la pasarela de pagos externa Culqi.
 
-### 4.2.5.1. Domain Layer
+#### 4.2.5.1. Domain Layer
 
-En la capa de dominio se definen las clases centrales que representan el núcleo del sistema de suscripciones y pagos, junto con las reglas de negocio del bounded context.
+La Domain Layer del bounded context **Subscriptions & Payment Management** contiene los conceptos centrales del negocio relacionados con la monetización SaaS de Nexora, la gestión de suscripciones, la facturación recurrente y el control de pagos.
 
-#### Entities
+Siguiendo los principios de Domain-Driven Design (DDD), esta capa se mantiene independiente de frameworks, controladores, pasarelas de pago o detalles de persistencia. Su responsabilidad principal es representar las reglas de negocio que permiten administrar planes, ciclos de facturación, cuotas de uso, facturas y estados de pago dentro de la plataforma.
 
-•⁠  ⁠*Subscription:* Representa la suscripción activa de una cuenta corporativa. Incluye atributos como ⁠ id ⁠, ⁠ accountId ⁠, ⁠ planId ⁠, ⁠ startDate ⁠, ⁠ renewalDate ⁠, ⁠ status ⁠ y ⁠ activeUnitCount ⁠, que almacenan el estado actual del contrato entre el cliente y la plataforma.
-•⁠  ⁠*Invoice:* Representa una factura generada al cierre de un Billing Cycle. Incluye atributos como ⁠ id ⁠, ⁠ subscriptionId ⁠, ⁠ amount ⁠, ⁠ issuedDate ⁠, ⁠ dueDate ⁠ y ⁠ status ⁠, que registran el cobro correspondiente a un período de facturación.
-•⁠  ⁠*BillingAccount:* Cuenta de facturación asociada a un Property Manager o Real Estate Company. Contiene atributos como ⁠ id ⁠, ⁠ ownerId ⁠, ⁠ ownerType ⁠, ⁠ culqiCustomerId ⁠ y ⁠ defaultPaymentMethodToken ⁠, que identifican al cliente y su método de pago registrado en Culqi.
+## Aggregate Roots
 
-#### Value Objects
+### SubscriptionAggregate
 
-•⁠  ⁠*SaaSPlan:* Define el tier de suscripción (Basic, Professional, Enterprise) junto con el precio unitario por Smart Unit activa y el intervalo de facturación.
-•⁠  ⁠*BillingCycle:* Encapsula el período de facturación con su fecha de inicio y fin, y la cantidad de unidades activas registradas al cierre del período.
-•⁠  ⁠*UsageQuota:* Representa la cantidad de Smart Units activas en un período determinado, consumida desde el Resource & Asset Management Bounded Context.
-•⁠  ⁠*SubscriptionStatus:* Define el estado de la suscripción mediante una enumeración: ⁠ Active ⁠, ⁠ Overdue ⁠, ⁠ Suspended ⁠ y ⁠ Cancelled ⁠.
-•⁠  ⁠*InvoiceStatus:* Define el estado de la factura mediante una enumeración: ⁠ Pending ⁠, ⁠ Paid ⁠, ⁠ Failed ⁠ y ⁠ Refunded ⁠.
-•⁠  ⁠*Money:* Encapsula el monto y la moneda (⁠ PEN ⁠/⁠ USD ⁠) de cualquier valor monetario en el dominio.
+El **SubscriptionAggregate** actúa como raíz de agregado principal del bounded context, ya que controla el ciclo de vida completo de una suscripción SaaS y asegura la consistencia entre la suscripción, el plan contratado, la cuota de uso, los ciclos de facturación y las facturas asociadas.
 
-#### Aggregates
+**Atributos:**
 
-•⁠  ⁠*SubscriptionAggregate:* Raíz de agregado principal. Encapsula ⁠ Subscription ⁠, ⁠ SaaSPlan ⁠, ⁠ BillingCycle ⁠ y la lista de ⁠ Invoice ⁠ asociadas. Controla las transiciones de estado, aplica las reglas de negocio de acceso y expone operaciones como ⁠ changePlan() ⁠, ⁠ updateUsage() ⁠, ⁠ restrict() ⁠ y ⁠ cancel() ⁠.
-•⁠  ⁠*BillingAccountAggregate:* Encapsula ⁠ BillingAccount ⁠ y el token de método de pago. Gestiona la identidad del cliente en Culqi y expone operaciones como ⁠ updatePaymentToken() ⁠ y ⁠ updateCulqiId() ⁠.
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| subscription | Subscription | Entidad principal de suscripción |
+| plan | SaaSPlan | Plan SaaS contratado |
+| billingCycle | BillingCycle | Ciclo de facturación vigente |
+| usageQuota | UsageQuota | Cantidad de Smart Units activas |
+| invoices | List<Invoice> | Facturas asociadas a la suscripción |
 
-#### Domain Events
+**Métodos:**
 
-•⁠  ⁠⁠ InvoiceGeneratedEvent ⁠: Disparado cuando se genera una nueva factura al cierre del ciclo de facturación.
-•⁠  ⁠⁠ SubscriptionExpiredEvent ⁠: Disparado cuando una suscripción es suspendida por falta de pago.
-•⁠  ⁠⁠ PlanChangedEvent ⁠: Disparado cuando el cliente cambia de tier de suscripción.
-•⁠  ⁠⁠ PaymentFailedEvent ⁠: Disparado cuando un intento de cobro a través de Culqi no se procesa correctamente.
-•⁠  ⁠⁠ AccessRestrictedEvent ⁠: Disparado cuando se restringe el acceso al Dashboard analítico por mora en el pago.
+| Método | Descripción |
+| :--- | :--- |
+| changePlan(plan) | Cambia el plan contratado por la cuenta |
+| updateUsage(usageQuota) | Actualiza la cuota de uso según las Smart Units activas |
+| generateInvoice() | Genera una factura para el ciclo de facturación actual |
+| markAsOverdue() | Marca la suscripción como vencida por falta de pago |
+| restrictAccess() | Restringe el acceso a funcionalidades no críticas |
+| cancel() | Cancela la suscripción activa |
 
-#### Repositories (Interfaces)
+### BillingAccountAggregate
 
-•⁠  ⁠*ISubscriptionRepository:* Define los métodos ⁠ findById() ⁠, ⁠ findByAccountId() ⁠, ⁠ save() ⁠ y ⁠ delete() ⁠ para gestionar la persistencia del ⁠ SubscriptionAggregate ⁠.
-•⁠  ⁠*IInvoiceRepository:* Define los métodos ⁠ findById() ⁠, ⁠ findBySubscription() ⁠, ⁠ save() ⁠ y ⁠ listOverdue() ⁠ para gestionar la persistencia de ⁠ Invoice ⁠.
-•⁠  ⁠*IBillingAccountRepository:* Define los métodos ⁠ findById() ⁠, ⁠ findByOwner() ⁠, ⁠ save() ⁠ y ⁠ delete() ⁠ para gestionar la persistencia del ⁠ BillingAccountAggregate ⁠.
+El **BillingAccountAggregate** representa la identidad financiera del cliente dentro de Nexora y administra la información necesaria para vincular la cuenta con Culqi.
+
+Este agregado encapsula la cuenta de facturación y el método de pago registrado, evitando que los detalles técnicos del proveedor externo contaminen el dominio.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| billingAccount | BillingAccount | Cuenta de facturación del cliente |
+| defaultPaymentMethodToken | String | Token del método de pago registrado |
+| culqiCustomerId | String | Identificador del cliente en Culqi |
+
+**Métodos:**
+
+| Método | Descripción |
+| :--- | :--- |
+| updatePaymentToken(token) | Actualiza el token del método de pago |
+| updateCulqiId(culqiCustomerId) | Actualiza el identificador del cliente en Culqi |
+| removePaymentMethod() | Elimina el método de pago predeterminado |
+
+## Entities
+
+### Subscription
+
+La entidad **Subscription** representa la suscripción activa de una cuenta corporativa dentro de Nexora.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador único de la suscripción |
+| accountId | Long | Identificador de la cuenta asociada |
+| planId | Long | Identificador del plan contratado |
+| startDate | DateTime | Fecha de inicio de la suscripción |
+| renewalDate | DateTime | Fecha de renovación |
+| status | SubscriptionStatus | Estado actual de la suscripción |
+| activeUnitCount | Integer | Cantidad de Smart Units activas |
+
+### Invoice
+
+La entidad **Invoice** representa una factura generada al cierre de un ciclo de facturación.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador único de la factura |
+| subscriptionId | Long | Identificador de la suscripción asociada |
+| amount | Money | Monto total facturado |
+| issuedDate | DateTime | Fecha de emisión |
+| dueDate | DateTime | Fecha límite de pago |
+| status | InvoiceStatus | Estado actual de la factura |
+
+**Métodos:**
+
+| Método | Descripción |
+| :--- | :--- |
+| markAsPaid() | Marca la factura como pagada |
+| markAsFailed() | Marca la factura como fallida |
+| markAsRefunded() | Marca la factura como reembolsada |
+| isOverdue(currentDate) | Verifica si la factura está vencida |
+
+### BillingAccount
+
+La entidad **BillingAccount** representa la cuenta de facturación asociada a un Property Manager o Real Estate Company.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Long | Identificador único de la cuenta de facturación |
+| ownerId | Long | Identificador del propietario de la cuenta |
+| ownerType | String | Tipo de propietario de la cuenta |
+| culqiCustomerId | String | Identificador del cliente en Culqi |
+| defaultPaymentMethodToken | String | Token del método de pago predeterminado |
+
+## Value Objects
+
+### SaaSPlan
+
+El Value Object **SaaSPlan** define el plan de suscripción contratado por el cliente.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| planId | Long | Identificador del plan |
+| tier | String | Nivel del plan: Basic, Professional o Enterprise |
+| unitPrice | Money | Precio unitario por Smart Unit activa |
+| billingInterval | String | Intervalo de facturación |
+
+### BillingCycle
+
+El Value Object **BillingCycle** encapsula el período de facturación de una suscripción.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| startDate | DateTime | Fecha de inicio del ciclo |
+| endDate | DateTime | Fecha de cierre del ciclo |
+| activeUnitCount | Integer | Cantidad de unidades activas durante el período |
+
+### UsageQuota
+
+El Value Object **UsageQuota** representa la cantidad de Smart Units activas utilizadas para calcular el cobro recurrente.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| activeUnitCount | Integer | Cantidad de Smart Units activas |
+| measuredAt | DateTime | Fecha en la que se registró la medición |
+
+### Money
+
+El Value Object **Money** encapsula valores monetarios dentro del dominio.
+
+**Atributos:**
+
+| Atributo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| amount | Decimal | Monto monetario |
+| currency | String | Moneda utilizada, como PEN o USD |
+
+### SubscriptionStatus
+
+**SubscriptionStatus** es una enumeración que define los estados posibles de una suscripción.
+
+| Valor | Descripción |
+| :--- | :--- |
+| ACTIVE | Suscripción activa |
+| OVERDUE | Suscripción vencida por falta de pago |
+| SUSPENDED | Suscripción suspendida |
+| CANCELLED | Suscripción cancelada |
+
+### InvoiceStatus
+
+**InvoiceStatus** es una enumeración que define los estados posibles de una factura.
+
+| Valor | Descripción |
+| :--- | :--- |
+| PENDING | Factura pendiente de pago |
+| PAID | Factura pagada correctamente |
+| FAILED | Cobro fallido |
+| REFUNDED | Factura reembolsada |
+
+## Domain Events
+
+| Evento | Descripción |
+| :--- | :--- |
+| InvoiceGeneratedEvent | Se dispara cuando se genera una nueva factura al cierre del ciclo de facturación |
+| SubscriptionExpiredEvent | Se dispara cuando una suscripción es suspendida por falta de pago |
+| PlanChangedEvent | Se dispara cuando el cliente cambia de plan de suscripción |
+| PaymentFailedEvent | Se dispara cuando un intento de cobro no se procesa correctamente |
+| AccessRestrictedEvent | Se dispara cuando se restringe el acceso al dashboard analítico por mora |
+
+## Repository Interfaces
+
+### ISubscriptionRepository
+
+Abstracción utilizada para acceder a la persistencia del **SubscriptionAggregate**.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| findById(id) | Busca una suscripción por identificador |
+| findByAccountId(accountId) | Busca suscripciones asociadas a una cuenta |
+| save(subscriptionAggregate) | Persiste el agregado de suscripción |
+| delete(id) | Elimina una suscripción |
+
+### IInvoiceRepository
+
+Abstracción utilizada para acceder a la persistencia de facturas.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| findById(id) | Busca una factura por identificador |
+| findBySubscription(subscriptionId) | Lista facturas asociadas a una suscripción |
+| save(invoice) | Persiste una factura |
+| listOverdue() | Lista facturas vencidas |
+
+### IBillingAccountRepository
+
+Abstracción utilizada para acceder a la persistencia de cuentas de facturación.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| findById(id) | Busca una cuenta de facturación por identificador |
+| findByOwner(ownerId, ownerType) | Busca una cuenta según su propietario |
+| save(billingAccountAggregate) | Persiste el agregado de cuenta de facturación |
+| delete(id) | Elimina una cuenta de facturación |
+
+## Domain Relationships
+
+- Un **BillingAccountAggregate** puede tener una o más **SubscriptionAggregate** asociadas.
+- Un **SubscriptionAggregate** contiene una **Subscription** y puede generar múltiples **Invoice**.
+- Una **Subscription** utiliza un **SaaSPlan** para determinar el precio de facturación.
+- Una **Subscription** utiliza **UsageQuota** para calcular el cobro según unidades activas.
+- Una **Invoice** contiene un valor monetario representado mediante **Money**.
+- Una **BillingAccount** mantiene la referencia al cliente y método de pago registrado en Culqi.
+- Los eventos de dominio permiten comunicar cambios relevantes dentro del monolito modular de Nexora.
+
+## Domain Rules
+
+1. Una suscripción debe estar asociada a una cuenta de facturación válida.
+2. Una factura solo puede generarse si existe un ciclo de facturación activo.
+3. El monto de la factura se calcula según el plan contratado y la cantidad de Smart Units activas.
+4. Una suscripción vencida puede restringir el acceso al dashboard analítico.
+5. Las alertas críticas de seguridad deben mantenerse activas incluso si la suscripción se encuentra en mora.
+6. Una factura pagada no puede marcarse como fallida.
+7. Una suscripción cancelada no puede generar nuevas facturas.
+8. El dominio no debe depender directamente de Culqi; la integración con la pasarela de pagos se gestiona mediante la Infrastructure Layer.
+
+La Domain Layer constituye la base conceptual del bounded context **Subscriptions & Payment Management** y se refleja en los diagramas de componentes, clases de dominio y diseño de base de datos presentados en las siguientes secciones.
 
 ---
 
-### 4.2.5.2. Interface Layer
+#### 4.2.5.2. Interface Layer
 
-Esta capa expone las funcionalidades del bounded context a través de controladores que manejan las solicitudes HTTP provenientes de la Nexora Mobile App y la Nexora Web App, así como los callbacks externos de Culqi.
+La Interface Layer del bounded context **Subscriptions & Payment Management** es responsable de exponer las capacidades relacionadas con la gestión de suscripciones, facturación y procesamiento de pagos hacia consumidores externos mediante APIs RESTful y endpoints de integración.
 
-#### Controllers
+Los principales consumidores de esta capa son la **Nexora Mobile App**, la **Nexora Web App** y la plataforma de pagos **Culqi**, que interactúa mediante webhooks para informar el resultado de las transacciones procesadas.
 
-•⁠  ⁠*SubscriptionController:* Maneja las solicitudes relacionadas con el ciclo de vida de suscripciones.
-  - *Métodos:*
-    - ⁠ createSubscription ⁠: Crea una nueva suscripción para una billing account.
-    - ⁠ changePlan ⁠: Actualiza el tier de suscripción de una cuenta.
-    - ⁠ cancelSubscription ⁠: Cancela una suscripción activa.
-    - ⁠ getSubscriptionStatus ⁠: Consulta el estado actual de una suscripción.
+## Controllers
 
-•⁠  ⁠*BillingController:* Maneja las solicitudes relacionadas con facturas y ciclos de facturación.
-  - *Métodos:*
-    - ⁠ getCurrentInvoice ⁠: Obtiene la factura del período en curso.
-    - ⁠ getInvoiceHistory ⁠: Lista el historial de facturas de una suscripción.
-    - ⁠ triggerManualBilling ⁠: Permite a un administrador disparar manualmente el ciclo de facturación.
+### SubscriptionController
 
-•⁠  ⁠*WebhookController:* Recibe y valida los callbacks asincrónicos enviados por Culqi tras el procesamiento de un cobro.
-  - *Métodos:*
-    - ⁠ handleCulqiWebhook ⁠: Parsea el payload del webhook, valida la firma de Culqi y delega el resultado al ⁠ PaymentResultHandler ⁠.
+Actúa como punto de entrada para las operaciones relacionadas con el ciclo de vida de las suscripciones SaaS.
 
----
+Recibe solicitudes HTTP, valida datos de entrada, delega el procesamiento a los servicios de aplicación y retorna respuestas estructuradas.
 
-### 4.2.5.3. Application Layer
+**Endpoints principales:**
 
-La capa de aplicación orquesta los flujos de negocio y coordina la interacción entre la capa de dominio y la infraestructura. Al tratarse de una arquitectura monolítica, la comunicación entre componentes se realiza mediante llamadas directas en proceso.
-
-#### Services
-
-•⁠  ⁠*SubscriptionAppService:* Orquesta las operaciones del ciclo de vida de suscripciones: creación, cambio de plan y cancelación. Coordina el ⁠ SubscriptionAggregate ⁠, el ⁠ BillingAccountAggregate ⁠ y el ⁠ SubscriptionRepository ⁠.
-•⁠  ⁠*BillingEngineService:* Ejecuta el ciclo de facturación mensual. Consulta el ⁠ UsageQuota ⁠ actual a través del ⁠ UsageMetricsService ⁠, calcula el monto de la ⁠ Invoice ⁠ multiplicando las unidades activas por el precio unitario del ⁠ SaaSPlan ⁠, y coordina el cobro con el ⁠ CulqiPaymentAdapter ⁠.
-•⁠  ⁠*UsageMetricsService:* Consulta la cantidad de Smart Units activas por cuenta directamente al bounded context Resource & Asset Management mediante llamadas HTTP REST, y actualiza el ⁠ UsageQuota ⁠ correspondiente en el ⁠ SubscriptionAggregate ⁠.
-•⁠  ⁠*AccessControlService:* Evalúa el estado de pago de la suscripción y aplica la regla de negocio principal: restringe el acceso al Dashboard analítico en cuentas con mora, manteniendo activo el sistema de alertas críticas de seguridad. Notifica al bounded context Service Monitoring & Intelligence mediante llamada HTTP REST.
-
-#### Event Handlers
-
-•⁠  ⁠*PaymentResultHandler:* Procesa el resultado recibido del webhook de Culqi a través del ⁠ WebhookController ⁠. Actualiza el estado de la ⁠ Invoice ⁠ y de la ⁠ Subscription ⁠ en el ⁠ SubscriptionAggregate ⁠ y notifica al ⁠ AccessControlService ⁠ para que evalúe el estado de acceso.
+| Método | Endpoint | Descripción |
+| :--- | :--- | :--- |
+| POST | /api/v1/subscriptions | Crea una nueva suscripción |
+| PUT | /api/v1/subscriptions/{id}/plan | Actualiza el plan contratado |
+| PUT | /api/v1/subscriptions/{id}/cancel | Cancela una suscripción activa |
+| GET | /api/v1/subscriptions/{id}/status | Obtiene el estado actual de una suscripción |
 
 ---
 
-### 4.2.5.4. Infrastructure Layer
+### BillingController
 
-En esta capa se implementan los repositorios y los adaptadores externos que integran el bounded context con sistemas de terceros.
+Expone las operaciones relacionadas con la gestión de facturas y ciclos de facturación.
 
-#### Repositories (Implementaciones)
+Permite consultar información financiera y ejecutar procesos administrativos de facturación.
 
-•⁠  ⁠*SubscriptionRepositoryImpl:* Implementa ⁠ ISubscriptionRepository ⁠ sobre PostgreSQL mediante Entity Framework Core. Gestiona la persistencia y consulta del ⁠ SubscriptionAggregate ⁠ y sus facturas asociadas en la base de datos compartida Nexora DB.
-•⁠  ⁠*InvoiceRepositoryImpl:* Implementa ⁠ IInvoiceRepository ⁠ sobre PostgreSQL. Gestiona la persistencia de ⁠ Invoice ⁠ y expone consultas de facturas vencidas para el proceso de cobro.
-•⁠  ⁠*BillingAccountRepositoryImpl:* Implementa ⁠ IBillingAccountRepository ⁠ sobre PostgreSQL. Gestiona la persistencia del ⁠ BillingAccountAggregate ⁠ y los tokens de pago en la Nexora DB.
+**Endpoints principales:**
 
-#### Adapters
+| Método | Endpoint | Descripción |
+| :--- | :--- | :--- |
+| GET | /api/v1/billing/invoices/current | Obtiene la factura vigente |
+| GET | /api/v1/billing/invoices/history | Obtiene el historial de facturas |
+| POST | /api/v1/billing/cycles/trigger | Ejecuta manualmente un ciclo de facturación |
 
-•⁠  ⁠*CulqiPaymentAdapter:* Implementa la integración con la pasarela de pagos Culqi actuando como Anti-Corruption Layer. Abstrae las operaciones de tokenización de tarjetas, cobro recurrente, reembolsos y el parseo de webhooks, aislando el dominio de los detalles del proveedor externo.
-  - *Métodos:*
-    - ⁠ tokenizeCard ⁠: Tokeniza los datos de la tarjeta del cliente a través de la API de Culqi.
-    - ⁠ chargeRecurring ⁠: Ejecuta un cobro recurrente sobre el token almacenado en el ⁠ BillingAccount ⁠.
-    - ⁠ refund ⁠: Procesa el reembolso de un cobro previamente procesado.
-    - ⁠ parseWebhook ⁠: Valida la firma y parsea el payload de los callbacks enviados por Culqi.
+---
+
+### WebhookController
+
+Recibe eventos asincrónicos enviados por Culqi luego de procesar un cobro o intento de pago.
+
+Este controlador actúa como punto de integración entre Nexora y la pasarela de pagos.
+
+**Endpoints principales:**
+
+| Método | Endpoint | Descripción |
+| :--- | :--- | :--- |
+| POST | /api/v1/webhooks/culqi | Procesa callbacks enviados por Culqi |
+
+## Resources
+
+### SubscriptionResource
+
+Representa la información de una suscripción enviada hacia los clientes.
+
+**Campos principales:**
+
+- id
+- accountId
+- planName
+- startDate
+- renewalDate
+- status
+- activeUnitCount
+
+---
+
+### InvoiceResource
+
+Representa la información de una factura generada por el sistema.
+
+**Campos principales:**
+
+- id
+- subscriptionId
+- amount
+- currency
+- issuedDate
+- dueDate
+- status
+
+---
+
+### BillingAccountResource
+
+Representa la información pública de una cuenta de facturación.
+
+**Campos principales:**
+
+- id
+- ownerId
+- ownerType
+- culqiCustomerId
+
+---
+
+### CreateSubscriptionResource
+
+Utilizado para registrar una nueva suscripción.
+
+**Campos principales:**
+
+- accountId
+- planId
+- paymentMethodToken
+
+---
+
+### ChangePlanResource
+
+Utilizado para actualizar el plan contratado por una cuenta.
+
+**Campos principales:**
+
+- subscriptionId
+- newPlanId
+
+---
+
+### CulqiWebhookResource
+
+Representa el payload recibido desde Culqi.
+
+**Campos principales:**
+
+- eventType
+- transactionId
+- customerId
+- amount
+- currency
+- paymentStatus
+- signature
+
+## Responsabilidades de la Interface Layer
+
+- Recibir solicitudes HTTP provenientes de Nexora Mobile App y Nexora Web App.
+- Validar payloads de entrada.
+- Exponer operaciones relacionadas con suscripciones y facturación.
+- Recibir eventos externos enviados por Culqi.
+- Delegar el procesamiento a la Application Layer.
+- Retornar respuestas HTTP estructuradas.
+- Mantener desacoplada la comunicación externa de la lógica de negocio.
+
+Esta capa se representa en los diagramas mediante los componentes **SubscriptionController**, **BillingController** y **WebhookController**, así como sus interacciones con las aplicaciones cliente y la pasarela de pagos Culqi.
+
+---
+
+#### 4.2.5.3. Application Layer
+
+La Application Layer del bounded context **Subscriptions & Payment Management** es responsable de coordinar los procesos de negocio relacionados con la gestión de suscripciones, facturación recurrente, consumo de recursos y procesamiento de pagos.
+
+Esta capa actúa como intermediaria entre la Interface Layer, el modelo de dominio y los componentes de infraestructura, orquestando los casos de uso sin contener reglas de negocio específicas del dominio.
+
+Siguiendo los principios de Domain-Driven Design (DDD), la lógica de negocio permanece encapsulada dentro de los Aggregates y Value Objects del dominio, mientras que la Application Layer coordina los flujos necesarios para ejecutar cada operación.
+
+---
+
+## Application Services
+
+### SubscriptionAppService
+
+Orquesta el ciclo de vida completo de las suscripciones dentro de la plataforma.
+
+Coordina la interacción entre los agregados del dominio y los repositorios necesarios para registrar, actualizar o cancelar suscripciones.
+
+**Responsabilidades principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| createSubscription() | Registra una nueva suscripción |
+| changePlan() | Actualiza el plan contratado |
+| cancelSubscription() | Cancela una suscripción activa |
+| getSubscriptionStatus() | Obtiene el estado actual de una suscripción |
+
+---
+
+### BillingEngineService
+
+Responsable de ejecutar el proceso de facturación recurrente de la plataforma.
+
+Calcula los montos correspondientes según el plan contratado y el número de Smart Units activas registradas durante el ciclo de facturación.
+
+**Responsabilidades principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| generateInvoice() | Genera una nueva factura |
+| calculateAmount() | Calcula el monto total a facturar |
+| executeBillingCycle() | Ejecuta el ciclo completo de facturación |
+| processPayment() | Solicita el procesamiento del pago |
+
+---
+
+### UsageMetricsService
+
+Obtiene información de consumo proveniente del bounded context **Resource & Asset Management**.
+
+Su objetivo es determinar cuántas Smart Units activas deben considerarse para el cálculo de la suscripción.
+
+**Responsabilidades principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| getActiveUnits() | Obtiene las Smart Units activas |
+| updateUsageQuota() | Actualiza el consumo registrado |
+| calculateUsage() | Calcula la cuota de uso vigente |
+
+---
+
+### AccessControlService
+
+Evalúa continuamente el estado financiero de las suscripciones y determina si el acceso a determinadas funcionalidades debe mantenerse o restringirse.
+
+Este servicio implementa una de las principales reglas de negocio del bounded context.
+
+**Responsabilidades principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| evaluateAccess() | Evalúa si una cuenta mantiene acceso |
+| restrictAccess() | Restringe funcionalidades por mora |
+| restoreAccess() | Restablece acceso luego de un pago exitoso |
+| notifyMonitoringContext() | Informa cambios al contexto de monitoreo |
+
+---
+
+## Event Handlers
+
+### PaymentResultHandler
+
+Procesa los eventos recibidos desde Culqi a través del WebhookController.
+
+Su función principal es sincronizar el estado de pagos externos con el modelo de dominio interno.
+
+**Responsabilidades principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| handlePaymentSucceeded() | Procesa pagos exitosos |
+| handlePaymentFailed() | Procesa pagos fallidos |
+| updateInvoiceStatus() | Actualiza el estado de la factura |
+| updateSubscriptionStatus() | Actualiza el estado de la suscripción |
+
+---
+
+### Casos de Uso Principales
+
+#### Subscription Creation
+
+1. SubscriptionController recibe la solicitud.
+2. SubscriptionAppService valida la información.
+3. BillingAccountAggregate registra la cuenta de facturación.
+4. SubscriptionAggregate crea la suscripción.
+5. SubscriptionRepository persiste la información.
+6. Se retorna SubscriptionResource.
+
+---
+
+#### Monthly Billing Cycle
+
+1. BillingEngineService inicia el proceso.
+2. UsageMetricsService consulta las Smart Units activas.
+3. Se calcula el monto según el SaaSPlan contratado.
+4. Se genera una Invoice.
+5. CulqiPaymentAdapter procesa el cobro.
+6. PaymentResultHandler actualiza los estados correspondientes.
+
+---
+
+#### Access Restriction
+
+1. PaymentResultHandler detecta una factura vencida.
+2. AccessControlService evalúa la situación financiera.
+3. SubscriptionAggregate cambia a estado Overdue o Suspended.
+4. Se restringe el acceso al Dashboard Analítico.
+5. El sistema de monitoreo crítico continúa operativo.
+6. Se notifica al bounded context Service Monitoring & Intelligence.
+
+---
+
+### Beneficios de la Application Layer
+
+- Coordinación centralizada de casos de uso.
+- Separación entre lógica de dominio y comunicación externa.
+- Integración desacoplada con Culqi.
+- Soporte para facturación recurrente SaaS.
+- Mayor mantenibilidad y testabilidad.
+- Facilita la integración entre bounded contexts.
+
+La Application Layer se encuentra representada en los diagramas de componentes mediante los servicios **SubscriptionAppService**, **BillingEngineService**, **UsageMetricsService**, **AccessControlService** y **PaymentResultHandler**, mostrando cómo se coordinan los procesos principales del sistema de suscripciones y pagos.
+
+---
+
+#### 4.2.5.4. Infrastructure Layer
+
+La Infrastructure Layer del bounded context **Subscriptions & Payment Management** contiene las implementaciones técnicas necesarias para soportar la persistencia de suscripciones, cuentas de facturación y facturas, así como la integración con servicios externos de procesamiento de pagos.
+
+Siguiendo los principios de Domain-Driven Design (DDD), esta capa implementa las interfaces definidas por el dominio y proporciona mecanismos concretos para almacenamiento de información, comunicación con sistemas externos y procesamiento de eventos relacionados con pagos.
+
+## Repository Implementations
+
+### SubscriptionRepositoryImpl
+
+Implementación concreta de la interfaz **ISubscriptionRepository**, responsable de persistir y recuperar información relacionada con el ciclo de vida de las suscripciones SaaS.
+
+Esta implementación administra el almacenamiento del **SubscriptionAggregate** y sus entidades asociadas dentro de la base de datos de Nexora.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(subscriptionAggregate) | Persiste una suscripción |
+| findById(id) | Obtiene una suscripción por identificador |
+| findByAccountId(accountId) | Obtiene las suscripciones asociadas a una cuenta |
+| delete(id) | Elimina una suscripción |
+
+---
+
+### InvoiceRepositoryImpl
+
+Implementación concreta de la interfaz **IInvoiceRepository**, responsable de la persistencia y consulta de facturas generadas por el sistema.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(invoice) | Persiste una factura |
+| findById(id) | Recupera una factura específica |
+| findBySubscription(subscriptionId) | Obtiene las facturas de una suscripción |
+| listOverdue() | Lista facturas vencidas |
+
+---
+
+### BillingAccountRepositoryImpl
+
+Implementación concreta de la interfaz **IBillingAccountRepository**, responsable de gestionar la persistencia de las cuentas de facturación registradas en la plataforma.
+
+**Operaciones principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| save(billingAccountAggregate) | Persiste una cuenta de facturación |
+| findById(id) | Recupera una cuenta específica |
+| findByOwner(ownerId, ownerType) | Obtiene una cuenta según su propietario |
+| delete(id) | Elimina una cuenta de facturación |
+
+Los repositorios utilizan **Entity Framework Core** para desacoplar el dominio de los detalles de acceso a datos y facilitar la persistencia sobre PostgreSQL.
+
+## Integration Adapters
+
+### CulqiPaymentAdapter
+
+El componente **CulqiPaymentAdapter** implementa la integración con la plataforma de pagos Culqi y actúa como una **Anti-Corruption Layer (ACL)** entre el dominio de Nexora y los modelos externos del proveedor.
+
+Este adaptador encapsula todos los detalles técnicos de la API de Culqi, evitando que conceptos propios del proveedor contaminen el modelo de dominio interno.
+
+**Responsabilidades principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| tokenizeCard() | Tokeniza los datos de una tarjeta utilizando la API de Culqi |
+| chargeRecurring() | Ejecuta un cobro recurrente sobre un método de pago registrado |
+| refund() | Procesa un reembolso |
+| parseWebhook() | Valida y procesa callbacks recibidos desde Culqi |
+
+---
+
+### UsageMetricsAdapter
+
+El componente **UsageMetricsAdapter** permite obtener métricas de uso provenientes del bounded context **Resource & Asset Management**.
+
+Su función consiste en consultar la cantidad de Smart Units activas que participan en el cálculo de facturación.
+
+**Responsabilidades principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| getActiveUnits() | Consulta las Smart Units activas |
+| getUsageMetrics() | Obtiene métricas de consumo |
+| synchronizeUsage() | Actualiza el uso registrado para facturación |
+
+---
+
+### MonitoringNotificationAdapter
+
+El componente **MonitoringNotificationAdapter** permite comunicar cambios relevantes de acceso al bounded context **Service Monitoring & Intelligence**.
+
+Este adaptador asegura que los mecanismos críticos de monitoreo continúen funcionando incluso cuando una cuenta presenta mora.
+
+**Responsabilidades principales:**
+
+| Método | Descripción |
+| :--- | :--- |
+| notifyAccessRestriction() | Informa restricciones de acceso |
+| notifyAccessRestoration() | Informa restauración de acceso |
+| publishSubscriptionStatus() | Publica cambios de estado de la suscripción |
+
+## Database Layer
+
+### Nexora Database
+
+El bounded context **Subscriptions & Payment Management** almacena su información dentro de la base de datos central de Nexora, manteniendo separación lógica mediante tablas especializadas para suscripciones, cuentas de facturación y facturas.
+
+## Main Tables
+
+### billing_accounts
+
+Almacena la información de facturación asociada a clientes y empresas.
+
+**Campos principales:**
+
+- id
+- owner_id
+- owner_type
+- culqi_customer_id
+- default_payment_method_token
+
+---
+
+### subscriptions
+
+Almacena las suscripciones activas de la plataforma.
+
+**Campos principales:**
+
+- id
+- account_id
+- plan_id
+- start_date
+- renewal_date
+- status
+- active_unit_count
+
+---
+
+### invoices
+
+Almacena las facturas generadas durante los ciclos de facturación.
+
+**Campos principales:**
+
+- id
+- subscription_id
+- amount
+- currency
+- issued_date
+- due_date
+- status
+
+---
+
+### payment_attempts
+
+Almacena el historial de intentos de cobro realizados a través de Culqi.
+
+**Campos principales:**
+
+- id
+- invoice_id
+- transaction_id
+- payment_status
+- processed_at
+
+### Infrastructure Responsibilities
+
+- Implementar los mecanismos de persistencia definidos por el dominio.
+- Gestionar el almacenamiento de suscripciones y facturas.
+- Integrar el sistema con la plataforma Culqi.
+- Gestionar la tokenización y procesamiento de pagos.
+- Obtener métricas de uso desde otros bounded contexts.
+- Mantener trazabilidad de los intentos de cobro.
+- Facilitar la comunicación entre bounded contexts.
+
+### Beneficios de la Infrastructure Layer
+
+- Persistencia desacoplada de la lógica de negocio.
+- Integración transparente con Culqi.
+- Protección del dominio mediante Anti-Corruption Layer.
+- Mayor mantenibilidad y extensibilidad.
+- Trazabilidad completa del ciclo de facturación.
+- Preparación para futuras integraciones con otros proveedores de pago.
+
+La Infrastructure Layer constituye el soporte técnico del bounded context **Subscriptions & Payment Management**, permitiendo integrar los procesos de suscripción, facturación y pagos con los mecanismos de persistencia e integración requeridos por la plataforma Nexora.
 
 ---
 
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
--⁠  ⁠**Nexora Mobile App:** Aplicación móvil Flutter utilizada por Property Managers para gestionar suscripciones y consultar el historial de facturación.
--⁠  ⁠**Nexora Web App:** Aplicación web utilizada por Property Managers para gestionar suscripciones y consultar el historial de facturación desde un navegador.
-- **Subscription Controller:** Gestiona las operaciones del ciclo de vida de suscripciones: creación, cambio de plan, cancelación y consulta de estado.
-- **Billing Controller:** Gestiona la consulta de facturas y el disparo manual del ciclo de facturación para administradores.
-- **Webhook Controller:** Recibe y valida los callbacks asincrónicos de Culqi, delegando el resultado al Payment Result Event Handler.
-- **Subscription App Service:** Orquesta los comandos del ciclo de vida de suscripciones coordinando el dominio y la infraestructura.
-- **Billing Engine Service:** Ejecuta el ciclo de facturación mensual calculando el monto de la Invoice a partir del UsageQuota y el SaaSPlan, y coordinando el cobro con el Culqi Payment Adapter.
-- **Access Control Service:** Aplica la regla de negocio de restricción de acceso al Dashboard por mora, manteniendo activas las alertas críticas de seguridad.
-- **Usage Metrics Event Handler:** Consume eventos del Resource BC y actualiza el UsageQuota por cuenta en el SubscriptionAggregate.
-- **Payment Result Event Handler:** Procesa el resultado del webhook de Culqi y actualiza el estado de Invoice y Subscription.
-- **Culqi Payment Adapter:** Anti-Corruption Layer que abstrae la comunicación con la API REST de Culqi.
-- **Subscription Repository:** Gestiona la persistencia de los agregados de suscripción, factura y billing account sobre PostgreSQL.
+El diagrama de componentes describe la arquitectura interna del bounded context **Subscriptions & Payment Management**, responsable de gestionar el ciclo de vida de suscripciones SaaS, la facturación recurrente, el cálculo de uso y la integración con la pasarela de pagos Culqi.
 
-![Subscriptions & Payment Management - Component Diagram](/assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/component-diagram.png)
+El flujo principal inicia cuando **Nexora Mobile App** o **Nexora Web App** consumen los endpoints expuestos por **SubscriptionController** y **BillingController**. Estos controladores delegan la ejecución de los casos de uso a **SubscriptionAppService** y **BillingEngineService**, los cuales coordinan el dominio, repositorios y adaptadores externos.
+
+La integración con Culqi se realiza mediante **CulqiPaymentAdapter**, que actúa como Anti-Corruption Layer para evitar que los modelos externos de la pasarela de pagos contaminen el dominio. Los resultados de pago son recibidos por **WebhookController** y procesados por **PaymentResultHandler**.
+
+Asimismo, **UsageMetricsService** consulta información del bounded context **Resource & Asset Management** para obtener la cantidad de Smart Units activas, mientras que **AccessControlService** coordina restricciones de acceso con **Service Monitoring & Intelligence** cuando una suscripción presenta mora. La persistencia se realiza en la base de datos central de Nexora mediante tablas especializadas del bounded context.
+
+![Subscriptions & Payment Management - Component Diagram](assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/component-diagram-2.png)
 
 ---
 
 ### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
+En esta sección se presentan los diagramas de nivel de código correspondientes al bounded context **Subscriptions & Payment Management**, incluyendo el diagrama de clases del dominio y el diseño de base de datos utilizado para persistir cuentas de facturación, suscripciones, ciclos, facturas e intentos de pago.
+
+---
+
 #### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases refleja las dos raíces de agregado del bounded context. `SubscriptionAggregate` es la raíz principal y encapsula la entidad `Subscription` junto con los value objects `SaaSPlan`, `BillingCycle`, `UsageQuota` y `SubscriptionStatus`, además de la lista de entidades `Invoice` mediante una relación de composición. `BillingAccountAggregate` encapsula la cuenta de facturación y su token de pago en Culqi.
+El diagrama de clases del dominio representa los principales elementos tácticos del bounded context **Subscriptions & Payment Management**. El modelo se centra en **SubscriptionAggregate**, raíz de agregado encargada de controlar el ciclo de vida de una suscripción, sus planes, cuotas de uso, ciclos de facturación y facturas asociadas.
 
-- **SubscriptionAggregate:** Raíz de agregado principal. Controla el ciclo de vida completo de la suscripción y aplica todas las invariantes del dominio.
-- **BillingAccountAggregate:** Gestiona la identidad financiera del cliente y su vinculación con Culqi.
-- **Invoice:** Entidad que representa la factura generada por cada ciclo de facturación.
-- **SaaSPlan, BillingCycle, UsageQuota, SubscriptionStatus, InvoiceStatus, Money:** Value objects inmutables que encapsulan conceptos del dominio sin identidad propia.
-- **ISubscriptionRepository, IInvoiceRepository, IBillingAccountRepository:** Interfaces que abstraen la persistencia de los agregados hacia la capa de infraestructura.
+También se incluye **BillingAccountAggregate**, responsable de gestionar la identidad financiera del cliente y su vinculación con Culqi. La entidad **Invoice** representa las facturas generadas por cada ciclo de facturación, mientras que los Value Objects **SaaSPlan**, **BillingCycle**, **UsageQuota** y **Money** encapsulan conceptos relevantes del dominio.
 
-![Subscriptions & Payment Management - Class Diagram](/assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/class-diagram.png)
+Finalmente, las enumeraciones **SubscriptionStatus** e **InvoiceStatus** permiten mantener consistencia en los estados de suscripción y facturación, mientras que las interfaces **ISubscriptionRepository**, **IInvoiceRepository** e **IBillingAccountRepository** representan las abstracciones de persistencia requeridas por el dominio.
+
+<img src="assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/class-diagram-2.png" alt="Subscriptions & Payment Management - Class Diagram" width="750"/>
+
+---
 
 #### 4.2.5.6.2. Bounded Context Database Design Diagram
 
-El modelo relacional está compuesto por seis tablas. `billing_account` actúa como raíz del modelo financiero y se relaciona con `subscription` en una relación de uno a muchos. Cada `subscription` genera uno o más registros en `billing_cycle` por cada período de facturación, y uno o más registros en `invoice` a lo largo de su vida. Cada `billing_cycle` produce exactamente una `invoice` en una relación de uno a uno. Las `invoice` pueden tener uno o más registros en `payment_attempt`, que registran cada intento de cobro realizado a través de Culqi.
+El diseño de base de datos del bounded context **Subscriptions & Payment Management** representa las tablas necesarias para persistir información financiera dentro de la base de datos central de Nexora. Aunque la solución mantiene una sola base de datos física por su enfoque de monolito modular, este diagrama muestra únicamente las tablas asociadas a este bounded context.
 
-Las relaciones entre tablas son las siguientes:
+La tabla `billing_accounts` almacena las cuentas de facturación de los clientes. La tabla `subscriptions` registra las suscripciones activas o históricas asociadas a una cuenta. La tabla `billing_cycles` representa los períodos de facturación generados por cada suscripción, mientras que `invoices` almacena las facturas emitidas. Finalmente, `payment_attempts` mantiene trazabilidad de cada intento de cobro realizado mediante Culqi.
 
-- `billing_account` `1` ────► `N` `subscription`: Una billing account puede tener una o más subscriptions.
-- `subscription` `1` ────► `N` `billing_cycle`: Una subscription genera uno o más billing cycles.
-- `subscription` `1` ────► `N` `invoice`: Una subscription acumula una o más invoices.
-- `billing_cycle` `1` ────► `1` `invoice`: Cada billing cycle produce exactamente una invoice.
-- `invoice` `1` ────► `N` `payment_attempt`: Una invoice puede tener uno o más payment attempts.
+### Constraints Principales
 
+**billing_accounts**
+- PK: id
 
-![Subscriptions & Payment Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/database-diagram.png)
+**subscriptions**
+- PK: id
+- FK: billing_account_id → billing_accounts.id
 
+**billing_cycles**
+- PK: id
+- FK: subscription_id → subscriptions.id
+
+**invoices**
+- PK: id
+- FK: subscription_id → subscriptions.id
+- FK: billing_cycle_id → billing_cycles.id
+
+**payment_attempts**
+- PK: id
+- FK: invoice_id → invoices.id
+
+<img src="assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/database-diagram-2.png" alt="Subscriptions & Payment Management - Database Diagram" height="750"/>
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
@@ -5421,8 +6058,6 @@ La información se presenta desde los eventos más recientes hasta los más anti
 
 La categorización alfabética se aplica en listados específicos, como propiedades o dispositivos, facilitando la búsqueda rápida cuando se manejan múltiples elementos dentro del sistema.
 
-
-
 ## 5.2.2 Labeling Systems
 
 En esta sección se especifica el sistema de etiquetado de Nexora, diseñado bajo principios de simplicidad y eficiencia cognitiva. El equipo ha seleccionado etiquetas con el **mínimo número de palabras** para evitar la confusión y permitir una reacción inmediata ante datos críticos provenientes de sensores IoT.
@@ -5488,7 +6123,6 @@ Siguiendo el principio de asociación4, el sistema evita aglomerar datos. Por ej
 
 Esta arquitectura de etiquetas asegura que Nexora sea intuitivo para visitantes nuevos y eficiente para usuarios recurrentes que gestionan múltiples dispositivos en tiempo real.
 
-
 ### 5.2.3. SEO and Meta Tags
 
 La estrategia de **Search Engine Optimization (SEO)** y el uso de **Meta Tags** en Nexora están diseñados para maximizar la visibilidad de la plataforma en motores de búsqueda, atrayendo tanto a propietarios y administradores de fincas como a inquilinos interesados en hogares inteligentes. Dado que Nexora opera en la intersección de la tecnología IoT y el sector inmobiliario (*PropTech*), la estrategia se enfoca en capturar búsquedas transaccionales e informativas relacionadas con la eficiencia operativa y la seguridad residencial.
@@ -5545,8 +6179,6 @@ Para garantizar que el contenido compartido en plataformas como LinkedIn, Twitte
 *   **Robots.txt:** Configuración para permitir el rastreo de las páginas públicas y restringir el acceso a las áreas sensibles de la aplicación (Dashboard de Administrador).
 *   **Semántica HTML5:** Uso riguroso de etiquetas jerárquicas (H1, H2, H3) y atributos `alt` en imágenes para mejorar la accesibilidad y el rastreo de contenido.
 
-
-
 #### 5.2.4. Searching Systems
 
 Nexora implementa sistemas de búsqueda diferenciados según el contexto de uso, el volumen de datos y el perfil del usuario en cada plataforma. La decisión de diseño central es no imponer una búsqueda global única, sino ofrecer mecanismos de localización de información adaptados a cada sección, reduciendo la carga cognitiva y el tiempo de localización para todos los segmentos de usuario.
@@ -5597,7 +6229,6 @@ El **Navigation System** define las acciones y técnicas que guiarán a los usua
 *   **Acciones y Técnicas:** Navegación orientada a la inmediatez y la accesibilidad con una sola mano. Se guía al usuario mediante un patrón de **Bottom Navigation Bar** que mantiene siempre accesibles las funciones críticas (Inicio, Dispositivos, Notificaciones).
 *   **Recorrido del Contenido:** El usuario interactúa mediante gestos táctiles directos (Swipes, Taps, Long-press) para controlar dispositivos y reaccionar a alertas. El recorrido fluye desde un dashboard principal resumido hacia pantallas de interacción específicas (modelo Hub-and-Spoke), donde las notificaciones push actúan como atajos inmediatos a la resolución de incidentes, asegurando una interacción rápida y altamente satisfactoria.
 
-
 ## 5.3.1. Wireframes
 
 Esta sección presenta y explica los Wireframes del Landing Page, diseñados tanto para Desktop Web Browser como para Mobile Web Browser. Estas representaciones de baja/media fidelidad permiten definir la estructura, la disposición de los elementos y el flujo de navegación antes de la aplicación de estilos visuales finales.
@@ -5644,7 +6275,6 @@ Una estructura simplificada que prioriza la legibilidad del texto legal, asegura
 
 ![Landing Legal Wireframe](assets/chapter-5/landing-wireframes/landing-legal-wireframe.png)
 
-
 ## 5.3.2. Mock-ups
 
 Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En la propuesta y la explicación se evidencia la aplicación de los principios, elementos de diseño, diseño inclusivo y arquitectura de información, así como el Design System establecido para los productos digitales.
@@ -5683,7 +6313,6 @@ Diseñada pensando en la experiencia del inquilino, esta sección destaca la fac
 La sección de FAQ utiliza un diseño limpio con componentes desplegables (accordion) que organizan la información de manera eficiente. Esto evita la sobrecarga visual, mejora la escaneabilidad del texto y permite al usuario, tanto en Desktop como en Mobile, acceder a las respuestas específicas que necesita con un mínimo esfuerzo.
 
 ![Preguntas Frecuentes](assets/chapter-5/landing-mockups/FAQ-wireframe.jpg)
-
 
 ## 5.4. Applications UX/UI Design
 
@@ -5827,7 +6456,6 @@ La sección de automatizaciones dentro de Devices presenta las reglas agrupadas 
 
 **Automation**
 ![Subscription Web App](assets/chapter-5/wireflows/mobile/automation-wireflow.png)
-
 
 ### 5.4.3. Application Mock-ups
 
@@ -6155,7 +6783,6 @@ La ruta principal contempla la configuración exitosa de alertas inteligentes y 
 
 ![Unexpected Bills Prevention Web User Flow](assets/chapter-5/userflows/web/unexpected-bills-webapp-userflow.png)
 
-
 ### 5.5. Applications Prototyping
 
 En esta sección se presentan los prototipos de la aplicación web y móvil de Nexora.
@@ -6175,7 +6802,6 @@ Los siguientes enlaces dirigen a los prototipos de la aplicación web de Nexora:
 Los siguientes enlaces dirigen a los prototipos de la aplicación web de Nexora:
 
 -   [Prototipo Aplicación Móvil](https://1drv.ms/v/c/a3bebbb4408387f0/IQA9Rq-XIzrFRapRqiL8KkYpAXPCNnsTF53T2YxYZl1ALCQ?e=ZpMBCK)
-
 
 ## 5.6 IoT Device Design
 
@@ -6237,9 +6863,9 @@ Todos los dispositivos utilizan ESP32 como microcontrolador principal y comparte
 
 ### Diagramas físicos en LucidChart
 
-![IoT Motion Monitoring Device](/assets/chapter-5/iot-design/iot-device-base-architecture.png)
+![IoT Motion Monitoring Device](assets/chapter-5/iot-design/iot-device-base-architecture.png)
 
-![IoT Motion Monitoring Device](/assets/chapter-5/iot-design/iot-motion-monitoring-device.png)
+![IoT Motion Monitoring Device](assets/chapter-5/iot-design/iot-motion-monitoring-device.png)
 
 ---
 
@@ -6276,7 +6902,7 @@ El diseño del circuito mantiene una estructura modular y reutilizable. La princ
 ### Diagramas de circuito en LucidChart
 
 
-![IoT Device Circuit Diagram](/assets/chapter-5/iot-design/iot-device-circuit-diagram.png)
+![IoT Device Circuit Diagram](assets/chapter-5/iot-design/iot-device-circuit-diagram.png)
 
 
 ---
@@ -6287,15 +6913,15 @@ Los siguientes diagramas representan los principales flujos de interacción entr
 
 ### Flujo general de monitoreo IoT
 
-![IoT General Monitoring Flow](/assets/chapter-5/iot-design/iot-general-monitoring-flow.png)
+![IoT General Monitoring Flow](assets/chapter-5/iot-design/iot-general-monitoring-flow.png)
 
 ### Flujo de alerta crítica
 
-![IoT Critical Alert Flow](/assets/chapter-5/iot-design/iot-critical-alert-flow.png)
+![IoT Critical Alert Flow](assets/chapter-5/iot-design/iot-critical-alert-flow.png)
 
 ### Flujo de actualización de estado del dispositivo
 
-![IoT Device Status Flow](/assets/chapter-5/iot-design/iot-device-status-flow.png)
+![IoT Device Status Flow](assets/chapter-5/iot-design/iot-device-status-flow.png)
 
 ---
 
@@ -6314,7 +6940,6 @@ La información registrada es utilizada posteriormente para actualizar dashboard
 | 5     | Aplicación móvil              | Notificar eventos relevantes y mostrar monitoreo resumido. |
 
 Esta arquitectura permite administrar múltiples dispositivos independientes dentro de una misma propiedad, manteniendo coherencia con funcionalidades como Device Fleet Overview, Alerts, Device Health, Signal y Threshold Configuration presentes en los prototipos de Nexora.
-
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 # 6.1. Software Configuration Management
@@ -7091,7 +7716,6 @@ A nivel de repositorio y arquitectura de carpetas global, la separación es clar
 | **Mobile** | Diseño responsive, touch-friendly (mínimo 44x44px para botones) |
 | **Internacionalización**| Soporte para múltiples idiomas (es, en) |
 
-
 ## 6.1.4. Deployment Configuration
 
 En esta sección, el equipo especifica la configuración del despliegue de la solución, incluyendo los pasos necesarios para que, a partir de los repositorios de código fuente, se pueda lograr el despliegue o publicación satisfactorio de cada uno de los productos digitales en la solución (Landing Page, Web Services, Web Applications, Mobile Applications, Embedded Applications u otros productos incluidos).
@@ -7124,7 +7748,6 @@ A continuación se presenta el Deployment Diagram siguiendo el modelo C4, que il
 #### 5. Edge Service
 *   **Plataforma:** Microsoft Azure.
 *   **Configuración:** Al igual que el backend, el Edge Service se aloja en Azure. Este componente es crítico para la comunicación con los dispositivos IoT, por lo que se despliega con configuraciones de alta disponibilidad para garantizar la recepción constante de telemetría.
-
 
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
@@ -7453,7 +8076,6 @@ Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equi
 | US-71 | Preparación Release Sprint 1 | T-142 | Validar versión candidata | Ejecución de pruebas finales de aceptación | 4 | Todo el equipo | Done |
 | US-71 | Preparación Release Sprint 1 | T-143 | Preparar entrega y despliegue | Configuración de build y publicación del Sprint | 4 | Todo el equipo | Done |
 
-
 #### 6.2.1.4. Development Evidence for Sprint Review
 
 En esta sección se explican y presentan los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Web Applications, Web Services y otros. 
@@ -7472,7 +8094,6 @@ En esta sección se explican y presentan los avances en implementación con rela
 | nexora.website | feature/how-it-works | eb7400c | Merge branch 'develop' into feature/how-it-works | - | 13/05/2026 |
 | nexora.website | feature/testimonials-section | a6e1696 | feat: add testimonials section | - | 14/05/2026 |
 | nexora.website | feature/landlord-product-view | ebab2f0 | feat: add terms and conditions page | - | 14/05/2026 |
-
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 No aplica para este Sprint.
@@ -7508,7 +8129,6 @@ A continuación, se presentan las evidencias de la ejecución y el funcionamient
 En el siguiente enlace se puede visualizar el recorrido funcional de la aplicación, ilustrando la navegación fluida entre módulos y la visualización de datos en tiempo real:
 
 **Enlace al Video:** [Video de Ejecución - Sprint 1](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
-
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 No aplica para este Sprint, ya que no se desarrolló backend para esta etapa del proyecto.
@@ -7617,7 +8237,6 @@ La aplicación frontend fue desplegada exitosamente y quedó disponible mediante
 **URL de la aplicación web:** [https://nexora-webapp-xi.vercel.app/login](https://nexora-webapp-xi.vercel.app)
 
 ---
-
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
@@ -7772,7 +8391,6 @@ Qualitative insights are gathered from active validation interviews using both p
 | TS-HW-01 | Ensamblaje Electrónico y Calibración del Sensor de Gas | 3 |
 | TS-HW-02 | Ensamblaje del ESP32 con el sensor MQ2 para detección de gases | 3 |
 
-
 #### 6.2.2.2. Aspect Leaders and Collaborators
 
 Durante el Sprint 2, el equipo organizó la implementación y validación de la solución dividiendo las responsabilidades en seis servicios clave: **Edge Service**, **Landing Page**, **Mobile App**, **Embedded Apps**, **Web Service** y **Web Application**. Estos servicios abarcan los componentes principales de la arquitectura del ecosistema Nexora.
@@ -7858,8 +8476,6 @@ Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equi
 | TS-EDGE-02 | Persistencia Perimetral de Datos en Contingencia (Modo Offline) | T-43 | Implementar almacenamiento local SQLite en gateway en modo offline | Implementación del modo offline con almacenamiento en base de datos local SQLite. | 8 | Jorge Alexandro Linares Arroyo | Done |
 | TS-HW-01 | Ensamblaje Electrónico y Calibración del Sensor de Gas | T-44 | Ensamblar prototipo físico y calibrar sensor de gas MQ2 | Ensamblaje del circuito y calibración física del sensor de gas analógico MQ-2. | 6 | Todo el equipo | Done |
 | TS-HW-02 | Ensamblaje del ESP32 con el sensor MQ2 para detección de gases | T-45 | Montar circuito electrónico ESP32 con módulo sensor de gas | Conexión electrónica y soldadura del ESP32 con el sensor MQ2 en placa de desarrollo. | 5 | Todo el equipo | Done |
-
-
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
@@ -8458,7 +9074,6 @@ Evidencia del prototipo en desarrollo ejecutándose sobre el emulador o Chrome:
 
 **Enlace al Video:** [Video de Ejecución - Sprint 2](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
 
-
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
 #### **Introducción y Logros de Documentación**
@@ -8891,7 +9506,7 @@ La API REST funcional de Nexora fue publicada con éxito, quedando disponible en
 
 ![Configuración del WebService](assets/chapter-6/implementation/sprint-2/webservice.png)
 
-**URL de la API del Webservice:** [ https://nexora-webservice.onrender.com/swagger/index.html](60-chapter-6-implementation-validation/62-implementation/sprint-2/ https:/nexora-webservice.onrender.com/swagger/index.html)
+**URL de la API del Webservice:** [ https://nexora-webservice.onrender.com/swagger/index.html]( https://nexora-webservice.onrender.com/swagger/index.html)
 
 <br>
 
@@ -8946,7 +9561,7 @@ La gestión de código y la colaboración técnica se centralizaron en GitHub, h
 A continuación, se presentan las capturas de pantalla de los analíticos de colaboración (Pulse / Contributors) recopiladas directamente de GitHub para cada uno de los componentes de software desarrollados en el Sprint 2:
 
 ###### 1. Landing Page (nexora.website)
-![GitHub Pulse - Landing Page](assets/chapter-6/implementation/sprint-2/insights-landingpage.jpg)
+![GitHub Pulse - Landing Page](assets/chapter-6/implementation/sprint-2/insights-landing_page.jpg)
 
 ###### 2. Mobile App (nexora.mobileapp)
 ![GitHub Pulse - Mobile App](assets/chapter-6/implementation/sprint-2/insights-mobile.jpg)
@@ -8973,7 +9588,6 @@ A partir de las métricas visualizadas en los analíticos de GitHub para el Spri
     -   **Aplicaciones (Mobile & Web)**: Desarrollo de la aplicación móvil bajo arquitectura DDD y la aplicación web para la monitorización de alertas y el panel analítico.
 
 En conclusión, los analíticos del repositorio confirman que la entrega de valor de Nexora en este Sprint 2 se llevó a cabo bajo un enfoque coordinado, con una alta participación de todos sus integrantes, y asegurando el cumplimiento de las metas planteadas en el Sprint Backlog.
-
 
 ## 6.3.1. Diseño de las Guías de Entrevistas de Validación
 
@@ -9058,7 +9672,6 @@ Durante la evaluación de los productos, se solicita al usuario realizar las sig
      * Marca el ticket como resuelto una vez simulada la reparación.
   5. **Exportación de Evidencia:** El usuario genera y descarga el reporte en formato PDF/Excel con el historial de alertas y telemetría de la propiedad evaluada.
 
-
 ## 6.3.2. Registro de Entrevistas de Validación
 
 Esta sección presenta el registro detallado de las entrevistas de validación realizadas con usuarios reales pertenecientes a los segmentos objetivos definidos para la solución de **Nexora**. Las entrevistas sirven como evidencia del proceso de validación e interacción directa de los usuarios con la Landing Page y los prototipos funcionales (Web y Mobile).
@@ -9086,48 +9699,47 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 ---
 
 #### **Entrevista 2**
-* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
-* **Edad:** `[Edad]` años
-* **Distrito de Residencia:** `[Distrito / Ciudad]`
-* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](60-chapter-6-implementation-validation/63-validation-interviews/URL_DEL_VIDEO)
-* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
+* **Nombres y Apellidos:** Jocelyn Damaly Almerco Rojas
+* **Edad:** 25 años
+* **Distrito de Residencia:** Lima
+* **Fecha de la Entrevista:** 19/06/2026
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://1drv.ms/v/c/a3bebbb4408387f0/IQB0IC8AOhbDQr2pHWJwxG9RATPesag7HoY1xgmKOgBcl3U?e=Re1eYW)
+* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 6 min 52 segs
 
 **Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 2](../assets/chapter-6/validation/interview-landlord-2.jpg)
-*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
+![Captura de Pantalla - Entrevista 2](assets/chapter-6/validation-interviews/validation_interview_2.png)
+
 
 **Resumen de la Entrevista (Principales Apreciaciones):**
-* **Landing Page:** 
-* **Web Application:** 
-* **Mobile App:** 
-* **Conclusiones y Recomendaciones del Usuario:** 
+* **Landing Page:** La entrevistada considera que la landing page tiene un formato claro, se ve enfocado a lo que necesita, es precisa, y le gusta mucho el tema a tratar pq le beneficia como arrendedora.  
+* **Web Application:** A la entrevistada le parecio llamativa nuestra app, le parece genial que le existan secciones con gráficos,para poder visualizar mejor el contenido de la aplicación y no tener un documento que a veces no se entiende mucho, aunque cuestiona el tema de larjeta guardada en la aplicación y como sería factible saber si es seguro para el usuario que no se va a ver si otro usuario llegará entrar a la cuenta.
+* **Conclusiones y Recomendaciones del Usuario:** Como conclusión, a la entrevistada le gustó lo visual y las funcionalidades claves para el proyecto, sin embargo cree que debería haber pasos de verificación para el cuidado de la tarjeta en la aplicación para que no exista un riesgo de saber los datos de esta.
 
 ---
 
 #### **Entrevista 3**
-* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
-* **Edad:** `[Edad]` años
-* **Distrito de Residencia:** `[Distrito / Ciudad]`
-* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](60-chapter-6-implementation-validation/63-validation-interviews/URL_DEL_VIDEO)
-* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
+* **Nombres y Apellidos:** Veronica Rojas
+* **Edad:** 40 años
+* **Distrito de Residencia:** Lima
+* **Fecha de la Entrevista:** 25/06/2026
+* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://1drv.ms/v/c/017052aac6508873/IQDx1O1Zs6vmRZ9QLNng3ZvRAbEZE1reVqtNi-id9woUWKU?e=tlgCue)
+* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 12 min 47 segs
 
 **Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 3](../assets/chapter-6/validation/interview-landlord-3.jpg)
-*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
+![Captura de Pantalla - Entrevista 3](assets/chapter-6/validation-interviews/validation-interview-3.png)
 
 **Resumen de la Entrevista (Principales Apreciaciones):**
-* **Landing Page:** 
-* **Web Application:** 
-* **Mobile App:** 
-* **Conclusiones y Recomendaciones del Usuario:** 
+* **Landing Page:** Le parece una propuesta muy interesante. Destaca que la cantidad de información presentada sirve como una excelente guía para entender cómo aprovechar los recursos de la plataforma.
+
+* **Web Application:** Considera de gran utilidad la generación de reportes de consumo (luz, agua, gas) y las alertas de fugas, ya que le permite monitorear sus propiedades sin estar físicamente presente. Sin embargo, sugiere implementar un manual o video tutorial para facilitar el uso inicial de las distintas secciones. También recomienda especificar mejor qué incluye exactamente cada paquete de suscripción.
+
+* **Conclusiones y Recomendaciones del Usuario:** La entrevistada se mostró muy dispuesta a adquirir la solución tecnológica. Concluye que la aplicación le ahorraría mucho tiempo, dinero y esfuerzo al no tener que desplazarse físicamente a sus propiedades ni contratar técnicos para revisiones rutinarias, dándole la tranquilidad de un monitoreo constante.
 
 ---
 
 ### **2. Segmento Objetivo: Arrendatarios / Inquilinos (Tenants)**
 
-#### **Entrevista 4**
+#### **Entrevista 2**
 * **Nombres y Apellidos:** Diego Castro
 * **Edad:** 25 años
 * **Distrito de Residencia:** Jesus María, Lima
@@ -9143,64 +9755,22 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Mobile App:** Considera de gran utilidad la visualización de consumos históricos y en tiempo real de agua y energía eléctrica. Sin embargo, observó que las alertas ante anomalías de consumo deberían ser más prominentes en la pantalla de inicio, y sugirió la implementación de notificaciones push de alta prioridad.
 * **Conclusiones y Recomendaciones del Usuario:** Le parece excelente contar con un control móvil para la monitorización de su departamento. Recomienda destacar visualmente las alertas críticas en la interfaz y proveer plantillas de automatización rápidas para reducir consumos comunes.
 
----
-
-#### **Entrevista 5**
-* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
-* **Edad:** `[Edad]` años
-* **Distrito de Residencia:** `[Distrito / Ciudad]`
-* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](60-chapter-6-implementation-validation/63-validation-interviews/URL_DEL_VIDEO)
-* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
-
-**Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 5](../assets/chapter-6/validation/interview-tenant-2.jpg)
-*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
-
-**Resumen de la Entrevista (Principales Apreciaciones):**
-* **Landing Page:** 
-* **Web Application:** 
-* **Mobile App:** 
-* **Conclusiones y Recomendaciones del Usuario:** 
-
----
-
-#### **Entrevista 6**
-* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
-* **Edad:** `[Edad]` años
-* **Distrito de Residencia:** `[Distrito / Ciudad]`
-* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](60-chapter-6-implementation-validation/63-validation-interviews/URL_DEL_VIDEO)
-* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
-
-**Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 6](../assets/chapter-6/validation/interview-tenant-3.jpg)
-*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
-
-**Resumen de la Entrevista (Principales Apreciaciones):**
-* **Landing Page:** 
-* **Web Application:** 
-* **Mobile App:** 
-* **Conclusiones y Recomendaciones del Usuario:** 
-
-
-## 6.3 Validación según heurísticas
-
-
 ### Usability – Inclusive Design – Information Architecture
 
 * **CARRERA:** Ingeniería de Software
 * **CURSO:** Desarrollo de Soluciones IoT
-* **SECCIÓN:** 6779 
+* **SECCIÓN:** 6779
 * **AUDITOR:** NexIoT Team
 * **CLIENTE(S):** Arrendatarios y arrendadores.
 
 ---
 
 ### SITE o APP A EVALUAR:
+
 * Landing Page (`nexora.website`), Web Application (`nexora.webapp`) y Mobile Application (`nexora.mobile`).
 
 ### TAREAS A EVALUAR:
+
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
 1. Revisión de beneficios de seguridad e información de precios en la Landing Page.
@@ -9216,12 +9786,13 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 ---
 
 ### ESCALA DE SEVERIDAD:
+
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 | Nivel | Descripción |
-| :---: | :--- |
+| --- | --- |
 | **1** | **Problema superficial:** puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release. |
+| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignado una prioridad baja para resolverlo de cara al siguiente release. |
 | **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
 | **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
 
@@ -9230,17 +9801,20 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 ### TABLA RESUMEN:
 
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) |
-| :---: | :--- | :---: | :--- |
+| --- | --- | --- | --- |
 | 1 | Falta de claridad en la adquisición e integración de dispositivos IoT y su ROI económico (Arrendadores). | **3** | Heurística #10 (Ayuda y Documentación) y Heurística #2 (Relación entre el sistema y el mundo real) |
 | 2 | Falta de prominencia y claridad en la visualización inmediata de alertas críticas de consumos anómalos o fugas (Arrendatarios). | **3** | Heurística #1 (Visibilidad del estado del sistema) |
 | 3 | Complejidad en el flujo de registro y vinculación de dispositivos IoT (pairing) para arrendadores. | **2** | Heurística #5 (Prevención de errores) y Heurística #6 (Reconocimiento antes que recuerdo) |
 | 4 | Curva de aprendizaje al configurar automatizaciones de dispositivos IoT. | **2** | Heurística #7 (Flexibilidad y eficiencia de uso) y Heurística #10 (Ayuda y Documentación) |
+| 5 | **Ausencia de funciones de exportación de historial de consumo para el inquilino (Arrendatarios).** | **2** | Heurística #7 (Flexibilidad y eficiencia de uso) |
+| 6 | **Falta de visibilidad persistente sobre el estado activo de las automatizaciones complejas (Modo Vacaciones).** | **1** | Heurística #1 (Visibilidad del estado del sistema) |
 
 ---
 
 ### DESCRIPCIÓN DE PROBLEMAS:
 
 #### **PROBLEMA #1: Falta de claridad en la adquisición e integración de dispositivos IoT y su ROI económico (Arrendadores).**
+
 * **Severidad:** 3
 * **Heurística violada:** Heurística #10 (Ayuda y Documentación) y Heurística #2 (Relación entre el sistema y el mundo real)
 
@@ -9248,12 +9822,14 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 El usuario del segmento Arrendador percibe la interfaz web como ordenada, pero no entiende cómo comprar los dispositivos, cómo instalarlos ni la rentabilidad económica que justifica el costo de adquisición del hardware.
 
 **Recomendación:**
+
 * Incluir en la Landing Page y en la Web App una calculadora interactiva de ROI que proyecte el ahorro en mantenimiento correctivo y consumo de agua/energía.
 * Documentar visualmente el proceso de "3 pasos para digitalizar tu inmueble" (Adquisición, Instalación, Activación).
 
 ---
 
 #### **PROBLEMA #2: Falta de prominencia y claridad en la visualización inmediata de alertas críticas de consumos anómalos o fugas (Arrendatarios).**
+
 * **Severidad:** 3
 * **Heurística violada:** Heurística #1 (Visibilidad del estado del sistema)
 
@@ -9261,12 +9837,14 @@ El usuario del segmento Arrendador percibe la interfaz web como ordenada, pero n
 El usuario inquilino necesita enterarse de inmediato ante una filtración de agua o fuga de gas para evitar accidentes. Aunque los datos de telemetría son correctos, las alertas críticas no se destacan de forma intrusiva en la pantalla principal del dashboard móvil (falta soporte de alertas push visualmente urgentes).
 
 **Recomendación:**
+
 * Implementar notificaciones push inmediatas de alta prioridad.
 * Agregar indicadores visuales de color rojo de alta criticidad en la pantalla principal del móvil para capturar la atención inmediata del inquilino ante incidentes graves.
 
 ---
 
 #### **PROBLEMA #3: Complejidad en el flujo de registro y vinculación de dispositivos IoT (pairing) para arrendadores.**
+
 * **Severidad:** 2
 * **Heurística violada:** Heurística #5 (Prevención de errores) y Heurística #6 (Reconocimiento antes que recuerdo)
 
@@ -9274,12 +9852,14 @@ El usuario inquilino necesita enterarse de inmediato ante una filtración de agu
 El flujo para vincular un dispositivo requiere que el arrendador recuerde e ingrese manualmente códigos de vinculación complejos de los gateways y dispositivos sin validación en tiempo real de su estado de conexión.
 
 **Recomendación:**
+
 * Sustituir la entrada de texto manual por la lectura de un código QR impreso en el hardware del dispositivo.
 * Implementar una funcionalidad de auto-descubrimiento en la red local de los dispositivos cercanos para el emparejamiento con un solo clic.
 
 ---
 
 #### **PROBLEMA #4: Curva de aprendizaje al configurar automatizaciones de dispositivos IoT.**
+
 * **Severidad:** 2
 * **Heurística violada:** Heurística #7 (Flexibilidad y eficiencia de uso) y Heurística #10 (Ayuda y Documentación)
 
@@ -9287,8 +9867,36 @@ El flujo para vincular un dispositivo requiere que el arrendador recuerde e ingr
 Al crear una nueva automatización (ej. apagar luces si no hay movimiento tras 10 minutos), el inquilino debe configurar reglas complejas de tipo "si pasa esto, haz esto" sin contar con sugerencias o configuraciones estándar precargadas.
 
 **Recomendación:**
+
 * Añadir plantillas de automatización rápida de un solo toque para los escenarios más comunes descritos por los inquilinos (ej. "Modo Ahorro", "Modo Vacaciones", "Control de Inactividad").
 
+---
+
+#### **PROBLEMA #5: Ausencia de funciones de exportación de historial de consumo para el inquilino (Arrendatarios).**
+
+* **Severidad:** 2
+* **Heurística violada:** Heurística #7 (Flexibilidad y eficiencia de uso)
+
+**Descripción:**
+Durante las pruebas de validación en la Mobile Application, el arrendatario interactuó de forma óptima con los filtros de consumo por áreas y periodos (día, mes, año); sin embargo, manifestó la necesidad explícita de poder descargar estos reportes gráficos en formato PDF para mantener un registro histórico externo y poder contrastarlo de manera física o contable frente a los recibos de servicios básicos cobrados.
+
+**Recomendación:**
+
+* Integrar un botón de acción rápida de "Exportar Historial" en el módulo de analíticas de la Mobile Application que genere y descargue localmente un documento PDF resumido con las métricas del periodo filtrado.
+
+---
+
+#### **PROBLEMA #6: Falta de visibilidad persistente sobre el estado activo de las automatizaciones complejas (Modo Vacaciones).**
+
+* **Severidad:** 1
+* **Heurística violada:** Heurística #1 (Visibilidad del estado del sistema)
+
+**Descripción:**
+Al crear reglas personalizadas en la aplicación móvil (como configurar que las luces se apaguen tras 15 minutos de inactividad o activar un protocolo de desocupación), la app confirma la creación de la automatización en la lista, pero no provee un indicador persistente o *widget* visual en el Home que le recuerde constantemente al usuario que el sistema se encuentra operando bajo el "Modo Vacaciones" o un estado automatizado específico.
+
+**Recomendación:**
+
+* Implementar un banner dinámico de estado en la parte superior de la vista de inicio de la aplicación móvil cuando existan reglas macro (como el "Modo Vacaciones") activas, permitiendo al usuario saber con un solo vistazo el estado lógico de su vivienda.
 
 # Conclusiones
 
@@ -9298,7 +9906,7 @@ A partir del desarrollo del Sprint 1 y la consolidación de la arquitectura del 
 
 1.  **Impacto de la Integración IoT en la Experiencia de Usuario**: La implementación de dispositivos inteligentes (ESP32) integrados con interfaces web y móviles permite una gestión proactiva de la seguridad y el consumo. Esto no solo optimiza la operación de las propiedades, sino que proporciona a los residentes una herramienta de control en tiempo real que aumenta significativamente su percepción de seguridad y bienestar.
 2.  **Escalabilidad mediante Diseño Orientado al Dominio (DDD)**: La adopción de arquitecturas estratégicas y tácticas basadas en DDD ha permitido separar claramente las responsabilidades del sistema. Esta modularidad garantiza que el proyecto pueda crecer con nuevas funcionalidades (como integraciones con terceros o analítica avanzada) sin comprometer la estabilidad del núcleo del negocio.
-3.  **Efectividad de la Metodología Ágil y Trabajo Colaborativo**: El uso de Scrum y el flujo de trabajo en Trello durante el Sprint 1 fue fundamental para alcanzar un Producto Mínimo Viable (MVP) funcional en un corto periodo de tiempo. La clara definición de roles y la integración continua permitieron resolver dependencias técnicas de forma eficiente, asegurando una entrega de alta calidad.
+3.  **Efectividad de la Metodología Ágil y Trabajo Colaborativo**: El uso de Scrum y el flujo de trabajo en Trello durante el Sprint 1 fue fundamental para alcanzar un Producto Mínimo Viable (MVP) functional en un corto periodo de tiempo. La clara definición de roles y la integración continua permitieron resolver dependencias técnicas de forma eficiente, asegurando una entrega de alta calidad.
 
 ## TB1
 
@@ -9348,7 +9956,6 @@ Con el fin de garantizar el crecimiento sostenible del proyecto Nexora, se sugie
 *   UXPressia. (n.d.). *How to build a customer empathy map (example + template)*. [https://uxpressia.com/blog/empathy-map-free-template](https://uxpressia.com/blog/empathy-map-free-template)
 *   UXPressia. (n.d.). *How to create an impact map in 7 easy steps*. [https://uxpressia.com/blog/build-impact-map-4-easy-steps](https://uxpressia.com/blog/build-impact-map-4-easy-steps)
 *   UXPressia. (n.d.). *User vs. Buyer Persona: Differences and free template*. [https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference](https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference)
-
 
 # Anexos
 
