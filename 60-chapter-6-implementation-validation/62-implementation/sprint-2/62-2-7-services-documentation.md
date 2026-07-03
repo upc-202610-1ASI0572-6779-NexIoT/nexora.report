@@ -19,7 +19,7 @@ Durante el Sprint 2, se ha logrado consolidar la documentación del **Web Servic
 
 #### **Repositorio y Commits del Web Service**
 
-* **URL del Repositorio:** [nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice)
+* **URL del Repositorio:** [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice)
 * **Rama Principal de Desarrollo:** `develop`
 
 #### Commits Relacionados con la Implementación y Documentación (Sprint 2):
