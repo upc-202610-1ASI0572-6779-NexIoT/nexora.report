@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/IFP8FSt.png" alt="UPC Logo" width="100">
 </p>
 
-<p align="center" style="font-size: 12pt; line-height: 1.5;">
+<p align="center" style="font-size: 16pt; line-height: 1.5;">
   Universidad Peruana de Ciencias Aplicadas<br>
   Carrera de Ingeniería de Software
 </p>
@@ -89,6 +89,12 @@ u202316122      Ramirez Tello, Sebastian
   <strong>Período 202610</strong>
 </p>
 
+<br>
+
+<p align="center" style="font-size: 12pt;">
+  Julio del 2026
+</p>
+
 <div style="page-break-after: always;"></div>
 
 ---
@@ -114,9 +120,27 @@ u202316122      Ramirez Tello, Sebastian
 | TB1.6 | 11/05/2026 | Jhosep Argomedo| Actualización de mockups y wireframes de Landing Page, incorporación de vistas Home, FAQ, Tenant y Property Manager, así como documentación relacionada con IoT Design. |
 | TB1.7 | 12/05/2026 | Kevin Alexander | Incorporación de convenciones de desarrollo para Backend y Frontend, lineamientos SCM, mejoras de SEO y documentación de Labeling Systems para la arquitectura de información. |
 | TB1.8 | 13/05/2026 | Jhosep Argomedo | Reestructuración del informe para Sprint 1, actualización de Lean UX según la tercera edición del libro Lean UX, incorporación de capítulos V y VI, refinamiento de User Stories, Product Backlog, Wireflows y documentación de UI/UX y Product Implementation. |
+| AV2 |
+| AV2.1.0.0 | 26/06/26 | Jhosep Argomedo | Incoporación de estructura básica para el Sprint 3, y desarrollo del Aspect Leaders |
+| AV2.1.0.1 | 15/06/26 | Kevin Castañeda  | Agregar anexos, fuentes bibliográficas y conclusiones |
+| AV2.1.0.2 | 17/06/26 | Maria Fernanda Peña   | Agregar estructura innicial para Sprint2 |
+| AV2.1.0.3 | 18/06/26 | Kevin Castañeda  | Añadir conclusiones para el AV2 y agregar en la tabla de contenidos los items de este entregable |
+| AV2.1.0.4 | 19/06/26 | Maria Fernanda Peña   | Actualización del capítulo IV, refactofizando el diagrama de contexto para que cumpla con la arquitectura monolítica, alineándolo con DDD. También se mejoró el system landscape architecture diagram y el container architecture diagram.|
+| AV2.1.0.5 | 19/06/26 | Kevin Castañeda  |  Añadir Sprint Planning, Aspect Leaders for Sprint 2, Sprint Backlog 2, Web Service Development Evidence, plantilla para el diseño de entrevistas de validación, plantilla de registro de entrevistas de validación y la heurística de evaluación|
+| AV2.1.0.6 | 20/06/26 | Maria Fernanda Peña  |  Actualizar IAM bounded context|
+| AV2.1.0.7 | 20/06/26 | Kevin Castañeda  | Añadir entrevista de validación para arrendadores y collaboration insights del sprint 2|
+| AV2.1.0.8 | 20/06/26 | Andrea OHiggins  | Añadir entrevista de validación para arrendatario |
+| AV2.1.0.9 | 20/06/26 | Jorge Linares  | Reestructuración del Sprint 2 Execution Evidence para que cubra todas las plataformas, así como también expandir el Testing Suite Evidence para el Sprint 2.|
+| AV2.1.1.0 | 20/06/26 | Jhosep Argomedo  | Actualizar Development Evidence For Sprint 2 |
 | TB2 |
-| TB2.1.0.0 | 26/05/26 | Jhosep Argomedo | Incoporación de estructura básica para el Sprint 3, y desarrollo del Aspect Leaders |
-| TB2.1.0.1 | 26/05/26 | Jhosep Argomedo | Corrección de Team Collaboration Insights/Contributors |
+| TB2.1.0.0 | 26/06/26 | Jhosep Argomedo | Incoporación de estructura básica para el Sprint 3, y desarrollo del Aspect Leaders |
+| TB2.1.0.1 | 26/06/26 | Jhosep Argomedo | Corrección de Team Collaboration Insights/Contributors |
+| TB2.1.0.2 | 26/06/26 | Jhosep Argomedo | Corrección de enlaces en los anexos |
+| TB2.1.0.3 | 29/06/26 | Sebastian Ramirez | Agregar entrevista de validación faltante en el Sprint 2 |
+| TB2.1.0.4 | 03/07/26 | Jhosep Argomedo  | Correción de la carátula para mantener la correcta capa y división de páginas entre los siguientes items.|
+| TB2.1.0.5 | 03/07/26 | Kevin Castañeda | Correción de enlaces en capítulo 6 |
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -174,11 +198,13 @@ A continuación, se presentan las evidencias gráficas para el segundo entregabl
 
 ### Insights de Github (AV2)
 
-A continuación, se presentan los analíticosp de colaboración recopilados de los repositorios de GitHub, que evidencian la actividad y contribución de cada miembro del equipo durante los Sprints 1 y 2:
+A continuación, se presentan los analíticos de colaboración recopilados de los repositorios de GitHub, que evidencian la actividad y contribución de cada miembro del equipo durante el Sprint 2 para el Reporte:
 
-#### Sprint 1
+#### Sprint 2
 
 ##### 1. Actividad de Contribuciones (Contributors)
+
+Distribución de los Top Comitters para el reporte.
 ![GitHub Contributors](assets/chapter-6/implementation/sprint-1/insights-sprint1.jpg)
 
 ##### 2. Frecuencia de Commits y Trabajo Diario
@@ -187,23 +213,13 @@ A continuación, se presentan los analíticosp de colaboración recopilados de l
 ##### 3. Flujo de Red y Ramas (Network Graph)
 ![GitHub Network Graph](assets/chapter-6/implementation/sprint-1/insights3-sprint1.jpg)
 
-#### Sprint 2
+### Insights de Github (TB2):
 
-##### 1. Landing Page (nexora.website)
-![GitHub Pulse - Landing Page](assets/chapter-6/implementation/sprint-2/insights-landing_page.jpg)
+A continuación, se presentan los analíticos relacionados al Sprint 3, para el reporte. Se detallan mejoras en algunas secciones para aplicar mejora continua, así como también la mejora de la organización del reporte en la carátula, anexos, fuentes bibliográficas, etc.
 
-##### 2. Mobile App (nexora.mobileapp)
-![GitHub Pulse - Mobile App](assets/chapter-6/implementation/sprint-2/insights-mobile.jpg)
+#### Sprint 3: 
 
-##### 3. Web Application (nexora.webapp)
-![GitHub Pulse - Web Application](assets/chapter-6/implementation/sprint-2/insights-appweb.jpg)
-
-##### 4. Edge Service (nexora.edgeservice)
-![GitHub Pulse - Edge Service](assets/chapter-6/implementation/sprint-2/insights-edge.jpg)
-
-##### 5. Embedded Apps (nexora.embeddedapp)
-![GitHub Pulse - Embedded Apps](assets/chapter-6/implementation/sprint-2/insights-embedded.jpg)
-
+A continuación, se detallan los insights de Github en función a este último entregable.
 
 ## Interpretación de los Analíticos
 
@@ -212,6 +228,8 @@ A partir de las evidencias mostradas, el equipo concluye lo siguiente:
 1.  **Participación Equitativa:** El gráfico de contribuyentes demuestra que todos los miembros del equipo han realizado aportes significativos al repositorio del informe, cumpliendo con el requisito de participación conjunta en todas las etapas.
 2.  **Coherencia con el Registro de Versiones:** La actividad registrada en GitHub (fechas y autores) guarda total coherencia con el [Registro de Versiones del Informe](./02-version-history.md), validando la veracidad de los cambios documentados.
 3.  **Flujo de Trabajo Iterativo:** La frecuencia de commits muestra un proceso de elaboración progresivo y no acumulativo al final de los plazos, lo que facilitó la revisión y mejora continua de la calidad del documento final.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -388,6 +406,8 @@ A partir de las evidencias mostradas, el equipo concluye lo siguiente:
 
 ### [Anexos](#anexos)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## ABET – EAC - Student Outcome 5
@@ -403,6 +423,8 @@ En el siguiente cuadro se describen las acciones realizadas y conclusiones del g
 |--------------------|--------------------|--------------|
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Argomedo Camacho, Jhosep Jamil (AV1)** <br> En esta entrega, participé activamente en la definición del perfil de nuestra startup, incluyendo la descripción de la empresa y los perfiles de los integrantes del equipo. También contribuí en el desarrollo del Solution Profile, trabajando en los antecedentes, la problemática y la estructuración del Lean UX Process, así como en la identificación de problem statements, assumptions, hypothesis statements, el Lean UX Canvas y los segmentos objetivo. Además, trabajé en el diseño y desarrollo del bounded context de Resource Asset Management, elaborando sus diagramas y coordinando con el equipo para asegurar la coherencia y la integración de nuestras aportaciones. <br><br>**Argomedo Camacho, Jhosep Jamil (TB1)** <br> En esta entrega, participé activamente en la definición de los lineamientos visuales y técnicos del proyecto mediante el desarrollo del General Style Guidelines, así como de los Web, Mobile and IoT Style Guidelines, estableciendo estándares de diseño y desarrollo para asegurar consistencia entre las distintas plataformas del producto. Asimismo, lideré el diseño de los wireframes y mock-ups de la Landing Page, aportando en la definición visual de la interfaz. Además, contribuí en la configuración del Software Development Environment y en la elaboración de las User Stories, facilitando la organización técnica y funcional del proyecto para el equipo. <br><br> **Argomedo Camacho, Jhosep Jamil (AV2)** <br> Asumí el rol de Líder (L) en el desarrollo del Web Service (Backend) en Render y de la Web Application en Vercel durante el Sprint 2. Dirigí la transición del sistema estático a un flujo completamente dinámico conectado a base de datos. Como Colaborador (C), coordiné activamente en las capas de Edge Service, Landing Page, Mobile App y Embedded Apps para asegurar la correcta integración de la API REST. <br><br> **Peña Riofrio, Maria Fernanda (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas.<br><br>**Peña Riofrio, Maria Fernanda (TB1)** <br> Participé en el desarrollo del proyecto IoT mediante la creación del Organization Systems, wireframes, wireflows, mockups y prototipo de la aplicación móvil. Además, colaboré en la Landing Page desarrollando la sección How it Works y en la aplicación web implementando las secciones Choose Your Plan y Checkout.<br><br> **Peña Riofrio, Maria Fernanda (AV2)** <br> Asumí el rol de Líder (L) en el desarrollo de la Landing Page de Nexora IoT, coordinando la implementación de mejoras visuales, la internacionalización de contenidos y la optimización de la experiencia de usuario para garantizar una presentación consistente del producto. Como Colaboradora (C), participé en la elaboración de la documentación técnica del proyecto, contribuyendo en el desarrollo de diagramas de arquitectura basados en DDD y C4 para los distintos Bounded Contexts de la solución..<br><br> **Castañeda Llanos, Kevin Alexander (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas. <br> <br> **Kevin Alexander Castañeda Llanos (TB1)** <br> Participe de forma efectiva en el proceso de realización de la Aplicación Web y la Landing Page. Además, lideré en la creación de los wireframes y mockups para la Landing Page, así como también la creación del Deployment Configuration y el Code Style Guide Conventions. <br><br> **Castañeda Llanos, Kevin Alexander (AV2)** <br> Ejercí el rol de Líder (L) en tres frentes técnicos durante el Sprint 2: Embedded Apps, Web Service y Web Application, logrando el despliegue del almacenamiento seguro en Supabase. Colaboré activamente (C) en la sincronización de servicios perimetrales de detección de gases (Edge), la Landing Page y la arquitectura simulada del entorno Mobile. <br><br> **O'Higgins Rosales, Andrea Namie (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas. <br><br> **O'Higgins Rosales, Andrea Namie (TB1)** <br> En esta entrega, colaboré con diseño de los wireframes, mockups y wireflow para la aplicación móvil, estableciendo las bases visuales y de interacción que el equipo utilizó como referencia durante el desarrollo del frontend. Asimismo, desarrollé las secciones hero, alliances y product de la Landing Page. Esto permitió al equipo avanzar con mayor claridad en el diseño y desarrollo de los productos, alineando las decisiones de interfaz con la arquitectura de información definida para Nexora.<br><br> **Muñoz Vilcapoma, Mauricio (AV1)** <br> Participé en la creación del User Task Matrix, el desarrollo del Journey Mapping, apoyo en actividades de Needfinding y en la redacción del Bounded Context, contribuyendo con la organización y documentación de artefactos clave del proyecto.<br><br> **Linares Arroyo, Jorge Alexandro (AV1)** <br> En esta entrega, lideré la definición técnica y estratégica del proyecto mediante la elaboración del Impact Mapping, alineando los objetivos de negocio con las capacidades de la plataforma. Fui responsable del diseño de la arquitectura del sistema, desarrollando los diagramas de Containers y Deployment, asegurando una infraestructura distribuida capaz de soportar la comunicación entre el hardware ESP32 y la nube. Asimismo, redacté y estructuré el Bounded Context de Service Monitoring & Intelligence, definiendo la lógica de dominio para la detección de anomalías y telemetría, y lideré la creación del Product Backlog en Jira, priorizando las historias de usuario y técnicas según su valor crítico para el MVP.<br><br>**Linares Arroyo, Jorge Alexandro (TB1)** <br> En esta entrega, lideré el diseño de la arquitectura de información y la experiencia de usuario de la aplicación web mediante el desarrollo de los navigation systems, wireframes, mockups y wireflows, definiendo el estándar visual y de flujo técnico. Asimismo, fui responsable del modelado y especificación del bounded context de Service Monitoring/Alerts, asegurando su alineación con las necesidades de la plataforma. Adicionalmente, asumí la dirección técnica en el desarrollo del application prototyping para validar los flujos críticos del sistema antes de su implementación en el frontend. <br><br> **Linares Arroyo, Jorge Alexandro (AV2)** <br>Asumí el rol de Líder (L) de los aspectos de Edge Service y Embedded Apps durante el Sprint 2, dirigiendo la programación de los microcontroladores para simular consumo y la telemetría real del sensor de gas. Participé como Colaborador (C) validando que estos datos se consumieran correctamente en las capas de Landing, Mobile, Web Service y Web Application. <br><br> **Ramirez Tello, Sebastian (AV1)** <br> Participé en la alineación estratégica del proyecto mediante la elaboración del Impact Mapping y la estructuración del Product Backlog. Asimismo, contribuí en el desarrollo técnico de un Bounded Context, elaborando sus diagramas y asegurando la integración de la lógica de dominio con los objetivos del equipo.<br><br>  **Ramirez Tello, Sebastian (TB1)** <br> En esta entrega, participé activamente en el diseño de la interfaz de la aplicación web mediante la elaboración de wireframes, mockups y wireflows, coordinando con los integrantes del equipo para alinear la experiencia de usuario con los requerimientos funcionales del proyecto. Asimismo, desarrollé la sección About Us de la Landing Page y el apartado de propiedades dentro de la aplicación web, contribuyendo al desarrollo de componentes clave del producto y asegurando la integración entre diseño y desarrollo frontend. <br><br> **Ramirez Tello, Sebastian (AV2)** <br> Me desempeñé como Líder (L) del Web Service y de la Web Application durante el Sprint 2, coliderando el despliegue dinámico de la lógica del servidor en Render y el almacenamiento en Supabase. Actué como Colaborador (C) apoyando técnicamente en la revisión de los servicios de Edge, la Landing Page, la Mobile App y la infraestructura Embedded para asegurar la interoperabilidad del sistema. | **Conclusión general:**<br> Durante la entrega AV2, el equipo demostró un esquema de coliderazgo altamente efectivo mediante la aplicación de la Matriz LACX. Al delegar liderazgos específicos para cada capa de la arquitectura IoT (Edge, Embedded, Web, Mobile), se garantizó que todos los frentes avanzaran con un responsable técnico dedicado, logrando integrar con éxito una solución multi-plataforma real y funcional en producción. |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Argomedo Camacho, Jhosep Jamil (AV1)** <br> En esta entrega, promoví un entorno colaborativo e inclusivo mediante el seguimiento constante de las tareas del equipo, asegurando la participación activa de todos los integrantes. Me encargué de organizar y planificar el trabajo creando tableros en Jira y Trello para gestionar y monitorear el avance de las actividades, además de definir lapsos de tiempo para el cumplimiento de cada tarea. Esto permitió establecer metas claras, mejorar la coordinación del equipo y asegurar el logro de los objetivos planteados en el desarrollo del proyecto. <br><br> **Argomedo Camacho, Jhosep Jamil (TB1)** <br> Durante esta entrega, promoví un entorno colaborativo mediante la coordinación constante con el equipo para definir estándares de diseño, criterios de desarrollo y requerimientos funcionales del proyecto. Participé en la planificación y estructuración del Sprint 1, organizando tareas y prioridades junto a los integrantes para asegurar el cumplimiento de los objetivos planteados. Asimismo, desarrollé la Landing Page correspondiente a la vista de arrendadores, cumpliendo con los plazos establecidos y contribuyendo al avance continuo de los entregables del sprint. <br><br> **Argomedo Camacho, Jhosep Jamil (AV2)** <br> Fomenté un entorno colaborativo coordinando el flujo de Git/GitHub para evitar conflictos en la integración continua de los 5 repositorios. Participé en la planificación del Sprint Backlog 2 y lideré las modificaciones de seguridad y la estructura SaaS dynamic de la Web App bajo datos reales en base de datos de producción. <br><br> **Peña Riofrio, Maria Fernanda (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context.<br><br> **Peña Riofrio, Maria Fernanda (TB1)** <br> Contribuí al trabajo colaborativo coordinando tareas relacionadas con UX/UI y prototipado, apoyando en la integración visual y funcional del proyecto para cumplir los objetivos y entregables establecidos en cada sprint. <br><br>**Peña Riofrio, Maria Fernanda (AV2)**<br> Fomenté un entorno de trabajo colaborativo mediante la gestión de ramas e integración de cambios utilizando Git y GitHub, asegurando la correcta sincronización de entregables con la rama develop. Participé en la planificación y seguimiento de actividades del Sprint, apoyando la integración entre los componentes de Landing Page, Mobile App, Backend y Edge Service, así como en la construcción de los artefactos arquitectónicos requeridos para el proyecto.<br><br> **Castañeda Llanos, Kevin Alexander (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context. <br> <br> **Kevin Alexander Castañeda Llanos (TB1)** <br> Fomenté un entorno colabotativo apoyando a los demás en tareas grupales, así como también dando seguimiento de las tareas que se deben de realizar, para así mostrar un Sprint en donde todos participan por igual. <br><br> **Castañeda Llanos, Kevin Alexander (AV2)** <br> Promoví un ambiente inclusivo al dar soporte técnico a los miembros del equipo que requerían configurar las conexiones de red locales y las variables de entorno para Supabase y Render. Monitoreé el tablero Kanban de GitHub Projects para asegurar la entrega a tiempo de las historias de usuario. <br><br> **O'Higgins Rosales, Andrea Namie (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context. <br><br> **O'Higgins Rosales, Andrea Namie (TB1)** <br> Elaboré la documentación del searching systems en el informe del proyecto, garantizando que las decisiones de diseño de búsqueda tanto para la aplicación móvil como para la web quedaran formalizadas y accesibles para todos los integrantes del equipo. Adicionalmente, desarrollé la Documentation of Development Evidence for Sprint Review, consolidando las evidencias de los avances del sprint de forma ordenada para facilitar la revisión y el seguimiento colectivo del progreso. <br><br> **Muñoz Vilcapoma, Mauricio (AV1)** <br> Colaboré en la estructuración de entregables vinculados al análisis de usuarios y arquitectura funcional, manteniendo coordinación constante con el equipo para alinear contenidos, reorganizar información y cumplir los plazos establecidos para cada avance del proyecto.<br><br> **Linares Arroyo, Jorge Alexandro (AV1)** <br> Contribuí a la creación de un entorno colaborativo mediante la facilitación de sesiones de diseño para el Product Backlog, donde establecimos los Story Points y criterios de aceptación de forma consensuada. Planifiqué las tareas técnicas relacionadas con la arquitectura IoT, estableciendo hitos claros para la integración de los componentes de hardware con el backend. Además, coordiné con los responsables de otros Bounded Contexts para garantizar la interoperabilidad de la plataforma, asegurando que el flujo de datos desde los sensores hasta la aplicación móvil se cumpliera dentro de los plazos establecidos y bajo los estándares de calidad definidos por el equipo. <br><br>**Linares Arroyo, Jorge Alexandro (TB1)** <br> Contribuí al cumplimiento de los objetivos del equipo mediante el desarrollo de la documentación técnica correspondiente al primer sprint, facilitando un marco de referencia claro para el desarrollo del frontend. Promoví un entorno de colaboración al diseñar e implementar el apartado de FAQ de la landing page bajo los plazos establecidos, coordinando activamente con los encargados de los lineamientos de diseño para garantizar la consistencia visual del producto y asegurar la entrega oportuna de los artefactos del sprint. <br><br> **Linares Arroyo, Jorge Alexandro (AV2)** <br> Fomenté la colaboración cruzada al trabajar directamente con los encargados de la Web App para asegurar que las tramas de voltaje emuladas por el hardware real se reflejaran de manera transparente en la base de datos de Supabase, cumpliendo con los objetivos de telemetría establecidos en el Sprint. <br><br> **Ramirez Tello, Sebastian (AV1)** <br> Colabore en la redacción de User Stories y la definición de criterios de aceptación junto al equipo. Colaboré en la planificación de tareas y el seguimiento del backlog para asegurar el cumplimiento de las metas y la entrega oportuna de los requerimientos funcionales del proyecto.<br><br> **Ramirez Tello, Sebastian (TB1)** <br> Durante esta entrega, promoví un entorno de trabajo colaborativo mediante la comunicación constante con el equipo para validar diseños, funcionalidades y flujos de navegación de la aplicación web. Además, participé en la planificación y ejecución de las tareas asignadas durante el sprint, cumpliendo con los plazos establecidos para el desarrollo de la sección About Us de la Landing Page y del módulo de propiedades de la aplicación web, contribuyendo al cumplimiento de los objetivos planteados para la entrega. <br><br> **Ramirez Tello, Sebastian (AV2)** <br> Promoví la colaboración mediante sesiones de sincronización de contratos de API para conectar los endpoints de Render con el frontend. Planifiqué las tareas de persistencia del módulo de autenticación dinámica y gestión de propiedades, logrando el cumplimiento de las metas del Sprint 2 dentro de los plazos establecidos. | **Conclusión general:**<br> El uso estructurado de herramientas de integración y despliegue continuo (Render, Vercel, GitHub) junto con tableros ágiles permitió al equipo establecer hitos rigurosos y cumplir el 100% de los objetivos del Sprint 2. El entorno colaborativo se consolidó al procesar las entrevistas de usuarios reales directamente en un análisis heurístico conjunto, lo que garantizó un producto centrado en el usuario. |
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -8323,7 +8345,7 @@ A continuación, se presentan las evidencias de la ejecución y el funcionamient
 
 En el siguiente enlace se puede visualizar el recorrido funcional de la aplicación, ilustrando la navegación fluida entre módulos y la visualización de datos en tiempo real:
 
-**Enlace al Video:** [Video de Ejecución - Sprint 1](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
+**Enlace al Video:** [https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
 
 ---
 
@@ -9216,8 +9238,8 @@ Relación de commits vinculados con los avances del Testing de este Sprint:
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `628b722` | test: add unit and BDD tests for device management contexts | Implement Unit Tests for Device entity domain logic and Gherkin BDD scenario for registering new devices to properties. | 20/06/2026 |
-| [upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `1ee5b4c` | test: add unit and BDD tests for alert context | Create Unit Tests for Alert domain entity and BDD integration scenario for filtering alerts by severity and type. | 20/06/2026 |
+| [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `628b722` | test: add unit and BDD tests for device management contexts | Implement Unit Tests for Device entity domain logic and Gherkin BDD scenario for registering new devices to properties. | 20/06/2026 |
+| [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `1ee5b4c` | test: add unit and BDD tests for alert context | Create Unit Tests for Alert domain entity and BDD integration scenario for filtering alerts by severity and type. | 20/06/2026 |
 
 ---
 
@@ -9285,7 +9307,7 @@ Evidencia del prototipo en desarrollo ejecutándose sobre el emulador o Chrome:
 
 ---
 
-**Enlace al Video:** [Video de Ejecución - Sprint 2](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
+**Enlace al Video:** [https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
 
 ---
 
@@ -9310,7 +9332,7 @@ Durante el Sprint 2, se ha logrado consolidar la documentación del **Web Servic
 
 #### **Repositorio y Commits del Web Service**
 
-* **URL del Repositorio:** [nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice)
+* **URL del Repositorio:** [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice)
 * **Rama Principal de Desarrollo:** `develop`
 
 #### Commits Relacionados con la Implementación y Documentación (Sprint 2):
@@ -9908,7 +9930,7 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 25 años
 * **Distrito de Residencia:** Surco
 * **Fecha de la Entrevista:** 19/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/IQBaXNAMjnj6Qo-r0c44go5wAR0oDeMpffll7GxMyHzWcd8?e=LpxL9H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Enlace del Video:** [ttps://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/IQBaXNAMjnj6Qo-r0c44go5wAR0oDeMpffll7GxMyHzWcd8?e=LpxL9H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/IQBaXNAMjnj6Qo-r0c44go5wAR0oDeMpffll7GxMyHzWcd8?e=LpxL9H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 * **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 8 Mins 00 segs
 
 **Evidencia de la Entrevista (Screenshot):**
@@ -9945,7 +9967,7 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 40 años
 * **Distrito de Residencia:** Lima
 * **Fecha de la Entrevista:** 25/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://1drv.ms/v/c/017052aac6508873/IQDx1O1Zs6vmRZ9QLNng3ZvRAbEZE1reVqtNi-id9woUWKU?e=tlgCue)
+* **Enlace del Video:** [https://1drv.ms/v/c/017052aac6508873/IQDx1O1Zs6vmRZ9QLNng3ZvRAbEZE1reVqtNi-id9woUWKU?e=tlgCue](https://1drv.ms/v/c/017052aac6508873/IQDx1O1Zs6vmRZ9QLNng3ZvRAbEZE1reVqtNi-id9woUWKU?e=tlgCue)
 * **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 12 min 47 segs
 
 **Evidencia de la Entrevista (Screenshot):**
@@ -9967,7 +9989,7 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 22 años
 * **Distrito de Residencia:** San Isidro, Lima
 * **Fecha de la Entrevista:** 23/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316122_upc_edu_pe/IQAo7jiDaf6KQ5HGWY4okkpXARtSYDTPqslsoXY4SKF0Seo?e=riCJid&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Enlace del Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316122_upc_edu_pe/IQAo7jiDaf6KQ5HGWY4okkpXARtSYDTPqslsoXY4SKF0Seo?e=riCJid&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316122_upc_edu_pe/IQAo7jiDaf6KQ5HGWY4okkpXARtSYDTPqslsoXY4SKF0Seo?e=riCJid&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 * **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 27 Mins 40 segs
 
 **Evidencia de la Entrevista (Screenshot):**
@@ -9984,7 +10006,7 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 25 años
 * **Distrito de Residencia:** Jesus María, Lima
 * **Fecha de la Entrevista:** 20/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCStSYLNTFtSZd3auMZ1mptAbZkhIJviHHIye58zZJ1ScE?e=PaG2aW)
+* **Enlace del Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCStSYLNTFtSZd3auMZ1mptAbZkhIJviHHIye58zZJ1ScE?e=PaG2aW](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCStSYLNTFtSZd3auMZ1mptAbZkhIJviHHIye58zZJ1ScE?e=PaG2aW)
 * **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 5 Mins 00 segs
 
 **Evidencia de la Entrevista (Screenshot):**
