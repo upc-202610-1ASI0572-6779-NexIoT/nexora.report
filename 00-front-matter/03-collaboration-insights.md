@@ -31,7 +31,7 @@ A continuación, se presentan las evidencias gráficas del repositorio `nexora.r
 ### 1. Historial de Commits (Activity)
 Evidencia la frecuencia de trabajo y la colaboración constante a lo largo de las semanas de desarrollo.
 
-![Report Commits Activity](../assets/common/insights/commits-insights.jpg)
+<img src="../assets/common/insights/commits-insights.jpg" alt="Report Commits Activity" width="600" height="350">
 
 
 ### Insights de Github (TB1)
@@ -39,16 +39,16 @@ Evidencia la frecuencia de trabajo y la colaboración constante a lo largo de la
 A continuación, se presentan las evidencias gráficas para el segundo entregable del reporte:
 
 #### 1. Historial de Commits (Activity)
-![Report Commits Activity](../assets/common/insights/insights3-tb1.jpg)
+<img src="../assets/common/insights/insights3-tb1.jpg" alt="Report Commits Activity" width="600" height="350">
 
 #### 2. Historial de Commits (Activity)
-![Report Contributors](../assets/common/insights/insights1-tb1.jpg)
+<img src="../assets/common/insights/insights1-tb1.jpg" alt="Report Contributors" width="600" height="350">
 
-![Report Contributors](../assets/common/insights/insights2-tb1.jpg)
+<img src="../assets/common/insights/insights2-tb1.jpg" alt="Report Contributors" width="600" height="350">
 
 
 #### 4. Network Graph
-![Network Graph](../assets/common/insights/insights4-tb1.jpg)
+<img src="../assets/common/insights/insights4-tb1.jpg" alt="Network Graph" width="600" height="350">
 
 ### Insights de Github (AV2)
 
@@ -59,13 +59,13 @@ A continuación, se presentan los analíticos de colaboración recopilados de lo
 ##### 1. Actividad de Contribuciones (Contributors)
 
 Distribución de los Top Comitters para el reporte.
-![GitHub Contributors](../assets/chapter-6/implementation/sprint-1/insights-sprint1.jpg)
+<img src="../assets/chapter-6/implementation/sprint-1/insights-sprint1.jpg" alt="GitHub Contributors" width="600" height="350">
 
 ##### 2. Frecuencia de Commits y Trabajo Diario
-![GitHub Commits Activity](../assets/chapter-6/implementation/sprint-1/insights2-sprint1.jpg)
+<img src="../assets/chapter-6/implementation/sprint-1/insights2-sprint1.jpg" alt="GitHub Commits Activity" width="600" height="350">
 
 ##### 3. Flujo de Red y Ramas (Network Graph)
-![GitHub Network Graph](../assets/chapter-6/implementation/sprint-1/insights3-sprint1.jpg)
+<img src="../assets/chapter-6/implementation/sprint-1/insights3-sprint1.jpg" alt="GitHub Network Graph" width="600" height="350">
 
 ### Insights de Github (TB2):
 
