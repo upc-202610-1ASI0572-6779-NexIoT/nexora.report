@@ -52,11 +52,13 @@ A continuación, se presentan las evidencias gráficas para el segundo entregabl
 
 ### Insights de Github (AV2)
 
-A continuación, se presentan los analíticosp de colaboración recopilados de los repositorios de GitHub, que evidencian la actividad y contribución de cada miembro del equipo durante los Sprints 1 y 2:
+A continuación, se presentan los analíticos de colaboración recopilados de los repositorios de GitHub, que evidencian la actividad y contribución de cada miembro del equipo durante el Sprint 2 para el Reporte:
 
-#### Sprint 1
+#### Sprint 2
 
 ##### 1. Actividad de Contribuciones (Contributors)
+
+Distribución de los Top Comitters para el reporte.
 ![GitHub Contributors](../assets/chapter-6/implementation/sprint-1/insights-sprint1.jpg)
 
 ##### 2. Frecuencia de Commits y Trabajo Diario
@@ -65,23 +67,13 @@ A continuación, se presentan los analíticosp de colaboración recopilados de l
 ##### 3. Flujo de Red y Ramas (Network Graph)
 ![GitHub Network Graph](../assets/chapter-6/implementation/sprint-1/insights3-sprint1.jpg)
 
-#### Sprint 2
+### Insights de Github (TB2):
 
-##### 1. Landing Page (nexora.website)
-![GitHub Pulse - Landing Page](../assets/chapter-6/implementation/sprint-2/insights-landing_page.jpg)
+A continuación, se presentan los analíticos relacionados al Sprint 3, para el reporte. Se detallan mejoras en algunas secciones para aplicar mejora continua, así como también la mejora de la organización del reporte en la carátula, anexos, fuentes bibliográficas, etc.
 
-##### 2. Mobile App (nexora.mobileapp)
-![GitHub Pulse - Mobile App](../assets/chapter-6/implementation/sprint-2/insights-mobile.jpg)
+#### Sprint 3: 
 
-##### 3. Web Application (nexora.webapp)
-![GitHub Pulse - Web Application](../assets/chapter-6/implementation/sprint-2/insights-appweb.jpg)
-
-##### 4. Edge Service (nexora.edgeservice)
-![GitHub Pulse - Edge Service](../assets/chapter-6/implementation/sprint-2/insights-edge.jpg)
-
-##### 5. Embedded Apps (nexora.embeddedapp)
-![GitHub Pulse - Embedded Apps](../assets/chapter-6/implementation/sprint-2/insights-embedded.jpg)
-
+A continuación, se detallan los insights de Github en función a este último entregable.
 
 ## Interpretación de los Analíticos
 
@@ -91,3 +83,4 @@ A partir de las evidencias mostradas, el equipo concluye lo siguiente:
 2.  **Coherencia con el Registro de Versiones:** La actividad registrada en GitHub (fechas y autores) guarda total coherencia con el [Registro de Versiones del Informe](./02-version-history.md), validando la veracidad de los cambios documentados.
 3.  **Flujo de Trabajo Iterativo:** La frecuencia de commits muestra un proceso de elaboración progresivo y no acumulativo al final de los plazos, lo que facilitó la revisión y mejora continua de la calidad del documento final.
 
+<div style="page-break-after: always;"></div>

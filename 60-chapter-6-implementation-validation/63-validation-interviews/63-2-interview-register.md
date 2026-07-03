@@ -11,7 +11,7 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 25 años
 * **Distrito de Residencia:** Surco
 * **Fecha de la Entrevista:** 19/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/IQBaXNAMjnj6Qo-r0c44go5wAR0oDeMpffll7GxMyHzWcd8?e=LpxL9H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Enlace del Video:** [ttps://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/IQBaXNAMjnj6Qo-r0c44go5wAR0oDeMpffll7GxMyHzWcd8?e=LpxL9H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/IQBaXNAMjnj6Qo-r0c44go5wAR0oDeMpffll7GxMyHzWcd8?e=LpxL9H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 * **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 8 Mins 00 segs
 
 **Evidencia de la Entrevista (Screenshot):**
@@ -48,7 +48,7 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 40 años
 * **Distrito de Residencia:** Lima
 * **Fecha de la Entrevista:** 25/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://1drv.ms/v/c/017052aac6508873/IQDx1O1Zs6vmRZ9QLNng3ZvRAbEZE1reVqtNi-id9woUWKU?e=tlgCue)
+* **Enlace del Video:** [https://1drv.ms/v/c/017052aac6508873/IQDx1O1Zs6vmRZ9QLNng3ZvRAbEZE1reVqtNi-id9woUWKU?e=tlgCue](https://1drv.ms/v/c/017052aac6508873/IQDx1O1Zs6vmRZ9QLNng3ZvRAbEZE1reVqtNi-id9woUWKU?e=tlgCue)
 * **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 12 min 47 segs
 
 **Evidencia de la Entrevista (Screenshot):**
@@ -70,7 +70,7 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 22 años
 * **Distrito de Residencia:** San Isidro, Lima
 * **Fecha de la Entrevista:** 23/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316122_upc_edu_pe/IQAo7jiDaf6KQ5HGWY4okkpXARtSYDTPqslsoXY4SKF0Seo?e=riCJid&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Enlace del Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316122_upc_edu_pe/IQAo7jiDaf6KQ5HGWY4okkpXARtSYDTPqslsoXY4SKF0Seo?e=riCJid&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316122_upc_edu_pe/IQAo7jiDaf6KQ5HGWY4okkpXARtSYDTPqslsoXY4SKF0Seo?e=riCJid&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 * **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 27 Mins 40 segs
 
 **Evidencia de la Entrevista (Screenshot):**
@@ -87,7 +87,7 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 25 años
 * **Distrito de Residencia:** Jesus María, Lima
 * **Fecha de la Entrevista:** 20/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCStSYLNTFtSZd3auMZ1mptAbZkhIJviHHIye58zZJ1ScE?e=PaG2aW)
+* **Enlace del Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCStSYLNTFtSZd3auMZ1mptAbZkhIJviHHIye58zZJ1ScE?e=PaG2aW](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCStSYLNTFtSZd3auMZ1mptAbZkhIJviHHIye58zZJ1ScE?e=PaG2aW)
 * **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 5 Mins 00 segs
 
 **Evidencia de la Entrevista (Screenshot):**
