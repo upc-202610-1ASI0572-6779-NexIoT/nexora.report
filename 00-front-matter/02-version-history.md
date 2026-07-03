@@ -19,6 +19,22 @@
 | TB1.6 | 11/05/2026 | Jhosep Argomedo| Actualización de mockups y wireframes de Landing Page, incorporación de vistas Home, FAQ, Tenant y Property Manager, así como documentación relacionada con IoT Design. |
 | TB1.7 | 12/05/2026 | Kevin Alexander | Incorporación de convenciones de desarrollo para Backend y Frontend, lineamientos SCM, mejoras de SEO y documentación de Labeling Systems para la arquitectura de información. |
 | TB1.8 | 13/05/2026 | Jhosep Argomedo | Reestructuración del informe para Sprint 1, actualización de Lean UX según la tercera edición del libro Lean UX, incorporación de capítulos V y VI, refinamiento de User Stories, Product Backlog, Wireflows y documentación de UI/UX y Product Implementation. |
+| AV2 |
+| AV2.1.0.0 | 26/06/26 | Jhosep Argomedo | Incoporación de estructura básica para el Sprint 3, y desarrollo del Aspect Leaders |
+| AV2.1.0.1 | 15/06/26 | Kevin Castañeda  | Agregar anexos, fuentes bibliográficas y conclusiones |
+| AV2.1.0.2 | 17/06/26 | Maria Fernanda Peña   | Agregar estructura innicial para Sprint2 |
+| AV2.1.0.3 | 18/06/26 | Kevin Castañeda  | Añadir conclusiones para el AV2 y agregar en la tabla de contenidos los items de este entregable |
+| AV2.1.0.4 | 19/06/26 | Maria Fernanda Peña   | Actualización del capítulo IV, refactofizando el diagrama de contexto para que cumpla con la arquitectura monolítica, alineándolo con DDD. También se mejoró el system landscape architecture diagram y el container architecture diagram.|
+| AV2.1.0.5 | 19/06/26 | Kevin Castañeda  |  Añadir Sprint Planning, Aspect Leaders for Sprint 2, Sprint Backlog 2, Web Service Development Evidence, plantilla para el diseño de entrevistas de validación, plantilla de registro de entrevistas de validación y la heurística de evaluación|
+| AV2.1.0.6 | 20/06/26 | Maria Fernanda Peña  |  Actualizar IAM bounded context|
+| AV2.1.0.7 | 20/06/26 | Kevin Castañeda  | Añadir entrevista de validación para arrendadores y collaboration insights del sprint 2|
+| AV2.1.0.8 | 20/06/26 | Andrea OHiggins  | Añadir entrevista de validación para arrendatario |
+| AV2.1.0.9 | 20/06/26 | Jorge Linares  | Reestructuración del Sprint 2 Execution Evidence para que cubra todas las plataformas, así como también expandir el Testing Suite Evidence para el Sprint 2.|
+| AV2.1.1.0 | 20/06/26 | Jhosep Argomedo  | Actualizar Development Evidence For Sprint 2 |
 | TB2 |
-| TB2.1.0.0 | 26/05/26 | Jhosep Argomedo | Incoporación de estructura básica para el Sprint 3, y desarrollo del Aspect Leaders |
-| TB2.1.0.1 | 26/05/26 | Jhosep Argomedo | Corrección de Team Collaboration Insights/Contributors |
+| TB2.1.0.0 | 26/06/26 | Jhosep Argomedo | Incoporación de estructura básica para el Sprint 3, y desarrollo del Aspect Leaders |
+| TB2.1.0.1 | 26/06/26 | Jhosep Argomedo | Corrección de Team Collaboration Insights/Contributors |
+| TB2.1.0.2 | 26/06/26 | Jhosep Argomedo | Corrección de enlaces en los anexos |
+| TB2.1.0.3 | 29/06/26 | Sebastian Ramirez | Agregar entrevista de validación faltante en el Sprint 2 |
+| TB2.1.0.4 | 03/07/26 | Jhosep Argomedo  | Correción de la carátula para mantener la correcta capa y división de páginas entre los siguientes items.|
+| TB2.1.0.5 | 03/07/26 | Kevin Castañeda | Correción de enlaces en capítulo 6 |
