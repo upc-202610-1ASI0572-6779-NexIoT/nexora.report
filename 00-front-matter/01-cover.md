@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/IFP8FSt.png" alt="UPC Logo" width="100">
 </p>
 
-<p align="center" style="font-size: 12pt; line-height: 1.5;">
+<p align="center" style="font-size: 16pt; line-height: 1.5;">
   Universidad Peruana de Ciencias Aplicadas<br>
   Carrera de Ingeniería de Software
 </p>
@@ -87,6 +87,12 @@ u202316122      Ramirez Tello, Sebastian
 
 <p align="center" style="font-size: 12pt;">
   <strong>Período 202610</strong>
+</p>
+
+<br>
+
+<p align="center" style="font-size: 12pt;">
+  Julio del 2026
 </p>
 
 <div style="page-break-after: always;"></div>
