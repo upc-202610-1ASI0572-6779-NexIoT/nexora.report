@@ -1,6 +1,6 @@
 # Conclusiones
 
-A partir del desarrollo del Sprint 1 y la consolidación de la arquitectura del proyecto Nexora, el equipo presenta las siguientes conclusiones:
+A partir del desarrollo del Sprint 3 y la consolidación de la arquitectura del proyecto Nexora, el equipo presenta las siguientes conclusiones:
 
 ## AV1
 
@@ -20,6 +20,12 @@ A partir del desarrollo del Sprint 1 y la consolidación de la arquitectura del 
 2. **Eficiencia en la Captura y Procesamiento de Telemetría (Edge & Cloud)**: La integración del Edge Service como intermediario para el procesamiento local y transporte de datos de sensores hacia la nube ha optimizado el uso de ancho de banda y la velocidad de respuesta del sistema. Esto permite un monitoreo constante del consumo de recursos y la detección temprana de riesgos como fugas o consumos anómalos.
 3. **Validación Práctica mediante Prototipado Híbrido**: El desarrollo del prototipo físico con ESP32 junto con simulaciones en Wokwi ha permitido al equipo validar el comportamiento del hardware bajo distintos escenarios sin depender únicamente de componentes físicos. Esta estrategia híbrida de desarrollo aceleró el ciclo de pruebas y aseguró una integración estable con el backend.
 
+## TB2
+
+1. **Culminación de las soluciones propuestas en el curso**: Logramos desarrollar y poner en práctica lo aprendido a lo largo del curso, teniendo en cuenta los lineamientos de arquitectura, diseño y desarrollo que se han ido aplicando de forma incremental. Se desarrolló un Web Service, Web Application, Mobile Application, Embedded Apps, Prototype y Landing Page utilizando varios lenguajes de programación, bibliotecas y frameworks, así como también, se aplicaron los conceptos de DDD y Arquitectura Hexagonal para tener un producto más escalable, mantenible y testeable para demostrar profesionalismo.
+2. **Evolución y mejora continua del producto**: Se aplicaron mejoras en el producto, tales como: mejora de la arquitectura, mejora de la usabilidad, mejora de la accesibilidad, mejora de la seguridad, mejora de la performance, mejora de la mantenibilidad, mejora de la testeabilidad, mejora de la escalabilidad y mejora de la portabilidad. Esta mejora continua se reflejó en las revisiones de código, donde se aplicaron correcciones y optimizaciones en base a la retroalimentación recibida.
+3. **Avances de desarrollo**: Logramos completar el desarrollo de todas las funcionalidades propuestas para el proyecto Nexora. Para el Web Service, logramos implementar la API REST con todos los endpoints necesarios para la comunicación entre los diferentes componentes de la arquitectura. Para la Web Application, logramos implementar todas las funcionalidades propuestas, tales como el registro de usuarios, registro de propiedades, registro de dispositivos, registro de sensores, registro de alertas, registro de consumos, entre otros, relacionados a nuestro primer segmento objetivo (Arrendadores). Para la Mobile Application, logramos implementar todas las funcionalidades relacionadas al monitoreo de consumo de electricidad, agua, y posibles fugas de gas para nuestro segundo segmento objetivo (Arrendatarios). Finalmente, logramos implementar un prototipo físico funcional con dispositivos ESP32, y un servicio en la nube con capacidades de Edge Computing.
+
 # Recomendaciones
 
 Con el fin de garantizar el crecimiento sostenible del proyecto Nexora, se sugieren las siguientes recomendaciones:
@@ -28,3 +34,6 @@ Con el fin de garantizar el crecimiento sostenible del proyecto Nexora, se sugie
 2. **Evolución y Desarrollo Incremental de Módulos**: Se sugiere seguir expandiendo el desarrollo de los módulos de la plataforma, priorizando la implementación de las Smart Recommendations (analítica de IA) y alertas críticas en tiempo real tanto en la aplicación web como en la móvil, basándose en la retroalimentación obtenida de las evaluaciones heurísticas.
 3. **Consolidación de Pruebas de Integración y Carga**: Con el aumento del volumen de datos transmitidos por múltiples dispositivos IoT, se recomienda diseñar e implementar pruebas de carga y estrés en el Edge Service y el API Gateway para asegurar que el sistema mantenga su rendimiento ante una escala masiva de inmuebles conectados.
 4. **Automatización del Despliegue y CI/CD**: Implementar pipelines de integración y despliegue continuo (CI/CD) para todos los productos independientes (Landing Page, Web App, Mobile App, Edge Service) para agilizar las entregas y minimizar errores en futuras fases de desarrollo.
+5. **Mejora de la experiencia de usuario**: Se recomienda continuar mejorando la experiencia de usuario de la plataforma, implementando nuevas funcionalidades y mejorando las existentes.
+6. **Mejora de la performance**: Se recomienda continuar mejorando la performance de la plataforma, revisando métricas de proveedores externos para corroborar tiempos de carga.
+7. **Mejora de la testeabilidad**: Se recomienda continuar mejorando la testeabilidad de la plataforma, aumentando el alcance de los Unit Test, Tests de Integración u otras herramientas como SonarQube, Checkstyle, Selenium, etc.
