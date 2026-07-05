@@ -1,4 +1,4 @@
-## Collaboration Insights
+## Project Report Collaboration Insights
 
 En esta sección, el equipo detalla la metodología de trabajo colaborativo empleada para la elaboración del informe técnico y presenta las evidencias de contribución de cada integrante en el repositorio del proyecto.
 
