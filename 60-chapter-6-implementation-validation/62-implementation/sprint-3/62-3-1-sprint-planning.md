@@ -32,14 +32,14 @@ Culminar e integrar el ecosistema de la plataforma mediante la implementación d
 
 ### Sprint 3 Velocity
 
-| Sprint Velocity | 186 Story Points |
+| Sprint Velocity | 168 Story Points |
 | --- | --- |
 
 ---
 
 ### Sum of Story Points
 
-| Sum of Story Points | 186 Story Points |
+| Sum of Story Points | 168 Story Points |
 | --- | --- |
 
 ---
@@ -62,17 +62,11 @@ Culminar e integrar el ecosistema de la plataforma mediante la implementación d
 | US79 | Reportes de consumo en la app móvil | 5 |
 | US81 | Gestión y configuración de alertas por consumo elevado | 5 |
 | US38 | Visualización del listado general de dispositivos | 3 |
-| US40 | Configuración de parámetros operativos del dispositivo | 3 |
 | US41 | Consulta de logs de eventos técnicos del dispositivo | 3 |
-| US43 | Visualización del historial detallado de logs del dispositivo | 3 |
 | US61 | Visualización de planes de suscripción comercial | 3 |
-| US62 | Comparación interactiva de planes de suscripción | 3 |
-| US63 | Inicio del proceso de checkout y selección de plan | 3 |
 | US66 | Visualización del historial de facturación de la cuenta | 3 |
 | US67 | Descarga de comprobantes de pago en PDF | 3 |
-| US68 | Exportación de historial de facturación en formato tabular | 3 |
 | US70 | Visualización del plan de suscripción activo y límites de uso | 3 |
-| US72 | Banner de Instrucciones de Conexión para Inquilinos | 3 |
 | US75 | Edición de perfil de inquilino y ajustes | 3 |
 | US64 | Ingreso de datos de facturación e información del titular | 2 |
 
@@ -81,7 +75,7 @@ Culminar e integrar el ecosistema de la plataforma mediante la implementación d
 | Technical Story ID | Title | Story Points |
 | --- | --- | --- |
 | TS30 | Lógica de alerta de fuga de agua y consumo excesivo | 8 |
-| TS01 | API de autenticación con credenciales y validación polimórfica | 5 |
+| TS01 | API de autenticación con credenciales y validación de plataforma | 5 |
 | TS04 | API de validación de sesión, 2FA y filtro de autorización personalizado | 5 |
 | TS05 | API de consulta y registro con aislamiento multitenant | 5 |
 | TS06 | API de edición, eliminación e intento de acceso a propiedad ajena | 5 |
