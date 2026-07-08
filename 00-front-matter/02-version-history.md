@@ -32,11 +32,18 @@
 | AV2.1.0.9 | 20/06/26 | Jorge Linares  | Reestructuración del Sprint 2 Execution Evidence para que cubra todas las plataformas, así como también expandir el Testing Suite Evidence para el Sprint 2.|
 | AV2.1.1.0 | 20/06/26 | Jhosep Argomedo  | Actualizar Development Evidence For Sprint 2 |
 | TB2 |
-| TB2.1.0.0 | 26/06/26 | Jhosep Argomedo | Incoporación de estructura básica para el Sprint 3, y desarrollo del Aspect Leaders |
-| TB2.1.0.1 | 26/06/26 | Jhosep Argomedo | Corrección de Team Collaboration Insights/Contributors |
-| TB2.1.0.2 | 26/06/26 | Jhosep Argomedo | Corrección de enlaces en los anexos |
-| TB2.1.0.3 | 29/06/26 | Sebastian Ramirez | Agregar entrevista de validación faltante en el Sprint 2 |
-| TB2.1.0.4 | 03/07/26 | Jhosep Argomedo  | Correción de la carátula para mantener la correcta capa y división de páginas entre los siguientes items.|
-| TB2.1.0.5 | 03/07/26 | Kevin Castañeda | Correción de enlaces en capítulo 6 |
+| TB2.1.0.0 | 26/06/26 | Jhosep Argomedo | Incorporación de estructura básica para el Sprint 3, desarrollo del Aspect Leaders, corrección de Team Collaboration Insights/Contributors y de enlaces en los anexos |
+| TB2.1.0.1 | 29/06/26 | Sebastian Ramirez | Agregar entrevista de validación faltante en el Sprint 2 |
+| TB2.1.0.2 | 03/07/26 | Jhosep Argomedo  | Correción de la carátula para mantener la correcta capa y división de páginas entre los siguientes items. |
+| TB2.1.0.3 | 03/07/26 | Kevin Castañeda | Correción de enlaces en capítulo 6 |
+| TB2.1.0.4 | 03/07/26 | Andrea Ohiggins | Correción de enlaces de entrevistas en capítulo 2 |
+| TB2.1.0.5 | 04/07/26 | Kevin Castañeda | Añadir conclusiones y nuevas recomendaciones para el TB2 |
+| TB2.1.0.6 | 06/07/26 | Kevin Castañeda | Añadir User Stories para Sprint 3, actualizar Sprint Backlog. Capítulo 3 con las nuevas User Stories y Technical Stories. Actualizar Sprint Planning para el Sprint 3 |
+| TB2.1.0.7 | 07/07/26 | Kevin Castañeda | Añadir Testing Suite Evidence For Sprint 3 |
+| TB2.1.0.8 | 07/07/26 | Andrea Ohiggins | Actualizar enlace de videos y timestamps para entrevistas |
+| TB2.1.0.9 | 07/07/26 | Andrea Ohiggins | Añadir commits para "Development Evidence for Sprint 3" |
+| TB2.1.1.0 | 08/07/26 | Jhosep Argomedo | Actualizar Capítulo 1 en los segmentos objetivos, header question, etc |
+| TB2.1.1.1 | 08/07/26 | Kevin Castañeda | Añadir Sprint Backlog para Sprint 3 |
+
 
 <div style="page-break-after: always;"></div>
