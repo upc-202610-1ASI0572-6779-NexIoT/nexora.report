@@ -16,6 +16,8 @@ Antes de dar inicio a la sesión de interacción, es obligatorio registrar la si
 
 ---
 
+<br>
+
 ### 2. Proceso de la Entrevista de Validación
 
 La sesión de validación con el usuario debe seguir rigurosamente los siguientes tres pasos:
@@ -40,6 +42,8 @@ El entrevistador guiará al usuario para que interactúe con los dos productos p
 
 ---
 
+<br>
+
 ### 3. Elementos a Incluir en la Sesión de Validación por Segmento
 
 El equipo define qué componentes y flujos de usuario se deben evaluar con base en las necesidades específicas de cada segmento objetivo.
@@ -56,6 +60,8 @@ Es el segmento de consumo. Se valida:
 
 ---
 
+<br>
+
 ### 4. User Flows Establecidos para la Validación
 
 Durante la evaluación de los productos, se solicita al usuario realizar las siguientes tareas específicas (User Flows), permitiendo observar su comportamiento, dificultades de navegación y nivel de satisfacción:
@@ -67,6 +73,8 @@ Durante la evaluación de los productos, se solicita al usuario realizar las sig
   2. El usuario accede a la sección "About Us" para visualizar el video del equipo e interactuar con el widget del staff.
   3. El usuario revisa los planes de suscripción disponibles y la sección de testimonios de otros arrendadores y arrendatarios.
   4. El usuario localiza la sección de FAQ (Preguntas Frecuentes) a través del enlace del footer para resolver dudas sobre el hardware IoT y el soporte.
+
+<br>
 
 #### **User Flow 2: Administración y Monitoreo en la Web Application**
 * **Objetivo:** Validar la usabilidad de las herramientas operativas de administración y respuesta rápida ante alarmas domésticas.
@@ -80,3 +88,14 @@ Durante la evaluación de los productos, se solicita al usuario realizar las sig
      * Crea un ticket de mantenimiento asignándolo a un técnico.
      * Marca el ticket como resuelto una vez simulada la reparación.
   5. **Exportación de Evidencia:** El usuario genera y descarga el reporte en formato PDF/Excel con el historial de alertas y telemetría de la propiedad evaluada.
+
+<br>
+
+#### **User Flow 3: Consulta de consumos en la Mobile Application (Segmento: Arrendatarios)**
+
+* **Objetivo:** Validar la usabilidad de la interfaz móvil para la transparencia en la facturación y el seguimiento de consumos del inquilino.
+* **Pasos del flujo:**
+1. **Acceso:** El usuario inicia sesión en la aplicación móvil con sus credenciales de inquilino.
+2. **Dashboard Principal:** El usuario visualiza el resumen de sus consumos actuales (agua, gas, electricidad) en el dashboard principal.
+3. **Histórico de Consumos:** El usuario navega hacia el módulo de "Historial", selecciona un rango de fechas y visualiza la gráfica de consumo comparativo respecto al mes anterior.
+4. **Notificaciones:** El usuario verifica la recepción de una notificación push de "Alerta de Seguridad" (simulada) y accede al detalle del evento para visualizar las instrucciones de seguridad proporcionadas por el propietario.
