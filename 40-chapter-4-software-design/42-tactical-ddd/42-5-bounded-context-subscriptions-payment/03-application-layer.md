@@ -143,3 +143,5 @@ Su función principal es sincronizar el estado de pagos externos con el modelo d
 La Application Layer se encuentra representada en los diagramas de componentes mediante los servicios **SubscriptionAppService**, **BillingEngineService**, **UsageMetricsService**, **AccessControlService** y **PaymentResultHandler**, mostrando cómo se coordinan los procesos principales del sistema de suscripciones y pagos.
 
 ---
+
+<div style="page-break-after: always;"></div>

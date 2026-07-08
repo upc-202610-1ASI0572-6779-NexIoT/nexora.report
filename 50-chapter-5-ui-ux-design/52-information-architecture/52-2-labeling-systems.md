@@ -62,3 +62,5 @@ Siguiendo el principio de asociación4, el sistema evita aglomerar datos. Por ej
 *   **La etiqueta ‘Soporte’**: Al igual que el ejemplo de 'Contacto', esta etiqueta asocia en la mente del usuario que encontrará asistencia técnica, números de emergencia y guías de uso sin que estos elementos ocupen espacio innecesario en el menú principal.
 
 Esta arquitectura de etiquetas asegura que Nexora sea intuitivo para visitantes nuevos y eficiente para usuarios recurrentes que gestionan múltiples dispositivos en tiempo real.
+
+<div style="page-break-after: always;"></div>

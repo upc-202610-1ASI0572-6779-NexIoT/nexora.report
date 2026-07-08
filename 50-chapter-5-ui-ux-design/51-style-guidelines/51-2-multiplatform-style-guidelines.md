@@ -413,3 +413,5 @@ Para garantizar consistencia y escalabilidad, todos los lineamientos serán impl
 * Reducción de errores en desarrollo
 * Escalabilidad del producto
 * Mejor comunicación entre equipos
+
+<div style="page-break-after: always;"></div>

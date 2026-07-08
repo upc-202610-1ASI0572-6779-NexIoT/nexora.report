@@ -83,3 +83,5 @@
 | **Instante inicio** | 00:11:00 |
 | **Duración** | 10 min 57 seg |
 | **Resumen** | Joaquín reside con su madre en un departamento alquilado. Comparten la gestión económica y registran los gastos mediante Excel y notas. Menciona problemas como el olvido de pagos (el internet el primer mes), cobros elevados injustificados de luz y fallas de servicios básicos. Muestra alto entusiasmo por una solución móvil que centralice las alertas y permita apagados remotos de luces o televisores, aunque le preocupa una potencial inestabilidad en la conexión de los dispositivos inteligentes.<br><br>**Características del Arquetipo (Datos Recolectados):**<br>- **Personalidad:** Colaborativo, detallista, preventivo pero con escepticismo técnico constructivo.<br>- **Marcas e Influencias:** Herramientas de desarrollo (GitHub, Vercel), plataformas streaming (Netflix) y servicios fintech (Yape/Plin).<br>- **Tecnología y Dispositivos:** MacBook Pro de desarrollo y iPhone 13.<br>- **Canales de Interacción:** Canales digitales, grupos de WhatsApp familiares y recordatorios móviles.<br>- **Browser:** Brave Browser y Google Chrome Canary. |
+
+<div style="page-break-after: always;"></div>

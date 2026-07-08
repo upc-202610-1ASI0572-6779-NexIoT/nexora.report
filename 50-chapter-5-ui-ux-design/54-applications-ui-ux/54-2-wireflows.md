@@ -33,3 +33,5 @@
 
 **Automation**
 ![Subscription Web App](../../assets/chapter-5/wireflows/mobile/automation-wireflow.png)
+
+<div style="page-break-after: always;"></div>

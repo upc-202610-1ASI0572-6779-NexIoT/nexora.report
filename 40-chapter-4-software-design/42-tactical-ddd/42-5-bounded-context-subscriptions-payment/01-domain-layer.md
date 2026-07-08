@@ -259,3 +259,5 @@ Abstracción utilizada para acceder a la persistencia de cuentas de facturación
 La Domain Layer constituye la base conceptual del bounded context **Subscriptions & Payment Management** y se refleja en los diagramas de componentes, clases de dominio y diseño de base de datos presentados en las siguientes secciones.
 
 ---
+
+<div style="page-break-after: always;"></div>

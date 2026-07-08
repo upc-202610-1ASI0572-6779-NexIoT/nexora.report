@@ -29,3 +29,5 @@ A continuación, se presentan las evidencias de la ejecución y el funcionamient
 En el siguiente enlace se puede visualizar el recorrido funcional de la aplicación, ilustrando la navegación fluida entre módulos y la visualización de datos en tiempo real:
 
 **Enlace al Video:** [https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
+
+<div style="page-break-after: always;"></div>

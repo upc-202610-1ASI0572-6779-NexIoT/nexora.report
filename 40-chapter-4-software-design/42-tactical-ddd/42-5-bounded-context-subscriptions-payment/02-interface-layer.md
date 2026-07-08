@@ -148,3 +148,5 @@ Representa el payload recibido desde Culqi.
 Esta capa se representa en los diagramas mediante los componentes **SubscriptionController**, **BillingController** y **WebhookController**, así como sus interacciones con las aplicaciones cliente y la pasarela de pagos Culqi.
 
 ---
+
+<div style="page-break-after: always;"></div>

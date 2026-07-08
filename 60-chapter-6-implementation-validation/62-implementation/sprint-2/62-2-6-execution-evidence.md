@@ -63,3 +63,5 @@ Evidencia del prototipo en desarrollo ejecutándose sobre el emulador o Chrome:
 ---
 
 **Enlace al Video:** [https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
+
+<div style="page-break-after: always;"></div>

@@ -59,3 +59,5 @@ Finalmente, la tabla `anomalies` permite registrar las condiciones críticas det
 - FK: telemetry_record_id → telemetry_records.id
 
 <img src="../../../assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/database-diagram-v2.png" alt="Service Monitoring & Intelligence - Database Diagram"  height="750"/>
+
+<div style="page-break-after: always;"></div>

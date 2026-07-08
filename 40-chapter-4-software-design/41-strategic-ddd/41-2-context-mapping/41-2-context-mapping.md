@@ -34,3 +34,4 @@ El siguiente diagrama sintetiza las relaciones finales y los patrones de integra
 
 ![Context Map Nexora](../../../assets/chapter-4/strategic-ddd/context-mapping/context-map_v2.jpg)
 
+<div style="page-break-after: always;"></div>

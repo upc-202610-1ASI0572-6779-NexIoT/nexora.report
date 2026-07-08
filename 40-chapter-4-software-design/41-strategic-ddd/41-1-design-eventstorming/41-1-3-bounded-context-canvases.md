@@ -148,3 +148,5 @@ Contexto responsable de gestionar los planes comerciales, suscripciones y pagos 
 - **Assumptions & Open Questions:**
     *   **Assumptions:** Nexora funcionará bajo un modelo SaaS con planes comerciales diferenciados.
     *   **Open Questions:** ¿Se manejarán periodos de prueba? ¿Habrá planes personalizados para empresas inmobiliarias grandes?
+
+<div style="page-break-after: always;"></div>

@@ -16,3 +16,5 @@ Esta vista permite comprender el alcance de Nexora dentro del contexto de negoci
 El diagrama muestra a los principales actores del negocio, incluyendo visitantes, administradores de propiedades, empresas inmobiliarias, inquilinos y administradores del sistema. Asimismo, se identifican los sistemas que conforman el ecosistema de Nexora, tales como la plataforma principal, la infraestructura IoT desplegada en los inmuebles y el sistema externo de pagos Culqi.
 
 Las relaciones representadas permiten visualizar cómo los usuarios interactúan con la plataforma, cómo los dispositivos IoT suministran información operativa y cómo la solución se integra con servicios externos para soportar funcionalidades de negocio como la facturación de suscripciones SaaS.
+
+<div style="page-break-after: always;"></div>

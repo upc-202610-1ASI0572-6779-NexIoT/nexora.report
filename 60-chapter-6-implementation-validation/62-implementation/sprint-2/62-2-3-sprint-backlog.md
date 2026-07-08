@@ -61,3 +61,4 @@ Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equi
 | TS-HW-01 | Ensamblaje Electrónico y Calibración del Sensor de Gas | T-44 | Ensamblar prototipo físico y calibrar sensor de gas MQ2 | Ensamblaje del circuito y calibración física del sensor de gas analógico MQ-2. | 6 | Todo el equipo | Done |
 | TS-HW-02 | Ensamblaje del ESP32 con el sensor MQ2 para detección de gases | T-45 | Montar circuito electrónico ESP32 con módulo sensor de gas | Conexión electrónica y soldadura del ESP32 con el sensor MQ2 en placa de desarrollo. | 5 | Todo el equipo | Done |
 
+<div style="page-break-after: always;"></div>
