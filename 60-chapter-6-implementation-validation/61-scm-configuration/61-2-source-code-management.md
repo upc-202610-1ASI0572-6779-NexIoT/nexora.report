@@ -13,7 +13,7 @@ Se adopta GitHub como plataforma central y Git como sistema de control de versio
 La arquitectura del proyecto Nexora se organiza en múltiples repositorios, cada uno enfocado en un producto específico. Esta separación permite mantener independencia de despliegue, escalabilidad y control granular del desarrollo.
 
 | **Repositorio** | **Descripción** | **URL** |
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| ---- | --- | --- |
 | **Landing Page** | Contiene el desarrollo de la página de presentación del producto Nexora. Incluye diseño responsivo, contenido informativo y recursos visuales orientados a conversión. | [https://github.com/upc-202610-1ASI0572-6779-NexIot/nexora.website](https://github.com/upc-202610-1ASI0572-6779-NexIot/nexora.website) |
 | **Frontend Web Application** | Repositorio de la aplicación web (dashboard) utilizada por administradores de propiedades. Incluye interfaces de gestión, monitoreo y control del sistema IoT. | [https://github.com/upc-202610-1ASI0572-6779-NexIot/nexora.webapp](https://github.com/upc-202610-1ASI0572-6779-NexIot/nexora.webapp) |
 | **Web Services (Backend API)** | Contiene los servicios backend responsables de la lógica de negocio, gestión de usuarios, propiedades, reservas y otros datos no relacionados directamente con IoT. Incluye APIs RESTful y pruebas. | [https://github.com/upc-202610-1ASI0572-6779-NexIot/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIot/nexora.webservice) |
@@ -44,7 +44,7 @@ Para estructurar el desarrollo y permitir trabajo paralelo sin afectar estabilid
 
 | **Rama**      | **Descripción** |
 | ------------- | -------------------------------------------------------------------------- |
-| **master**      | Rama principal que contiene versiones estables listas para producción.     |
+| **main**      | Rama principal que contiene versiones estables listas para producción.     |
 | **develop**   | Rama de integración donde se consolidan las funcionalidades en desarrollo. |
 | **feature/*** | Ramas para nuevas funcionalidades, creadas desde `develop`.                |
 | **release/*** | Ramas para preparación de nuevas versiones antes de producción.            |
@@ -58,7 +58,7 @@ Para estructurar el desarrollo y permitir trabajo paralelo sin afectar estabilid
 2. Se integran a `develop` mediante `merge --no-ff`
 3. Para una versión, se crea una rama `release/*`
 4. Se realizan pruebas finales y ajustes
-5. Se fusiona en `develop` y `master`
+5. Se fusiona en `develop` y `main`
 6. En caso de errores críticos en producción → `hotfix/*`
 
 ---
@@ -90,13 +90,6 @@ Para mantener consistencia y trazabilidad, se definen convenciones estrictas:
 | Formato                | Ejemplo                                         |
 | ---------------------- | ----------------------------------------------- |
 | `hotfix/<descripcion>` | `hotfix/login-error`, `hotfix/token-expiration` |
-
-#### Ejemplo a seguir
-
-Se adjunta algunas ramas definidas por el equipo de Nexora para un desarrollo correcto. <br>
-_(Nota: Las convenciones se han establecido en Jira)_
-
-![Convención de ramas](../../assets/chapter-6/source-code-management/branch_convention.png)
 
 ---
 
@@ -146,8 +139,8 @@ Para asegurar claridad en el historial del proyecto, se adopta el estándar Conv
 
 #### Tipos de commits
 
-| **Tipo**     | **Descripción**     | **Ejemplo**                                             |
-| ------------ | ------------------- | ------------------------------------------------------- |
+| **Tipo**     | **Descripción**     | **Ejemplo**   |
+| ------------ | ------------------- | ----- |
 | **feat**     | Nueva funcionalidad | `feat(auth): implementar login con JWT`                 |
 | **fix**      | Corrección de error | `fix(api): corregir error en endpoint de dispositivos`  |
 | **docs**     | Documentación       | `docs: actualizar arquitectura del sistema`             |
