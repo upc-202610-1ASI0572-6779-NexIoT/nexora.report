@@ -15,66 +15,91 @@ const rootDirs = [
   '90-annexes'
 ];
 
+const ASSET_PATH_REGEX = /((?:src=["']|href=["']|!\[.*?\]\()|url\()(?:\.\.[\/\\]|\.[\/\\]|\/[\/\\]|[\/\\])*assets([^)"'>\r\n]*?)(\)|["'])/g;
+const FENCED_CODE_BLOCK_REGEX = /```[\s\S]*?```/g;
+
 function getMarkdownFiles(dir) {
   let results = [];
-  const list = fs.readdirSync(dir);
-  list.forEach(file => {
+  let list;
+  try {
+    list = fs.readdirSync(dir);
+  } catch {
+    return results;
+  }
+  for (const file of list) {
+    if (file.startsWith('.') || file === 'node_modules') continue;
     const filePath = path.join(dir, file);
-    const stat = fs.statSync(filePath);
-    if (stat && stat.isDirectory()) {
+    let stat;
+    try {
+      stat = fs.statSync(filePath);
+    } catch {
+      continue;
+    }
+    if (stat.isDirectory()) {
       results = results.concat(getMarkdownFiles(filePath));
     } else if (file.toLowerCase().endsWith('.md')) {
       results.push(filePath);
     }
-  });
+  }
   return results;
+}
+
+function normalizeAssetPaths(content) {
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+
+  FENCED_CODE_BLOCK_REGEX.lastIndex = 0;
+  while ((match = FENCED_CODE_BLOCK_REGEX.exec(content)) !== null) {
+    parts.push(content.slice(lastIndex, match.index).replace(ASSET_PATH_REGEX, assetReplacer));
+    parts.push(match[0]);
+    lastIndex = match.index + match[0].length;
+  }
+  parts.push(content.slice(lastIndex).replace(ASSET_PATH_REGEX, assetReplacer));
+
+  return parts.join('');
+}
+
+function assetReplacer(match, prefix, assetPath, suffix) {
+  const normalized = assetPath.replace(/\\/g, '/').replace(/\/+/g, '/');
+  const cleanPath = normalized.startsWith('/') ? normalized : '/' + normalized;
+  return `${prefix}assets${cleanPath}${suffix}`;
 }
 
 function buildReadme() {
   const allFiles = [];
 
-  rootDirs.forEach(dirName => {
+  for (const dirName of rootDirs) {
     const dirPath = path.join(__dirname, dirName);
     if (fs.existsSync(dirPath)) {
       const files = getMarkdownFiles(dirPath);
-      // Sort files within each main directory alphabetically/lexicographically by path
       files.sort((a, b) => a.localeCompare(b));
       allFiles.push(...files);
     } else {
       console.warn(`Warning: Directory ${dirName} does not exist.`);
     }
-  });
+  }
 
   console.log(`Found ${allFiles.length} markdown files to combine:`);
-  allFiles.forEach((file, index) => {
+  for (const [index, file] of allFiles.entries()) {
     console.log(`${index + 1}. ${path.relative(__dirname, file)}`);
-  });
-
-  const assetRegex = /((?:src=["']|href=["']|!\[.*?\]\()|url\()(?:\.\.[\/\\]|\/[\/\\]|[\/\\])*assets([^)"'>\r\n]*?)(\)|["'])/g;
+  }
 
   const combinedContent = allFiles
     .map(file => {
-      let content = fs.readFileSync(file, 'utf8');
-      
-      // Normalize asset paths relative to the root folder
-      content = content.replace(assetRegex, (match, group1, group2, group3) => {
-        const normalizedPath = group2.replace(/\\/g, '/');
-        let cleanPath = normalizedPath;
-        if (!cleanPath.startsWith('/')) {
-          cleanPath = '/' + cleanPath;
-        }
-        return `${group1}assets${cleanPath}${group3}`;
-      });
-
-      return content.trim();
+      try {
+        const content = fs.readFileSync(file, 'utf8');
+        return normalizeAssetPaths(content).trim();
+      } catch (err) {
+        console.error(`Error reading ${file}: ${err.message}`);
+        return '';
+      }
     })
+    .filter(content => content.length > 0)
     .join('\n\n---\n\n');
 
-  // Add a trailing newline to follow standard conventions
-  const finalContent = combinedContent + '\n';
-
   const outputPath = path.join(__dirname, 'README.md');
-  fs.writeFileSync(outputPath, finalContent, 'utf8');
+  fs.writeFileSync(outputPath, combinedContent + '\n', 'utf8');
   console.log(`\nSuccessfully generated README.md (${fs.statSync(outputPath).size} bytes)`);
 }
 

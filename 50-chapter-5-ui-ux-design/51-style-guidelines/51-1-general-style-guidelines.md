@@ -34,7 +34,7 @@ Se construye sobre cuatro pilares fundamentales:
 
 #### **Logo**
 
-![Logo-Nexora](../../assets/chapter-5/style-guidelines/general-style-guidelines//logo-nexora.png)
+![Logo-Nexora](../../assets/chapter-5/style-guidelines/general-style-guidelines/logo-nexora.png)
 
 <br>
 
