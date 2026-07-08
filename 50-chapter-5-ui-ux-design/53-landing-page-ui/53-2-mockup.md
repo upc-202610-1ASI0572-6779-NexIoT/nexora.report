@@ -36,3 +36,5 @@ Diseñada pensando en la experiencia del inquilino, esta sección destaca la fac
 La sección de FAQ utiliza un diseño limpio con componentes desplegables (accordion) que organizan la información de manera eficiente. Esto evita la sobrecarga visual, mejora la escaneabilidad del texto y permite al usuario, tanto en Desktop como en Mobile, acceder a las respuestas específicas que necesita con un mínimo esfuerzo.
 
 ![Preguntas Frecuentes](../../assets/chapter-5/landing-mockups/FAQ-wireframe.jpg)
+
+<div style="page-break-after: always;"></div>

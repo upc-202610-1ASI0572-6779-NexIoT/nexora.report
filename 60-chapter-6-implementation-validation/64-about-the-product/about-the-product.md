@@ -37,3 +37,5 @@ El contenido está estructurado para captar la atención de arrendadores y arren
 Como parte de nuestro compromiso con la transparencia, incluimos el testimonio de nuestra entrevistada **Veronica Rojas (40 años, Arrendadora)** (_Nota: Visualizar testimonio en el Video About The Product_):
 
 > *"Nexora me ha dado una tranquilidad que no tenía antes. Poder monitorear mis propiedades en tiempo real y recibir alertas inmediatas de fugas sin tener que desplazarme físicamente, es un alivio total. La plataforma es intuitiva y, sinceramente, es la herramienta que todo propietario necesita para gestionar sus inmuebles con mayor eficiencia y seguridad."*
+
+<div style="page-break-after: always;"></div>

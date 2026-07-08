@@ -28,3 +28,5 @@ A partir de la información visualizada en los analíticos de GitHub, el equipo 
 4.  **Participación Multidisciplinaria**: Siguiendo los requerimientos del curso, se puede verificar que todos los miembros tuvieron participación directa en la implementación técnica. Esto no solo se limitó a la codificación, sino también al despliegue y la configuración de los entornos de desarrollo.
 
 En conclusión, los analíticos de GitHub validan que el proceso de implementación del Sprint 1 fue un esfuerzo conjunto y coordinado, cumpliendo con los estándares de calidad y colaboración exigidos para el proyecto Nexora.
+
+<div style="page-break-after: always;"></div>

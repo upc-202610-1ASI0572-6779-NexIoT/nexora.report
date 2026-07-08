@@ -22,3 +22,5 @@ Valeria representa a los arrendatarios jóvenes que buscan independencia, ahorro
 Carlos representa a quienes gestionan múltiples propiedades y buscan optimizar su rentabilidad y tiempo mediante el monitoreo remoto y la prevención de incidencias.
 
 ![Empathy Map - Propietario](../../assets/chapter-2/needfinding/empathy-map-propietario.png)
+
+<div style="page-break-after: always;"></div>

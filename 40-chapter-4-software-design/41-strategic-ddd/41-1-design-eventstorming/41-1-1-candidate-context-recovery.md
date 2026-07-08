@@ -44,3 +44,5 @@ Como resultado, se definieron 5 Bounded Contexts candidatos alineados con la nat
 **Subscriptions & Payment Management (Generic):** Gestión de planes comerciales, suscripciones y pagos de la plataforma SaaS. Este contexto administra el ciclo comercial de Nexora y las restricciones de acceso asociadas al plan contratado.
 
 ![Payment Candidate Context](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/payments-candidate.jpg)
+
+<div style="page-break-after: always;"></div>

@@ -59,3 +59,5 @@ La tabla `billing_accounts` almacena las cuentas de facturación de los clientes
 - FK: invoice_id → invoices.id
 
 <img src="../../../assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/database-diagram-2.png" alt="Subscriptions & Payment Management - Database Diagram" height="750"/>
+
+<div style="page-break-after: always;"></div>

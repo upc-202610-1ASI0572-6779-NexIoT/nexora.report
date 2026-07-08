@@ -150,3 +150,5 @@ Creemos que lograremos **una reducción del 20% en el consumo energético promed
 ### 1.2.2.4. Lean UX Canvas
 
 ![Lean UX Canvas](../../assets/chapter-1/lean-ux-canvas/lean-ux-canvas-nexora.jpg)
+
+<div style="page-break-after: always;"></div>

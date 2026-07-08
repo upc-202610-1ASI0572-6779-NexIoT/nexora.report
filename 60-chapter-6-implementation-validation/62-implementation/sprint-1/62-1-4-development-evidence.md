@@ -16,3 +16,5 @@ En esta sección se explican y presentan los avances en implementación con rela
 | nexora.website | feature/how-it-works | eb7400c | Merge branch 'develop' into feature/how-it-works | - | 13/05/2026 |
 | nexora.website | feature/testimonials-section | a6e1696 | feat: add testimonials section | - | 14/05/2026 |
 | nexora.website | feature/landlord-product-view | ebab2f0 | feat: add terms and conditions page | - | 14/05/2026 |
+
+<div style="page-break-after: always;"></div>

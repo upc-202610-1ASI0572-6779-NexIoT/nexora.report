@@ -145,3 +145,5 @@ El costo de un sistema como Nexora depende del alcance:
 * **Modelo SaaS:** suscripción mensual por propiedad, que puede oscilar entre USD 5 y USD 20 según funcionalidades.
 
 Este modelo híbrido (hardware + software) permite una adopción progresiva y escalable, reduciendo la barrera de entrada para arrendadores y facilitando el acceso a experiencias inteligentes para los arrendatarios.
+
+<div style="page-break-after: always;"></div>

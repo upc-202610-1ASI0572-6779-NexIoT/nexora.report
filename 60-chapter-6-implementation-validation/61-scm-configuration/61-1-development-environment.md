@@ -223,3 +223,5 @@ El desarrollo de Nexora se divide en cuatro frentes: web, mobile, IoT e integrac
 | **Descripción** | Documentación técnica versionada dentro del repositorio del proyecto. |
 | **Uso en Nexora** | Documentación de arquitectura, APIs y decisiones técnicas |
 | **URL** | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
+
+<div style="page-break-after: always;"></div>

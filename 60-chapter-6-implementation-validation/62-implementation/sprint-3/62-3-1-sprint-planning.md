@@ -89,3 +89,5 @@ Culminar e integrar el ecosistema de la plataforma mediante la implementación d
 | TS-EMB-06 | Sensor de caudal a 50 LPM y mitigación de ruido analógico | 5 |
 | TS11 | API de logs y perfil de hardware de dispositivo | 3 |
 | TS27 | API de historial de facturación y comprobantes | 3 |
+
+<div style="page-break-after: always;"></div>

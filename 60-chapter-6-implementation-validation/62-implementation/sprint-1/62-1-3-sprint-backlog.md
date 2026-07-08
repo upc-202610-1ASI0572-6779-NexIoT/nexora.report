@@ -152,3 +152,5 @@ Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equi
 | US-71 | Preparación Release Sprint 1 | T-141 | Consolidar versión release | Integración final de funcionalidades del Sprint | 5 | Todo el equipo | Done |
 | US-71 | Preparación Release Sprint 1 | T-142 | Validar versión candidata | Ejecución de pruebas finales de aceptación | 4 | Todo el equipo | Done |
 | US-71 | Preparación Release Sprint 1 | T-143 | Preparar entrega y despliegue | Configuración de build y publicación del Sprint | 4 | Todo el equipo | Done |
+
+<div style="page-break-after: always;"></div>

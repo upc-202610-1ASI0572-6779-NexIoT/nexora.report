@@ -25,3 +25,5 @@
 *   UXPressia. (n.d.). *How to build a customer empathy map (example + template)*. [https://uxpressia.com/blog/empathy-map-free-template](https://uxpressia.com/blog/empathy-map-free-template)
 *   UXPressia. (n.d.). *How to create an impact map in 7 easy steps*. [https://uxpressia.com/blog/build-impact-map-4-easy-steps](https://uxpressia.com/blog/build-impact-map-4-easy-steps)
 *   UXPressia. (n.d.). *User vs. Buyer Persona: Differences and free template*. [https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference](https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference)
+
+<div style="page-break-after: always;"></div>

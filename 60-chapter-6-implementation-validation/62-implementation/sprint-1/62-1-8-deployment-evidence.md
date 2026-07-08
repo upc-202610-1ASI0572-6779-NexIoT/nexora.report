@@ -102,3 +102,5 @@ La aplicación frontend fue desplegada exitosamente y quedó disponible mediante
 **URL de la aplicación web:** [https://nexora-webapp-xi.vercel.app/login](https://nexora-webapp-xi.vercel.app)
 
 ---
+
+<div style="page-break-after: always;"></div>

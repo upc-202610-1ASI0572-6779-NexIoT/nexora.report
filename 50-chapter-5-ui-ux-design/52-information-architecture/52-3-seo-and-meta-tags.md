@@ -54,3 +54,4 @@ Para garantizar que el contenido compartido en plataformas como LinkedIn, Twitte
 *   **Robots.txt:** Configuración para permitir el rastreo de las páginas públicas y restringir el acceso a las áreas sensibles de la aplicación (Dashboard de Administrador).
 *   **Semántica HTML5:** Uso riguroso de etiquetas jerárquicas (H1, H2, H3) y atributos `alt` en imágenes para mejorar la accesibilidad y el rastreo de contenido.
 
+<div style="page-break-after: always;"></div>

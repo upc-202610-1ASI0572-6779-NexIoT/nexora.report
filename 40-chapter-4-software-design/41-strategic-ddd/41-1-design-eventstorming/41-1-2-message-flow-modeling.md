@@ -38,3 +38,5 @@ Este flujo representa un escenario orientado a la supervisión y toma de decisio
 
 ![Storytelling Gestión Arrendador](../../../assets/chapter-4/strategic-ddd/design-level-eventstorming/controles_optimizacion_arrendador.jpg)
 *Nota. Diagrama de Domain Storytelling: Flujo de gestión y optimización de activos.*
+
+<div style="page-break-after: always;"></div>

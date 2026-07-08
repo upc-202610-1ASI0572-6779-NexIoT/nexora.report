@@ -30,3 +30,5 @@ A continuación se presenta el Deployment Diagram siguiendo el modelo C4, que il
 #### 5. Edge Service
 *   **Plataforma:** Microsoft Azure.
 *   **Configuración:** Al igual que el backend, el Edge Service se aloja en Azure. Este componente es crítico para la comunicación con los dispositivos IoT, por lo que se despliega con configuraciones de alta disponibilidad para garantizar la recepción constante de telemetría.
+
+<div style="page-break-after: always;"></div>

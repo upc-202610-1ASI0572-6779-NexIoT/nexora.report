@@ -122,3 +122,5 @@
 Evidencia de Organizacion del Product Backlog en Jira:
 
 ![Product Backlog](/assets/chapter-3/product-backlog/backlog.png)
+
+<div style="page-break-after: always;"></div>

@@ -411,3 +411,5 @@ Relación de commits vinculados a las características y pruebas desarrolladas e
 | [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `395db94` | feat(stripe): integrate checkout payments, webhook card saving, and plan upgrades | Add credit card PaymentMethod creation in Stripe and customer attachment. | 02/07/2026 |
 | [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `0a49ce3` | feat(payment): integrate Stripe.net payments, webhook endpoint, and update database fields | Introduce Stripe.net client wrapper and local database migrations. | 02/07/2026 |
 | [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `1471f1f` | feat(telemetry): implement transition-based alert evaluation to mitigate telemetry alert spam | Implement edge-triggered alerts in monitoring intelligence service. | 04/07/2026 |
+
+<div style="page-break-after: always;"></div>

@@ -9,3 +9,5 @@ Esta representación permite identificar quiénes utilizan la solución, qué ne
 El diagrama muestra a Nexora Platform como el núcleo de la solución. Los administradores de propiedades y empresas inmobiliarias utilizan la plataforma para gestionar inmuebles, dispositivos y reportes de consumo. Los inquilinos acceden a información de monitoreo y alertas mediante aplicaciones digitales, mientras que los administradores del sistema realizan tareas de configuración, soporte y gestión de usuarios.
 
 Adicionalmente, la plataforma interactúa con Nexora Hardware para recibir telemetría y ejecutar acciones de control sobre dispositivos IoT, así como con Culqi para procesar pagos asociados a las suscripciones SaaS ofrecidas por la solución.
+
+<div style="page-break-after: always;"></div>

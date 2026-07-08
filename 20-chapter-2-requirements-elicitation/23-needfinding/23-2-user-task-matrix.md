@@ -132,3 +132,5 @@ La matriz expone una clara asimetría de roles basada en la escala y la naturale
 A pesar de ocupar extremos opuestos de la relación contractual, los arquetipos convergen en la resolución de fricciones:
 * **Interés Crítico en el Control Financiero:** Ambos coinciden en otorgar una Importancia Alta (I: A) a *"Calcular y comparar presupuestos mensuales de servicios"*. Valeria lo hace para cuidar su economía personal y Carlos para evitar que los sobreconsumos de inquilinos irresponsables mermen sus utilidades.
 * **Seguimiento de Incidencias:** Ambos califican con Importancia Alta (I: A) el *"Efectuar el seguimiento al estado de los problemas reportados"*. Existe una codependencia mutua: la inquilina necesita saber cuándo se resolverá su avería para recuperar su comodidad, y el administrador requiere constatar la solución para cerrar el caso logístico.
+
+<div style="page-break-after: always;"></div>

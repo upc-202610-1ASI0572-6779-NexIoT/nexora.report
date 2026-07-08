@@ -21,3 +21,5 @@ Para garantizar una comunicación transparente, fluida y libre de ambigüedades 
 | **Real-time Alert (Alerta en Tiempo Real)** | Notificación o advertencia automatizada emitida de forma inmediata ante la detección de un evento crítico (como un sobreconsumo o una potencial fuga) para permitir una respuesta preventiva antes del cierre de facturación. |
 | **Operational Cost (Costo Operativo)** | Egreso financiero periódico derivado del mantenimiento físico y el pago de los servicios de una propiedad, el cual mella directamente la rentabilidad neta del arrendador si no se controla adecuadamente. |
 | **PropTech (Tecnología Inmobiliaria)** | Sector económico que engloba a todas las empresas y soluciones que aplican innovaciones tecnológicas y modelos digitales para optimizar los procesos de interacción, gestión, renta y monitoreo dentro del mercado inmobiliario. |
+
+<div style="page-break-after: always;"></div>

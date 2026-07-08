@@ -37,3 +37,5 @@ Con el fin de garantizar el crecimiento sostenible del proyecto Nexora, se sugie
 5. **Mejora de la experiencia de usuario**: Se recomienda continuar mejorando la experiencia de usuario de la plataforma, implementando nuevas funcionalidades y mejorando las existentes.
 6. **Mejora de la performance**: Se recomienda continuar mejorando la performance de la plataforma, revisando métricas de proveedores externos para corroborar tiempos de carga.
 7. **Mejora de la testeabilidad**: Se recomienda continuar mejorando la testeabilidad de la plataforma, aumentando el alcance de los Unit Test, Tests de Integración u otras herramientas como SonarQube, Checkstyle, Selenium, etc.
+
+<div style="page-break-after: always;"></div>

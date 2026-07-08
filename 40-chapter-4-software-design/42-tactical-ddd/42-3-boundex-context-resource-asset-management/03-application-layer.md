@@ -125,3 +125,5 @@ La Application Layer soporta las siguientes capacidades principales del bounded 
 La Application Layer constituye el punto principal de orquestación del bounded context **Resource & Asset Management**, coordinando la interacción entre la Interface Layer, los servicios de dominio, los repositorios y los componentes de infraestructura responsables de la administración de activos físicos y dispositivos IoT dentro de Nexora.
 
 ---
+
+<div style="page-break-after: always;"></div>

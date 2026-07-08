@@ -25,3 +25,5 @@ Este segmento incluye a personas que alquilan viviendas y buscan mejorar su cali
 | **Geografía**     | Principales ciudades y áreas urbanas y periurbanas del continente americano, donde existe una alta concentración de viviendas en alquiler y adopción creciente de tecnologías para el hogar. |
 | **Estadísticas**  | - El 55% de los hogares urbanos en América Latina viven en régimen de alquiler o soluciones habitacionales similares (BID, 2021). <br> - El 70% de los jóvenes entre 25 y 39 años en LATAM prioriza el alquiler frente a la compra de vivienda (CAF, 2020). <br> - El 60% de los consumidores muestra interés en dispositivos de hogar inteligente para mejorar confort y eficiencia (Deloitte, 2020). |
 | **Problema**      | Sufren incrementos inesperados en los cobros de servicios básicos al no poder predecir ni gestionar sus hábitos cotidianos de consumo energético. |
+
+<div style="page-break-after: always;"></div>

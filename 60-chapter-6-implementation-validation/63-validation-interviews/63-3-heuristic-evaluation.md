@@ -163,3 +163,5 @@ Al interactuar con el selector de idiomas de la *Landing Page*, se observa una i
 
 * Revisar el archivo de configuración de idiomas (JSON o localizador) para asegurar que todas las cadenas de texto del footer estén correctamente mapeadas.
 * Implementar un mecanismo de *fallback* automático que valide la carga completa de las traducciones antes de permitir la navegación, o asegurar que las variables de texto en el componente del footer estén vinculadas correctamente a la librería de i18n del proyecto.
+
+<div style="page-break-after: always;"></div>

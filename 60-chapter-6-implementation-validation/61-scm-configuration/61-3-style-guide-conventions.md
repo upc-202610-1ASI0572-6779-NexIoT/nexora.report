@@ -404,3 +404,5 @@ A nivel de repositorio y arquitectura de carpetas global, la separación es clar
 | **Performance** | Optimización de imágenes (WebP), lazy loading, minificación de recursos |
 | **Mobile** | Diseño responsive, touch-friendly (mínimo 44x44px para botones) |
 | **Internacionalización**| Soporte para múltiples idiomas (es, en) |
+
+<div style="page-break-after: always;"></div>

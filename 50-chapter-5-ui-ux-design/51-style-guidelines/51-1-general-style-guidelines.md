@@ -234,3 +234,5 @@ Se mantiene coherencia en todos los componentes y patrones de interacción, sigu
 
 - **Eficiencia en la interacción:**
 El sistema optimiza los flujos de trabajo mediante la reducción de pasos innecesarios y la priorización de acciones frecuentes. Esto responde al principio de flexibilidad y eficiencia de uso, permitiendo que tanto usuarios novatos como expertos interactúen con el sistema de manera productiva.
+
+<div style="page-break-after: always;"></div>
