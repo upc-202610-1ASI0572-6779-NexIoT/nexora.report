@@ -1,8 +1,7 @@
 ## 2.2. Entrevistas
-
 ### 2.2.1. Diseño de entrevistas
 
-El objetivo de estas entrevistas es recolectar información cualitativa relevante que permita comprender el comportamiento, necesidades, frustraciones y contexto de los tres segmentos definidos. Esto facilitará la construcción de User Personas, User Journeys y User Stories, alineando el desarrollo de la landing page, aplicación web (arrendadores) y aplicación móvil (arrendatarios).
+El objetivo de estas entrevistas es recolectar información cualitativa relevante que permita comprender el comportamiento, necesidades, frustraciones y contexto de los dos segmentos definidos. Esto facilitará la construcción de User Personas, User Journeys y User Stories, alineando el desarrollo de la landing page, aplicación web (arrendadores) y aplicación móvil (arrendatarios).
 
 Se aplican buenas prácticas de entrevistas:
 
@@ -11,99 +10,9 @@ Se aplican buenas prácticas de entrevistas:
 - Secuencia lógica: contexto → comportamiento → problemas → necesidades → percepción tecnológica.
 - Separación entre preguntas principales y complementarias (profundización).
 
----
-
 <br>
 
-## Segmento 1: Inquilinos (Arrendatarios)
-
-### Objetivo de la entrevista
-
-Comprender hábitos de consumo, uso de tecnología en el hogar, necesidades de control, percepción sobre ahorro y disposición a usar aplicaciones móviles para gestionar dispositivos IoT.
-
----
-
-### Datos demográficos y contexto
-
-**Principales:**
-
-* ¿Cuál es tu edad?
-* ¿En qué distrito o ciudad resides?
-* ¿Vives solo o con otras personas?
-
-**Complementarias:**
-
-* ¿Cuál es tu ocupación actual?
-* ¿Trabajas de forma presencial, remota o híbrida?
-* ¿Cuánto tiempo llevas viviendo en una propiedad alquilada?
-
----
-
-### Comportamiento y uso actual
-
-**Principales:**
-
-* ¿Cómo gestionas actualmente el consumo de servicios como luz y agua?
-* ¿Sueles revisar tus gastos mensuales de servicios? ¿Cómo lo haces?
-* ¿Has utilizado algún dispositivo inteligente en tu hogar (luces inteligentes, sensores, etc.)?
-
-**Complementarias:**
-
-* ¿Qué aplicaciones usas con más frecuencia en tu día a día?
-* ¿Desde qué dispositivo accedes principalmente a aplicaciones (smartphone, laptop, tablet)?
-* ¿Qué tan cómodo te sientes usando tecnología en el hogar?
-
----
-
-### Problemas y frustraciones
-
-**Principales:**
-
-* ¿Qué dificultades tienes al controlar tu consumo de servicios?
-* ¿Te ha ocurrido algún problema en tu vivienda que no se detectó a tiempo?
-* ¿Qué es lo que más te incomoda de vivir en una propiedad alquilada?
-
-**Complementarias:**
-
-* ¿Sientes que pagas más de lo que deberías en servicios?
-* ¿Qué tan fácil es comunicar problemas al arrendador?
-* ¿Qué situaciones te generan estrés en tu vivienda?
-
----
-
-### Necesidades y expectativas
-
-**Principales:**
-
-* ¿Qué te gustaría poder controlar desde tu celular dentro de tu hogar?
-* ¿Qué tan importante es para ti ahorrar en servicios básicos?
-* ¿Te interesaría recibir alertas sobre consumo o problemas en tu vivienda?
-
-**Complementarias:**
-
-* ¿Qué funcionalidades considerarías esenciales en una app para tu hogar?
-* ¿Preferirías una app simple o con muchas opciones configurables?
-* ¿Qué valoras más: ahorro, seguridad o comodidad?
-
----
-
-### Percepción y adopción tecnológica
-
-**Principales:**
-
-* ¿Estarías dispuesto a usar una app para controlar dispositivos inteligentes en tu vivienda?
-* ¿Qué te motivaría a usarla constantemente?
-
-**Complementarias:**
-
-* ¿Tienes experiencia con apps de automatización o smart home?
-* ¿Qué te haría dejar de usar una aplicación de este tipo?
-
----
-
-<br><br>
-
-# Segmento 2: Administradores de Propiedades (Arrendadores)
+# Segmento 1: Administradores de Propiedades (Arrendadores)
 
 ### Objetivo de la entrevista
 
@@ -186,15 +95,13 @@ Comprender cómo gestionan sus inmuebles, qué problemas enfrentan en mantenimie
 * ¿Qué te generaría confianza en una solución tecnológica?
 * ¿Qué barreras ves para adoptar este tipo de herramientas?
 
----
+<br>
 
-<br><br>
-
-## Segmento 3: Empresas Inmobiliarias (Proveedores de soluciones IoT)
+## Segmento 2: Inquilinos (Arrendatarios)
 
 ### Objetivo de la entrevista
 
-Comprender el nivel de digitalización, interés en IoT, necesidades de diferenciación y viabilidad de integración con soluciones como Nexora.
+Comprender hábitos de consumo, uso de tecnología en el hogar, necesidades de control, percepción sobre ahorro y disposición a usar aplicaciones móviles para gestionar dispositivos IoT.
 
 ---
 
@@ -202,29 +109,31 @@ Comprender el nivel de digitalización, interés en IoT, necesidades de diferenc
 
 **Principales:**
 
-* ¿Cuál es tu rol dentro de la empresa?
-* ¿En qué ciudad o mercado operan?
-* ¿Qué tipo de propiedades gestionan o comercializan?
+* ¿Cuál es tu edad?
+* ¿En qué distrito o ciudad resides?
+* ¿Vives solo o con otras personas?
 
 **Complementarias:**
 
-* ¿Cuántos proyectos manejan actualmente?
-* ¿Cuál es el tamaño de la empresa?
+* ¿Cuál es tu ocupación actual?
+* ¿Trabajas de forma presencial, remota o híbrida?
+* ¿Cuánto tiempo llevas viviendo en una propiedad alquilada?
 
 ---
 
-### Comportamiento y estrategia actual
+### Comportamiento y uso actual
 
 **Principales:**
 
-* ¿Utilizan actualmente tecnología IoT en sus propiedades?
-* ¿Cómo gestionan el mantenimiento y monitoreo de inmuebles?
-* ¿Qué herramientas digitales utilizan?
+* ¿Cómo gestionas actualmente el consumo de servicios como luz y agua?
+* ¿Sueles revisar tus gastos mensuales de servicios? ¿Cómo lo haces?
+* ¿Has utilizado algún dispositivo inteligente en tu hogar (luces inteligentes, sensores, etc.)?
 
 **Complementarias:**
 
-* ¿Están invirtiendo en innovación tecnológica?
-* ¿Qué tan importante es la digitalización en su estrategia?
+* ¿Qué aplicaciones usas con más frecuencia en tu día a día?
+* ¿Desde qué dispositivo accedes principalmente a aplicaciones (smartphone, laptop, tablet)?
+* ¿Qué tan cómodo te sientes usando tecnología en el hogar?
 
 ---
 
@@ -232,13 +141,15 @@ Comprender el nivel de digitalización, interés en IoT, necesidades de diferenc
 
 **Principales:**
 
-* ¿Qué dificultades enfrentan al implementar tecnología en sus propiedades?
-* ¿Qué limita la adopción de soluciones inteligentes en su negocio?
+* ¿Qué dificultades tienes al controlar tu consumo de servicios?
+* ¿Te ha ocurrido algún problema en tu vivienda que no se detectó a tiempo?
+* ¿Qué es lo que más te incomoda de vivir en una propiedad alquilada?
 
 **Complementarias:**
 
-* ¿Existen problemas de integración entre dispositivos?
-* ¿Qué barreras encuentran en sus clientes (propietarios/inquilinos)?
+* ¿Sientes que pagas más de lo que deberías en servicios?
+* ¿Qué tan fácil es comunicar problemas al arrendador?
+* ¿Qué situaciones te generan estrés en tu vivienda?
 
 ---
 
@@ -246,14 +157,15 @@ Comprender el nivel de digitalización, interés en IoT, necesidades de diferenc
 
 **Principales:**
 
-* ¿Qué valor buscarían en una plataforma como Nexora?
-* ¿Les interesaría ofrecer propiedades inteligentes como parte de su propuesta?
-* ¿Qué funcionalidades considerarían esenciales?
+* ¿Qué te gustaría poder controlar desde tu celular dentro de tu hogar?
+* ¿Qué tan importante es para ti ahorrar en servicios básicos?
+* ¿Te interesaría recibir alertas sobre consumo o problemas en tu vivienda?
 
 **Complementarias:**
 
-* ¿Qué beneficios esperan (ahorro, diferenciación, eficiencia)?
-* ¿Qué tipo de reportes o métricas necesitan?
+* ¿Qué funcionalidades considerarías esenciales en una app para tu hogar?
+* ¿Preferirías una app simple o con muchas opciones configurables?
+* ¿Qué valoras más: ahorro, seguridad o comodidad?
 
 ---
 
@@ -261,10 +173,10 @@ Comprender el nivel de digitalización, interés en IoT, necesidades de diferenc
 
 **Principales:**
 
-* ¿Estarían dispuestos a integrar una solución como Nexora en sus proyectos?
-* ¿Qué modelo prefieren: compra de tecnología, suscripción o ambos?
+* ¿Estarías dispuesto a usar una app para controlar dispositivos inteligentes en tu vivienda?
+* ¿Qué te motivaría a usarla constantemente?
 
 **Complementarias:**
 
-* ¿Qué factores influyen en la decisión de adopción?
-* ¿Qué los haría elegir una solución sobre otra?
+* ¿Tienes experiencia con apps de automatización o smart home?
+* ¿Qué te haría dejar de usar una aplicación de este tipo?

@@ -1,25 +1,31 @@
 ### 2.2.3. Análisis de entrevistas
 
-### Segmento 1: Inquilinos (Arrendatarios)
+## Segmento 1: Administradores de Propiedades (Arrendadores)
 
-El análisis realizado a las entrevistas del segmento de inquilinos permitió identificar patrones de comportamiento, necesidades y problemáticas comunes relacionadas con la gestión del hogar y el consumo de servicios básicos. La muestra analizada evidencia que el 100% de los entrevistados vive actualmente en viviendas alquiladas y mantiene responsabilidades directas sobre pagos de servicios y organización doméstica.
+El análisis cuantitativo y cualitativo de las entrevistas aplicadas a este segmento (Muestra: _N_ = 2) permitió identificar las características comunes necesarias para estructurar el arquetipo de administrador independiente:
 
-En relación con la gestión de gastos, el 67% de los entrevistados utiliza herramientas manuales como Excel, notas o recordatorios para controlar pagos y consumos, mientras que el 33% reconoce no llevar un control estructurado y basarse únicamente en estimaciones mentales o revisión de recibos. Esto evidencia una dependencia significativa de procesos manuales que pueden ocasionar errores, olvidos o falta de seguimiento detallado de consumos.
+* **Características Objetivas:**
+    * **Gestión Inmobiliaria Operativa:** El 100% (2/2) de las entrevistadas opera de forma independiente y gestiona carteras pequeñas (Erica administra 2 propiedades y Yoselin gestiona 4).
+    * **Dispositivos y Canales:** El 100% (2/2) utiliza el smartphone como herramienta central y prioriza WhatsApp como canal primario de interacción diaria, relegando las llamadas telefónicas únicamente para emergencias o casos críticos.
+    * **Navegación (Browser):** El 100% (2/2) de la muestra utiliza Google Chrome como navegador principal (ya sea en su versión móvil o de escritorio), mientras que el 50% (1/2) interactúa además con Safari debido al uso de ecosistemas Apple (Yoselin).
+    
+* **Características Subjetivas:**
+    * **Personalidad y Perfil:** El 100% (2/2) de la muestra se autodefine y muestra conductas organizadas y prácticas. El 50% exhibe un perfil más tradicional orientado al control periódico presencial (Erica, chequeos trimestrales) y el otro 50% un perfil multitarea y proactivo limitado por saturación de agenda (Yoselin).
+    * **Necesidades y Puntos de Dolor:** El 100% (2/2) padece de limitaciones de tiempo que les impiden ejecutar visitas de supervisión con la frecuencia deseada. Por ello, el 100% (2/2) expresa la necesidad de recibir alertas automáticas en tiempo real para optimizar sus tiempos y coordinar con personal de mantenimiento externo.
+    * **Marcas e Influencias:** Las decisiones de control se ven influenciadas en un 50% por la banca tradicional local (BCP/Interbank) y en un 50% por herramientas corporativas modernas de productividad (Notion, Google Workspace).
 
-Asimismo, el 100% de los entrevistados manifestó preocupación por consumos elevados de servicios como agua y electricidad. Entre las principales situaciones identificadas se encuentran dispositivos olvidados encendidos, filtraciones de agua, uso excesivo de aire acondicionado y cobros inesperados en recibos mensuales. Estas problemáticas generan interés por herramientas que permitan monitorear consumos y recibir alertas tempranas ante anomalías.
+<br>
 
-Respecto al uso de tecnología, el 100% de los participantes utiliza smartphones y aplicaciones digitales como medio principal para organizar actividades y comunicarse. Además, el 67% mostró interés y experiencia previa en automatización del hogar o control remoto de dispositivos inteligentes, valorando especialmente funciones como apagar luces desde el celular, controlar energía y recibir notificaciones en tiempo real.
+## Segmento 2: Inquilinos (Arrendatarios)
 
-Finalmente, a nivel subjetivo, se identificó que los entrevistados valoran principalmente la comodidad, el ahorro económico, la practicidad y el ahorro de tiempo. También se evidenció una percepción positiva hacia soluciones IoT orientadas al hogar inteligente, siempre que estas sean fáciles de usar y contribuyan a reducir preocupaciones relacionadas con gastos o incidentes domésticos. Sin embargo, un 33% manifestó cierta preocupación respecto a la dependencia tecnológica o posibles fallas de dispositivos conectados.
+El procesamiento de los datos recolectados en las entrevistas con inquilinos urbanos (Muestra: _N_ = 3; Luis, Diego y Joaquín) arrojó las siguientes métricas y patrones de conducta comunes:
 
-### Segmento 2: Administradores de Propiedades (Arrendadores)
+* **Características Objetivas:**
+    * **Métodos de Control de Gastos:** El 66.67% (2/3) de los arrendatarios (Luis y Joaquín) recurre al uso de herramientas manuales estructuradas como hojas de cálculo en Microsoft Excel combinadas con notas digitales para rastrear sus cobros de servicios, mientras que el 33.33% (1/3) restante (Diego) carece de un método organizado y depende de estimaciones mentales.
+    * **Perfil Tecnológico y Dispositivos:** El 100% (3/3) posee un perfil técnico especializado en software/sistemas y opera bajo modalidades de trabajo híbridas o remotas. En cuanto a dispositivos, el 66.67% (2/3) utiliza laptops orientadas al rendimiento masivo (Asus ROG, MacBook Pro) y el 100% emplea smartphones de forma activa.
+    * **Ecosistema de Software (Browsers):** El 100% (3/3) tiene a Google Chrome integrado en su rutina de navegación. Sin embargo, debido a sus perfiles técnicos, el 66.67% (2/3) diversifica su uso hacia alternativas avanzadas como Mozilla Firefox por motivos de privacidad (Luis) o Brave Browser / Chrome Canary (Joaquín).
 
-El análisis de entrevistas realizadas al segmento de arrendadores permitió identificar necesidades relacionadas con la supervisión remota de propiedades, la comunicación con inquilinos y la optimización del tiempo de gestión. La totalidad de entrevistadas administra propiedades de forma independiente y mantiene contacto frecuente con sus inquilinos para coordinar pagos, resolver incidentes y supervisar el estado de los departamentos.
-
-En cuanto a comunicación, el 100% utiliza WhatsApp como principal canal de interacción con los inquilinos, complementándolo con llamadas telefónicas en situaciones urgentes. Esto demuestra una fuerte dependencia de herramientas móviles y mensajería instantánea para la administración diaria de sus propiedades.
-
-Asimismo, el 100% de las entrevistadas indicó que le gustaría supervisar con mayor frecuencia el estado de las viviendas; sin embargo, las limitaciones de tiempo y actividades laborales dificultan realizar visitas constantes. Debido a ello, consideran valioso contar con sistemas que les permitan monitorear incidentes y recibir alertas automáticas sobre problemas dentro de los departamentos.
-
-Respecto al uso de tecnología, el 100% utiliza smartphones como principal dispositivo de gestión y comunicación. Además, se identificó una actitud positiva hacia herramientas digitales que permitan ahorrar tiempo, mejorar la coordinación con terceros y facilitar la supervisión remota de inmuebles.
-
-A nivel subjetivo, las entrevistadas se caracterizan por ser personas organizadas, responsables y prácticas, priorizando soluciones simples, rápidas y funcionales. También se observó una fuerte valoración hacia tecnologías que reduzcan la necesidad de supervisión presencial y permitan responder rápidamente ante incidentes o emergencias en las propiedades administradas.
+* **Características Subjetivas:**
+    * **Puntos de Dolor Comunes:** El 100% (3/3) de los inquilinos experimenta una frustración y preocupación constante por el cobro elevado e imprevisto en sus recibos de agua y luz eléctrica. El 66.67% (2/3) de la muestra (Diego y Joaquín) ha sufrido de forma directa incidentes financieros imprevistos causados por filtraciones de agua no detectadas a tiempo o descuidos/olvidos en las fechas de pago de sus servicios.
+    * **Interés en Automatización e IoT:** El 100% (3/3) de los entrevistados manifestó una actitud altamente positiva y un deseo explícito de implementar soluciones de automatización residencial (como apagado remoto de luces, interruptores inteligentes o control de televisores desde el celular). Adicionalmente, el 100% (3/3) coincide en que las notificaciones push en tiempo real ante anomalías de consumo es la funcionalidad con mayor valor percibido.
+    * **Marcas e Influencias:** Muestran una alta afinidad por marcas digitales y tecnológicas nativas, incluyendo ecosistemas Smart Home (Google Home, Tuya Smart, Sonoff, Philips Hue), plataformas de desarrollo (GitHub, Vercel), servicios de entretenimiento (Netflix) y herramientas Fintech de pago inmediato (Yape, Plin).
