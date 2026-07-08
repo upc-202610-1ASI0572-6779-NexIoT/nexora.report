@@ -11,8 +11,8 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 25 años
 * **Distrito de Residencia:** Surco
 * **Fecha de la Entrevista:** 19/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/IQBaXNAMjnj6Qo-r0c44go5wAR0oDeMpffll7GxMyHzWcd8?e=LpxL9H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 8 Mins 00 segs
+* **Enlace del Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCap1Jn4yJwSbIobQSreMOtAQS_au7_aywK_izSHyap6Ak?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1HDKKG ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCap1Jn4yJwSbIobQSreMOtAQS_au7_aywK_izSHyap6Ak?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1HDKKG )
+* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 8 Mins 02 segs
 
 **Evidencia de la Entrevista (Screenshot):**
 ![Captura de Pantalla - Entrevista 1](../../assets/chapter-6/validation-interviews/validation-interview-1.jpg)
@@ -29,8 +29,8 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 25 años
 * **Distrito de Residencia:** Lima
 * **Fecha de la Entrevista:** 19/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://1drv.ms/v/c/a3bebbb4408387f0/IQB0IC8AOhbDQr2pHWJwxG9RATPesag7HoY1xgmKOgBcl3U?e=Re1eYW)
-* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 6 min 52 segs
+* **Enlace del Video:** [[Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCap1Jn4yJwSbIobQSreMOtAQS_au7_aywK_izSHyap6Ak?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1HDKKG)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCap1Jn4yJwSbIobQSreMOtAQS_au7_aywK_izSHyap6Ak?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1HDKKG )
+* **Timing de la Entrevista:** Inicio en 08:03 | Duración total: 6 min 52 segs
 
 **Evidencia de la Entrevista (Screenshot):**
 ![Captura de Pantalla - Entrevista 2](../../assets/chapter-6/validation-interviews/validation_interview_2.png)
@@ -48,8 +48,8 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Edad:** 40 años
 * **Distrito de Residencia:** Lima
 * **Fecha de la Entrevista:** 25/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://1drv.ms/v/c/017052aac6508873/IQDx1O1Zs6vmRZ9QLNng3ZvRAbEZE1reVqtNi-id9woUWKU?e=tlgCue)
-* **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 12 min 47 segs
+* **Enlace del Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCap1Jn4yJwSbIobQSreMOtAQS_au7_aywK_izSHyap6Ak?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1HDKKG ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCap1Jn4yJwSbIobQSreMOtAQS_au7_aywK_izSHyap6Ak?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1HDKKG )
+* **Timing de la Entrevista:** Inicio en 17:50 | Duración total: 12 min 47 segs
 
 **Evidencia de la Entrevista (Screenshot):**
 ![Captura de Pantalla - Entrevista 3](../../assets/chapter-6/validation-interviews/validation-interview-3.png)
@@ -65,12 +65,29 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 
 ### **2. Segmento Objetivo: Arrendatarios / Inquilinos (Tenants)**
 
-#### **Entrevista 4**
+#### **Entrevista 1**
+* **Nombres y Apellidos:** Jorge Luis Diaz Fiestas
+* **Edad:** 22 años
+* **Distrito de Residencia:** San Isidro, Lima
+* **Fecha de la Entrevista:** 23/06/2026
+* **Enlace del Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCap1Jn4yJwSbIobQSreMOtAQS_au7_aywK_izSHyap6Ak?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1HDKKG ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCap1Jn4yJwSbIobQSreMOtAQS_au7_aywK_izSHyap6Ak?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1HDKKG )
+* **Timing de la Entrevista:** Inicio en 30:50 | Duración total: 27 Mins 40 segs
+
+**Evidencia de la Entrevista (Screenshot):**
+![Captura de Pantalla - Entrevista 5](../../assets/chapter-6/validation-interviews/validation-interview-5.png)
+
+**Resumen de la Entrevista (Principales Apreciaciones):**
+* **Landing Page:** El entrevistado percibe que la propuesta transmite confianza gracias a su diseño moderno y a la explicación clara sobre el funcionamiento de los sensores, los cuales contribuyen tanto a la seguridad del hogar como a una facturación más transparente
+* **Mobile App:** Asimismo, el usuario identificó diversas oportunidades de mejora relacionadas con la interfaz de la aplicación. Entre ellas, señaló que algunos botones y elementos de navegación podrían ser más intuitivos y visibles para facilitar su uso. Además, sugirió dar mayor protagonismo a las alertas de consumo anómalo en la pantalla principal e incorporar notificaciones push de alta prioridad, con el fin de asegurar una respuesta más rápida ante posibles incidencias.
+* **Conclusiones y Recomendaciones del Usuario:** El usuario valora positivamente la posibilidad de monitorear en tiempo real el consumo de agua y energía eléctrica desde la aplicación, ya que considera que le brinda un mayor control sobre los recursos del hogar. Como recomendaciones, sugiere mejorar la interfaz haciendo más visibles las alertas de consumo anómalo en la pantalla de inicio, implementar notificaciones push de alta prioridad para situaciones críticas y optimizar la ubicación y el diseño de algunos botones para que la navegación sea más intuitiva y eficiente.
+
+
+#### **Entrevista 2**
 * **Nombres y Apellidos:** Diego Castro
 * **Edad:** 25 años
 * **Distrito de Residencia:** Jesus María, Lima
 * **Fecha de la Entrevista:** 20/06/2026
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCStSYLNTFtSZd3auMZ1mptAbZkhIJviHHIye58zZJ1ScE?e=PaG2aW)
+* **Enlace del Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCap1Jn4yJwSbIobQSreMOtAQS_au7_aywK_izSHyap6Ak?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1HDKKG ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b178_upc_edu_pe/IQCap1Jn4yJwSbIobQSreMOtAQS_au7_aywK_izSHyap6Ak?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1HDKKG )
 * **Timing de la Entrevista:** Inicio en 00:00 | Duración total: 5 Mins 00 segs
 
 **Evidencia de la Entrevista (Screenshot):**
@@ -80,43 +97,3 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 * **Landing Page:** El entrevistado considera que el diseño visual es moderno y explica adecuadamente cómo los sensores previenen accidentes (como fugas de gas) y aseguran la transparencia en la facturación, lo cual le genera tranquilidad como inquilino.
 * **Mobile App:** Considera de gran utilidad la visualización de consumos históricos y en tiempo real de agua y energía eléctrica. Sin embargo, observó que las alertas ante anomalías de consumo deberían ser más prominentes en la pantalla de inicio, y sugirió la implementación de notificaciones push de alta prioridad.
 * **Conclusiones y Recomendaciones del Usuario:** Le parece excelente contar con un control móvil para la monitorización de su departamento. Recomienda destacar visualmente las alertas críticas en la interfaz y proveer plantillas de automatización rápidas para reducir consumos comunes.
-
----
-
-#### **Entrevista 5**
-* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
-* **Edad:** `[Edad]` años
-* **Distrito de Residencia:** `[Distrito / Ciudad]`
-* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](URL_DEL_VIDEO)
-* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
-
-**Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 5](../../../assets/chapter-6/validation/interview-tenant-2.jpg)
-*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
-
-**Resumen de la Entrevista (Principales Apreciaciones):**
-* **Landing Page:** 
-* **Web Application:** 
-* **Mobile App:** 
-* **Conclusiones y Recomendaciones del Usuario:** 
-
----
-
-#### **Entrevista 6**
-* **Nombres y Apellidos:** `[Nombres y Apellidos del Entrevistado]`
-* **Edad:** `[Edad]` años
-* **Distrito de Residencia:** `[Distrito / Ciudad]`
-* **Fecha de la Entrevista:** `[DD/MM/AAAA]`
-* **Enlace del Video:** [Video en Microsoft Stream / Clipchamp](URL_DEL_VIDEO)
-* **Timing de la Entrevista:** Inicio en `[MM:SS]` | Duración total: `[MM:SS]`
-
-**Evidencia de la Entrevista (Screenshot):**
-![Captura de Pantalla - Entrevista 6](../../../assets/chapter-6/validation/interview-tenant-3.jpg)
-*(Nota: Reemplazar esta imagen por una captura del cuadro de video donde aparezca el entrevistado y el flujo de validación).*
-
-**Resumen de la Entrevista (Principales Apreciaciones):**
-* **Landing Page:** 
-* **Web Application:** 
-* **Mobile App:** 
-* **Conclusiones y Recomendaciones del Usuario:** 

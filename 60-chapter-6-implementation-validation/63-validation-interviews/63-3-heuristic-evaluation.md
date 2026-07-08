@@ -1,5 +1,3 @@
-## 6.3 git po f
-
 ### Usability – Inclusive Design – Information Architecture
 
 * **CARRERA:** Ingeniería de Software
