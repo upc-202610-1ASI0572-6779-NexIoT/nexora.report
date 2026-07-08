@@ -135,3 +135,5 @@ La información registrada es utilizada posteriormente para actualizar dashboard
 | 5     | Aplicación móvil              | Notificar eventos relevantes y mostrar monitoreo resumido. |
 
 Esta arquitectura permite administrar múltiples dispositivos independientes dentro de una misma propiedad, manteniendo coherencia con funcionalidades como Device Fleet Overview, Alerts, Device Health, Signal y Threshold Configuration presentes en los prototipos de Nexora.
+
+<div style="page-break-after: always;"></div>

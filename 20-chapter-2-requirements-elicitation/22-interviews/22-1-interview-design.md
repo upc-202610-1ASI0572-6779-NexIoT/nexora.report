@@ -180,3 +180,5 @@ Comprender hábitos de consumo, uso de tecnología en el hogar, necesidades de c
 
 * ¿Tienes experiencia con apps de automatización o smart home?
 * ¿Qué te haría dejar de usar una aplicación de este tipo?
+
+<div style="page-break-after: always;"></div>

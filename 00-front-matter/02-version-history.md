@@ -45,5 +45,4 @@
 | TB2.1.1.0 | 08/07/26 | Jhosep Argomedo | Actualizar Capítulo 1 en los segmentos objetivos, header question, etc |
 | TB2.1.1.1 | 08/07/26 | Kevin Castañeda | Añadir Sprint Backlog para Sprint 3 |
 
-
 <div style="page-break-after: always;"></div>

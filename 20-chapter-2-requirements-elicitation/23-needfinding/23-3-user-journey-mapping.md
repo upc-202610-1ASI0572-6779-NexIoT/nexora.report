@@ -18,3 +18,5 @@ El objetivo de estos mapas es ilustrar dos viajes esenciales de extremo a extrem
 #### User Journey Map – Carlos Mendoza
 
 ![User Journey Map - Carlos Mendoza](/assets/chapter-2/needfinding/user-journey-map-carlos-mendoza.png)
+
+<div style="page-break-after: always;"></div>

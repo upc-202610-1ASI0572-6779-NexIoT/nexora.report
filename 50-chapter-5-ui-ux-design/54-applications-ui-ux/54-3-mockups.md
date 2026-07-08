@@ -148,3 +148,5 @@ Además, esta sección brinda al usuario un mayor control sobre la personalizaci
 ![Perfil Mobile App 2](../../assets/chapter-5/mockups/mobile/profile2-mobileapp-mockup.png)
 
 <br>
+
+<div style="page-break-after: always;"></div>

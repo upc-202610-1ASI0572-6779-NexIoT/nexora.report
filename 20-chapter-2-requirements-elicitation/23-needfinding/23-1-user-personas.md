@@ -34,3 +34,5 @@ Valeria Torres representa el segmento de jóvenes profesionales que alquilan dep
 Carlos Mendoza representa el segmento de administradores inmobiliarios responsables de supervisar múltiples propiedades y coordinar operaciones relacionadas con mantenimiento, incidencias y atención a inquilinos. Este perfil prioriza la eficiencia operativa, la reducción de costos y el acceso rápido a información centralizada que le permita tomar decisiones y gestionar propiedades de manera más práctica y organizada.
 
 ![User Persona - Carlos Mendoza](../../assets/chapter-2/needfinding/user_personas/user_persona-2.png)
+
+<div style="page-break-after: always;"></div>

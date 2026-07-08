@@ -190,3 +190,5 @@ Almacena el historial de intentos de cobro realizados a través de Culqi.
 La Infrastructure Layer constituye el soporte técnico del bounded context **Subscriptions & Payment Management**, permitiendo integrar los procesos de suscripción, facturación y pagos con los mecanismos de persistencia e integración requeridos por la plataforma Nexora.
 
 ---
+
+<div style="page-break-after: always;"></div>

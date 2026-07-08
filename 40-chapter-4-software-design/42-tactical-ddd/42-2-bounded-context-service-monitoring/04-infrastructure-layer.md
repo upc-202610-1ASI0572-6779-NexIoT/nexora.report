@@ -126,3 +126,5 @@ Almacena los límites configurados para la evaluación de riesgo.
 La Infrastructure Layer constituye el soporte técnico del bounded context **Service Monitoring & Intelligence**, permitiendo integrar la información proveniente de la infraestructura IoT con los procesos de monitoreo, evaluación de riesgos y detección de anomalías implementados por la plataforma Nexora.
 
 ---
+
+<div style="page-break-after: always;"></div>

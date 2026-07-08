@@ -43,3 +43,5 @@ Organizado mediante una estructura de acordeones que permite condensar gran cant
 Una estructura simplificada que prioriza la legibilidad del texto legal, asegurando que la información importante sobre privacidad y términos de uso sea fácilmente consultable.
 
 ![Landing Legal Wireframe](../../assets/chapter-5/landing-wireframes/landing-legal-wireframe.png)
+
+<div style="page-break-after: always;"></div>

@@ -148,3 +148,5 @@ Para asegurar claridad en el historial del proyecto, se adopta el estándar Conv
 | **refactor** | Mejora de código    | `refactor(service): optimizar lógica de inventario`     |
 | **test**     | Pruebas             | `test(api): agregar pruebas de integración para assets` |
 | **chore**    | Tareas menores      | `chore: actualizar dependencias`                        |
+
+<div style="page-break-after: always;"></div>

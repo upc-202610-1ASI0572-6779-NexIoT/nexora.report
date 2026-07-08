@@ -31,3 +31,5 @@ En esta sección se consolidan los recursos digitales y evidencias complementari
 *   **Landing Page en Producción:** [https://upc-202610-1asi0572-6779-nexiot.github.io/nexora.website/](https://upc-202610-1asi0572-6779-nexiot.github.io/nexora.website/index.html)
 
 * **WebService en Producción:** [https://nexora-webservice.onrender.com/swagger/index.html](https://nexora-webservice.onrender.com/swagger/index.html)
+
+<div style="page-break-after: always;"></div>

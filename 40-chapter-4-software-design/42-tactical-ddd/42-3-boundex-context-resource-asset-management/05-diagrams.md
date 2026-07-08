@@ -65,3 +65,5 @@ La tabla `device_metadata` almacena información técnica única de cada disposi
 
 
 ![Resource & Asset Management - Database Diagram](/assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/database-diagram_2v.png)
+
+<div style="page-break-after: always;"></div>

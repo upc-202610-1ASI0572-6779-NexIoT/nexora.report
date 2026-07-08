@@ -99,3 +99,5 @@ Durante la evaluación de los productos, se solicita al usuario realizar las sig
 2. **Dashboard Principal:** El usuario visualiza el resumen de sus consumos actuales (agua, gas, electricidad) en el dashboard principal.
 3. **Histórico de Consumos:** El usuario navega hacia el módulo de "Historial", selecciona un rango de fechas y visualiza la gráfica de consumo comparativo respecto al mes anterior.
 4. **Notificaciones:** El usuario verifica la recepción de una notificación push de "Alerta de Seguridad" (simulada) y accede al detalle del evento para visualizar las instrucciones de seguridad proporcionadas por el propietario.
+
+<div style="page-break-after: always;"></div>

@@ -11,3 +11,5 @@ El diagrama muestra los principales contenedores que conforman la solución. La 
 El backend se implementa mediante un REST API desarrollado bajo una arquitectura monolítica modular, donde residen las capacidades de negocio relacionadas con gestión de activos, monitoreo, mantenimiento, analítica y suscripciones. La información es almacenada en una base de datos centralizada.
 
 Por otro lado, la capa IoT está compuesta por componentes Edge, Embedded y Fog, responsables de procesar telemetría, coordinar la comunicación con sensores y transmitir información relevante hacia la plataforma central.
+
+<div style="page-break-after: always;"></div>

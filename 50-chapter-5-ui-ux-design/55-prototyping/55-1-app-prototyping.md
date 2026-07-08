@@ -17,3 +17,5 @@ Los siguientes enlaces dirigen a los prototipos de la aplicación web de Nexora:
 Los siguientes enlaces dirigen a los prototipos de la aplicación web de Nexora:
 
 -   [Prototipo Aplicación Móvil](https://1drv.ms/v/c/a3bebbb4408387f0/IQA9Rq-XIzrFRapRqiL8KkYpAXPCNnsTF53T2YxYZl1ALCQ?e=ZpMBCK)
+
+<div style="page-break-after: always;"></div>

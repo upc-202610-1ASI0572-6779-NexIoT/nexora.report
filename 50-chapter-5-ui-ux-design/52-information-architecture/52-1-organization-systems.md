@@ -93,3 +93,4 @@ La información se presenta desde los eventos más recientes hasta los más anti
 
 La categorización alfabética se aplica en listados específicos, como propiedades o dispositivos, facilitando la búsqueda rápida cuando se manejan múltiples elementos dentro del sistema.
 
+<div style="page-break-after: always;"></div>

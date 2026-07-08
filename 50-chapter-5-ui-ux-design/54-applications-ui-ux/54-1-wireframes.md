@@ -104,3 +104,5 @@ La pantalla de perfil de suscripción muestra el plan activo (PRO PLAN) con el n
 La sección de automatizaciones dentro de Devices presenta las reglas agrupadas en Active y Paused. Cada automatización muestra su nombre, las condiciones IF y THEN en chips compactos, y un toggle para activarla o pausarla sin entrar al detalle. El botón + New automation al final de la lista inicia el flujo de creación.
 
 ![Wireframe — Devices automations screen](../../assets/chapter-5/wireframes/mobile/wireframe-automations.png)
+
+<div style="page-break-after: always;"></div>

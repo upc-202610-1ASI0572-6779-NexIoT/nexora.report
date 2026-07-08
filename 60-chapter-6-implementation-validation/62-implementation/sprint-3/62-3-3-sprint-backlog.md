@@ -50,3 +50,5 @@ Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equi
 | TS-EMB-06 | Sensor de caudal a 50 LPM y mitigación de ruido analógico | T-34 | Calibrar lectura de flujo de agua y aplicar filtros de ruido | Firmware del ESP32 calibrado a 50 LPM y algoritmo de promedio móvil para evitar lecturas ruidosas. | 5 | Jorge Alexandro Linares Arroyo | Done |
 | TS11 | API de logs y perfil de hardware de dispositivo | T-35 | Crear API de logs de hardware en Web Service | Endpoints para registrar y leer logs operativos y perfiles del hardware ESP32. | 3 | Sebastian Ramirez Tello | Done |
 | TS27 | API de historial de facturación y comprobantes | T-36 | Implementar API de facturas e historial | Endpoint para listar facturas y coordinar la descarga de recibos con Stripe. | 3 | Kevin Alexander Castañeda Llanos | Done |
+
+<div style="page-break-after: always;"></div>

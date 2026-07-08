@@ -201,3 +201,5 @@ Aunque los Commands y Queries son orquestados principalmente desde la Applicatio
 La Domain Layer constituye la base conceptual del bounded context **Resource & Asset Management** y se refleja en los diagramas de componentes, clases de dominio y diseño de base de datos presentados en las siguientes secciones.
 
 ---
+
+<div style="page-break-after: always;"></div>

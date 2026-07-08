@@ -94,3 +94,5 @@ Recurso utilizado para transportar la información necesaria durante el proceso 
 La Interface Layer constituye la capa de presentación del bounded context **Resource & Asset Management** y se encuentra representada principalmente por **AssetManagementController**, **DeviceController** y los recursos utilizados para exponer la jerarquía física, el inventario tecnológico y los procesos de vinculación de dispositivos dentro de Nexora.
 
 ---
+
+<div style="page-break-after: always;"></div>

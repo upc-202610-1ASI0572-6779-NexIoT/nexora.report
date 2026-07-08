@@ -31,3 +31,5 @@ En la **gestión de dispositivos e incidentes** desde la web, el sistema impleme
 En todos los casos, los resultados de búsqueda vacíos muestran un estado explícito con un mensaje descriptivo y una sugerencia de acción alternativa, evitando pantallas en blanco que generen confusión al usuario.
 
 ---
+
+<div style="page-break-after: always;"></div>

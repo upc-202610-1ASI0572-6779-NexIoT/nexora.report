@@ -173,3 +173,5 @@ Abstracción utilizada por el dominio para acceder a la persistencia de técnico
 7. Las notificaciones deben generarse cuando se crea, asigna o completa una orden.
 
 La Domain Layer constituye la base conceptual del bounded context **Service Execution & Maintenance** y se refleja en los diagramas de componentes, clases de dominio y diseño de base de datos presentados en las siguientes secciones.
+
+<div style="page-break-after: always;"></div>

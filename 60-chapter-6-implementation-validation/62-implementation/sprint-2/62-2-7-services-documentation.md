@@ -354,3 +354,5 @@ A continuación se detallan los endpoints clave desarrollados y documentados en 
   
   ![Captura de Swagger UI - Descarga de Reporte PDF de Alertas](../../../assets/chapter-6/implementation/sprint-2/reports-swagger-document.jpg)
   * *Descripción:* Descarga de reporte de alertas de tipo `application/pdf`.
+
+<div style="page-break-after: always;"></div>

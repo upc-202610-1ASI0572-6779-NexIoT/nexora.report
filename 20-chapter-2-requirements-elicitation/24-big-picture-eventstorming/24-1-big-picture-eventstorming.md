@@ -115,3 +115,5 @@ Como resultado se obtuvieron los siguientes contextos delimitados:
 Esta organización permitió establecer una separación clara de responsabilidades entre los distintos módulos del sistema y sirvió como base para el diseño estratégico de la arquitectura basada en Domain-Driven Design.
 
 ![STEP10](../../assets/chapter-2/big-picture-eventstorming/step10-eventS.png)
+
+<div style="page-break-after: always;"></div>

@@ -122,3 +122,5 @@ El servicio de aplicación **MaintenanceService** coordina los principales casos
 - Facilita la implementación de CQRS mediante Commands y Events.
 
 La Application Layer constituye el núcleo de orquestación del bounded context **Service Execution & Maintenance** y se refleja posteriormente en los diagramas de componentes y de nivel de código.
+
+<div style="page-break-after: always;"></div>

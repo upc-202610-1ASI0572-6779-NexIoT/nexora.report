@@ -44,3 +44,5 @@ A continuación, se presenta la ramificación estratégica orientada a optimizar
 A continuación, se presenta la ramificación estratégica orientada a mitigar los sobrecostos y potenciar la tranquilidad de la habitabilidad del arrendatario:
 
 ![Impact Mapping - Segmento Inquilino](/assets/chapter-3/impact-mapping/impact_map_inquilino.png)
+
+<div style="page-break-after: always;"></div>

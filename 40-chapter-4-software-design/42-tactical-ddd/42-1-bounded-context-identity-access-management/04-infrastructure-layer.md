@@ -134,3 +134,5 @@ Tabla intermedia que implementa la relación muchos-a-muchos entre usuarios y ro
 La Infrastructure Layer se encuentra representada en los diagramas de componentes, diagramas de clases y diagramas de base de datos del bounded context, evidenciando la implementación concreta de los servicios técnicos requeridos para soportar las capacidades de Identity & Access Management.
 
 ---
+
+<div style="page-break-after: always;"></div>

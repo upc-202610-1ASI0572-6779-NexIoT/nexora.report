@@ -79,3 +79,5 @@ Transporta la información necesaria para asignar un técnico a una orden.
 - Retornar respuestas HTTP estructuradas.
 
 La Interface Layer constituye la capa de presentación del bounded context **Service Execution & Maintenance** y se encuentra representada principalmente por **MaintenanceController**, **IncidentController** y los recursos utilizados para exponer órdenes, incidentes y asignaciones técnicas.
+
+<div style="page-break-after: always;"></div>

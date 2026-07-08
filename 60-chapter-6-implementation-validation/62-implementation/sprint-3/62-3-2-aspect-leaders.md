@@ -22,3 +22,5 @@ El propósito de esta sección es establecer la Matriz de Liderazgo y Colaboraci
 
 > **L**: Leader (Líder de aspecto)  
 > **C**: Collaborator (Colaborador)
+
+<div style="page-break-after: always;"></div>

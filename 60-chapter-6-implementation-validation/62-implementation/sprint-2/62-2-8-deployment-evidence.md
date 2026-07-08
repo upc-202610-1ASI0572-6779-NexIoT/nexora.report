@@ -116,3 +116,5 @@ La aplicación web en Vercel fue actualizada para transicionar de componentes vi
 
 
 **URL de la aplicación web:** [https://nexora-webapp-eight.vercel.app/login](https://nexora-webapp-eight.vercel.app/login)
+
+<div style="page-break-after: always;"></div>
