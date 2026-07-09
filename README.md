@@ -8306,9 +8306,9 @@ A continuación se presenta el Deployment Diagram siguiendo el modelo C4, que il
 *   **Plataforma:** Firebase App Distribution.
 *   **Configuración:** Para el desarrollo y pruebas con Flutter, se utiliza Firebase App Distribution. Esto permite distribuir versiones *beta* de la aplicación a los miembros del equipo y testers de forma rápida, integrándose con procesos de CI/CD para generar los binarios (.apk / .ipa).
 
-#### 4. Backend (App & Mobile Web)
-*   **Plataforma:** Microsoft Azure.
-*   **Configuración:** Los servicios web del backend se despliegan en Azure (utilizando App Services o Container Instances). Se configura un pipeline de despliegue que asegura que la lógica de negocio y las APIs estén disponibles y escalen según la demanda de las aplicaciones web y móviles.
+#### 4. Web Service
+*   **Plataforma:** Render.
+*   **Configuración:** El Web Service (API REST) se despliega en Render, conectado directamente al repositorio de GitHub (`nexora.webservice`). Cada *push* a la rama principal dispara un build automático (`npm install` y `npm start`) y publica la nueva versión en producción. Las variables de entorno gestionan la conexión segura con la base de datos PostgreSQL en Supabase (`DATABASE_URL`) y la firma de tokens de autenticación (`JWT_SECRET`), asegurando que la lógica de negocio y las APIs estén disponibles y escalen según la demanda de las aplicaciones web y móviles.
 
 #### 5. Edge Service
 *   **Plataforma:** Microsoft Azure.
@@ -12757,6 +12757,14 @@ Con el fin de garantizar el crecimiento sostenible del proyecto Nexora, se sugie
 5. **Mejora de la experiencia de usuario**: Se recomienda continuar mejorando la experiencia de usuario de la plataforma, implementando nuevas funcionalidades y mejorando las existentes.
 6. **Mejora de la performance**: Se recomienda continuar mejorando la performance de la plataforma, revisando métricas de proveedores externos para corroborar tiempos de carga.
 7. **Mejora de la testeabilidad**: Se recomienda continuar mejorando la testeabilidad de la plataforma, aumentando el alcance de los Unit Test, Tests de Integración u otras herramientas como SonarQube, Checkstyle, Selenium, etc.
+
+## Video About The Team
+
+* **Título:** `upc-pre-202610-1asi0572-NexIot-about-the-team`
+* **URL YouTube:** [https://youtu.be/puZJ0InFw0A](https://youtu.be/puZJ0InFw0A)
+
+### Descripción del video
+En este video, el equipo de desarrollo de **Nexora** comparte la visión del proyecto, el proceso de trabajo colaborativo bajo la metodología Scrum y las contribuciones individuales que hicieron posible la integración exitosa de la Web App, Mobile App, Edge Service y Embedded Apps con sensores IoT. Se detallan los roles de cada integrante, las lecciones aprendidas y cómo se abordaron los desafíos técnicos y de arquitectura (DDD) a lo largo del ciclo de vida del desarrollo para lograr un ecosistema robusto, funcional y escalable.
 
 <div style="page-break-after: always;"></div>
 
