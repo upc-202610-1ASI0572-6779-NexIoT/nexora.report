@@ -20,6 +20,8 @@ En esta sección se consolidan los recursos digitales y evidencias complementari
 
 *   **Tablero de Scrum (Sprint 2):** [https://trello.com/b/p97mSknd/sprint-2-nexiot](https://trello.com/b/p97mSknd/sprint-2-nexiot)
 
+*   **Tablero de Scrum (Sprint 3):** [https://trello.com/invite/b/6a1873baa09257624311592b/ATTI9cdd4a489acc790ce6f3204767f3d5304078B41A/sprint-3](https://trello.com/invite/b/6a1873baa09257624311592b/ATTI9cdd4a489acc790ce6f3204767f3d5304078B41A/sprint-3)
+
 ### 3. Evidencias Multimedia
 *   **Video de Ejecución y Demostración Sprint 1:** [https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
 
