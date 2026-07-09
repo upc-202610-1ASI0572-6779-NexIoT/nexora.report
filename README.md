@@ -128,17 +128,22 @@ u202316122      Ramirez Tello, Sebastian
 | AV2.1.1.0 | 20/06/26 | Jhosep Argomedo  | Actualizar Development Evidence For Sprint 2 |
 | TB2 |
 | TB2.1.0.0 | 26/06/26 | Jhosep Argomedo | Incorporación de estructura básica para el Sprint 3, desarrollo del Aspect Leaders, corrección de Team Collaboration Insights/Contributors y de enlaces en los anexos |
+| TB2.1.0.2 | 27/06/26 | Jorge Linares | Refactorización del Edge Service para mejorar el procesamiento de telemetría y la comunicación con el Web Service, optimizando el flujo de datos entre el dispositivo IoT y la plataforma. |
 | TB2.1.0.1 | 29/06/26 | Sebastian Ramirez | Agregar entrevista de validación faltante en el Sprint 2 |
+| TB2.1.0.5 | 30/06/26 | Jorge Linares | Mejoras en las Embedded Apps incorporando optimizaciones en la lectura del sensor MQ-2, control de actuadores y estabilidad de la comunicación HTTP con el Edge Service. |
 | TB2.1.0.2 | 03/07/26 | Jhosep Argomedo  | Correción de la carátula para mantener la correcta capa y división de páginas entre los siguientes items. |
 | TB2.1.0.3 | 03/07/26 | Kevin Castañeda | Correción de enlaces en capítulo 6 |
 | TB2.1.0.4 | 03/07/26 | Andrea Ohiggins | Correción de enlaces de entrevistas en capítulo 2 |
+| TB2.1.0.8 | 03/07/26 | Jorge Linares | Integración y ajustes funcionales entre Embedded Apps, Edge Service, Web Service, Web Application y Mobile App para garantizar la correcta sincronización de la telemetría y de las alertas en tiempo real. |
 | TB2.1.0.5 | 04/07/26 | Kevin Castañeda | Añadir conclusiones y nuevas recomendaciones para el TB2 |
 | TB2.1.0.6 | 06/07/26 | Kevin Castañeda | Añadir User Stories para Sprint 3, actualizar Sprint Backlog. Capítulo 3 con las nuevas User Stories y Technical Stories. Actualizar Sprint Planning para el Sprint 3 |
+| TB2.1.1.2 | 06/07/26 | Jorge Linares | Optimización del prototipo IoT mediante pruebas de integración con hardware ESP32, corrección de incidencias detectadas durante la validación y mejora de la confiabilidad del sistema completo. |
 | TB2.1.0.7 | 07/07/26 | Kevin Castañeda | Añadir Testing Suite Evidence For Sprint 3 |
 | TB2.1.0.8 | 07/07/26 | Andrea Ohiggins | Actualizar enlace de videos y timestamps para entrevistas |
 | TB2.1.0.9 | 07/07/26 | Andrea Ohiggins | Añadir commits para "Development Evidence for Sprint 3" |
 | TB2.1.1.0 | 08/07/26 | Jhosep Argomedo | Actualizar Capítulo 1 en los segmentos objetivos, header question, etc |
 | TB2.1.1.1 | 08/07/26 | Kevin Castañeda | Añadir Sprint Backlog para Sprint 3 |
+| TB2.1.1.4 | 08/07/26 | Jorge Linares | Actualización de la documentación técnica y de las evidencias del Sprint 3, incorporando las mejoras implementadas en el Edge Service, Embedded Apps, Web Service, Web Application, Mobile App y Prototype, junto con los resultados de las pruebas finales de integración. |
 
 
 <div style="page-break-after: always;"></div>
