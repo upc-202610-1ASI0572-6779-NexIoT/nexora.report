@@ -23,12 +23,12 @@ El contenido está estructurado para captar la atención de arrendadores y arren
 ### Registro del Video (Datos Técnicos)
 
 * **Título:** `upc-pre-202610-1asi0572-NexIot-about-the-product-sprint-3`
-* **Duración:** 
-* **URL Microsoft Stream / Clipchamp:** []()
-* **URL YouTube:** []()
+* **Duración: 3:05 minutos** 
+* **URL Microsoft Stream / Clipchamp:** [https://1drv.ms/f/c/ec31a436d835fad6/IgAFKiYOKZusQa6DvTjjctujAdrRVLmTMVw_ty50pi8gB4w?e=9AL3gY](https://1drv.ms/f/c/ec31a436d835fad6/IgAFKiYOKZusQa6DvTjjctujAdrRVLmTMVw_ty50pi8gB4w?e=9AL3gY)
+* **URL YouTube:** [https://youtu.be/mDnTLPnZwME](https://youtu.be/mDnTLPnZwME)
 
 #### Evidencia (Screenshot del video)
-
+![About The Product](../../assets/chapter-6/about-the-product.jpg)
 
 ---
 

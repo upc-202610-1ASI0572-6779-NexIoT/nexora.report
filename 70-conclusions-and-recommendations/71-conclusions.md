@@ -38,4 +38,15 @@ Con el fin de garantizar el crecimiento sostenible del proyecto Nexora, se sugie
 6. **Mejora de la performance**: Se recomienda continuar mejorando la performance de la plataforma, revisando métricas de proveedores externos para corroborar tiempos de carga.
 7. **Mejora de la testeabilidad**: Se recomienda continuar mejorando la testeabilidad de la plataforma, aumentando el alcance de los Unit Test, Tests de Integración u otras herramientas como SonarQube, Checkstyle, Selenium, etc.
 
+## Video About The Team
+
+* **Título:** `upc-pre-202610-1asi0572-NexIot-about-the-team`
+* **Duración:** 9:43 mins 
+* **URL YouTube:** [https://youtu.be/puZJ0InFw0A](https://youtu.be/puZJ0InFw0A)
+
+### Descripción del video
+En este video, el equipo de desarrollo de **Nexora** comparte la visión del proyecto, el proceso de trabajo colaborativo bajo la metodología Scrum y las contribuciones individuales que hicieron posible la integración exitosa de la Web App, Mobile App, Edge Service y Embedded Apps con sensores IoT. Se detallan los roles de cada integrante, las lecciones aprendidas y cómo se abordaron los desafíos técnicos y de arquitectura (DDD) a lo largo del ciclo de vida del desarrollo para lograr un ecosistema robusto, funcional y escalable.
+
+![About the team](../assets/chapter-6/about-the-team.jpg)
+
 <div style="page-break-after: always;"></div>
