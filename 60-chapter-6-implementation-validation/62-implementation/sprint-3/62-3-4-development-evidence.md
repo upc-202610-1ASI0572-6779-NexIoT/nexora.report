@@ -1,11 +1,10 @@
-# Nexora Commit Charts Since 2026-06-21
+#### 6.2.3.4. Development Evidence for Sprint Review
 
-Cutoff used: commits with committer date on or after 2026-06-21 00:00:00.
-Each table lists commits reachable from each branch, so the same commit may appear under multiple branches.
+En esta sección se explican y presentan los avances en implementación con relación a los productos de la solución según el alcance del Sprint 3: Edge Service, Landing Page, Mobile App, Embedded Apps, Web Service y Web Application.
+
+---
 
 ## Edge Service
-
-Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.edgeservice.git
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | --- | --- | --- | --- | --- | --- |
@@ -42,9 +41,9 @@ Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.edgese
 | Edge Service | main | 891570d3dc5041d828dbc7077eee353a27b20171 | Merge branch 'feature/iam-infrastructure-layer' into develop |  | 2026-07-01T12:44:47-05:00 |
 | Edge Service | main | 027ef3853e58df1db5e6c3f7505d0144fa39537e | feat: add water safety device seed |  | 2026-06-29T12:47:35-05:00 |
 
-## Embedded App
+<br><br>
 
-Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.embeddedapp
+## Embedded App
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | --- | --- | --- | --- | --- | --- |
@@ -89,9 +88,9 @@ Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.embedd
 | Embedded App | feature/water-safety-v2 | 3e544a0d8f0f8f2ce9c55d51121a9ee629e065c2 | feat: property id fixed and water-safety dependency updated |  | 2026-07-04T20:15:56-05:00 |
 | Embedded App | feature/water-safety-v2 | aa03556a44dc64b7f724d3618e8430e074a9bbc5 | feat: add wifi and edge service integration |  | 2026-06-29T12:25:44-05:00 |
 
-## Landing Page
+<br><br>
 
-Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.website
+## Landing Page
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | --- | --- | --- | --- | --- | --- |
@@ -118,9 +117,9 @@ Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.websit
 | Landing Page | release/1.1.0 | 3fbaa30befc76572ab7e0457888d4a63fe63d48b | Merge branch 'chore/update-about-videos' into develop |  | 2026-06-25T02:12:11-05:00 |
 | Landing Page | release/1.1.0 | 454dba6f5dc69b63df65b92e2ba5baffd1280427 | chore: update about-the-product and about-the-team videos |  | 2026-06-25T02:06:42-05:00 |
 
-## Mobile App
+<br><br>
 
-Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.mobileapp
+## Mobile App
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | --- | --- | --- | --- | --- | --- |
@@ -380,9 +379,9 @@ Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.mobile
 | Mobile App | feature/subscriptions-payment | a1a595e8d97e5ccdb5e64a742f67b0420a8c4f6f | Merge remote-tracking branch 'origin/develop' into feature/iam |  | 2026-06-29T15:05:51-05:00 |
 | Mobile App | feature/subscriptions-payment | c89b073902ba91cfc43a1e0f644595dde7e680c8 | wip(iam): add auth domain base |  | 2026-06-29T14:52:10-05:00 |
 
-## Web Application
+<br><br>
 
-Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webapp
+## Web Application
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | --- | --- | --- | --- | --- | --- |
@@ -628,9 +627,9 @@ Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webapp
 | Web Application | hotfix/update-endpoints | c8dd789df2a5ffde56f1cc2656885b2f8fd5aee2 | Merge branch 'fix/general-errors' into develop |  | 2026-06-22T23:26:49-05:00 |
 | Web Application | hotfix/update-endpoints | 3f1ca389608e3325cd37b0ae0b3fccf736872eb6 | fix: update files with errors |  | 2026-06-22T23:26:26-05:00 |
 
-## Web Service
+<br><br>
 
-Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice
+## Web Service
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | --- | --- | --- | --- | --- | --- |
