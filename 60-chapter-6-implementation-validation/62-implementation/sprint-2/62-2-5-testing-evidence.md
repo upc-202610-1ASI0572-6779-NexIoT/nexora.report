@@ -330,5 +330,7 @@ Relación de commits vinculados con los avances del Testing de este Sprint:
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `628b722` | test: add unit and BDD tests for device management contexts | Implement Unit Tests for Device entity domain logic and Gherkin BDD scenario for registering new devices to properties. | 20/06/2026 |
-| [upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `1ee5b4c` | test: add unit and BDD tests for alert context | Create Unit Tests for Alert domain entity and BDD integration scenario for filtering alerts by severity and type. | 20/06/2026 |
+| [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `628b722` | test: add unit and BDD tests for device management contexts | Implement Unit Tests for Device entity domain logic and Gherkin BDD scenario for registering new devices to properties. | 20/06/2026 |
+| [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `1ee5b4c` | test: add unit and BDD tests for alert context | Create Unit Tests for Alert domain entity and BDD integration scenario for filtering alerts by severity and type. | 20/06/2026 |
+
+<div style="page-break-after: always;"></div>

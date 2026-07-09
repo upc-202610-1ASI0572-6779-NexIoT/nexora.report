@@ -55,3 +55,5 @@ La tabla `incidents` almacena los incidentes técnicos recibidos desde el monito
 - FK: maintenance_order_id → maintenance_orders.id
 
 <img src="../../../assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/database-diagram-2v.png" alt="Service Execution & Maintenance - Database Diagram" width="450"/>
+
+<div style="page-break-after: always;"></div>

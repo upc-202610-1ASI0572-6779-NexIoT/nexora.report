@@ -1,8 +1,7 @@
 ## 2.2. Entrevistas
-
 ### 2.2.1. Diseño de entrevistas
 
-El objetivo de estas entrevistas es recolectar información cualitativa relevante que permita comprender el comportamiento, necesidades, frustraciones y contexto de los tres segmentos definidos. Esto facilitará la construcción de User Personas, User Journeys y User Stories, alineando el desarrollo de la landing page, aplicación web (arrendadores) y aplicación móvil (arrendatarios).
+El objetivo de estas entrevistas es recolectar información cualitativa relevante que permita comprender el comportamiento, necesidades, frustraciones y contexto de los dos segmentos definidos. Esto facilitará la construcción de User Personas, User Journeys y User Stories, alineando el desarrollo de la landing page, aplicación web (arrendadores) y aplicación móvil (arrendatarios).
 
 Se aplican buenas prácticas de entrevistas:
 
@@ -11,11 +10,94 @@ Se aplican buenas prácticas de entrevistas:
 - Secuencia lógica: contexto → comportamiento → problemas → necesidades → percepción tecnológica.
 - Separación entre preguntas principales y complementarias (profundización).
 
+<br>
+
+# Segmento 1: Administradores de Propiedades (Arrendadores)
+
+### Objetivo de la entrevista
+
+Comprender cómo gestionan sus inmuebles, qué problemas enfrentan en mantenimiento y monitoreo, y su disposición a adoptar soluciones tecnológicas.
+
 ---
+
+### Datos demográficos y contexto
+
+**Principales:**
+
+* ¿Cuál es tu edad?
+* ¿Cuántas propiedades administras actualmente?
+* ¿En qué ciudad o zona operas?
+
+**Complementarias:**
+
+* ¿Tu actividad principal es la gestión de propiedades?
+* ¿Trabajas de manera independiente o con una empresa?
+
+---
+
+### Comportamiento y gestión actual
+
+**Principales:**
+
+* ¿Cómo realizas actualmente el monitoreo de tus propiedades?
+* ¿Cómo gestionas incidencias o problemas reportados por inquilinos?
+* ¿Utilizas alguna herramienta digital para la gestión?
+
+**Complementarias:**
+
+* ¿Con qué frecuencia revisas el estado de tus propiedades?
+* ¿Qué canales utilizas para comunicarte con inquilinos?
+* ¿Qué tan organizado consideras tu proceso actual?
+
+---
+
+### Problemas y frustraciones
+
+**Principales:**
+
+* ¿Cuál es el mayor problema que enfrentas al gestionar tus propiedades?
+* ¿Has tenido pérdidas económicas por fallas no detectadas a tiempo?
+* ¿Qué tan difícil es controlar el mantenimiento de tus inmuebles?
+
+**Complementarias:**
+
+* ¿Cuánto tiempo te toma resolver incidencias?
+* ¿Qué situaciones te generan más costos o complicaciones?
+* ¿Qué te gustaría mejorar en tu proceso actual?
+
+---
+
+### Necesidades y expectativas
+
+**Principales:**
+
+* ¿Qué tipo de información te gustaría tener en tiempo real sobre tus propiedades?
+* ¿Te sería útil recibir alertas automáticas sobre problemas?
+* ¿Qué funcionalidades considerarías clave en una plataforma de gestión?
+
+**Complementarias:**
+
+* ¿Preferirías una solución simple o más completa?
+* ¿Qué tan importante es para ti la automatización?
+* ¿Te interesaría ver reportes históricos y análisis de datos?
+
+---
+
+### Percepción y adopción tecnológica
+
+**Principales:**
+
+* ¿Estarías dispuesto a usar una plataforma digital para gestionar tus propiedades?
+* ¿Pagarías por una solución que te ayude a reducir costos y mejorar el control?
+
+**Complementarias:**
+
+* ¿Qué te generaría confianza en una solución tecnológica?
+* ¿Qué barreras ves para adoptar este tipo de herramientas?
 
 <br>
 
-## Segmento 1: Inquilinos (Arrendatarios)
+## Segmento 2: Inquilinos (Arrendatarios)
 
 ### Objetivo de la entrevista
 
@@ -99,172 +181,4 @@ Comprender hábitos de consumo, uso de tecnología en el hogar, necesidades de c
 * ¿Tienes experiencia con apps de automatización o smart home?
 * ¿Qué te haría dejar de usar una aplicación de este tipo?
 
----
-
-<br><br>
-
-# Segmento 2: Administradores de Propiedades (Arrendadores)
-
-### Objetivo de la entrevista
-
-Comprender cómo gestionan sus inmuebles, qué problemas enfrentan en mantenimiento y monitoreo, y su disposición a adoptar soluciones tecnológicas.
-
----
-
-### Datos demográficos y contexto
-
-**Principales:**
-
-* ¿Cuál es tu edad?
-* ¿Cuántas propiedades administras actualmente?
-* ¿En qué ciudad o zona operas?
-
-**Complementarias:**
-
-* ¿Tu actividad principal es la gestión de propiedades?
-* ¿Trabajas de manera independiente o con una empresa?
-
----
-
-### Comportamiento y gestión actual
-
-**Principales:**
-
-* ¿Cómo realizas actualmente el monitoreo de tus propiedades?
-* ¿Cómo gestionas incidencias o problemas reportados por inquilinos?
-* ¿Utilizas alguna herramienta digital para la gestión?
-
-**Complementarias:**
-
-* ¿Con qué frecuencia revisas el estado de tus propiedades?
-* ¿Qué canales utilizas para comunicarte con inquilinos?
-* ¿Qué tan organizado consideras tu proceso actual?
-
----
-
-### Problemas y frustraciones
-
-**Principales:**
-
-* ¿Cuál es el mayor problema que enfrentas al gestionar tus propiedades?
-* ¿Has tenido pérdidas económicas por fallas no detectadas a tiempo?
-* ¿Qué tan difícil es controlar el mantenimiento de tus inmuebles?
-
-**Complementarias:**
-
-* ¿Cuánto tiempo te toma resolver incidencias?
-* ¿Qué situaciones te generan más costos o complicaciones?
-* ¿Qué te gustaría mejorar en tu proceso actual?
-
----
-
-### Necesidades y expectativas
-
-**Principales:**
-
-* ¿Qué tipo de información te gustaría tener en tiempo real sobre tus propiedades?
-* ¿Te sería útil recibir alertas automáticas sobre problemas?
-* ¿Qué funcionalidades considerarías clave en una plataforma de gestión?
-
-**Complementarias:**
-
-* ¿Preferirías una solución simple o más completa?
-* ¿Qué tan importante es para ti la automatización?
-* ¿Te interesaría ver reportes históricos y análisis de datos?
-
----
-
-### Percepción y adopción tecnológica
-
-**Principales:**
-
-* ¿Estarías dispuesto a usar una plataforma digital para gestionar tus propiedades?
-* ¿Pagarías por una solución que te ayude a reducir costos y mejorar el control?
-
-**Complementarias:**
-
-* ¿Qué te generaría confianza en una solución tecnológica?
-* ¿Qué barreras ves para adoptar este tipo de herramientas?
-
----
-
-<br><br>
-
-## Segmento 3: Empresas Inmobiliarias (Proveedores de soluciones IoT)
-
-### Objetivo de la entrevista
-
-Comprender el nivel de digitalización, interés en IoT, necesidades de diferenciación y viabilidad de integración con soluciones como Nexora.
-
----
-
-### Datos demográficos y contexto
-
-**Principales:**
-
-* ¿Cuál es tu rol dentro de la empresa?
-* ¿En qué ciudad o mercado operan?
-* ¿Qué tipo de propiedades gestionan o comercializan?
-
-**Complementarias:**
-
-* ¿Cuántos proyectos manejan actualmente?
-* ¿Cuál es el tamaño de la empresa?
-
----
-
-### Comportamiento y estrategia actual
-
-**Principales:**
-
-* ¿Utilizan actualmente tecnología IoT en sus propiedades?
-* ¿Cómo gestionan el mantenimiento y monitoreo de inmuebles?
-* ¿Qué herramientas digitales utilizan?
-
-**Complementarias:**
-
-* ¿Están invirtiendo en innovación tecnológica?
-* ¿Qué tan importante es la digitalización en su estrategia?
-
----
-
-### Problemas y frustraciones
-
-**Principales:**
-
-* ¿Qué dificultades enfrentan al implementar tecnología en sus propiedades?
-* ¿Qué limita la adopción de soluciones inteligentes en su negocio?
-
-**Complementarias:**
-
-* ¿Existen problemas de integración entre dispositivos?
-* ¿Qué barreras encuentran en sus clientes (propietarios/inquilinos)?
-
----
-
-### Necesidades y expectativas
-
-**Principales:**
-
-* ¿Qué valor buscarían en una plataforma como Nexora?
-* ¿Les interesaría ofrecer propiedades inteligentes como parte de su propuesta?
-* ¿Qué funcionalidades considerarían esenciales?
-
-**Complementarias:**
-
-* ¿Qué beneficios esperan (ahorro, diferenciación, eficiencia)?
-* ¿Qué tipo de reportes o métricas necesitan?
-
----
-
-### Percepción y adopción tecnológica
-
-**Principales:**
-
-* ¿Estarían dispuestos a integrar una solución como Nexora en sus proyectos?
-* ¿Qué modelo prefieren: compra de tecnología, suscripción o ambos?
-
-**Complementarias:**
-
-* ¿Qué factores influyen en la decisión de adopción?
-* ¿Qué los haría elegir una solución sobre otra?
+<div style="page-break-after: always;"></div>

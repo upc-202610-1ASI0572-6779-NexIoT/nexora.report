@@ -11,3 +11,5 @@ El diagrama muestra la distribución de los componentes en diferentes nodos de d
 En los inmuebles inteligentes se despliega la infraestructura IoT, compuesta por dispositivos ESP32, firmware embebido, aplicaciones Edge y almacenamiento local. Esta capa permite recopilar información de sensores, ejecutar acciones de control sobre actuadores y mantener la operación incluso ante interrupciones temporales de conectividad.
 
 La comunicación entre los diferentes nodos permite integrar el mundo físico de los dispositivos IoT con la plataforma SaaS centralizada, garantizando la disponibilidad de información para la toma de decisiones y la atención de incidencias.
+
+<div style="page-break-after: always;"></div>

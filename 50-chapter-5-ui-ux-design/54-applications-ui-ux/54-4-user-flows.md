@@ -172,3 +172,5 @@ Este User Flow describe el proceso de configuración de alertas de consumo y mon
 La ruta principal contempla la configuración exitosa de alertas inteligentes y el monitoreo continuo de métricas de consumo. Asimismo, el flujo incorpora rutas alternativas relacionadas con límites inválidos, errores de configuración y fallos de sincronización de datos energéticos.
 
 ![Unexpected Bills Prevention Web User Flow](../../assets/chapter-5/userflows/web/unexpected-bills-webapp-userflow.png)
+
+<div style="page-break-after: always;"></div>

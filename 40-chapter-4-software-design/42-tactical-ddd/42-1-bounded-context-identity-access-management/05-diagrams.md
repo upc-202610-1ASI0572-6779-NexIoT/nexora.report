@@ -56,3 +56,5 @@ Finalmente, la tabla **users_roles** resuelve la relación muchos-a-muchos entre
 - FK: role_id → roles.id
 
 <img src="../../../assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/database-diagram.png" alt="Identity & Access Management - Database Diagram" height="750"/>
+
+<div style="page-break-after: always;"></div>

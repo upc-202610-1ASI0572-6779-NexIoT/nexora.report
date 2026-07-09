@@ -19,7 +19,7 @@ Durante el Sprint 2, se ha logrado consolidar la documentación del **Web Servic
 
 #### **Repositorio y Commits del Web Service**
 
-* **URL del Repositorio:** [nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice)
+* **URL del Repositorio:** [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice)
 * **Rama Principal de Desarrollo:** `develop`
 
 #### Commits Relacionados con la Implementación y Documentación (Sprint 2):
@@ -354,3 +354,5 @@ A continuación se detallan los endpoints clave desarrollados y documentados en 
   
   ![Captura de Swagger UI - Descarga de Reporte PDF de Alertas](../../../assets/chapter-6/implementation/sprint-2/reports-swagger-document.jpg)
   * *Descripción:* Descarga de reporte de alertas de tipo `application/pdf`.
+
+<div style="page-break-after: always;"></div>

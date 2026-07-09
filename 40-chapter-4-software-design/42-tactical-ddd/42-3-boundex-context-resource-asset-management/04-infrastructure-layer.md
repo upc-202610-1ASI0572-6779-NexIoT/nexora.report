@@ -170,3 +170,5 @@ Registra el historial de procesos de vinculación y provisioning ejecutados sobr
 La Infrastructure Layer constituye el soporte técnico del bounded context **Resource & Asset Management**, permitiendo integrar la gestión de activos físicos y dispositivos IoT con los procesos operativos implementados por la plataforma Nexora.
 
 ---
+
+<div style="page-break-after: always;"></div>

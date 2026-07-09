@@ -36,3 +36,5 @@ Cada aspecto incluye un líder designado responsable de coordinar las actividade
 | Peña Riofrio, Maria Fernanda | [@mariafep](https://github.com/mariafep) | C | C | C | C | L | L | C | C | C | C | C | C | C | C | C | C |
 | Castañeda Llanos, Kevin Alexander | [@KevCast1604](https://github.com/KevCast1604) | C | C | C | C | C | C | C | C | L | L | C | C | C | C | C | C |
 | Muñoz Vilcapoma, Mauricio | [@MauricioMVilcapoma](https://github.com/MauricioMVilcapoma) | C | C | C | C | C | C | L | L | C | C | C | C | C | C | C | C |
+
+<div style="page-break-after: always;"></div>

@@ -119,3 +119,5 @@ Muchas plataformas IoT son complejas y poco intuitivas.
 * Implementación de funcionalidades básicas offline o tolerantes a fallos.
 * Educación del usuario mediante contenido (landing page + onboarding).
 * Posicionamiento como solución especializada en alquileres (nicho).
+
+<div style="page-break-after: always;"></div>

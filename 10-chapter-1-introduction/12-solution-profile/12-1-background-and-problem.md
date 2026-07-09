@@ -14,7 +14,7 @@ Desde la perspectiva de la gestión inmobiliaria, los arrendadores y administrad
 
 Por otro lado, los arrendatarios demandan cada vez más experiencias digitales integradas en su vida cotidiana. De acuerdo con Statista, el mercado global de smart homes superó los 120 mil millones de dólares en 2023, impulsado principalmente por usuarios jóvenes que priorizan la comodidad, el control remoto y la eficiencia energética (Statista, 2023). No obstante, estas soluciones suelen estar orientadas a propietarios individuales y no a ecosistemas de alquiler, lo que limita su adopción en este segmento.
 
-Adicionalmente, en América Latina, la digitalización del sector inmobiliario aún se encuentra en etapas iniciales. El Banco Interamericano de Desarrollo (BID) destaca que la región presenta rezagos en la adopción de tecnologías digitales para la gestión urbana y residencial, lo que impacta directamente en la eficiencia operativa y la calidad de vida de los usuarios (BID, 2021). Esta situación se agrava en mercados de alquiler, donde existe menor inversión en innovación tecnológica.
+Adicionalmente, en América, la digitalización del sector inmobiliario aún se encuentra en etapas iniciales. El Banco Interamericano de Desarrollo (BID) destaca que la región presenta rezagos en la adopción de tecnologías digitales para la gestión urbana y residencial, lo que impacta directamente en la eficiencia operativa y la calidad de vida de los usuarios (BID, 2021). Esta situación se agrava en mercados de alquiler, donde existe menor inversión en innovación tecnológica.
 
 En síntesis, la problemática central radica en la falta de integración de soluciones tecnológicas inteligentes en propiedades en alquiler, lo que genera ineficiencias en el consumo de recursos, limitaciones en la gestión operativa y una experiencia subóptima para los arrendatarios. A pesar del potencial demostrado del IoT, persisten barreras estructurales, económicas y tecnológicas que dificultan su adopción en este segmento específico del mercado inmobiliario.
 
@@ -53,7 +53,7 @@ Nexora se utiliza de forma continua, permitiendo supervisión en tiempo real, ge
 ### 3. Where? (¿Dónde?)
 
 **¿Dónde ocurre el problema?** <br>
-El problema se presenta principalmente en propiedades residenciales destinadas al alquiler, tanto en entornos urbanos como semiurbanos. Es especialmente evidente en mercados donde la digitalización inmobiliaria aún es incipiente, como en varios países de América Latina.
+El problema se presenta principalmente en propiedades residenciales destinadas al alquiler, tanto en entornos urbanos como semiurbanos. Es especialmente evidente en mercados donde la digitalización inmobiliaria aún es incipiente, como en varios países de América, principalmente de América Latina.
 
 **¿Dónde interactúa el usuario con la solución?** <br>
 Los usuarios interactúan con Nexora desde cualquier lugar mediante dispositivos móviles o plataformas web, permitiendo el monitoreo remoto del inmueble sin necesidad de presencia física.
@@ -64,7 +64,7 @@ Los usuarios interactúan con Nexora desde cualquier lugar mediante dispositivos
 
 **¿Quiénes están involucrados?** <br>
 
-* Arrendadores y administradores de propiedades.
+* Arrendadores (administradores de propiedades).
 * Arrendatarios (inquilinos).
 * Equipo técnico encargado de la implementación IoT.
 
@@ -73,13 +73,13 @@ Los usuarios interactúan con Nexora desde cualquier lugar mediante dispositivos
 **¿A quiénes les sucede el problema?** <br>
 A todos los actores del ecosistema de alquiler inteligente:
 
-* Los arrendatarios enfrentan costos elevados, menor confort y poca capacidad de control sobre su entorno residencial.
 * Los arrendadores presentan dificultades para supervisar propiedades, gestionar incidencias y monitorear el consumo de recursos en tiempo real.
+* Los arrendatarios enfrentan costos elevados, menor confort y poca capacidad de control sobre su entorno residencial.
 
 <br>
 
 **¿Quién lo utilizará?** <br>
-Principalmente arrendadores y administradores de propiedades, con interacción directa de los arrendatarios mediante aplicaciones móviles para monitoreo, automatización y control básico de dispositivos IoT.
+Principalmente arrendadores, con interacción directa de los arrendatarios mediante aplicaciones móviles para monitoreo, automatización y control básico de dispositivos IoT.
 
 ---
 
@@ -90,7 +90,7 @@ La problemática surge por múltiples factores:
 
 * Altos costos iniciales de implementación de tecnología IoT.
 * Falta de soluciones adaptadas específicamente al mercado de alquiler.
-* Baja digitalización en la gestión inmobiliaria, especialmente en Latinoamérica.
+* Baja digitalización en la gestión inmobiliaria, especialmente en América.
 * Ausencia de integración entre hardware (sensores) y software (plataformas de gestión).
 
 Esto provoca que muchos inmuebles operen de forma reactiva, en lugar de preventiva y basada en datos.
@@ -145,3 +145,5 @@ El costo de un sistema como Nexora depende del alcance:
 * **Modelo SaaS:** suscripción mensual por propiedad, que puede oscilar entre USD 5 y USD 20 según funcionalidades.
 
 Este modelo híbrido (hardware + software) permite una adopción progresiva y escalable, reduciendo la barrera de entrada para arrendadores y facilitando el acceso a experiencias inteligentes para los arrendatarios.
+
+<div style="page-break-after: always;"></div>

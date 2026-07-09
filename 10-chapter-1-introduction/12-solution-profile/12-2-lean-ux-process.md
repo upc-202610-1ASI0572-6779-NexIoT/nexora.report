@@ -1,19 +1,17 @@
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
-El estado actual del mercado de gestión de propiedades en alquiler en América Latina se ha enfocado principalmente en arrendadores y administradores que dependen de métodos manuales, herramientas no integradas (hojas de cálculo, llamadas telefónicas, visitas físicas) y plataformas genéricas no diseñadas para el contexto de alquiler, lo que genera ineficiencias operativas, tiempos de respuesta tardíos ante incidencias y una experiencia deficiente para los inquilinos.
+El estado actual del mercado de gestión de propiedades en alquiler en América Latina se caracteriza por una alta dependencia de métodos manuales, herramientas fragmentadas y plataformas genéricas no adaptadas, lo que genera ineficiencias operativas y tiempos de respuesta tardíos ante incidencias. Hemos observado que los sistemas y procesos actuales están fallando en optimizar la administración de inmuebles porque no centralizan ni procesan la información de las propiedades en tiempo real. Esto está causando sobrecostos logísticos para los arrendadores y una experiencia deficiente o frustrante para los inquilinos. Podemos abordar este problema permitiendo una gestión automatizada y preventiva de los inmuebles en alquiler, enfocándonos inicialmente en arrendadores independientes y pequeñas administradoras de propiedades en Lima, Perú, que gestionan entre 2 y 20 unidades. Sabremos que hemos tenido éxito cuando observemos las siguientes conductas medibles en nuestra audiencia objetivo:
 
-Lo que los productos y servicios existentes no logran resolver es la ausencia de una plataforma integral, específicamente diseñada para propiedades en alquiler, que combine dispositivos IoT con un sistema centralizado de monitoreo en tiempo real, automatización de procesos y análisis de datos accesible para arrendadores y arrendatarios sin requerir conocimientos técnicos avanzados.
+* **Outcome 1:** Los arrendadores migran y concentran sus operaciones diarias de control en nuestro panel central en lugar de hojas de cálculo o comunicación informal dentro de los primeros 90 días.
 
-Nexora, producto de la startup NextIoT, abordará esta brecha mediante un modelo híbrido que integra hardware IoT instalable con una plataforma SaaS (dashboard web para arrendadores y aplicación móvil para arrendatarios), diseñada específicamente para el contexto de viviendas en alquiler y orientada a la gestión centralizada, el monitoreo preventivo y la reducción de costos operativos.
+* **Outcome 2:** Disminución del tiempo promedio en el que un arrendador atiende y resuelve un reporte de incidencia crítico.
 
-El enfoque inicial será en arrendadores independientes y pequeñas administradoras de propiedades en Lima, Perú, que gestionan entre 2 y 20 unidades de alquiler y actualmente no cuentan con ninguna solución tecnológica integrada para su operación diaria.
-Sabremos que hemos tenido éxito cuando observemos las siguientes conductas medibles en nuestra audiencia objetivo:
+* **Outcome 3:** Los inquilinos interactúan de manera frecuente con la interfaz de su vivienda de forma autónoma durante el primer mes.
 
-- Al menos el 60% de los arrendadores onboardeados utiliza el dashboard web como herramienta principal de gestión dentro de los primeros 90 días.
-- Una reducción del 40% en el tiempo promedio de respuesta ante incidencias reportadas en propiedades gestionadas con Nexora.
-- Al menos el 75% de los arrendatarios activos utiliza la aplicación móvil de forma diaria durante el primer mes tras la instalación.
-- Una tasa de retención del 70% de arrendadores suscriptores al término del primer año de operación.
+* **Outcome 4:** Los arrendadores renuevan su acceso al servicio al término del primer año de operación.
+
+<br>
 
 ---
 
@@ -105,97 +103,52 @@ Los supuestos se clasifican en cinco categorías:
 
 - Creemos que los **reportes analíticos periódicos** (semanales y mensuales) sobre consumo, incidencias activas y estado de dispositivos permitirán a los arrendadores tomar decisiones de mantenimiento preventivo, contribuyendo a una reducción sostenida de costos operativos a lo largo del tiempo.
 
+<br>
+
 ---
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
-> *We believe we will achieve [this business outcome]*
-> *If [these personas]*
-> *Attain [this benefit/user outcome]*
-> *With [this feature or solution]*
+> *We believe we will achieve **[this business outcome]** If **[these personas]** Attain **[this benefit/user outcome]** With **[this feature or solution]***
 
 <br>
 
-**Hipótesis 1** <br>
-Creemos que lograremos **una tasa de adopción del 60% entre arrendadores durante el primer año y una reducción del 40% en el tiempo promedio de respuesta ante incidencias**
-si los **arrendadores (propietarios y administradores de propiedades en alquiler)**
-logran **visibilidad centralizada en tiempo real del estado operativo de todas sus propiedades y reciben notificaciones automáticas ante cualquier anomalía detectada**
-con el **dashboard web de monitoreo multi-propiedad y el sistema de alertas inteligentes en tiempo real**.
+* **Hipótesis 1 (Focalizada en Adopción)**
+Creemos que lograremos **una tasa de adopción del 60% entre los arrendadores onboardeados dentro de los primeros 90 días** si los **arrendadores independientes y pequeñas administradoras** logran **una visibilidad centralizada y en tiempo real del estado de todas sus unidades de alquiler desde un único lugar** con el **dashboard web multi-propiedad**.
+
+* **Hipótesis 2 (Focalizada en Respuesta a Incidencias)**
+Creemos que lograremos **una reducción del 40% en el tiempo promedio de respuesta ante incidencias reportadas** si los **arrendadores independientes y pequeñas administradoras** logran **enterarse de forma inmediata y automatizada sobre cualquier anomalía crítica** con el **sistema de alertas inteligentes en tiempo real**.
+
+* **Hipótesis 3 (Focalizada en Retención de Inquilinos)**
+Creemos que lograremos **una retención del 70% de arrendatarios activos al término del primer año** si los **arrendatarios (inquilinos urbanos)** logran **reducir su gasto mensual en servicios básicos mediante decisiones de uso informadas** con la **aplicación móvil de monitoreo de consumo en tiempo real con historial y comparativas**.
+
+* **Hipótesis 4 (Focalizada en Costos Operativos)**
+Creemos que lograremos **una reducción del 25% en los costos operativos de gestión inmobiliaria** si los **arrendadores independientes** logran **coordinar, asignar y cerrar solicitudes de mantenimiento bajo un flujo estructurado y trazable** con el **módulo de gestión de incidencias integrado en la plataforma web**.
+
+* **Hipótesis 5 (Focalizada en Conversión)**
+Creemos que lograremos **una tasa de conversión del 20% de visitantes a usuarios registrados** si los **arrendadores en etapa de evaluación** logran **comprender el ahorro operativo y el control tangible del producto en su operación diaria frente a sus métodos actuales** con una **landing page optimizada con propuesta de valor segmentada y casos de uso reales**.
+
+* **Hipótesis 6 (Focalizada en Interacción Diaria)**
+Creemos que lograremos **que el 75% de los arrendatarios utilice la aplicación móvil diariamente durante el primer mes** si los **arrendatarios (inquilinos urbanos)** logran **controlar los dispositivos inteligentes de su hogar de forma sencilla y en un solo toque** con la **interfaz móvil de automatización residencial**.
+
+* **Hipótesis 7 (Focalizada en Incidentes Críticos)**
+Creemos que lograremos **una reducción del 20% en incidentes críticos no detectados oportunamente** si los **arrendadores independientes** logran **recibir notificaciones contextualizadas según el tipo de riesgo y propiedad** con el **panel de configuración de umbrales para alertas inteligentes**.
+
+* **Hipótesis 8 (Focalizada en Reducción de Soporte Técnico)**
+Creemos que lograremos **una disminución del 25% en consultas al soporte técnico durante los primeros seis meses** si los **arrendadores y arrendatarios** logran **completar el enlace y configuración del hardware de forma autónoma desde la primera sesión** con **tooltips contextuales y tutoriales interactivos integrados en la interfaz**.
+
+* **Hipótesis 9 (Focalizada en la Gestión Multi-propiedad)**
+Creemos que lograremos **una mejora del 30% en la eficiencia de gestión de carteras inmobiliarias** si los **arrendadores que administran tres o más propiedades simultáneamente** logran **revisar el rendimiento agregado mediante un resumen ejecutivo exportable y filtros analíticos** con el **dashboard web multi-propiedad**.
+
+* **Hipótesis 10 (Focalizada en Eficiencia Energética)**
+Creemos que lograremos **una reducción del 20% en el consumo energético promedio de las propiedades** si los **arrendatarios (inquilinos urbanos)** logran **identificar patrones ineficientes en su rutina doméstica mediante recomendaciones personalizadas de ahorro** con los **reportes analíticos periódicos enviados a la aplicación móvil**.
 
 <br>
-
-**Hipótesis 2** <br>
-Creemos que lograremos **una retención del 70% de arrendatarios activos al término del primer año**
-si los **arrendatarios (inquilinos de propiedades equipadas con Nexora)**
-logran **reducir entre un 15% y un 25% su gasto mensual en servicios básicos gracias a decisiones informadas sobre su consumo**
-con la **aplicación móvil de monitoreo de consumo en tiempo real con historial y comparativas**.
-
-<br>
-
-**Hipótesis 3** <br>
-Creemos que lograremos **una reducción del 25% en los costos operativos de gestión inmobiliaria para arrendadores**
-si los **arrendadores**
-logran **gestionar incidencias y solicitudes de mantenimiento de forma centralizada, estructurada y con trazabilidad completa desde el reporte hasta el cierre**
-con el **módulo de gestión de incidencias integrado en la plataforma web**.
-
-<br>
-
-**Hipótesis 4** <br>
-Creemos que lograremos **una tasa de conversión del 20% de visitantes interesados a usuarios registrados activos**
-si los **arrendadores en etapa de evaluación de la plataforma**
-logran **comprender de forma clara e inmediata el valor diferencial de Nexora frente a sus métodos actuales y visualizar el impacto concreto en su operación diaria**
-con una **landing page optimizada con propuesta de valor segmentada, casos de uso reales y llamados a la acción orientados al registro**.
-
-<br>
-
-**Hipótesis 5** <br>
-Creemos que lograremos **que el 75% de los arrendatarios utilice la aplicación móvil diariamente durante el primer mes de uso**
-si los **arrendatarios**
-logran **controlar de forma sencilla e intuitiva los dispositivos inteligentes de su vivienda desde un único punto de acceso, sin requerir conocimientos técnicos**
-con la **interfaz móvil centrada en experiencia de usuario, con automatizaciones programables y control de dispositivos en un toque**.
-
-<br>
-
-**Hipótesis 6** <br>
-Creemos que lograremos **una reducción del 20% en incidentes críticos no detectados oportunamente en propiedades gestionadas con Nexora**
-si los **arrendadores**
-logran **recibir notificaciones inmediatas y contextualizadas ante anomalías detectadas por los sensores IoT instalados en sus propiedades**
-con el **sistema de alertas inteligentes configurables por propiedad, tipo de sensor y umbral de activación**.
-
-<br>
-
-**Hipótesis 7** <br>
-Creemos que lograremos **que el 70% de los nuevos usuarios conecte al menos un dispositivo IoT durante la primera semana de uso**
-si **arrendadores y arrendatarios**
-logran **completar el proceso de instalación y configuración de dispositivos sin asistencia técnica presencial y en menos de 10 minutos**
-con la **compatibilidad con estándares IoT abiertos (Wi-Fi, Zigbee, MQTT) y el flujo de onboarding guiado paso a paso integrado en la plataforma**.
-
-<br>
-
-**Hipótesis 8** <br>
-Creemos que lograremos **una disminución del 25% en consultas al soporte técnico durante los primeros seis meses de operación**
-si **arrendadores y arrendatarios**
-logran **resolver dudas de uso de forma autónoma desde la primera sesión, sin necesidad de contactar al equipo de soporte**
-con una **interfaz optimizada bajo principios de UX, con tooltips contextuales, tutoriales integrados y documentación accesible desde la propia plataforma**.
-
-<br>
-
-**Hipótesis 9** <br>
-Creemos que lograremos **una mejora del 30% en la eficiencia de gestión de arrendadores que administran tres o más propiedades simultáneamente**
-si los **arrendadores con cartera de múltiples inmuebles**
-logran **tener una vista unificada que consolida en tiempo real el estado operativo, las alertas activas y el consumo de todos sus inmuebles desde un único panel**
-con el **dashboard web multi-propiedad con filtros comparativos entre unidades y resumen ejecutivo exportable**.
-
-<br>
-
-**Hipótesis 10** <br>
-Creemos que lograremos **una reducción del 20% en el consumo energético promedio de las propiedades gestionadas con Nexora**
-si los **arrendatarios**
-logran **identificar patrones de consumo ineficiente y actuar sobre ellos gracias a información histórica, comparativas y recomendaciones personalizadas de ahorro**
-con los **reportes analíticos periódicos y el módulo de recomendaciones de eficiencia energética dentro de la aplicación móvil**.
 
 ---
 
 ### 1.2.2.4. Lean UX Canvas
 
 ![Lean UX Canvas](../../assets/chapter-1/lean-ux-canvas/lean-ux-canvas-nexora.jpg)
+
+<div style="page-break-after: always;"></div>

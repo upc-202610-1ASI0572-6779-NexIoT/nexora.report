@@ -9,19 +9,22 @@ La gestión de código y la colaboración técnica se centralizaron en GitHub, h
 A continuación, se presentan las capturas de pantalla de los analíticos de colaboración (Pulse / Contributors) recopiladas directamente de GitHub para cada uno de los componentes de software desarrollados en el Sprint 2:
 
 ###### 1. Landing Page (nexora.website)
-![GitHub Pulse - Landing Page](../../../assets/chapter-6/implementation/sprint-2/insights-landing_page.jpg)
+![GitHub Pulse - Landing Page](../../../assets/chapter-6/implementation/sprint-2/insights-contributors/nexora.website.png)
 
-###### 2. Mobile App (nexora.mobileapp)
-![GitHub Pulse - Mobile App](../../../assets/chapter-6/implementation/sprint-2/insights-mobile.jpg)
+###### 2. Web Application (nexora.webapp)
+![GitHub Pulse - Web Application](../../../assets/chapter-6/implementation/sprint-2//insights-contributors/nexora.webapp.png)
 
-###### 3. Web Application (nexora.webapp)
-![GitHub Pulse - Web Application](../../../assets/chapter-6/implementation/sprint-2/insights-appweb.jpg)
+###### 3. Mobile App (nexora.mobileapp)
+![GitHub Pulse - Mobile App](../../../assets/chapter-6/implementation/sprint-2/insights-contributors/nexora.mobileapp.png)
 
-###### 4. Edge Service (nexora.edgeservice)
-![GitHub Pulse - Edge Service](../../../assets/chapter-6/implementation/sprint-2/insights-edge.jpg)
+###### 4. Web Service (nexora.webservice)
+![GitHub Pulse - Web Service](../../../assets/chapter-6/implementation/sprint-2//insights-contributors/nexora.webservice.png)
 
-###### 5. Embedded Apps (nexora.embeddedapp)
-![GitHub Pulse - Embedded Apps](../../../assets/chapter-6/implementation/sprint-2/insights-embedded.jpg)
+###### 5. Edge Service (nexora.edgeservice)
+![GitHub Pulse - Edge Service](../../../assets/chapter-6/implementation/sprint-2//insights-contributors/nexora.edgeservice.png)
+
+###### 6. Embedded Apps (nexora.embeddedapp)
+![GitHub Pulse - Embedded Apps](../../../assets/chapter-6/implementation/sprint-2//insights-contributors/nexora.embeddedapp.png)
 
 ##### Interpretación de los Analíticos
 
@@ -36,3 +39,5 @@ A partir de las métricas visualizadas en los analíticos de GitHub para el Spri
     -   **Aplicaciones (Mobile & Web)**: Desarrollo de la aplicación móvil bajo arquitectura DDD y la aplicación web para la monitorización de alertas y el panel analítico.
 
 En conclusión, los analíticos del repositorio confirman que la entrega de valor de Nexora en este Sprint 2 se llevó a cabo bajo un enfoque coordinado, con una alta participación de todos sus integrantes, y asegurando el cumplimiento de las metas planteadas en el Sprint Backlog.
+
+<div style="page-break-after: always;"></div>

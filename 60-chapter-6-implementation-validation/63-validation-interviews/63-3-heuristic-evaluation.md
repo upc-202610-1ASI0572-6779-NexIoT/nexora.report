@@ -1,3 +1,4 @@
+### 6.3.3. Evaluaciones según heurísticas
 ### Usability – Inclusive Design – Information Architecture
 
 * **CARRERA:** Ingeniería de Software
@@ -28,6 +29,8 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 ---
 
+<br>
+
 ### ESCALA DE SEVERIDAD:
 
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
@@ -41,6 +44,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ---
 
+<br>
+
 ### TABLA RESUMEN:
 
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) |
@@ -51,8 +56,11 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | 4 | Curva de aprendizaje al configurar automatizaciones de dispositivos IoT. | **2** | Heurística #7 (Flexibilidad y eficiencia de uso) y Heurística #10 (Ayuda y Documentación) |
 | 5 | **Ausencia de funciones de exportación de historial de consumo para el inquilino (Arrendatarios).** | **2** | Heurística #7 (Flexibilidad y eficiencia de uso) |
 | 6 | **Falta de visibilidad persistente sobre el estado activo de las automatizaciones complejas (Modo Vacaciones).** | **1** | Heurística #1 (Visibilidad del estado del sistema) |
+| 7 | **Fallas en la internacionalización (i18n) en el footer de la Landing Page.** | **2** | Heurística #4 (Consistencia y estándares) |
 
 ---
+
+<br>
 
 ### DESCRIPCIÓN DE PROBLEMAS:
 
@@ -140,3 +148,20 @@ Al crear reglas personalizadas en la aplicación móvil (como configurar que las
 **Recomendación:**
 
 * Implementar un banner dinámico de estado en la parte superior de la vista de inicio de la aplicación móvil cuando existan reglas macro (como el "Modo Vacaciones") activas, permitiendo al usuario saber con un solo vistazo el estado lógico de su vivienda.
+
+Para mantener la integridad técnica de tu sección de **Evaluaciones según heurísticas**, he añadido este nuevo hallazgo al final de tu tabla resumen y en la sección de descripción de problemas.
+
+#### **PROBLEMA #7: Fallas en la internacionalización (i18n) en el footer de la Landing Page.**
+
+* **Severidad:** 2
+* **Heurística violada:** Heurística #4 (Consistencia y estándares)
+
+**Descripción:**
+Al interactuar con el selector de idiomas de la *Landing Page*, se observa una inconsistencia donde diversas secciones, principalmente el contenido del *footer* (enlaces de ayuda, términos legales, copyright), permanecen en inglés a pesar de haber seleccionado español. Esto genera desconfianza y rompe la experiencia de usuario esperada.
+
+**Recomendación:**
+
+* Revisar el archivo de configuración de idiomas (JSON o localizador) para asegurar que todas las cadenas de texto del footer estén correctamente mapeadas.
+* Implementar un mecanismo de *fallback* automático que valide la carga completa de las traducciones antes de permitir la navegación, o asegurar que las variables de texto en el componente del footer estén vinculadas correctamente a la librería de i18n del proyecto.
+
+<div style="page-break-after: always;"></div>

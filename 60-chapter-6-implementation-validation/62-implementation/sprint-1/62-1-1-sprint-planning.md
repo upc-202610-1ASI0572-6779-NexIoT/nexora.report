@@ -130,3 +130,5 @@ This will be confirmed when users can access the Landing Page, navigate core inf
 | US69 | Cambio o actualización del plan de suscripción | 3 |
 | US70 | Selección de plan y modalidad de facturación | 5 |
 | US71 | Proceso de pago seguro para activación de suscripción | 8 |
+
+<div style="page-break-after: always;"></div>

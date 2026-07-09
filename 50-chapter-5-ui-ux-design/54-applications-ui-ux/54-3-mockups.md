@@ -91,9 +91,9 @@ Los mock-ups han sido diseñados siguiendo un enfoque de minimalismo funcional y
 
 #### **1. Autenticación y Acceso**
 
-La pantalla de autenticación fue diseñada para ofrecer un acceso rápido, seguro y sencillo a la aplicación. Se emplea una interfaz minimalista con un formulario centralizado que reduce distracciones y facilita el ingreso del usuario. Además, se utiliza una jerarquía visual clara mediante colores contrastantes y botones destacados para mejorar la identificación de acciones principales.
+Las pantallas de autenticación fueron diseñadas para ofrecer un acceso rápido, seguro y sencillo a la aplicación. Se emplea una interfaz minimalista con un formulario centralizado que reduce distracciones y facilita el ingreso del usuario. Además, se utiliza una jerarquía visual clara mediante colores contrastantes y botones destacados para mejorar la identificación de acciones principales.
 
-![Login Mobile App](../../assets/chapter-5/mockups/mobile/login-mobileapp-mockup.png)
+![Login Mobile App](../../assets/chapter-5/mockups/mobile/auth-mobileapp-mockup.png)
 
 <br>
 
@@ -148,3 +148,5 @@ Además, esta sección brinda al usuario un mayor control sobre la personalizaci
 ![Perfil Mobile App 2](../../assets/chapter-5/mockups/mobile/profile2-mobileapp-mockup.png)
 
 <br>
+
+<div style="page-break-after: always;"></div>

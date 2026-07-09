@@ -1,7 +1,6 @@
 ## Source Code Style Guide & Coding Conventions
 
-
-En este proyecto, se adoptan estándares y convenciones claras para la nomenclatura y la estructura del código, asegurando consistencia y mantenibilidad en todas las capas de la solución. El idioma oficial para nombrar clases, métodos, variables, archivos y directorios es el inglés, al igual que los comentarios en el código. Nos guiamos por convenciones de la industria, como las “.NET C# Coding Conventions”, “Vue Style Guide”, “Dart Style Guide” y los principios del Diseño Orientado al Dominio (DDD) para estructurar nuestros componentes.
+En este proyecto, se adoptan estándares y convenciones claras para la nomenclatura y la estructura del código. Nos guiamos por convenciones de la industria, incluyendo la Google HTML/CSS Style Guide para el frontend, Google Java Style Guide y Spring Boot Features para el backend (aplicado a la arquitectura .NET bajo principios similares), Google TypeScript Style Guide para la lógica de componentes, y las Gherkin Conventions for Readable Specifications para nuestras pruebas de aceptación
 
 ### Stack Tecnológico
 
@@ -339,6 +338,17 @@ La Landing Page se enfoca en captación, presentación y posicionamiento, utiliz
 | **Módulos** | Organizar funcionalidad en módulos |
 | **Comentarios** | JSDoc para funciones principales |
 
+### Convenciones para Gherkin (BDD)
+
+Para asegurar que los requisitos sean legibles tanto para el equipo técnico como para los stakeholders, utilizamos archivos `.feature` bajo los estándares de *Gherkin Conventions for Readable Specifications*:
+
+| Elemento | Convención | Ejemplo |
+| --- | --- | --- |
+| **Nombre de archivo** | `kebab-case` en inglés | `device-management.feature` |
+| **Escenario** | `PascalCase` con verbo inicial | `Scenario: SuccessfulDeviceActivation` |
+| **Steps** | Uso estricto de *Given, When, Then, And* | `Given the sensor is connected...` |
+| **Tags** | Prefijo `@` (kebab-case) | `@smoke`, `@regression` |
+
 ### Formato del Código General
 
 Para asegurar que todo el equipo mantenga la misma consistencia visual y estructura al escribir código, adoptamos los siguientes formatos básicos por tecnología:
@@ -351,6 +361,16 @@ Para asegurar que todo el equipo mantenga la misma consistencia visual y estruct
 | **HTML/CSS/JS** | 2 espacios | 80 caracteres | HTML: Doble, JS: Simple | JS: Obligatorio |
 
 *(Nota: Hemos adaptado esta tabla del estándar inicial para ajustarse a nuestro stack, incluyendo Python para el Edge Service en lugar de Kotlin).*
+
+#### Compliance de Estándares Adoptados
+
+| Tecnología / Componente | Referencia de Estilo Aplicada |
+| --- | --- |
+| **HTML / CSS** | Google HTML/CSS Style Guide |
+| **JavaScript / TypeScript** | Google TypeScript Style Guide |
+| **Backend (Lógica/Estructura)** | Spring Boot Features (Adaptado a DDD/ASP.NET) |
+| **Pruebas (BDD)** | Gherkin Conventions for Readable Specifications |
+| **Estructura General** | Google Java Style Guide (Principios de nombrado) |
 
 ### Estructura General y Estándares Transversales
 
@@ -384,3 +404,5 @@ A nivel de repositorio y arquitectura de carpetas global, la separación es clar
 | **Performance** | Optimización de imágenes (WebP), lazy loading, minificación de recursos |
 | **Mobile** | Diseño responsive, touch-friendly (mínimo 44x44px para botones) |
 | **Internacionalización**| Soporte para múltiples idiomas (es, en) |
+
+<div style="page-break-after: always;"></div>

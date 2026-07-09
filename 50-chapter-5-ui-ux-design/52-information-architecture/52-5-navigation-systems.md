@@ -12,4 +12,6 @@ El **Navigation System** define las acciones y técnicas que guiarán a los usua
 
 #### **Aplicación Móvil - Tenant App (Inquilinos/Usuarios Finales):**
 *   **Acciones y Técnicas:** Navegación orientada a la inmediatez y la accesibilidad con una sola mano. Se guía al usuario mediante un patrón de **Bottom Navigation Bar** que mantiene siempre accesibles las funciones críticas (Inicio, Dispositivos, Notificaciones).
-*   **Recorrido del Contenido:** El usuario interactúa mediante gestos táctiles directos (Swipes, Taps, Long-press) para controlar dispositivos y reaccionar a alertas. El recorrido fluye desde un dashboard principal resumido hacia pantallas de interacción específicas (modelo Hub-and-Spoke), donde las notificaciones push actúan como atajos inmediatos a la resolución de incidentes, asegurando una interacción rápida y altamente satisfactoria.
+*   **Recorrido del Contenido:** El usuario interactúa mediante gestos táctiles directos (Swipes, Taps, Long-press) para controlar dispositivos y reaccionar a alertas. El recorrido fluye desde un dashboard principal resumido hacia pantallas de interacción específicas (modelo Hub-and-Spoke), donde las notificaciones push actúan como atajos inmediatos a la resolución de incidentes, asegurando una interacción rápida y altamente satisfactoria.
+
+<div style="page-break-after: always;"></div>

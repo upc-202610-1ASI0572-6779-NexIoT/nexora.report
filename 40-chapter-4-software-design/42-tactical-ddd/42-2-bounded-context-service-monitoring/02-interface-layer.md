@@ -87,3 +87,5 @@ Este recurso permite personalizar el comportamiento del monitoreo según las nec
 La Interface Layer constituye la capa de presentación del bounded context **Service Monitoring & Intelligence** y se encuentra representada principalmente por el **MonitoringController** y los recursos utilizados para exponer información de telemetría, anomalías y configuraciones de monitoreo a los consumidores externos de la plataforma.
 
 ---
+
+<div style="page-break-after: always;"></div>

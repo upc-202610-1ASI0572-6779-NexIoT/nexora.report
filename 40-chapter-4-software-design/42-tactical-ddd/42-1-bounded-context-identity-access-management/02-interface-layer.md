@@ -81,3 +81,5 @@ Representa la información básica del usuario creada dentro del sistema y utili
 La Interface Layer constituye la capa de presentación del bounded context y se encuentra representada principalmente por el **AuthController**, los objetos de entrada (**Request Models**) y los objetos de salida (**Response Models**) utilizados por los consumidores externos de la plataforma.
 
 ---
+
+<div style="page-break-after: always;"></div>

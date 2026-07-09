@@ -153,3 +153,5 @@ Almacena el historial de cambios de estado realizados sobre las órdenes de mant
 La Infrastructure Layer constituye el soporte técnico del bounded context **Service Execution & Maintenance**, permitiendo integrar la gestión de incidentes, órdenes de mantenimiento y técnicos con los mecanismos de persistencia, notificación y comunicación requeridos por la plataforma Nexora.
 
 ---
+
+<div style="page-break-after: always;"></div>

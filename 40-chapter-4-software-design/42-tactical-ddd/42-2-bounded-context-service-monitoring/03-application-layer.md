@@ -106,3 +106,5 @@ La Application Layer soporta las siguientes capacidades principales del bounded 
 La Application Layer constituye el punto de orquestación principal del bounded context **Service Monitoring & Intelligence**, coordinando la interacción entre la Interface Layer, los servicios de dominio, los repositorios y los componentes de infraestructura encargados del monitoreo inteligente.
 
 ---
+
+<div style="page-break-after: always;"></div>

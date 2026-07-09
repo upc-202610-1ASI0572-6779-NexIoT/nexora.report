@@ -1,6 +1,5 @@
-## 6.2. Landing Page, Services & Applications Implementation
-### 6.2.1. Sprint 2
-#### 6.2.1.1. Sprint Planning 2
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
 
 ## Introducción
 
@@ -119,3 +118,5 @@ Qualitative insights are gathered from active validation interviews using both p
 | TS-EDGE-02 | Persistencia Perimetral de Datos en Contingencia (Modo Offline) | 5 |
 | TS-HW-01 | Ensamblaje Electrónico y Calibración del Sensor de Gas | 3 |
 | TS-HW-02 | Ensamblaje del ESP32 con el sensor MQ2 para detección de gases | 3 |
+
+<div style="page-break-after: always;"></div>

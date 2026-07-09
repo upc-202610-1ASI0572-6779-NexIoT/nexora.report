@@ -193,3 +193,5 @@ En esta sección se explican y presentan los avances en implementación con rela
 | nexora.webapp | feature/shared | f22e5e5| feat(shared): integrate i18n and enhanced features into SidebarMenu| ---| 19/06/2026|
 | nexora.webapp | feature/shared | f392e85| feat(shared): add DDD infrastructure foundation| ---| 19/06/2026|
 | nexora.webapp | feature/ddd-architecture-migration || fix: update file tree, remove folders that follow a clean architecture| ---| 19/06/2026|
+
+<div style="page-break-after: always;"></div>
