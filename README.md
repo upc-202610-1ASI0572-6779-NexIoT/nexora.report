@@ -89,6 +89,12 @@ u202316122      Ramirez Tello, Sebastian
   <strong>Período 202610</strong>
 </p>
 
+<br>
+
+<p align="center" style="font-size: 12pt;">
+  Julio del 2026
+</p>
+
 <div style="page-break-after: always;"></div>
 
 ---
@@ -139,7 +145,6 @@ u202316122      Ramirez Tello, Sebastian
 | TB2.1.0.9 | 07/07/26 | Andrea Ohiggins | Añadir commits para "Development Evidence for Sprint 3" |
 | TB2.1.1.0 | 08/07/26 | Jhosep Argomedo | Actualizar Capítulo 1 en los segmentos objetivos, header question, etc |
 | TB2.1.1.1 | 08/07/26 | Kevin Castañeda | Añadir Sprint Backlog para Sprint 3 |
-
 
 <div style="page-break-after: always;"></div>
 
@@ -422,8 +427,8 @@ En el siguiente cuadro se describen las acciones realizadas y conclusiones del g
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |--------------------|--------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Argomedo Camacho, Jhosep Jamil (AV1)** <br> En esta entrega, participé activamente en la definición del perfil de nuestra startup, incluyendo la descripción de la empresa y los perfiles de los integrantes del equipo. También contribuí en el desarrollo del Solution Profile, trabajando en los antecedentes, la problemática y la estructuración del Lean UX Process, así como en la identificación de problem statements, assumptions, hypothesis statements, el Lean UX Canvas y los segmentos objetivo. Además, trabajé en el diseño y desarrollo del bounded context de Resource Asset Management, elaborando sus diagramas y coordinando con el equipo para asegurar la coherencia y la integración de nuestras aportaciones. <br><br>**Argomedo Camacho, Jhosep Jamil (TB1)** <br> En esta entrega, participé activamente en la definición de los lineamientos visuales y técnicos del proyecto mediante el desarrollo del General Style Guidelines, así como de los Web, Mobile and IoT Style Guidelines, estableciendo estándares de diseño y desarrollo para asegurar consistencia entre las distintas plataformas del producto. Asimismo, lideré el diseño de los wireframes y mock-ups de la Landing Page, aportando en la definición visual de la interfaz. Además, contribuí en la configuración del Software Development Environment y en la elaboración de las User Stories, facilitando la organización técnica y funcional del proyecto para el equipo. <br><br> **Argomedo Camacho, Jhosep Jamil (AV2)** <br> Asumí el rol de Líder (L) en el desarrollo del Web Service (Backend) en Render y de la Web Application en Vercel durante el Sprint 2. Dirigí la transición del sistema estático a un flujo completamente dinámico conectado a base de datos. Como Colaborador (C), coordiné activamente en las capas de Edge Service, Landing Page, Mobile App y Embedded Apps para asegurar la correcta integración de la API REST. <br><br> **Peña Riofrio, Maria Fernanda (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas.<br><br>**Peña Riofrio, Maria Fernanda (TB1)** <br> Participé en el desarrollo del proyecto IoT mediante la creación del Organization Systems, wireframes, wireflows, mockups y prototipo de la aplicación móvil. Además, colaboré en la Landing Page desarrollando la sección How it Works y en la aplicación web implementando las secciones Choose Your Plan y Checkout.<br><br> **Peña Riofrio, Maria Fernanda (AV2)** <br> Asumí el rol de Líder (L) en el desarrollo de la Landing Page de Nexora IoT, coordinando la implementación de mejoras visuales, la internacionalización de contenidos y la optimización de la experiencia de usuario para garantizar una presentación consistente del producto. Como Colaboradora (C), participé en la elaboración de la documentación técnica del proyecto, contribuyendo en el desarrollo de diagramas de arquitectura basados en DDD y C4 para los distintos Bounded Contexts de la solución..<br><br> **Castañeda Llanos, Kevin Alexander (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas. <br> <br> **Kevin Alexander Castañeda Llanos (TB1)** <br> Participe de forma efectiva en el proceso de realización de la Aplicación Web y la Landing Page. Además, lideré en la creación de los wireframes y mockups para la Landing Page, así como también la creación del Deployment Configuration y el Code Style Guide Conventions. <br><br> **Castañeda Llanos, Kevin Alexander (AV2)** <br> Ejercí el rol de Líder (L) en tres frentes técnicos durante el Sprint 2: Embedded Apps, Web Service y Web Application, logrando el despliegue del almacenamiento seguro en Supabase. Colaboré activamente (C) en la sincronización de servicios perimetrales de detección de gases (Edge), la Landing Page y la arquitectura simulada del entorno Mobile. <br><br> **Castañeda Llanos, Kevin Alexander (TB2)** <br> Trabajé activamente en las soluciones necesarias para poder finalizar exitosamente el proyecto. Participé y tome el rol de líder en la creación del Backend, Mobile Application, App Web, así como también realizar la mejora continua en varios puntos del reporte. <br><br> **O'Higgins Rosales, Andrea Namie (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas. <br><br> **O'Higgins Rosales, Andrea Namie (TB1)** <br> En esta entrega, colaboré con diseño de los wireframes, mockups y wireflow para la aplicación móvil, estableciendo las bases visuales y de interacción que el equipo utilizó como referencia durante el desarrollo del frontend. Asimismo, desarrollé las secciones hero, alliances y product de la Landing Page. Esto permitió al equipo avanzar con mayor claridad en el diseño y desarrollo de los productos, alineando las decisiones de interfaz con la arquitectura de información definida para Nexora.<br><br> **Muñoz Vilcapoma, Mauricio (AV1)** <br> Participé en la creación del User Task Matrix, el desarrollo del Journey Mapping, apoyo en actividades de Needfinding y en la redacción del Bounded Context, contribuyendo con la organización y documentación de artefactos clave del proyecto.<br><br> **Linares Arroyo, Jorge Alexandro (AV1)** <br> En esta entrega, lideré la definición técnica y estratégica del proyecto mediante la elaboración del Impact Mapping, alineando los objetivos de negocio con las capacidades de la plataforma. Fui responsable del diseño de la arquitectura del sistema, desarrollando los diagramas de Containers y Deployment, asegurando una infraestructura distribuida capaz de soportar la comunicación entre el hardware ESP32 y la nube. Asimismo, redacté y estructuré el Bounded Context de Service Monitoring & Intelligence, definiendo la lógica de dominio para la detección de anomalías y telemetría, y lideré la creación del Product Backlog en Jira, priorizando las historias de usuario y técnicas según su valor crítico para el MVP.<br><br>**Linares Arroyo, Jorge Alexandro (TB1)** <br> En esta entrega, lideré el diseño de la arquitectura de información y la experiencia de usuario de la aplicación web mediante el desarrollo de los navigation systems, wireframes, mockups y wireflows, definiendo el estándar visual y de flujo técnico. Asimismo, fui responsable del modelado y especificación del bounded context de Service Monitoring/Alerts, asegurando su alineación con las necesidades de la plataforma. Adicionalmente, asumí la dirección técnica en el desarrollo del application prototyping para validar los flujos críticos del sistema antes de su implementación en el frontend. <br><br> **Linares Arroyo, Jorge Alexandro (AV2)** <br>Asumí el rol de Líder (L) de los aspectos de Edge Service y Embedded Apps durante el Sprint 2, dirigiendo la programación de los microcontroladores para simular consumo y la telemetría real del sensor de gas. Participé como Colaborador (C) validando que estos datos se consumieran correctamente en las capas de Landing, Mobile, Web Service y Web Application. <br><br> **Ramirez Tello, Sebastian (AV1)** <br> Participé en la alineación estratégica del proyecto mediante la elaboración del Impact Mapping y la estructuración del Product Backlog. Asimismo, contribuí en el desarrollo técnico de un Bounded Context, elaborando sus diagramas y asegurando la integración de la lógica de dominio con los objetivos del equipo.<br><br>  **Ramirez Tello, Sebastian (TB1)** <br> En esta entrega, participé activamente en el diseño de la interfaz de la aplicación web mediante la elaboración de wireframes, mockups y wireflows, coordinando con los integrantes del equipo para alinear la experiencia de usuario con los requerimientos funcionales del proyecto. Asimismo, desarrollé la sección About Us de la Landing Page y el apartado de propiedades dentro de la aplicación web, contribuyendo al desarrollo de componentes clave del producto y asegurando la integración entre diseño y desarrollo frontend. <br><br> **Ramirez Tello, Sebastian (AV2)** <br> Me desempeñé como Líder (L) del Web Service y de la Web Application durante el Sprint 2, coliderando el despliegue dinámico de la lógica del servidor en Render y el almacenamiento en Supabase. Actué como Colaborador (C) apoyando técnicamente en la revisión de los servicios de Edge, la Landing Page, la Mobile App y la infraestructura Embedded para asegurar la interoperabilidad del sistema. | **Conclusión general:**<br> Durante la entrega AV2, el equipo demostró un esquema de coliderazgo altamente efectivo mediante la aplicación de la Matriz LACX. Al delegar liderazgos específicos para cada capa de la arquitectura IoT (Edge, Embedded, Web, Mobile), se garantizó que todos los frentes avanzaran con un responsable técnico dedicado, logrando integrar con éxito una solución multi-plataforma real y funcional en producción. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Argomedo Camacho, Jhosep Jamil (AV1)** <br> En esta entrega, promoví un entorno colaborativo e inclusivo mediante el seguimiento constante de las tareas del equipo, asegurando la participación activa de todos los integrantes. Me encargué de organizar y planificar el trabajo creando tableros en Jira y Trello para gestionar y monitorear el avance de las actividades, además de definir lapsos de tiempo para el cumplimiento de cada tarea. Esto permitió establecer metas claras, mejorar la coordinación del equipo y asegurar el logro de los objetivos planteados en el desarrollo del proyecto. <br><br> **Argomedo Camacho, Jhosep Jamil (TB1)** <br> Durante esta entrega, promoví un entorno colaborativo mediante la coordinación constante con el equipo para definir estándares de diseño, criterios de desarrollo y requerimientos funcionales del proyecto. Participé en la planificación y estructuración del Sprint 1, organizando tareas y prioridades junto a los integrantes para asegurar el cumplimiento de los objetivos planteados. Asimismo, desarrollé la Landing Page correspondiente a la vista de arrendadores, cumpliendo con los plazos establecidos y contribuyendo al avance continuo de los entregables del sprint. <br><br> **Argomedo Camacho, Jhosep Jamil (AV2)** <br> Fomenté un entorno colaborativo coordinando el flujo de Git/GitHub para evitar conflictos en la integración continua de los 5 repositorios. Participé en la planificación del Sprint Backlog 2 y lideré las modificaciones de seguridad y la estructura SaaS dynamic de la Web App bajo datos reales en base de datos de producción. <br><br> **Peña Riofrio, Maria Fernanda (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context.<br><br> **Peña Riofrio, Maria Fernanda (TB1)** <br> Contribuí al trabajo colaborativo coordinando tareas relacionadas con UX/UI y prototipado, apoyando en la integración visual y funcional del proyecto para cumplir los objetivos y entregables establecidos en cada sprint. <br><br>**Peña Riofrio, Maria Fernanda (AV2)**<br> Fomenté un entorno de trabajo colaborativo mediante la gestión de ramas e integración de cambios utilizando Git y GitHub, asegurando la correcta sincronización de entregables con la rama develop. Participé en la planificación y seguimiento de actividades del Sprint, apoyando la integración entre los componentes de Landing Page, Mobile App, Backend y Edge Service, así como en la construcción de los artefactos arquitectónicos requeridos para el proyecto.<br><br> **Castañeda Llanos, Kevin Alexander (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context. <br> <br> **Kevin Alexander Castañeda Llanos (TB1)** <br> Fomenté un entorno colabotativo apoyando a los demás en tareas grupales, así como también dando seguimiento de las tareas que se deben de realizar, para así mostrar un Sprint en donde todos participan por igual. <br><br> **Castañeda Llanos, Kevin Alexander (AV2)** <br> Promoví un ambiente inclusivo al dar soporte técnico a los miembros del equipo que requerían configurar las conexiones de red locales y las variables de entorno para Supabase y Render. Monitoreé el tablero Kanban de GitHub Projects para asegurar la entrega a tiempo de las historias de usuario. <br> **Castañeda Llanos, Kevin Alexander (TB2)** <br><br> Fomenté un ambiente colaborativo dando seguimiento a los otros integrantes sobre las actividades que realizan, para así poder cumplir con el alcance de este entregable final y dar una solución que cumpla con altos estándares y requisitos que el curso pide. <br><br> **O'Higgins Rosales, Andrea Namie (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context. <br><br> **O'Higgins Rosales, Andrea Namie (TB1)** <br> Elaboré la documentación del searching systems en el informe del proyecto, garantizando que las decisiones de diseño de búsqueda tanto para la aplicación móvil como para la web quedaran formalizadas y accesibles para todos los integrantes del equipo. Adicionalmente, desarrollé la Documentation of Development Evidence for Sprint Review, consolidando las evidencias de los avances del sprint de forma ordenada para facilitar la revisión y el seguimiento colectivo del progreso. <br><br> **Muñoz Vilcapoma, Mauricio (AV1)** <br> Colaboré en la estructuración de entregables vinculados al análisis de usuarios y arquitectura funcional, manteniendo coordinación constante con el equipo para alinear contenidos, reorganizar información y cumplir los plazos establecidos para cada avance del proyecto.<br><br> **Linares Arroyo, Jorge Alexandro (AV1)** <br> Contribuí a la creación de un entorno colaborativo mediante la facilitación de sesiones de diseño para el Product Backlog, donde establecimos los Story Points y criterios de aceptación de forma consensuada. Planifiqué las tareas técnicas relacionadas con la arquitectura IoT, estableciendo hitos claros para la integración de los componentes de hardware con el backend. Además, coordiné con los responsables de otros Bounded Contexts para garantizar la interoperabilidad de la plataforma, asegurando que el flujo de datos desde los sensores hasta la aplicación móvil se cumpliera dentro de los plazos establecidos y bajo los estándares de calidad definidos por el equipo. <br><br>**Linares Arroyo, Jorge Alexandro (TB1)** <br> Contribuí al cumplimiento de los objetivos del equipo mediante el desarrollo de la documentación técnica correspondiente al primer sprint, facilitando un marco de referencia claro para el desarrollo del frontend. Promoví un entorno de colaboración al diseñar e implementar el apartado de FAQ de la landing page bajo los plazos establecidos, coordinando activamente con los encargados de los lineamientos de diseño para garantizar la consistencia visual del producto y asegurar la entrega oportuna de los artefactos del sprint. <br><br> **Linares Arroyo, Jorge Alexandro (AV2)** <br> Fomenté la colaboración cruzada al trabajar directamente con los encargados de la Web App para asegurar que las tramas de voltaje emuladas por el hardware real se reflejaran de manera transparente en la base de datos de Supabase, cumpliendo con los objetivos de telemetría establecidos en el Sprint. <br><br> **Ramirez Tello, Sebastian (AV1)** <br> Colabore en la redacción de User Stories y la definición de criterios de aceptación junto al equipo. Colaboré en la planificación de tareas y el seguimiento del backlog para asegurar el cumplimiento de las metas y la entrega oportuna de los requerimientos funcionales del proyecto.<br><br> **Ramirez Tello, Sebastian (TB1)** <br> Durante esta entrega, promoví un entorno de trabajo colaborativo mediante la comunicación constante con el equipo para validar diseños, funcionalidades y flujos de navegación de la aplicación web. Además, participé en la planificación y ejecución de las tareas asignadas durante el sprint, cumpliendo con los plazos establecidos para el desarrollo de la sección About Us de la Landing Page y del módulo de propiedades de la aplicación web, contribuyendo al cumplimiento de los objetivos planteados para la entrega. <br><br> **Ramirez Tello, Sebastian (AV2)** <br> Promoví la colaboración mediante sesiones de sincronización de contratos de API para conectar los endpoints de Render con el frontend. Planifiqué las tareas de persistencia del módulo de autenticación dinámica y gestión de propiedades, logrando el cumplimiento de las metas del Sprint 2 dentro de los plazos establecidos. | **Conclusión general:**<br> El uso estructurado de herramientas de integración y despliegue continuo (Render, Vercel, GitHub) junto con tableros ágiles permitió al equipo establecer hitos rigurosos y cumplir el 100% de los objetivos del Sprint 2. El entorno colaborativo se consolidó al procesar las entrevistas de usuarios reales directamente en un análisis heurístico conjunto, lo que garantizó un producto centrado en el usuario. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Argomedo Camacho, Jhosep Jamil (AV1)** <br> En esta entrega, participé activamente en la definición del perfil de nuestra startup, incluyendo la descripción de la empresa y los perfiles de los integrantes del equipo. También contribuí en el desarrollo del Solution Profile, trabajando en los antecedentes, la problemática y la estructuración del Lean UX Process, así como en la identificación de problem statements, assumptions, hypothesis statements, el Lean UX Canvas y los segmentos objetivo. Además, trabajé en el diseño y desarrollo del bounded context de Resource Asset Management, elaborando sus diagramas y coordinando con el equipo para asegurar la coherencia y la integración de nuestras aportaciones. <br><br>**Argomedo Camacho, Jhosep Jamil (TB1)** <br> En esta entrega, participé activamente en la definición de los lineamientos visuales y técnicos del proyecto mediante el desarrollo del General Style Guidelines, así como de los Web, Mobile and IoT Style Guidelines, estableciendo estándares de diseño y desarrollo para asegurar consistencia entre las distintas plataformas del producto. Asimismo, lideré el diseño de los wireframes y mock-ups de la Landing Page, aportando en la definición visual de la interfaz. Además, contribuí en la configuración del Software Development Environment y en la elaboración de las User Stories, facilitando la organización técnica y funcional del proyecto para el equipo. <br><br> **Argomedo Camacho, Jhosep Jamil (AV2)** <br> Asumí el rol de Líder (L) en el desarrollo del Web Service (Backend) en Render y de la Web Application en Vercel durante el Sprint 2. Dirigí la transición del sistema estático a un flujo completamente dinámico conectado a base de datos. Como Colaborador (C), coordiné activamente en las capas de Edge Service, Landing Page, Mobile App y Embedded Apps para asegurar la correcta integración de la API REST. <br><br> **Peña Riofrio, Maria Fernanda (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas.<br><br>**Peña Riofrio, Maria Fernanda (TB1)** <br> Participé en el desarrollo del proyecto IoT mediante la creación del Organization Systems, wireframes, wireflows, mockups y prototipo de la aplicación móvil. Además, colaboré en la Landing Page desarrollando la sección How it Works y en la aplicación web implementando las secciones Choose Your Plan y Checkout.<br><br> **Peña Riofrio, Maria Fernanda (AV2)** <br> Asumí el rol de Líder (L) en el desarrollo de la Landing Page de Nexora IoT, coordinando la implementación de mejoras visuales, la internacionalización de contenidos y la optimización de la experiencia de usuario para garantizar una presentación consistente del producto. Como Colaboradora (C), participé en la elaboración de la documentación técnica del proyecto, contribuyendo en el desarrollo de diagramas de arquitectura basados en DDD y C4 para los distintos Bounded Contexts de la solución..<br><br> **Peña Riofrio, Maria Fernanda (TB2)** <br> Asumí el rol de Líder (L) en el desarrollo de la Mobile App durante la entrega final, coordinando junto con otros integrantes la implementación y validación de las funcionalidades de la aplicación. Como Colaboradora (C), participé en el Backend y en la documentación del Sprint 3, contribuyendo a la integración de la solución final.<br><br> **Castañeda Llanos, Kevin Alexander (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas. <br> <br> **Kevin Alexander Castañeda Llanos (TB1)** <br> Participe de forma efectiva en el proceso de realización de la Aplicación Web y la Landing Page. Además, lideré en la creación de los wireframes y mockups para la Landing Page, así como también la creación del Deployment Configuration y el Code Style Guide Conventions. <br><br> **Castañeda Llanos, Kevin Alexander (AV2)** <br> Ejercí el rol de Líder (L) en tres frentes técnicos durante el Sprint 2: Embedded Apps, Web Service y Web Application, logrando el despliegue del almacenamiento seguro en Supabase. Colaboré activamente (C) en la sincronización de servicios perimetrales de detección de gases (Edge), la Landing Page y la arquitectura simulada del entorno Mobile. <br><br> **Castañeda Llanos, Kevin Alexander (TB2)** <br> Trabajé activamente en las soluciones necesarias para poder finalizar exitosamente el proyecto. Participé y tome el rol de líder en la creación del Backend, Mobile Application, App Web, así como también realizar la mejora continua en varios puntos del reporte. <br><br> **O'Higgins Rosales, Andrea Namie (AV1)** <br> En esta entrega, se conversó en equipo sobre el análisis competitivo directo para nuestro proyecto. Participé activamente en la elaboración de entrevistas para arrendadores y en el desarrollo de un bounded context con sus respectivos diagramas. <br><br> **O'Higgins Rosales, Andrea Namie (TB1)** <br> En esta entrega, colaboré con diseño de los wireframes, mockups y wireflow para la aplicación móvil, estableciendo las bases visuales y de interacción que el equipo utilizó como referencia durante el desarrollo del frontend. Asimismo, desarrollé las secciones hero, alliances y product de la Landing Page. Esto permitió al equipo avanzar con mayor claridad en el diseño y desarrollo de los productos, alineando las decisiones de interfaz con la arquitectura de información definida para Nexora.<br><br> **O'Higgins Rosales, Andrea Namie (AV2)** <br> Asumí el rol de Líder (L) en el desarrollo de la Mobile App durante el Sprint 2, coordinando la implementación de las vistas y los flujos de navegación de la aplicación móvil para garantizar una experiencia de usuario consistente con el diseño definido para Nexora IoT. Como Colaboradora (C), participé en los diferentes frentes y colaborando principalmente con el desarrollo de la Mobile App y su comunicación entre los distintos componentes de la solución. <br><br> **O'Higgins Rosales, Andrea Namie (TB2)** <br> Asumí el rol de Líder (L) en el desarrollo de la Mobile App durante el Sprint 3, dirigiendo la implementación final de las funcionalidades y la conexión de la aplicación móvil con el Web Service para el consumo de datos reales de telemetría. Como Colaboradora (C), apoyé en los aspectos de Edge Service, Landing Page, Embedded Apps, Web Service y Web Application, contribuyendo a la validación y a la mejora continua de la solución integrada de cara a la entrega final del proyecto. <br><br> **Muñoz Vilcapoma, Mauricio (AV1)** <br> Participé en la creación del User Task Matrix, el desarrollo del Journey Mapping, apoyo en actividades de Needfinding y en la redacción del Bounded Context, contribuyendo con la organización y documentación de artefactos clave del proyecto.<br><br> **Linares Arroyo, Jorge Alexandro (AV1)** <br> En esta entrega, lideré la definición técnica y estratégica del proyecto mediante la elaboración del Impact Mapping, alineando los objetivos de negocio con las capacidades de la plataforma. Fui responsable del diseño de la arquitectura del sistema, desarrollando los diagramas de Containers y Deployment, asegurando una infraestructura distribuida capaz de soportar la comunicación entre el hardware ESP32 y la nube. Asimismo, redacté y estructuré el Bounded Context de Service Monitoring & Intelligence, definiendo la lógica de dominio para la detección de anomalías y telemetría, y lideré la creación del Product Backlog en Jira, priorizando las historias de usuario y técnicas según su valor crítico para el MVP.<br><br>**Linares Arroyo, Jorge Alexandro (TB1)** <br> En esta entrega, lideré el diseño de la arquitectura de información y la experiencia de usuario de la aplicación web mediante el desarrollo de los navigation systems, wireframes, mockups y wireflows, definiendo el estándar visual y de flujo técnico. Asimismo, fui responsable del modelado y especificación del bounded context de Service Monitoring/Alerts, asegurando su alineación con las necesidades de la plataforma. Adicionalmente, asumí la dirección técnica en el desarrollo del application prototyping para validar los flujos críticos del sistema antes de su implementación en el frontend. <br><br> **Linares Arroyo, Jorge Alexandro (AV2)** <br>Asumí el rol de Líder (L) de los aspectos de Edge Service y Embedded Apps durante el Sprint 2, dirigiendo la programación de los microcontroladores para simular consumo y la telemetría real del sensor de gas. Participé como Colaborador (C) validando que estos datos se consumieran correctamente en las capas de Landing, Mobile, Web Service y Web Application. <br><br> **Ramirez Tello, Sebastian (AV1)** <br> Participé en la alineación estratégica del proyecto mediante la elaboración del Impact Mapping y la estructuración del Product Backlog. Asimismo, contribuí en el desarrollo técnico de un Bounded Context, elaborando sus diagramas y asegurando la integración de la lógica de dominio con los objetivos del equipo.<br><br>  **Ramirez Tello, Sebastian (TB1)** <br> En esta entrega, participé activamente en el diseño de la interfaz de la aplicación web mediante la elaboración de wireframes, mockups y wireflows, coordinando con los integrantes del equipo para alinear la experiencia de usuario con los requerimientos funcionales del proyecto. Asimismo, desarrollé la sección About Us de la Landing Page y el apartado de propiedades dentro de la aplicación web, contribuyendo al desarrollo de componentes clave del producto y asegurando la integración entre diseño y desarrollo frontend. <br><br> **Ramirez Tello, Sebastian (AV2)** <br> Me desempeñé como Líder (L) del Web Service y de la Web Application durante el Sprint 2, coliderando el despliegue dinámico de la lógica del servidor en Render y el almacenamiento en Supabase. Actué como Colaborador (C) apoyando técnicamente en la revisión de los servicios de Edge, la Landing Page, la Mobile App y la infraestructura Embedded para asegurar la interoperabilidad del sistema. | **Conclusión general:**<br> Durante la entrega AV2, el equipo demostró un esquema de coliderazgo altamente efectivo mediante la aplicación de la Matriz LACX. Al delegar liderazgos específicos para cada capa de la arquitectura IoT (Edge, Embedded, Web, Mobile), se garantizó que todos los frentes avanzaran con un responsable técnico dedicado, logrando integrar con éxito una solución multi-plataforma real y funcional en producción. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Argomedo Camacho, Jhosep Jamil (AV1)** <br> En esta entrega, promoví un entorno colaborativo e inclusivo mediante el seguimiento constante de las tareas del equipo, asegurando la participación activa de todos los integrantes. Me encargué de organizar y planificar el trabajo creando tableros en Jira y Trello para gestionar y monitorear el avance de las actividades, además de definir lapsos de tiempo para el cumplimiento de cada tarea. Esto permitió establecer metas claras, mejorar la coordinación del equipo y asegurar el logro de los objetivos planteados en el desarrollo del proyecto. <br><br> **Argomedo Camacho, Jhosep Jamil (TB1)** <br> Durante esta entrega, promoví un entorno colaborativo mediante la coordinación constante con el equipo para definir estándares de diseño, criterios de desarrollo y requerimientos funcionales del proyecto. Participé en la planificación y estructuración del Sprint 1, organizando tareas y prioridades junto a los integrantes para asegurar el cumplimiento de los objetivos planteados. Asimismo, desarrollé la Landing Page correspondiente a la vista de arrendadores, cumpliendo con los plazos establecidos y contribuyendo al avance continuo de los entregables del sprint. <br><br> **Argomedo Camacho, Jhosep Jamil (AV2)** <br> Fomenté un entorno colaborativo coordinando el flujo de Git/GitHub para evitar conflictos en la integración continua de los 5 repositorios. Participé en la planificación del Sprint Backlog 2 y lideré las modificaciones de seguridad y la estructura SaaS dynamic de la Web App bajo datos reales en base de datos de producción. <br><br> **Peña Riofrio, Maria Fernanda (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context.<br><br> **Peña Riofrio, Maria Fernanda (TB1)** <br> Contribuí al trabajo colaborativo coordinando tareas relacionadas con UX/UI y prototipado, apoyando en la integración visual y funcional del proyecto para cumplir los objetivos y entregables establecidos en cada sprint. <br><br>**Peña Riofrio, Maria Fernanda (AV2)**<br> Fomenté un entorno de trabajo colaborativo mediante la gestión de ramas e integración de cambios utilizando Git y GitHub, asegurando la correcta sincronización de entregables con la rama develop. Participé en la planificación y seguimiento de actividades del Sprint, apoyando la integración entre los componentes de Landing Page, Mobile App, Backend y Edge Service, así como en la construcción de los artefactos arquitectónicos requeridos para el proyecto.<br><br>**Peña Riofrio, Maria Fernanda (TB2)**<br> Promoví el trabajo colaborativo coordinando los avances de la Mobile App con los demás integrantes y apoyando la integración de cambios mediante Git y GitHub. Asimismo, participé en el seguimiento de las actividades del Sprint para cumplir los objetivos y plazos de la entrega final.<br><br> **Castañeda Llanos, Kevin Alexander (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context. <br> <br> **Kevin Alexander Castañeda Llanos (TB1)** <br> Fomenté un entorno colabotativo apoyando a los demás en tareas grupales, así como también dando seguimiento de las tareas que se deben de realizar, para así mostrar un Sprint en donde todos participan por igual. <br><br> **Castañeda Llanos, Kevin Alexander (AV2)** <br> Promoví un ambiente inclusivo al dar soporte técnico a los miembros del equipo que requerían configurar las conexiones de red locales y las variables de entorno para Supabase y Render. Monitoreé el tablero Kanban de GitHub Projects para asegurar la entrega a tiempo de las historias de usuario. <br> **Castañeda Llanos, Kevin Alexander (TB2)** <br><br> Fomenté un ambiente colaborativo dando seguimiento a los otros integrantes sobre las actividades que realizan, para así poder cumplir con el alcance de este entregable final y dar una solución que cumpla con altos estándares y requisitos que el curso pide. <br><br> **O'Higgins Rosales, Andrea Namie (AV1)** <br> En esta entrega, se fomentó un entorno colaborativo, participando activamente con el equipo para tener una idea concreta tanto en la elección de competidores adecuados para la startup como en las estrategias elegidas para superarlas. Además, se promovió la participación constante del equipo para coordinar ideas en nuestros Bounded Context. <br><br> **O'Higgins Rosales, Andrea Namie (TB1)** <br> Elaboré la documentación del searching systems en el informe del proyecto, garantizando que las decisiones de diseño de búsqueda tanto para la aplicación móvil como para la web quedaran formalizadas y accesibles para todos los integrantes del equipo. Adicionalmente, desarrollé la Documentation of Development Evidence for Sprint Review, consolidando las evidencias de los avances del sprint de forma ordenada para facilitar la revisión y el seguimiento colectivo del progreso. <br><br> **O'Higgins Rosales, Andrea Namie (AV2)** <br> Contribuí con la sincronización de los avances de la Mobile App con el resto de los servicios del ecosistema. Participé en la planificación y el seguimiento de las tareas del Sprint , estableciendo metas claras para el desarrollo móvil y cumpliendo con los plazos definidos para la entrega. <br><br> **O'Higgins Rosales, Andrea Namie (TB2)** <br> Apoyé en el seguimiento a las tareas del equipo y coordinando la integración de la Mobile App con los demás servicios. Participé en la planificación del Sprint, estableciendo metas para la finalización del producto. <br><br> **Muñoz Vilcapoma, Mauricio (AV1)** <br> Colaboré en la estructuración de entregables vinculados al análisis de usuarios y arquitectura funcional, manteniendo coordinación constante con el equipo para alinear contenidos, reorganizar información y cumplir los plazos establecidos para cada avance del proyecto.<br><br> **Linares Arroyo, Jorge Alexandro (AV1)** <br> Contribuí a la creación de un entorno colaborativo mediante la facilitación de sesiones de diseño para el Product Backlog, donde establecimos los Story Points y criterios de aceptación de forma consensuada. Planifiqué las tareas técnicas relacionadas con la arquitectura IoT, estableciendo hitos claros para la integración de los componentes de hardware con el backend. Además, coordiné con los responsables de otros Bounded Contexts para garantizar la interoperabilidad de la plataforma, asegurando que el flujo de datos desde los sensores hasta la aplicación móvil se cumpliera dentro de los plazos establecidos y bajo los estándares de calidad definidos por el equipo. <br><br>**Linares Arroyo, Jorge Alexandro (TB1)** <br> Contribuí al cumplimiento de los objetivos del equipo mediante el desarrollo de la documentación técnica correspondiente al primer sprint, facilitando un marco de referencia claro para el desarrollo del frontend. Promoví un entorno de colaboración al diseñar e implementar el apartado de FAQ de la landing page bajo los plazos establecidos, coordinando activamente con los encargados de los lineamientos de diseño para garantizar la consistencia visual del producto y asegurar la entrega oportuna de los artefactos del sprint. <br><br> **Linares Arroyo, Jorge Alexandro (AV2)** <br> Fomenté la colaboración cruzada al trabajar directamente con los encargados de la Web App para asegurar que las tramas de voltaje emuladas por el hardware real se reflejaran de manera transparente en la base de datos de Supabase, cumpliendo con los objetivos de telemetría establecidos en el Sprint. <br><br> **Ramirez Tello, Sebastian (AV1)** <br> Colabore en la redacción de User Stories y la definición de criterios de aceptación junto al equipo. Colaboré en la planificación de tareas y el seguimiento del backlog para asegurar el cumplimiento de las metas y la entrega oportuna de los requerimientos funcionales del proyecto.<br><br> **Ramirez Tello, Sebastian (TB1)** <br> Durante esta entrega, promoví un entorno de trabajo colaborativo mediante la comunicación constante con el equipo para validar diseños, funcionalidades y flujos de navegación de la aplicación web. Además, participé en la planificación y ejecución de las tareas asignadas durante el sprint, cumpliendo con los plazos establecidos para el desarrollo de la sección About Us de la Landing Page y del módulo de propiedades de la aplicación web, contribuyendo al cumplimiento de los objetivos planteados para la entrega. <br><br> **Ramirez Tello, Sebastian (AV2)** <br> Promoví la colaboración mediante sesiones de sincronización de contratos de API para conectar los endpoints de Render con el frontend. Planifiqué las tareas de persistencia del módulo de autenticación dinámica y gestión de propiedades, logrando el cumplimiento de las metas del Sprint 2 dentro de los plazos establecidos. | **Conclusión general:**<br> El uso estructurado de herramientas de integración y despliegue continuo (Render, Vercel, GitHub) junto con tableros ágiles permitió al equipo establecer hitos rigurosos y cumplir el 100% de los objetivos del Sprint 2. El entorno colaborativo se consolidó al procesar las entrevistas de usuarios reales directamente en un análisis heurístico conjunto, lo que garantizó un producto centrado en el usuario. |
 
 <div style="page-break-after: always;"></div>
 
@@ -634,6 +639,8 @@ El costo de un sistema como Nexora depende del alcance:
 
 Este modelo híbrido (hardware + software) permite una adopción progresiva y escalable, reduciendo la barrera de entrada para arrendadores y facilitando el acceso a experiencias inteligentes para los arrendatarios.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 1.2.2. Lean UX Process
@@ -789,6 +796,8 @@ Creemos que lograremos **una reducción del 20% en el consumo energético promed
 
 ![Lean UX Canvas](assets/chapter-1/lean-ux-canvas/lean-ux-canvas-nexora.jpg)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 1.3. Segmentos Objetivos
@@ -818,6 +827,8 @@ Este segmento incluye a personas que alquilan viviendas y buscan mejorar su cali
 | **Geografía**     | Principales ciudades y áreas urbanas y periurbanas del continente americano, donde existe una alta concentración de viviendas en alquiler y adopción creciente de tecnologías para el hogar. |
 | **Estadísticas**  | - El 55% de los hogares urbanos en América Latina viven en régimen de alquiler o soluciones habitacionales similares (BID, 2021). <br> - El 70% de los jóvenes entre 25 y 39 años en LATAM prioriza el alquiler frente a la compra de vivienda (CAF, 2020). <br> - El 60% de los consumidores muestra interés en dispositivos de hogar inteligente para mejorar confort y eficiencia (Deloitte, 2020). |
 | **Problema**      | Sufren incrementos inesperados en los cobros de servicios básicos al no poder predecir ni gestionar sus hábitos cotidianos de consumo energético. |
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -950,6 +961,8 @@ Este segmento incluye a personas que alquilan viviendas y buscan mejorar su cali
   </tr>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 2.1.2. Estrategias y tácticas frente a competidores (Mejorado)
@@ -1073,6 +1086,8 @@ Muchas plataformas IoT son complejas y poco intuitivas.
 * Implementación de funcionalidades básicas offline o tolerantes a fallos.
 * Educación del usuario mediante contenido (landing page + onboarding).
 * Posicionamiento como solución especializada en alquileres (nicho).
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1259,6 +1274,8 @@ Comprender hábitos de consumo, uso de tecnología en el hogar, necesidades de c
 * ¿Tienes experiencia con apps de automatización o smart home?
 * ¿Qué te haría dejar de usar una aplicación de este tipo?
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 2.2.2. Registro de Entrevistas
@@ -1347,6 +1364,8 @@ Comprender hábitos de consumo, uso de tecnología en el hogar, necesidades de c
 | **Duración** | 10 min 57 seg |
 | **Resumen** | Joaquín reside con su madre en un departamento alquilado. Comparten la gestión económica y registran los gastos mediante Excel y notas. Menciona problemas como el olvido de pagos (el internet el primer mes), cobros elevados injustificados de luz y fallas de servicios básicos. Muestra alto entusiasmo por una solución móvil que centralice las alertas y permita apagados remotos de luces o televisores, aunque le preocupa una potencial inestabilidad en la conexión de los dispositivos inteligentes.<br><br>**Características del Arquetipo (Datos Recolectados):**<br>- **Personalidad:** Colaborativo, detallista, preventivo pero con escepticismo técnico constructivo.<br>- **Marcas e Influencias:** Herramientas de desarrollo (GitHub, Vercel), plataformas streaming (Netflix) y servicios fintech (Yape/Plin).<br>- **Tecnología y Dispositivos:** MacBook Pro de desarrollo y iPhone 13.<br>- **Canales de Interacción:** Canales digitales, grupos de WhatsApp familiares y recordatorios móviles.<br>- **Browser:** Brave Browser y Google Chrome Canary. |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 2.2.3. Análisis de entrevistas
@@ -1380,6 +1399,8 @@ El procesamiento de los datos recolectados en las entrevistas con inquilinos urb
     * **Puntos de Dolor Comunes:** El 100% (3/3) de los inquilinos experimenta una frustración y preocupación constante por el cobro elevado e imprevisto en sus recibos de agua y luz eléctrica. El 66.67% (2/3) de la muestra (Diego y Joaquín) ha sufrido de forma directa incidentes financieros imprevistos causados por filtraciones de agua no detectadas a tiempo o descuidos/olvidos en las fechas de pago de sus servicios.
     * **Interés en Automatización e IoT:** El 100% (3/3) de los entrevistados manifestó una actitud altamente positiva y un deseo explícito de implementar soluciones de automatización residencial (como apagado remoto de luces, interruptores inteligentes o control de televisores desde el celular). Adicionalmente, el 100% (3/3) coincide en que las notificaciones push en tiempo real ante anomalías de consumo es la funcionalidad con mayor valor percibido.
     * **Marcas e Influencias:** Muestran una alta afinidad por marcas digitales y tecnológicas nativas, incluyendo ecosistemas Smart Home (Google Home, Tuya Smart, Sonoff, Philips Hue), plataformas de desarrollo (GitHub, Vercel), servicios de entretenimiento (Netflix) y herramientas Fintech de pago inmediato (Yape, Plin).
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1419,6 +1440,8 @@ Valeria Torres representa el segmento de jóvenes profesionales que alquilan dep
 Carlos Mendoza representa el segmento de administradores inmobiliarios responsables de supervisar múltiples propiedades y coordinar operaciones relacionadas con mantenimiento, incidencias y atención a inquilinos. Este perfil prioriza la eficiencia operativa, la reducción de costos y el acceso rápido a información centralizada que le permita tomar decisiones y gestionar propiedades de manera más práctica y organizada.
 
 ![User Persona - Carlos Mendoza](assets/chapter-2/needfinding/user_personas/user_persona-2.png)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1557,6 +1580,8 @@ A pesar de ocupar extremos opuestos de la relación contractual, los arquetipos 
 * **Interés Crítico en el Control Financiero:** Ambos coinciden en otorgar una Importancia Alta (I: A) a *"Calcular y comparar presupuestos mensuales de servicios"*. Valeria lo hace para cuidar su economía personal y Carlos para evitar que los sobreconsumos de inquilinos irresponsables mermen sus utilidades.
 * **Seguimiento de Incidencias:** Ambos califican con Importancia Alta (I: A) el *"Efectuar el seguimiento al estado de los problemas reportados"*. Existe una codependencia mutua: la inquilina necesita saber cuándo se resolverá su avería para recuperar su comodidad, y el administrador requiere constatar la solución para cerrar el caso logístico.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 2.3.3. User Journey Mapping
@@ -1579,6 +1604,8 @@ El objetivo de estos mapas es ilustrar dos viajes esenciales de extremo a extrem
 #### User Journey Map – Carlos Mendoza
 
 ![User Journey Map - Carlos Mendoza](assets/chapter-2/needfinding/user-journey-map-carlos-mendoza.png)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1606,6 +1633,8 @@ Valeria representa a los arrendatarios jóvenes que buscan independencia, ahorro
 Carlos representa a quienes gestionan múltiples propiedades y buscan optimizar su rentabilidad y tiempo mediante el monitoreo remoto y la prevención de incidencias.
 
 ![Empathy Map - Propietario](assets/chapter-2/needfinding/empathy-map-propietario.png)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1727,6 +1756,8 @@ Esta organización permitió establecer una separación clara de responsabilidad
 
 ![STEP10](assets/chapter-2/big-picture-eventstorming/step10-eventS.png)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 2.5. Ubiquitous Language
@@ -1752,6 +1783,8 @@ Para garantizar una comunicación transparente, fluida y libre de ambigüedades 
 | **Real-time Alert (Alerta en Tiempo Real)** | Notificación o advertencia automatizada emitida de forma inmediata ante la detección de un evento crítico (como un sobreconsumo o una potencial fuga) para permitir una respuesta preventiva antes del cierre de facturación. |
 | **Operational Cost (Costo Operativo)** | Egreso financiero periódico derivado del mantenimiento físico y el pago de los servicios de una propiedad, el cual mella directamente la rentabilidad neta del arrendador si no se controla adecuadamente. |
 | **PropTech (Tecnología Inmobiliaria)** | Sector económico que engloba a todas las empresas y soluciones que aplican innovaciones tecnológicas y modelos digitales para optimizar los procesos de interacción, gestión, renta y monitoreo dentro del mercado inmobiliario. |
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1909,6 +1942,8 @@ A continuación se presenta el conjunto completo de Epics, User Stories y Techni
 | TS-HW-01 | Ensamblaje Electrónico y Calibración del Sensor de Gas MQ2 | Como ingeniero de hardware, quiero diseñar y ensamblar el prototipo electrónico uniendo el ESP32, el sensor de gas analógico MQ-2 y los componentes pasivos en una placa de pruebas (Breadboard/PCB) y calibrar el sensor MQ-2 a niveles seguros en PPM. | **Escenario 1: Ensamblaje en placa y alimentación correcta**<br>Dado que se tienen los componentes (ESP32 NodeMCU, sensor MQ-2, resistencias de pull-down),<br>Cuando se realiza la conexión en la breadboard y se alimenta por puerto USB de 5V,<br>Entonces el sensor MQ-2 recibe corriente y el LED indicador de encendido físico del módulo se ilumina en rojo constante.<br><br>**Escenario 2: Calibración y ajuste del potenciómetro para umbral de sensibilidad**<br>Dado que el sensor de gas MQ-2 tiene un potenciómetro integrado de ajuste analógico,<br>Cuando se introduce gas de prueba y se calibra la salida física del comparador digital LM393 del módulo,<br>Entonces la señal digital conmuta de nivel lógico ALTO a BAJO para indicar presencia de gas a partir del umbral deseado (ej. 300 PPM). | EP29 |
 | TS-HW-02 | Ensamblaje del ESP32 con el sensor MQ2 para detección de gases | Como ingeniero de hardware, quiero soldar e integrar físicamente el circuito del microcontrolador ESP32 con el módulo sensor de gas MQ-2 en una placa de circuito impreso (PCB) o placa perforada, protegiendo las conexiones contra cortocircuitos y ruido electromagnético. | **Escenario 1: Soldadura limpia y verificación de continuidad**<br>Dado que los componentes están montados en la placa de desarrollo perforada,<br>Cuando se completan los puntos de soldadura con estaño,<br>Entonces las pruebas con multímetro confirman continuidad en las líneas de datos (GND, VCC, pin analógico ADC y pin digital) sin cortocircuitos entre pines adyacentes.<br><br>**Escenario 2: Montaje final del encapsulado**<br>Dado que el circuito integrado está soldado y verificado,<br>Cuando se coloca dentro de la caja protectora impresa en 3D asegurando que el cabezal del sensor de gas MQ-2 quede expuesto al aire libre y las aberturas de ventilación estén despejadas,<br>Entonces el circuito físico queda protegido de elementos externos y listo para la instalación en campo. | EP29 |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 3.2. Impact Mapping
@@ -1957,6 +1992,8 @@ A continuación, se presenta la ramificación estratégica orientada a optimizar
 A continuación, se presenta la ramificación estratégica orientada a mitigar los sobrecostos y potenciar la tranquilidad de la habitabilidad del arrendatario:
 
 ![Impact Mapping - Segmento Inquilino](assets/chapter-3/impact-mapping/impact_map_inquilino.png)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -2085,6 +2122,8 @@ Evidencia de Organizacion del Product Backlog en Jira:
 
 ![Product Backlog](assets/chapter-3/product-backlog/backlog.png)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 4.1. Strategic-Level Domain-Driven Design
@@ -2134,6 +2173,8 @@ Como resultado, se definieron 5 Bounded Contexts candidatos alineados con la nat
 
 ![Payment Candidate Context](assets/chapter-4/strategic-ddd/design-level-eventstorming/payments-candidate.jpg)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 4.1.1.2 Domain Message Flows Modeling
@@ -2176,6 +2217,8 @@ Este flujo representa un escenario orientado a la supervisión y toma de decisio
 
 ![Storytelling Gestión Arrendador](assets/chapter-4/strategic-ddd/design-level-eventstorming/controles_optimizacion_arrendador.jpg)
 *Nota. Diagrama de Domain Storytelling: Flujo de gestión y optimización de activos.*
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -2330,6 +2373,8 @@ Contexto responsable de gestionar los planes comerciales, suscripciones y pagos 
     *   **Assumptions:** Nexora funcionará bajo un modelo SaaS con planes comerciales diferenciados.
     *   **Open Questions:** ¿Se manejarán periodos de prueba? ¿Habrá planes personalizados para empresas inmobiliarias grandes?
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 4.1.2. Context Mapping
@@ -2368,6 +2413,8 @@ El siguiente diagrama sintetiza las relaciones finales y los patrones de integra
 
 ![Context Map Nexora](assets/chapter-4/strategic-ddd/context-mapping/context-map_v2.jpg)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 4.1.3. Software Architecture
@@ -2389,6 +2436,8 @@ El diagrama muestra a los principales actores del negocio, incluyendo visitantes
 
 Las relaciones representadas permiten visualizar cómo los usuarios interactúan con la plataforma, cómo los dispositivos IoT suministran información operativa y cómo la solución se integra con servicios externos para soportar funcionalidades de negocio como la facturación de suscripciones SaaS.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 4.1.3.2. Software Architecture Context Level Diagrams
@@ -2402,6 +2451,8 @@ Esta representación permite identificar quiénes utilizan la solución, qué ne
 El diagrama muestra a Nexora Platform como el núcleo de la solución. Los administradores de propiedades y empresas inmobiliarias utilizan la plataforma para gestionar inmuebles, dispositivos y reportes de consumo. Los inquilinos acceden a información de monitoreo y alertas mediante aplicaciones digitales, mientras que los administradores del sistema realizan tareas de configuración, soporte y gestión de usuarios.
 
 Adicionalmente, la plataforma interactúa con Nexora Hardware para recibir telemetría y ejecutar acciones de control sobre dispositivos IoT, así como con Culqi para procesar pagos asociados a las suscripciones SaaS ofrecidas por la solución.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -2419,6 +2470,8 @@ El backend se implementa mediante un REST API desarrollado bajo una arquitectura
 
 Por otro lado, la capa IoT está compuesta por componentes Edge, Embedded y Fog, responsables de procesar telemetría, coordinar la comunicación con sensores y transmitir información relevante hacia la plataforma central.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 4.1.3.4. Software Architecture Deployment Diagram
@@ -2434,6 +2487,8 @@ El diagrama muestra la distribución de los componentes en diferentes nodos de d
 En los inmuebles inteligentes se despliega la infraestructura IoT, compuesta por dispositivos ESP32, firmware embebido, aplicaciones Edge y almacenamiento local. Esta capa permite recopilar información de sensores, ejecutar acciones de control sobre actuadores y mantener la operación incluso ante interrupciones temporales de conectividad.
 
 La comunicación entre los diferentes nodos permite integrar el mundo físico de los dispositivos IoT con la plataforma SaaS centralizada, garantizando la disponibilidad de información para la toma de decisiones y la atención de incidencias.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -2551,6 +2606,8 @@ La Domain Layer constituye la base conceptual del bounded context y sirve como f
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ##### 4.2.1.2. Interface Layer
@@ -2636,6 +2693,8 @@ Representa la información básica del usuario creada dentro del sistema y utili
 La Interface Layer constituye la capa de presentación del bounded context y se encuentra representada principalmente por el **AuthController**, los objetos de entrada (**Request Models**) y los objetos de salida (**Response Models**) utilizados por los consumidores externos de la plataforma.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -2727,6 +2786,8 @@ En futuras iteraciones, estos comandos podrían implementarse como clases separa
 Este comportamiento orquestador se refleja en los diagramas de componentes y code level, donde la Application Layer conecta las solicitudes recibidas por la Interface Layer con los servicios de seguridad, repositorios y entidades del dominio.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -2867,6 +2928,8 @@ La Infrastructure Layer se encuentra representada en los diagramas de componente
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
@@ -2927,6 +2990,8 @@ Finalmente, la tabla **users_roles** resuelve la relación muchos-a-muchos entre
 - FK: role_id → roles.id
 
 <img src="assets/chapter-4/tactical-ddd/bounded-context-identity-access-management/database-diagram.png" alt="Identity & Access Management - Database Diagram" height="750"/>
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -3110,6 +3175,8 @@ La Domain Layer constituye la base conceptual del bounded context **Service Moni
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 4.2.2.2. Interface Layer
@@ -3201,6 +3268,8 @@ Este recurso permite personalizar el comportamiento del monitoreo según las nec
 La Interface Layer constituye la capa de presentación del bounded context **Service Monitoring & Intelligence** y se encuentra representada principalmente por el **MonitoringController** y los recursos utilizados para exponer información de telemetría, anomalías y configuraciones de monitoreo a los consumidores externos de la plataforma.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -3312,6 +3381,8 @@ La Application Layer soporta las siguientes capacidades principales del bounded 
 La Application Layer constituye el punto de orquestación principal del bounded context **Service Monitoring & Intelligence**, coordinando la interacción entre la Interface Layer, los servicios de dominio, los repositorios y los componentes de infraestructura encargados del monitoreo inteligente.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -3444,6 +3515,8 @@ La Infrastructure Layer constituye el soporte técnico del bounded context **Ser
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
@@ -3507,6 +3580,8 @@ Finalmente, la tabla `anomalies` permite registrar las condiciones críticas det
 - FK: telemetry_record_id → telemetry_records.id
 
 <img src="assets/chapter-4/tactical-ddd/bounded-context-service-monitoring/database-diagram-v2.png" alt="Service Monitoring & Intelligence - Database Diagram"  height="750"/>
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -3714,6 +3789,8 @@ La Domain Layer constituye la base conceptual del bounded context **Resource & A
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 4.2.3.2. Interface Layer
@@ -3812,6 +3889,8 @@ Recurso utilizado para transportar la información necesaria durante el proceso 
 La Interface Layer constituye la capa de presentación del bounded context **Resource & Asset Management** y se encuentra representada principalmente por **AssetManagementController**, **DeviceController** y los recursos utilizados para exponer la jerarquía física, el inventario tecnológico y los procesos de vinculación de dispositivos dentro de Nexora.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -3942,6 +4021,8 @@ La Application Layer soporta las siguientes capacidades principales del bounded 
 La Application Layer constituye el punto principal de orquestación del bounded context **Resource & Asset Management**, coordinando la interacción entre la Interface Layer, los servicios de dominio, los repositorios y los componentes de infraestructura responsables de la administración de activos físicos y dispositivos IoT dentro de Nexora.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -4118,6 +4199,8 @@ La Infrastructure Layer constituye el soporte técnico del bounded context **Res
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
@@ -4187,6 +4270,8 @@ La tabla `device_metadata` almacena información técnica única de cada disposi
 
 
 ![Resource & Asset Management - Database Diagram](assets/chapter-4/tactical-ddd/bounded-context-resource-asset-management/database-diagram_2v.png)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -4366,6 +4451,8 @@ Abstracción utilizada por el dominio para acceder a la persistencia de técnico
 
 La Domain Layer constituye la base conceptual del bounded context **Service Execution & Maintenance** y se refleja en los diagramas de componentes, clases de dominio y diseño de base de datos presentados en las siguientes secciones.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 4.2.4.2. Interface Layer
@@ -4449,6 +4536,8 @@ Transporta la información necesaria para asignar un técnico a una orden.
 - Retornar respuestas HTTP estructuradas.
 
 La Interface Layer constituye la capa de presentación del bounded context **Service Execution & Maintenance** y se encuentra representada principalmente por **MaintenanceController**, **IncidentController** y los recursos utilizados para exponer órdenes, incidentes y asignaciones técnicas.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -4576,6 +4665,8 @@ El servicio de aplicación **MaintenanceService** coordina los principales casos
 - Facilita la implementación de CQRS mediante Commands y Events.
 
 La Application Layer constituye el núcleo de orquestación del bounded context **Service Execution & Maintenance** y se refleja posteriormente en los diagramas de componentes y de nivel de código.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -4735,6 +4826,8 @@ La Infrastructure Layer constituye el soporte técnico del bounded context **Ser
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
@@ -4794,6 +4887,8 @@ La tabla `incidents` almacena los incidentes técnicos recibidos desde el monito
 - FK: maintenance_order_id → maintenance_orders.id
 
 <img src="assets/chapter-4/tactical-ddd/bounded-context-execution-maintenance/database-diagram-2v.png" alt="Service Execution & Maintenance - Database Diagram" width="450"/>
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -5059,6 +5154,8 @@ La Domain Layer constituye la base conceptual del bounded context **Subscription
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 4.2.5.2. Interface Layer
@@ -5212,6 +5309,8 @@ Esta capa se representa en los diagramas mediante los componentes **Subscription
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 4.2.5.3. Application Layer
@@ -5359,6 +5458,8 @@ Su función principal es sincronizar el estado de pagos externos con el modelo d
 La Application Layer se encuentra representada en los diagramas de componentes mediante los servicios **SubscriptionAppService**, **BillingEngineService**, **UsageMetricsService**, **AccessControlService** y **PaymentResultHandler**, mostrando cómo se coordinan los procesos principales del sistema de suscripciones y pagos.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -5555,6 +5656,8 @@ La Infrastructure Layer constituye el soporte técnico del bounded context **Sub
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
@@ -5618,6 +5721,8 @@ La tabla `billing_accounts` almacena las cuentas de facturación de los clientes
 - FK: invoice_id → invoices.id
 
 <img src="assets/chapter-4/tactical-ddd/bounded-context-subscription-payment/database-diagram-2.png" alt="Subscriptions & Payment Management - Database Diagram" height="750"/>
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -5857,6 +5962,8 @@ Se mantiene coherencia en todos los componentes y patrones de interacción, sigu
 
 - **Eficiencia en la interacción:**
 El sistema optimiza los flujos de trabajo mediante la reducción de pasos innecesarios y la priorización de acciones frecuentes. Esto responde al principio de flexibilidad y eficiencia de uso, permitiendo que tanto usuarios novatos como expertos interactúen con el sistema de manera productiva.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -6276,6 +6383,8 @@ Para garantizar consistencia y escalabilidad, todos los lineamientos serán impl
 * Escalabilidad del producto
 * Mejor comunicación entre equipos
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 5.2. Information Architecture
@@ -6373,6 +6482,8 @@ La información se presenta desde los eventos más recientes hasta los más anti
 
 La categorización alfabética se aplica en listados específicos, como propiedades o dispositivos, facilitando la búsqueda rápida cuando se manejan múltiples elementos dentro del sistema.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 5.2.2 Labeling Systems
@@ -6440,6 +6551,8 @@ Siguiendo el principio de asociación4, el sistema evita aglomerar datos. Por ej
 
 Esta arquitectura de etiquetas asegura que Nexora sea intuitivo para visitantes nuevos y eficiente para usuarios recurrentes que gestionan múltiples dispositivos en tiempo real.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 5.2.3. SEO and Meta Tags
@@ -6498,6 +6611,8 @@ Para garantizar que el contenido compartido en plataformas como LinkedIn, Twitte
 *   **Robots.txt:** Configuración para permitir el rastreo de las páginas públicas y restringir el acceso a las áreas sensibles de la aplicación (Dashboard de Administrador).
 *   **Semántica HTML5:** Uso riguroso de etiquetas jerárquicas (H1, H2, H3) y atributos `alt` en imágenes para mejorar la accesibilidad y el rastreo de contenido.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 5.2.4. Searching Systems
@@ -6534,6 +6649,8 @@ En todos los casos, los resultados de búsqueda vacíos muestran un estado expl�
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 5.2.5. Navigation Systems
@@ -6551,6 +6668,8 @@ El **Navigation System** define las acciones y técnicas que guiarán a los usua
 #### **Aplicación Móvil - Tenant App (Inquilinos/Usuarios Finales):**
 *   **Acciones y Técnicas:** Navegación orientada a la inmediatez y la accesibilidad con una sola mano. Se guía al usuario mediante un patrón de **Bottom Navigation Bar** que mantiene siempre accesibles las funciones críticas (Inicio, Dispositivos, Notificaciones).
 *   **Recorrido del Contenido:** El usuario interactúa mediante gestos táctiles directos (Swipes, Taps, Long-press) para controlar dispositivos y reaccionar a alertas. El recorrido fluye desde un dashboard principal resumido hacia pantallas de interacción específicas (modelo Hub-and-Spoke), donde las notificaciones push actúan como atajos inmediatos a la resolución de incidentes, asegurando una interacción rápida y altamente satisfactoria.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -6600,6 +6719,8 @@ Una estructura simplificada que prioriza la legibilidad del texto legal, asegura
 
 ![Landing Legal Wireframe](assets/chapter-5/landing-wireframes/landing-legal-wireframe.png)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 5.3.2. Mock-ups
@@ -6640,6 +6761,8 @@ Diseñada pensando en la experiencia del inquilino, esta sección destaca la fac
 La sección de FAQ utiliza un diseño limpio con componentes desplegables (accordion) que organizan la información de manera eficiente. Esto evita la sobrecarga visual, mejora la escaneabilidad del texto y permite al usuario, tanto en Desktop como en Mobile, acceder a las respuestas específicas que necesita con un mínimo esfuerzo.
 
 ![Preguntas Frecuentes](assets/chapter-5/landing-mockups/FAQ-wireframe.jpg)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -6750,6 +6873,8 @@ La sección de automatizaciones dentro de Devices presenta las reglas agrupadas 
 
 ![Wireframe — Devices automations screen](assets/chapter-5/wireframes/mobile/wireframe-automations.png)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 5.4.2. Application Wireflows Diagrams
@@ -6787,6 +6912,8 @@ La sección de automatizaciones dentro de Devices presenta las reglas agrupadas 
 
 **Automation**
 ![Subscription Web App](assets/chapter-5/wireflows/mobile/automation-wireflow.png)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -6940,6 +7067,8 @@ Además, esta sección brinda al usuario un mayor control sobre la personalizaci
 ![Perfil Mobile App 2](assets/chapter-5/mockups/mobile/profile2-mobileapp-mockup.png)
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -7118,6 +7247,8 @@ La ruta principal contempla la configuración exitosa de alertas inteligentes y 
 
 ![Unexpected Bills Prevention Web User Flow](assets/chapter-5/userflows/web/unexpected-bills-webapp-userflow.png)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 5.5. Applications Prototyping
@@ -7139,6 +7270,8 @@ Los siguientes enlaces dirigen a los prototipos de la aplicación web de Nexora:
 Los siguientes enlaces dirigen a los prototipos de la aplicación web de Nexora:
 
 -   [Prototipo Aplicación Móvil](https://1drv.ms/v/c/a3bebbb4408387f0/IQA9Rq-XIzrFRapRqiL8KkYpAXPCNnsTF53T2YxYZl1ALCQ?e=ZpMBCK)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -7279,6 +7412,8 @@ La información registrada es utilizada posteriormente para actualizar dashboard
 | 5     | Aplicación móvil              | Notificar eventos relevantes y mostrar monitoreo resumido. |
 
 Esta arquitectura permite administrar múltiples dispositivos independientes dentro de una misma propiedad, manteniendo coherencia con funcionalidades como Device Fleet Overview, Alerts, Device Health, Signal y Threshold Configuration presentes en los prototipos de Nexora.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -7508,6 +7643,8 @@ El desarrollo de Nexora se divide en cuatro frentes: web, mobile, IoT e integrac
 | **Uso en Nexora** | Documentación de arquitectura, APIs y decisiones técnicas |
 | **URL** | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 6.1.2. Source Code Management
@@ -7660,6 +7797,8 @@ Para asegurar claridad en el historial del proyecto, se adopta el estándar Conv
 | **refactor** | Mejora de código    | `refactor(service): optimizar lógica de inventario`     |
 | **test**     | Pruebas             | `test(api): agregar pruebas de integración para assets` |
 | **chore**    | Tareas menores      | `chore: actualizar dependencias`                        |
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -8070,6 +8209,8 @@ A nivel de repositorio y arquitectura de carpetas global, la separación es clar
 | **Mobile** | Diseño responsive, touch-friendly (mínimo 44x44px para botones) |
 | **Internacionalización**| Soporte para múltiples idiomas (es, en) |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 6.1.4. Deployment Configuration
@@ -8104,6 +8245,8 @@ A continuación se presenta el Deployment Diagram siguiendo el modelo C4, que il
 #### 5. Edge Service
 *   **Plataforma:** Microsoft Azure.
 *   **Configuración:** Al igual que el backend, el Edge Service se aloja en Azure. Este componente es crítico para la comunicación con los dispositivos IoT, por lo que se despliega con configuraciones de alta disponibilidad para garantizar la recepción constante de telemetría.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -8240,6 +8383,8 @@ This will be confirmed when users can access the Landing Page, navigate core inf
 | US70 | Selección de plan y modalidad de facturación | 5 |
 | US71 | Proceso de pago seguro para activación de suscripción | 8 |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
@@ -8280,6 +8425,8 @@ Cada aspecto incluye un líder designado responsable de coordinar las actividade
 | Peña Riofrio, Maria Fernanda | [@mariafep](https://github.com/mariafep) | C | C | C | C | L | L | C | C | C | C | C | C | C | C | C | C |
 | Castañeda Llanos, Kevin Alexander | [@KevCast1604](https://github.com/KevCast1604) | C | C | C | C | C | C | C | C | L | L | C | C | C | C | C | C |
 | Muñoz Vilcapoma, Mauricio | [@MauricioMVilcapoma](https://github.com/MauricioMVilcapoma) | C | C | C | C | C | C | L | L | C | C | C | C | C | C | C | C |
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -8438,6 +8585,8 @@ Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equi
 | US-71 | Preparación Release Sprint 1 | T-142 | Validar versión candidata | Ejecución de pruebas finales de aceptación | 4 | Todo el equipo | Done |
 | US-71 | Preparación Release Sprint 1 | T-143 | Preparar entrega y despliegue | Configuración de build y publicación del Sprint | 4 | Todo el equipo | Done |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.1.4. Development Evidence for Sprint Review
@@ -8459,10 +8608,14 @@ En esta sección se explican y presentan los avances en implementación con rela
 | nexora.website | feature/testimonials-section | a6e1696 | feat: add testimonials section | - | 14/05/2026 |
 | nexora.website | feature/landlord-product-view | ebab2f0 | feat: add terms and conditions page | - | 14/05/2026 |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 No aplica para este Sprint.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -8498,10 +8651,14 @@ En el siguiente enlace se puede visualizar el recorrido funcional de la aplicaci
 
 **Enlace al Video:** [https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 No aplica para este Sprint, ya que no se desarrolló backend para esta etapa del proyecto.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -8610,6 +8767,8 @@ La aplicación frontend fue desplegada exitosamente y quedó disponible mediante
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
@@ -8642,6 +8801,8 @@ A partir de la información visualizada en los analíticos de GitHub, el equipo 
 4.  **Participación Multidisciplinaria**: Siguiendo los requerimientos del curso, se puede verificar que todos los miembros tuvieron participación directa en la implementación técnica. Esto no solo se limitó a la codificación, sino también al despliegue y la configuración de los entornos de desarrollo.
 
 En conclusión, los analíticos de GitHub validan que el proceso de implementación del Sprint 1 fue un esfuerzo conjunto y coordinado, cumpliendo con los estándares de calidad y colaboración exigidos para el proyecto Nexora.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -8766,6 +8927,8 @@ Qualitative insights are gathered from active validation interviews using both p
 | TS-HW-01 | Ensamblaje Electrónico y Calibración del Sensor de Gas | 3 |
 | TS-HW-02 | Ensamblaje del ESP32 con el sensor MQ2 para detección de gases | 3 |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.2.2. Aspect Leaders and Collaborators
@@ -8790,6 +8953,8 @@ El propósito de esta sección es establecer la Matriz de Liderazgo y Colaboraci
 
 > **L**: Leader (Líder de aspecto)  
 > **C**: Collaborator (Colaborador)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -8855,6 +9020,8 @@ Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equi
 | TS-EDGE-02 | Persistencia Perimetral de Datos en Contingencia (Modo Offline) | T-43 | Implementar almacenamiento local SQLite en gateway en modo offline | Implementación del modo offline con almacenamiento en base de datos local SQLite. | 8 | Jorge Alexandro Linares Arroyo | Done |
 | TS-HW-01 | Ensamblaje Electrónico y Calibración del Sensor de Gas | T-44 | Ensamblar prototipo físico y calibrar sensor de gas MQ2 | Ensamblaje del circuito y calibración física del sensor de gas analógico MQ-2. | 6 | Todo el equipo | Done |
 | TS-HW-02 | Ensamblaje del ESP32 con el sensor MQ2 para detección de gases | T-45 | Montar circuito electrónico ESP32 con módulo sensor de gas | Conexión electrónica y soldadura del ESP32 con el sensor MQ2 en placa de desarrollo. | 5 | Todo el equipo | Done |
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -9053,6 +9220,8 @@ En esta sección se explican y presentan los avances en implementación con rela
 | nexora.webapp | feature/shared | f22e5e5| feat(shared): integrate i18n and enhanced features into SidebarMenu| ---| 19/06/2026|
 | nexora.webapp | feature/shared | f392e85| feat(shared): add DDD infrastructure foundation| ---| 19/06/2026|
 | nexora.webapp | feature/ddd-architecture-migration || fix: update file tree, remove folders that follow a clean architecture| ---| 19/06/2026|
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -9391,6 +9560,8 @@ Relación de commits vinculados con los avances del Testing de este Sprint:
 | [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `628b722` | test: add unit and BDD tests for device management contexts | Implement Unit Tests for Device entity domain logic and Gherkin BDD scenario for registering new devices to properties. | 20/06/2026 |
 | [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `1ee5b4c` | test: add unit and BDD tests for alert context | Create Unit Tests for Alert domain entity and BDD integration scenario for filtering alerts by severity and type. | 20/06/2026 |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
@@ -9458,6 +9629,8 @@ Evidencia del prototipo en desarrollo ejecutándose sobre el emulador o Chrome:
 ---
 
 **Enlace al Video:** [https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW](https://1drv.ms/v/c/ec31a436d835fad6/IQB6Wk_CLkreRb0JIaixSE6tASLNX9u8MeauqWRv3ikCOAU?e=CI7eXW)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -9818,6 +9991,8 @@ A continuación se detallan los endpoints clave desarrollados y documentados en 
   ![Captura de Swagger UI - Descarga de Reporte PDF de Alertas](assets/chapter-6/implementation/sprint-2/reports-swagger-document.jpg)
   * *Descripción:* Descarga de reporte de alertas de tipo `application/pdf`.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
@@ -9939,6 +10114,8 @@ La aplicación web en Vercel fue actualizada para transicionar de componentes vi
 
 **URL de la aplicación web:** [https://nexora-webapp-eight.vercel.app/login](https://nexora-webapp-eight.vercel.app/login)
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
@@ -9982,6 +10159,8 @@ A partir de las métricas visualizadas en los analíticos de GitHub para el Spri
     -   **Aplicaciones (Mobile & Web)**: Desarrollo de la aplicación móvil bajo arquitectura DDD y la aplicación web para la monitorización de alertas y el panel analítico.
 
 En conclusión, los analíticos del repositorio confirman que la entrega de valor de Nexora en este Sprint 2 se llevó a cabo bajo un enfoque coordinado, con una alta participación de todos sus integrantes, y asegurando el cumplimiento de las metas planteadas en el Sprint Backlog.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -10077,6 +10256,8 @@ Culminar e integrar el ecosistema de la plataforma mediante la implementación d
 | TS11 | API de logs y perfil de hardware de dispositivo | 3 |
 | TS27 | API de historial de facturación y comprobantes | 3 |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.3.2. Aspect Leaders and Collaborators
@@ -10103,6 +10284,8 @@ El propósito de esta sección es establecer la Matriz de Liderazgo y Colaboraci
 
 > **L**: Leader (Líder de aspecto)  
 > **C**: Collaborator (Colaborador)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -10158,6 +10341,8 @@ Asimismo, el Sprint Backlog permitió organizar el trabajo colaborativo del equi
 | TS-EMB-06 | Sensor de caudal a 50 LPM y mitigación de ruido analógico | T-34 | Calibrar lectura de flujo de agua y aplicar filtros de ruido | Firmware del ESP32 calibrado a 50 LPM y algoritmo de promedio móvil para evitar lecturas ruidosas. | 5 | Jorge Alexandro Linares Arroyo | Done |
 | TS11 | API de logs y perfil de hardware de dispositivo | T-35 | Crear API de logs de hardware en Web Service | Endpoints para registrar y leer logs operativos y perfiles del hardware ESP32. | 3 | Sebastian Ramirez Tello | Done |
 | TS27 | API de historial de facturación y comprobantes | T-36 | Implementar API de facturas e historial | Endpoint para listar facturas y coordinar la descarga de recibos con Stripe. | 3 | Kevin Alexander Castañeda Llanos | Done |
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -11200,6 +11385,8 @@ Repository URL: https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webser
 | Web Service | hotfix/restful-endpoints | 414b736673c533dfea9ce38e28b1ee2294a3efe1 | feat: add seed telemetry data for reports |  | 2026-06-29T13:29:54-05:00 |
 | Web Service | hotfix/restful-endpoints | 82f81593ec55419293f640e53aba679267130787 | fix: update migration files |  | 2026-06-23T12:14:22-05:00 |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
@@ -11616,6 +11803,8 @@ Relación de commits vinculados a las características y pruebas desarrolladas e
 | [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `0a49ce3` | feat(payment): integrate Stripe.net payments, webhook endpoint, and update database fields | Introduce Stripe.net client wrapper and local database migrations. | 02/07/2026 |
 | [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice) | `develop` | `1471f1f` | feat(telemetry): implement transition-based alert evaluation to mitigate telemetry alert spam | Implement edge-triggered alerts in monitoring intelligence service. | 04/07/2026 |
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
@@ -11670,17 +11859,380 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet sem libero
 
 **Enlace al Video:** AGREGAR ENLACE
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+#### **Introducción y Logros de Documentación**
+
+Durante el Sprint 3, se documentaron y validaron los servicios del **Web Service (Nexora Web API)** utilizando **Swagger / OpenAPI (v1)** como herramienta principal de documentación y prueba. Esta documentación permitió visualizar, ejecutar y verificar el comportamiento de los principales endpoints implementados, manteniendo la estructura RESTful bajo la ruta base `/api/v1/`.
+
+Asimismo, la documentación evidencia la implementación de servicios correspondientes a los bounded contexts del backend bajo la arquitectura de **Monolito Modular**, incluyendo funcionalidades relacionadas con la gestión de perfiles, configuración del usuario, propiedades, suscripciones y otros servicios complementarios de la plataforma. La validación de estos endpoints se realizó mediante respuestas obtenidas directamente desde Swagger, garantizando la consistencia entre la implementación del backend y su documentación técnica.
+
+### Logros Clave de Documentación en este Sprint
+
+* **Actualización de endpoints RESTful:** Se documentaron los principales endpoints implementados y validados durante el Sprint 3, manteniendo la estructura versionada bajo `/api/v1/`.
+* **Soporte de seguridad JWT Bearer:** Swagger mantiene el esquema de autenticación mediante `Bearer {token}`, permitiendo validar correctamente los endpoints protegidos.
+* **Documentación de módulos funcionales:** Se evidenciaron servicios correspondientes a los bounded contexts de Identity & Access, Resource & Asset Management, Monitoring & Intelligence y Subscriptions & Payment.
+* **Validación mediante Swagger/OpenAPI:** Se verificó el funcionamiento de los endpoints utilizando Swagger, obteniendo respuestas reales del backend para documentar su comportamiento.
+* **Ejemplos de solicitudes y respuestas:** La documentación incorpora ejemplos representativos de respuestas JSON obtenidas desde la API, facilitando la comprensión de la estructura de los servicios implementados.
+
+---
+
+#### **Repositorio y Commits del Web Service**
+
+* **URL del Repositorio:** [https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice](https://github.com/upc-202610-1ASI0572-6779-NexIoT/nexora.webservice)
+* **Rama Principal de Desarrollo:** `develop`
+
+#### Commits Relacionados con la Implementación y Documentación (Sprint 3):
+
+| Commit ID | Autor / Desarrollador | Mensaje de Confirmación | Fecha |
+| :--- | :--- | :--- | :--- |
+| `042813d` | Andrea | feat: add consumption report analytics | 29/06/26 |
+| `f9961fc` | Jorge | feat: add AlertsController for monitoring and ticket management and configure Web API infrastructure | 30/06/26 |
+| `395db94` | Kevin |feat(stripe): integrate checkout payments, webhook card saving, and plan upgrades| 02/07/26 |
+| `919e74d` | Jhosep |feat(subscriptions): add landlord payment method retrieval and update| 04/07/26 |
+| `c1a2f35` | Jorge |feat(tenants): update tenant model to support nullable PropertyId and adjust related logic| 07/07/26 |
+---
+
+#### **Relación de Endpoints Actualizados o Evidenciados en Sprint 3**
+
+En el Sprint 3 no se repite la documentación completa de todos los servicios del backend. En su lugar, se evidencian los endpoints que fueron incorporados, ampliados o utilizados para validar las funcionalidades trabajadas durante este sprint, principalmente en configuración de usuario, gestión de propiedades e inquilinos, alertas, reportes y suscripciones.
+
+| Contexto Acotado | Módulo/Controlador | Método HTTP | Sintaxis del Endpoint | Autorización |
+| :--- | :--- | :--- | :--- | :--- |
+| **Identity & Access** | `Settings` | GET | `/api/v1/settings` | Requiere JWT |
+| **Identity & Access** | `Settings` | PUT | `/api/v1/settings/language` | Requiere JWT |
+| **Identity & Access** | `Settings` | PUT | `/api/v1/settings/notifications` | Requiere JWT |
+| **Identity & Access** | `Settings` | PUT | `/api/v1/settings/security/passwords` | Requiere JWT |
+| **Identity & Access** | `Settings` | PUT | `/api/v1/settings/security/two-factor` | Requiere JWT |
+| **Resource & Asset** | `Properties` | GET | `/api/v1/properties/stats` | Requiere JWT |
+| **Resource & Asset** | `Properties` | GET | `/api/v1/properties/dashboards` | Requiere JWT |
+| **Resource & Asset** | `Properties` | PUT | `/api/v1/properties/{id}/status` | Requiere JWT |
+| **Resource & Asset** | `Tenants` | POST | `/api/v1/tenants` | Requiere JWT |
+| **Resource & Asset** | `Tenants` | GET | `/api/v1/tenants` | Requiere JWT |
+| **Resource & Asset** | `Tenants` | GET | `/api/v1/tenants/{id}` | Requiere JWT |
+| **Resource & Asset** | `Tenants` | PUT | `/api/v1/tenants/{id}` | Requiere JWT |
+| **Resource & Asset** | `Tenants` | DELETE | `/api/v1/tenants/{id}` | Requiere JWT |
+| **Resource & Asset** | `Tenants` | GET | `/api/v1/properties/{propertyId}/tenants` | Requiere JWT |
+| **Monitoring & Intelligence** | `Alerts` | GET | `/api/v1/alerts` | Requiere JWT |
+| **Monitoring & Intelligence** | `Alerts` | GET | `/api/v1/alerts/{id}` | Requiere JWT |
+| **Monitoring & Intelligence** | `Alerts` | POST | `/api/v1/alerts/{id}/tickets` | Requiere JWT |
+| **Monitoring & Intelligence** | `Alerts` | PUT | `/api/v1/alerts/{id}/status` | Requiere JWT |
+| **Monitoring & Intelligence** | `Reports` | GET | `/api/v1/reports` | Requiere JWT |
+| **Monitoring & Intelligence** | `Reports` | GET | `/api/v1/alerts/reports` | Requiere JWT |
+| **Subscriptions & Payment** | `Subscriptions` | GET | `/api/v1/subscriptions/plans` | Requiere JWT |
+| **Subscriptions & Payment** | `Subscriptions` | GET | `/api/v1/subscriptions/current` | Requiere JWT |
+| **Subscriptions & Payment** | `Subscriptions` | POST | `/api/v1/subscriptions` | Requiere JWT |
+| **Subscriptions & Payment** | `Subscriptions` | GET | `/api/v1/subscriptions/payment-methods` | Requiere JWT |
+| **Subscriptions & Payment** | `Subscriptions` | PUT | `/api/v1/subscriptions/payment-methods/{id}` | Requiere JWT |
+| **Subscriptions & Payment** | `Subscriptions` | GET | `/api/v1/subscriptions/invoices` | Requiere JWT |
+| **Subscriptions & Payment** | `Subscriptions` | PUT | `/api/v1/subscriptions/status` | Requiere JWT |
+---
+
+#### **Especificación Técnica de los Endpoints del Sprint 3**
+
+Durante el Sprint 3 se validaron endpoints pertenecientes a distintos bounded contexts implementados en el backend de Nexora. A continuación, se presentan algunos de los servicios más representativos, junto con ejemplos de las respuestas obtenidas mediante Swagger/OpenAPI.
+
+---
+
+#### **Módulo de Configuración de Usuario**
+
+##### A. Obtener configuración del usuario
+
+* **Verbo HTTP:** GET
+* **Sintaxis:** `/api/v1/settings`
+* **Cabecera de Autorización:** `Authorization: Bearer {token}`
+* **Descripción:** Permite consultar la configuración del usuario autenticado, incluyendo idioma, preferencias de notificación, información de la cuenta y opciones de seguridad.
+
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+
+```json
+{
+  "language": {
+    "code": "es",
+    "label": "Español",
+    "isSelected": true
+  },
+  "notifications": {
+    "emailAlerts": true,
+    "smsAlerts": false,
+    "pushAlerts": true
+  },
+  "account": {
+    "firstName": "Mafer",
+    "lastName": "Riofrio",
+    "email": "mafer10@mail.com",
+    "country": "Peru",
+    "city": "Lima",
+    "phoneNumber": "983762541"
+  },
+  "security": {
+    "is2faActive": false,
+    "lastPasswordChange": "Never"
+  }
+}
+```
+
+---
+
+#### **Módulo de Gestión de Propiedades**
+
+##### A. Obtener detalle de una propiedad
+
+* **Verbo HTTP:** GET
+* **Sintaxis:** `/api/v1/properties/{id}`
+* **Cabecera de Autorización:** `Authorization: Bearer {token}`
+* **Descripción:** Permite consultar la información detallada de una propiedad registrada, incluyendo su ubicación, estado y propietario.
+
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+
+```json
+{
+  "id": 5,
+  "propertyCode": "HSE-002",
+  "name": "Departamento 1",
+  "propertyType": "HOUSE",
+  "country": "Peru",
+  "city": "Lima",
+  "status": "ACTIVE",
+  "isSecurityModeArmed": true,
+  "landlord": {
+    "id": 7,
+    "firstName": "Mafer",
+    "lastName": "Riofrio"
+  }
+}
+```
+
+---
+
+#### **Módulo de Perfil de Usuario**
+
+##### A. Obtener perfil del usuario autenticado
+
+* **Verbo HTTP:** GET
+* **Sintaxis:** `/api/v1/profiles/me`
+* **Cabecera de Autorización:** `Authorization: Bearer {token}`
+* **Descripción:** Permite obtener la información del perfil correspondiente al usuario autenticado.
+
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+
+```json
+{
+  "profile": {
+    "email": "mafer10@mail.com",
+    "firstName": "Mafer",
+    "lastName": "Riofrio",
+    "isActive": true,
+    "country": "Peru",
+    "city": "Lima",
+    "address": "Jr. Napo",
+    "phoneNumber": "983762541"
+  }
+}
+```
+
+---
+
+#### **Módulo de Suscripciones**
+
+##### A. Obtener planes de suscripción
+
+* **Verbo HTTP:** GET
+* **Sintaxis:** `/api/v1/subscriptions/plans`
+* **Descripción:** Permite consultar los planes de suscripción disponibles dentro de la plataforma.
+
+* **Ejemplo de Respuesta (HTTP 200 - OK):**
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "monthlyPrice": 32.12,
+    "maxPropertiesLimit": 2,
+    "unlimitedProperties": false
+  },
+  {
+    "id": 2,
+    "name": "Professional",
+    "monthlyPrice": 44.20,
+    "maxPropertiesLimit": 0,
+    "unlimitedProperties": true
+  }
+]
+```
+
+---
+
+#### **Capturas de Interacción con OpenAPI/Swagger**
+
+#### **Vista general de Swagger UI**
+
+* **Interacción:** Visualización general de todos los controladores documentados en Swagger.
+
+* **Acción:** Se evidencia la documentación organizada por módulos como **Auth**, **Profile**, **Settings**, **Properties**, **Tenants**, **Telemetry**, **Alerts**, **Reports** y **Subscriptions**, facilitando la exploración y validación de los servicios REST implementados.
+
+![Captura de Swagger UI - Vista General](assets/chapter-6/implementation/sprint-3/swagger-general.png)
+
+---
+
+#### **Configuración de usuario**
+
+* **Interacción:** `GET /api/v1/settings`, `PUT /api/v1/settings/language` y `PUT /api/v1/settings/notifications`.
+
+* **Acción:** Se visualiza la consulta y actualización de las preferencias de configuración del usuario autenticado.
+
+![Captura de Swagger UI - Settings](assets/chapter-6/implementation/sprint-3/swagger-settings.png)
+
+---
+
+#### **Gestión de propiedades e inquilinos**
+
+* **Interacción:** `POST /api/v1/tenants`, `GET /api/v1/tenants` y `GET /api/v1/properties/{propertyId}/tenants`.
+
+* **Acción:** Se evidencia el registro, consulta y administración de los inquilinos asociados a las propiedades del usuario.
+
+![Captura de Swagger UI - Tenants](assets/chapter-6/implementation/sprint-3/swagger-tenants.png)
+
+---
+
+#### **Perfil de usuario**
+
+* **Interacción:** `GET /api/v1/profiles/me`.
+
+* **Acción:** Se evidencia la consulta de la información del perfil del usuario autenticado mediante JWT, mostrando que los servicios protegidos responden correctamente cuando se utiliza un token válido.
+
+![Captura de Swagger UI - Profile](assets/chapter-6/implementation/sprint-3/swagger-profile.png)
+
+---
+
+#### **Suscripciones y métodos de pago**
+
+* **Interacción:** `GET /api/v1/subscriptions/plans`, `POST /api/v1/subscriptions` y `PUT /api/v1/subscriptions/payment-methods/{id}`.
+
+* **Acción:** Se evidencia la consulta de planes disponibles, la activación de una suscripción y la actualización de los métodos de pago registrados por el usuario.
+
+![Captura de Swagger UI - Subscriptions](assets/chapter-6/implementation/sprint-3/swagger-subscriptions.png)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint 3, el equipo de Nexora continuó utilizando una metodología de trabajo altamente colaborativa y la división de responsabilidades según los roles técnicos definidos. Para este Sprint, el alcance incluyó el desarrollo paralelo y la integración de múltiples componentes clave de la solución de IoT: **Edge Service**, **Mobile App**, **Embedded Apps**, **Web Service** y **Web Application**.
+
+La gestión de código y la colaboración técnica se centralizaron en GitHub, usando los estándares de Gitflow, además de realizarse revisiones cruzadas de código (*Code Reviews*) por parte de los líderes de aspecto, y validaciones previas a la fusión para asegurar la consistencia arquitectónica y de diseño (DDD).
+
+##### Analíticos de Colaboración y Commits en GitHub
+
+A continuación, se presentan las capturas de pantalla de los analíticos de colaboración (Pulse / Contributors) recopiladas directamente de GitHub para cada uno de los componentes de software desarrollados en el Sprint 3:
+
+###### 1. Web Application (nexora.webapp)
+
+*Métrica de actividad general y commits (GitHub Pulse) en el repositorio de la Web Application:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/pulse-webapp.jpg" alt="GitHub Pulse - Web Application" width="700" />
+</p>
+
+*Volumen de aportes de código y commits por autor (Página 1) en el repositorio de la Web Application:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/contributors-appweb1.jpg" alt="GitHub Contributors - Web Application 1" width="700" />
+</p>
+
+*Volumen de aportes de código y commits por autor (Página 2) en el repositorio de la Web Application:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/contributors-appweb2.jpg" alt="GitHub Contributors - Web Application 2" width="700" />
+</p>
+
+###### 2. Mobile App (nexora.mobileapp)
+
+*Métrica de actividad general y commits (GitHub Pulse) en el repositorio de la Mobile Application:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/pulse-mobile.jpg" alt="GitHub Pulse - Mobile App" width="700" />
+</p>
+
+*Volumen de aportes de código y commits por autor (Página 1) en el repositorio de la Mobile Application:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/contributors-mobile1.jpg" alt="GitHub Contributors - Mobile App 1" width="700" />
+</p>
+
+*Volumen de aportes de código y commits por autor (Página 2) en el repositorio de la Mobile Application:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/contributors-mobile2.jpg" alt="GitHub Contributors - Mobile App 2" width="700" />
+</p>
+
+###### 3. Web Service (nexora.webservice)
+
+*Métrica de actividad general y commits (GitHub Pulse) en el repositorio de Web Service:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/pulse-webservice.jpg" alt="GitHub Pulse - Web Service" width="700" />
+</p>
+
+*Volumen de aportes de código y commits por autor (Página 1) en el repositorio de Web Service:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/contributors-webservice1.jpg" alt="GitHub Contributors - Web Service 1" width="700" />
+</p>
+
+*Volumen de aportes de código y commits por autor (Página 2) en el repositorio de Web Service:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/contributors-webservice2.jpg" alt="GitHub Contributors - Web Service 2" width="700" />
+</p>
+
+###### 4. Edge Service (nexora.edgeservice)
+
+*Métrica de actividad general y commits (GitHub Pulse) en el repositorio de Edge Service:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/pulse-edge.jpg" alt="GitHub Pulse - Edge Service" width="700" />
+</p>
+
+*Volumen de aportes de código y commits por autor (Página 1) en el repositorio de Edge Service:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/contributors-edge1.jpg" alt="GitHub Contributors - Edge Service 1" width="700" />
+</p>
+
+*Volumen de aportes de código y commits por autor (Página 2) en el repositorio de Edge Service:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/contributors-edge2.jpg" alt="GitHub Contributors - Edge Service 2" width="700" />
+</p>
+
+###### 5. Embedded Apps (nexora.embeddedapp)
+
+*Métrica de actividad general y commits (GitHub Pulse) en el repositorio de la Embedded Application:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/pulse-embedded.jpg" alt="GitHub Pulse - Embedded Apps" width="700" />
+</p>
+
+*Volumen de commits y aportes de código por autor en el repositorio de la Embedded Application:*
+<p align="center">
+  <img src="assets/chapter-6/implementation/sprint-3/contributors-embedded.jpg" alt="GitHub Contributors - Embedded Apps" width="700" />
+</p>
+
+##### Interpretación de los Analíticos
+
+A partir de las métricas visualizadas en los analíticos de GitHub para el Sprint 3, el equipo presenta la siguiente interpretación:
+
+1.  **Distribución de Trabajo y Cohesión**: Los analíticos de contribuciones de este último Sprint reflejan la consolidación final del equipo. Las tareas de integración, pruebas cruzadas y estabilización de las capas del sistema (Domain, Interface, Application, Infrastructure) se dividieron de forma equitativa.
+2.  **Ritmo de Desarrollo y Frecuencia de Commits**: La frecuencia de commits fue sumamente activa en la última fase del proyecto. Se evidencian picos elevados relacionados directamente con hitos clave: la integración de Stripe para cobros de planes premium en el backend, la finalización del asistente de configuración de automatizaciones en el frontend, y la calibración del sensor analógico de caudal con mitigación de ruido en el firmware del ESP32.
+3.  **Gestión de Ramas e Integración Sincronizada**: Se mantuvo una estricta política de ramificación (feature branches independientes). El cierre ordenado de Pull Requests mediante code review y pruebas automáticas previas a la fusión a `develop` y finalmente a `main` permitió un incremento estable de valor y la posterior publicación limpia de la versión release del proyecto.
+4.  **Participación en los Productos del Sprint**: Se evidencia y documenta la participación equitativa de todos los miembros en la implementación de los entregables funcionales finales de este Sprint:
+    -   **Web Services & APIs**: Desarrollo final de los endpoints RESTful con filtros multitenant de aislamiento, procesamiento de pagos con Stripe y endpoints de administración de suscripciones.
+    -   **Web & Mobile Application**: Maquetación e integración del flujo interactivo de pagos en la web, y desarrollo de la aplicación móvil nativa para inquilinos con visualización del dashboard de propiedades, panel de incidentes y alarmas.
+    -   **Edge Service & Embedded App**: Implementación de la selección dinámica de protocolo de transporte (HTTP/HTTPS) en el firmware y optimización del sensor de flujo.
+
+En conclusión, los analíticos del repositorio confirman que la entrega de valor de Nexora en este Sprint 3 se llevó a cabo bajo un enfoque coordinado, con una alta participación de todos sus integrantes, y asegurando el cumplimiento de las metas planteadas en el Sprint Backlog.
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -11786,6 +12338,8 @@ Durante la evaluación de los productos, se solicita al usuario realizar las sig
 3. **Histórico de Consumos:** El usuario navega hacia el módulo de "Historial", selecciona un rango de fechas y visualiza la gráfica de consumo comparativo respecto al mes anterior.
 4. **Notificaciones:** El usuario verifica la recepción de una notificación push de "Alerta de Seguridad" (simulada) y accede al detalle del evento para visualizar las instrucciones de seguridad proporcionadas por el propietario.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 6.3.2. Registro de Entrevistas de Validación
@@ -11878,6 +12432,8 @@ Esta sección presenta el registro detallado de las entrevistas de validación r
 | **Timing de la Entrevista:**  | Inicio en 00:00 | Duración total: 5 Mins 00 segs   |
 | **Evidencia de la Entrevista (Screenshot):** | ![Captura de Pantalla - Entrevista 4](assets/chapter-6/validation-interviews/validation-interview-4.png) |
 | **Resumen de la Entrevista (Principales Apreciaciones):** | **Landing Page:** El entrevistado considera que el diseño visual es moderno y explica adecuadamente cómo los sensores previenen accidentes (como fugas de gas) y aseguran la transparencia en la facturación, lo cual le genera tranquilidad como inquilino. <br><br> **Mobile App:** Considera de gran utilidad la visualización de consumos históricos y en tiempo real de agua y energía eléctrica. Sin embargo, observó que las alertas ante anomalías de consumo deberían ser más prominentes en la pantalla de inicio, y sugirió la implementación de notificaciones push de alta prioridad. <br><br> **Conclusiones y Recomendaciones del Usuario:** Le parece excelente contar con un control móvil para la monitorización de su departamento. Recomienda destacar visualmente las alertas críticas en la interfaz y proveer plantillas de automatización rápidas para reducir consumos comunes. |
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -12047,6 +12603,8 @@ Al interactuar con el selector de idiomas de la *Landing Page*, se observa una i
 * Revisar el archivo de configuración de idiomas (JSON o localizador) para asegurar que todas las cadenas de texto del footer estén correctamente mapeadas.
 * Implementar un mecanismo de *fallback* automático que valide la carga completa de las traducciones antes de permitir la navegación, o asegurar que las variables de texto en el componente del footer estén vinculadas correctamente a la librería de i18n del proyecto.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### 6.4.1. Video About-the-Product
@@ -12088,6 +12646,8 @@ El contenido está estructurado para captar la atención de arrendadores y arren
 Como parte de nuestro compromiso con la transparencia, incluimos el testimonio de nuestra entrevistada **Veronica Rojas (40 años, Arrendadora)** (_Nota: Visualizar testimonio en el Video About The Product_):
 
 > *"Nexora me ha dado una tranquilidad que no tenía antes. Poder monitorear mis propiedades en tiempo real y recibir alertas inmediatas de fugas sin tener que desplazarme físicamente, es un alivio total. La plataforma es intuitiva y, sinceramente, es la herramienta que todo propietario necesita para gestionar sus inmuebles con mayor eficiencia y seguridad."*
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -12131,6 +12691,8 @@ Con el fin de garantizar el crecimiento sostenible del proyecto Nexora, se sugie
 6. **Mejora de la performance**: Se recomienda continuar mejorando la performance de la plataforma, revisando métricas de proveedores externos para corroborar tiempos de carga.
 7. **Mejora de la testeabilidad**: Se recomienda continuar mejorando la testeabilidad de la plataforma, aumentando el alcance de los Unit Test, Tests de Integración u otras herramientas como SonarQube, Checkstyle, Selenium, etc.
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 # Referencias Bibliográficas
@@ -12160,6 +12722,8 @@ Con el fin de garantizar el crecimiento sostenible del proyecto Nexora, se sugie
 *   UXPressia. (n.d.). *How to build a customer empathy map (example + template)*. [https://uxpressia.com/blog/empathy-map-free-template](https://uxpressia.com/blog/empathy-map-free-template)
 *   UXPressia. (n.d.). *How to create an impact map in 7 easy steps*. [https://uxpressia.com/blog/build-impact-map-4-easy-steps](https://uxpressia.com/blog/build-impact-map-4-easy-steps)
 *   UXPressia. (n.d.). *User vs. Buyer Persona: Differences and free template*. [https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference](https://uxpressia.com/blog/user-persona-vs-buyer-persona-difference)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -12196,3 +12760,5 @@ En esta sección se consolidan los recursos digitales y evidencias complementari
 *   **Landing Page en Producción:** [https://upc-202610-1asi0572-6779-nexiot.github.io/nexora.website/](https://upc-202610-1asi0572-6779-nexiot.github.io/nexora.website/index.html)
 
 * **WebService en Producción:** [https://nexora-webservice.onrender.com/swagger/index.html](https://nexora-webservice.onrender.com/swagger/index.html)
+
+<div style="page-break-after: always;"></div>
