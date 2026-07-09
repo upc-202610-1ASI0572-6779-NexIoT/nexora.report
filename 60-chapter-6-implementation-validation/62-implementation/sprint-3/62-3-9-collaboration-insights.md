@@ -12,80 +12,80 @@ A continuación, se presentan las capturas de pantalla de los analíticos de col
 
 *Métrica de actividad general y commits (GitHub Pulse) en el repositorio de la Web Application:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/pulse-webapp.jpg" alt="GitHub Pulse - Web Application" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/pulse-webapp.jpg" alt="GitHub Pulse - Web Application" width="700" />
 </p>
 
 *Volumen de aportes de código y commits por autor (Página 1) en el repositorio de la Web Application:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-appweb1.jpg" alt="GitHub Contributors - Web Application 1" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-appweb1.jpg" alt="GitHub Contributors - Web Application 1" width="700" />
 </p>
 
 *Volumen de aportes de código y commits por autor (Página 2) en el repositorio de la Web Application:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-appweb2.jpg" alt="GitHub Contributors - Web Application 2" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-appweb2.jpg" alt="GitHub Contributors - Web Application 2" width="700" />
 </p>
 
 ###### 2. Mobile App (nexora.mobileapp)
 
 *Métrica de actividad general y commits (GitHub Pulse) en el repositorio de la Mobile Application:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/pulse-mobile.jpg" alt="GitHub Pulse - Mobile App" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/pulse-mobile.jpg" alt="GitHub Pulse - Mobile App" width="700" />
 </p>
 
 *Volumen de aportes de código y commits por autor (Página 1) en el repositorio de la Mobile Application:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-mobile1.jpg" alt="GitHub Contributors - Mobile App 1" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-mobile1.jpg" alt="GitHub Contributors - Mobile App 1" width="700" />
 </p>
 
 *Volumen de aportes de código y commits por autor (Página 2) en el repositorio de la Mobile Application:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-mobile2.jpg" alt="GitHub Contributors - Mobile App 2" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-mobile2.jpg" alt="GitHub Contributors - Mobile App 2" width="700" />
 </p>
 
 ###### 3. Web Service (nexora.webservice)
 
 *Métrica de actividad general y commits (GitHub Pulse) en el repositorio de Web Service:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/pulse-webservice.jpg" alt="GitHub Pulse - Web Service" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/pulse-webservice.jpg" alt="GitHub Pulse - Web Service" width="700" />
 </p>
 
 *Volumen de aportes de código y commits por autor (Página 1) en el repositorio de Web Service:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-webservice1.jpg" alt="GitHub Contributors - Web Service 1" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-webservice1.jpg" alt="GitHub Contributors - Web Service 1" width="700" />
 </p>
 
 *Volumen de aportes de código y commits por autor (Página 2) en el repositorio de Web Service:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-webservice2.jpg" alt="GitHub Contributors - Web Service 2" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-webservice2.jpg" alt="GitHub Contributors - Web Service 2" width="700" />
 </p>
 
 ###### 4. Edge Service (nexora.edgeservice)
 
 *Métrica de actividad general y commits (GitHub Pulse) en el repositorio de Edge Service:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/pulse-edge.jpg" alt="GitHub Pulse - Edge Service" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/pulse-edge.jpg" alt="GitHub Pulse - Edge Service" width="700" />
 </p>
 
 *Volumen de aportes de código y commits por autor (Página 1) en el repositorio de Edge Service:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-edge1.jpg" alt="GitHub Contributors - Edge Service 1" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-edge1.jpg" alt="GitHub Contributors - Edge Service 1" width="700" />
 </p>
 
 *Volumen de aportes de código y commits por autor (Página 2) en el repositorio de Edge Service:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-edge2.jpg" alt="GitHub Contributors - Edge Service 2" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-edge2.jpg" alt="GitHub Contributors - Edge Service 2" width="700" />
 </p>
 
 ###### 5. Embedded Apps (nexora.embeddedapp)
 
 *Métrica de actividad general y commits (GitHub Pulse) en el repositorio de la Embedded Application:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/pulse-embedded.jpg" alt="GitHub Pulse - Embedded Apps" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/pulse-embedded.jpg" alt="GitHub Pulse - Embedded Apps" width="700" />
 </p>
 
 *Volumen de commits y aportes de código por autor en el repositorio de la Embedded Application:*
 <p align="center">
-  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-embedded.jpg" alt="GitHub Contributors - Embedded Apps" width="700" height="300" style="object-fit: cover;" />
+  <img src="../../../assets/chapter-6/implementation/sprint-3/contributors-embedded.jpg" alt="GitHub Contributors - Embedded Apps" width="700" />
 </p>
 
 ##### Interpretación de los Analíticos
